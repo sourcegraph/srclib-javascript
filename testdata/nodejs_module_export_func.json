@@ -1,0 +1,64 @@
+{
+  "!name": "testdata/nodejs_module_export_func.js",
+  "!define": {
+    "!node.testdata/nodejs_module_export_func`js.!ret": {
+      "b": {
+        "!type": "number",
+        "!span": "testdata/nodejs_module_export_func.js@41[1:10]-42[1:11]"
+      },
+      "!span": "testdata/nodejs_module_export_func.js@40[1:9]-46[1:15]"
+    },
+    "!node": {
+      "testdata/nodejs_module_export_func`js": {
+        "!type": "fn(a: ?) -> !node.testdata/nodejs_module_export_func`js.!ret",
+        "!span": "testdata/nodejs_module_export_func.js@17[0:17]-49[2:1]",
+        "!data": {
+          "nodejs": {
+            "moduleExports": true
+          }
+        },
+        "@local": {
+          "0.a": {
+            "!span": "testdata/nodejs_module_export_func.js@26[0:26]-27[0:27]"
+          }
+        }
+      }
+    }
+  },
+  "!ref": [
+    {
+      "file": "testdata/nodejs_module_export_func.js",
+      "start": 7,
+      "end": 14,
+      "target": {
+        "origin": "testdata/nodejs_module_export_func.js",
+        "path": "!node.testdata/nodejs_module_export_func`js"
+      }
+    },
+    {
+      "file": "testdata/nodejs_module_export_func.js",
+      "start": 26,
+      "end": 27,
+      "target": {
+        "path": "!node.testdata/nodejs_module_export_func`js.@local.0.a",
+        "origin": "testdata/nodejs_module_export_func.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs_module_export_func.js",
+      "start": 41,
+      "end": 42,
+      "target": {
+        "path": "!node.testdata/nodejs_module_export_func`js.!ret.b",
+        "origin": "testdata/nodejs_module_export_func.js"
+      }
+    }
+  ],
+  "!ref_unresolved": [
+    {
+      "file": "testdata/nodejs_module_export_func.js",
+      "start": 0,
+      "name": "module"
+    }
+  ]
+}

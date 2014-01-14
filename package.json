@@ -1,0 +1,32 @@
+{
+  "name": "jsg",
+  "description": "jsg analyzes JavaScript source code and emits a representation of the code suitable for browsing, documentation generation, or static analysis.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Quinn Slack",
+    "email": "sqs@sourcegraph.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sourcegraph/jsg.git"
+  },
+  "dependencies": {
+    "tern": "git://github.com/sqs/tern.git#sourcegraph",
+    "tern-ref-plugin": "0.0.9",
+    "tern-local-scope-condense-plugin": "0.0.7",
+    "tern-def-origin": "0.0.5",
+    "tern-node-api-doc": "0.0.5",
+    "tern-jquery-api-doc": "0.0.2",
+    "acorn": "0.4.2"
+  },
+  "devDependencies": {
+    "mocha": "1.10.0",
+    "should": "~2.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "jsg": "bin/jsg"
+  }
+}

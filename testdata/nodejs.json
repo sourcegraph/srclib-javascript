@@ -1,0 +1,161 @@
+{
+  "!name": "testdata/nodejs.js",
+  "!define": {
+    "!node": {
+      "testdata/nodejs`js.a": {
+        "!type": "fn() -> number",
+        "!span": "testdata/nodejs.js@8[0:8]-9[0:9]",
+        "!data": {
+          "aval": {
+            "originFile": "testdata/nodejs.js",
+            "identSpan": "8-9",
+            "defSpan": "12-36"
+          },
+          "type": {
+            "origin": "testdata/nodejs.js",
+            "name": "exports.a"
+          }
+        }
+      },
+      "testdata/nodejs`js.b.c": {
+        "!type": "number",
+        "!span": "testdata/nodejs.js@53[2:2]-54[2:3]",
+        "!data": {
+          "aval": {
+            "originFile": "testdata/nodejs.js",
+            "identSpan": "53-54",
+            "defSpan": "56-57"
+          },
+          "type": {
+            "name": "number"
+          }
+        }
+      },
+      "testdata/nodejs`js.b": {
+        "!span": "testdata/nodejs.js@45[1:8]-46[1:9]",
+        "!data": {
+          "aval": {
+            "originFile": "testdata/nodejs.js",
+            "identSpan": "45-46",
+            "defSpan": "49-59"
+          },
+          "type": {
+            "origin": "testdata/nodejs.js",
+            "name": "exports.b"
+          }
+        }
+      },
+      "testdata/nodejs`js": {
+        "!data": {
+          "nodejs": {
+            "moduleExports": true
+          }
+        }
+      }
+    }
+  },
+  "!ref": [
+    {
+      "file": "testdata/nodejs.js",
+      "start": 0,
+      "end": 7,
+      "target": {
+        "origin": "testdata/nodejs.js",
+        "path": "!node.testdata/nodejs`js"
+      }
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 8,
+      "end": 9,
+      "target": {
+        "path": "!node.testdata/nodejs`js.a",
+        "origin": "testdata/nodejs.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 37,
+      "end": 44,
+      "target": {
+        "origin": "testdata/nodejs.js",
+        "path": "!node.testdata/nodejs`js"
+      }
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 45,
+      "end": 46,
+      "target": {
+        "path": "!node.testdata/nodejs`js.b",
+        "origin": "testdata/nodejs.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 53,
+      "end": 54,
+      "target": {
+        "path": "!node.testdata/nodejs`js.b.c",
+        "origin": "testdata/nodejs.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 61,
+      "end": 68,
+      "target": {
+        "origin": "testdata/nodejs.js",
+        "path": "!node.testdata/nodejs`js"
+      }
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 69,
+      "end": 70,
+      "target": {
+        "path": "!node.testdata/nodejs`js.a",
+        "origin": "testdata/nodejs.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 79,
+      "end": 86,
+      "target": {
+        "origin": "testdata/nodejs.js",
+        "path": "!node.testdata/nodejs`js"
+      }
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 87,
+      "end": 88,
+      "target": {
+        "path": "!node.testdata/nodejs`js.a",
+        "origin": "testdata/nodejs.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 104,
+      "end": 116,
+      "target": {
+        "origin": "node",
+        "path": "fs.readFileSync"
+      }
+    }
+  ],
+  "!ref_unresolved": [
+    {
+      "file": "testdata/nodejs.js",
+      "start": 72,
+      "name": "module"
+    },
+    {
+      "file": "testdata/nodejs.js",
+      "start": 90,
+      "name": "require"
+    }
+  ]
+}

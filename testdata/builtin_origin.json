@@ -1,0 +1,11 @@
+{
+  "!name": "testdata/builtin_origin.js",
+  "!ref": [],
+  "!ref_unresolved": [
+    {
+      "file": "testdata/builtin_origin.js",
+      "start": 16,
+      "name": "arguments"
+    }
+  ]
+}
