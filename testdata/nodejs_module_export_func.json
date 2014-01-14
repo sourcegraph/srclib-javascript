@@ -16,11 +16,6 @@
           "nodejs": {
             "moduleExports": true
           }
-        },
-        "@local": {
-          "0.a": {
-            "!span": "testdata/nodejs_module_export_func.js@26[0:26]-27[0:27]"
-          }
         }
       }
     }
@@ -33,15 +28,6 @@
       "target": {
         "origin": "testdata/nodejs_module_export_func.js",
         "path": "!node.testdata/nodejs_module_export_func`js"
-      }
-    },
-    {
-      "file": "testdata/nodejs_module_export_func.js",
-      "start": 26,
-      "end": 27,
-      "target": {
-        "path": "!node.testdata/nodejs_module_export_func`js.@local.0.a",
-        "origin": "testdata/nodejs_module_export_func.js"
       }
     },
     {
@@ -59,6 +45,11 @@
       "file": "testdata/nodejs_module_export_func.js",
       "start": 0,
       "name": "module"
+    },
+    {
+      "file": "testdata/nodejs_module_export_func.js",
+      "start": 26,
+      "name": "a"
     }
   ]
 }

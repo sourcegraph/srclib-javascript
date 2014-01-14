@@ -13,7 +13,6 @@
   "dependencies": {
     "tern": "git://github.com/sqs/tern.git#sourcegraph",
     "tern-ref-plugin": "0.0.9",
-    "tern-local-scope-condense-plugin": "0.0.7",
     "tern-def-origin": "0.0.5",
     "tern-node-api-doc": "0.0.5",
     "tern-jquery-api-doc": "0.0.2",

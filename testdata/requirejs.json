@@ -49,9 +49,6 @@
       }
     }
   },
-  "@local": {
-    "testdata/requirejs`js.0.rjs_b": "fn() -> number"
-  },
   "!ref": [
     {
       "file": "testdata/requirejs_b.js",

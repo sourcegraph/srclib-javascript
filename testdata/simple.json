@@ -83,14 +83,6 @@
         "origin": "testdata/simple.js",
         "name": "E"
       }
-    },
-    "@local": {
-      "0.f": {
-        "!span": "testdata/simple.js@91[12:11]-92[12:12]"
-      },
-      "0.g": {
-        "!span": "testdata/simple.js@102[13:6]-103[13:7]"
-      }
     }
   },
   "!ref": [
@@ -231,42 +223,6 @@
     },
     {
       "file": "testdata/simple.js",
-      "start": 91,
-      "end": 92,
-      "target": {
-        "path": "E.@local.0.f",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 102,
-      "end": 103,
-      "target": {
-        "path": "E.@local.0.g",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 106,
-      "end": 107,
-      "target": {
-        "path": "E.@local.0.f",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 118,
-      "end": 119,
-      "target": {
-        "path": "E.@local.0.g",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
       "start": 124,
       "end": 125,
       "target": {
@@ -329,5 +285,26 @@
       }
     }
   ],
-  "!ref_unresolved": []
+  "!ref_unresolved": [
+    {
+      "file": "testdata/simple.js",
+      "start": 91,
+      "name": "f"
+    },
+    {
+      "file": "testdata/simple.js",
+      "start": 102,
+      "name": "g"
+    },
+    {
+      "file": "testdata/simple.js",
+      "start": 106,
+      "name": "f"
+    },
+    {
+      "file": "testdata/simple.js",
+      "start": 118,
+      "name": "g"
+    }
+  ]
 }

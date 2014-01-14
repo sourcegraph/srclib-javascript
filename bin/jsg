@@ -45,7 +45,6 @@ function loadPlugin(name, val) {
 
 loadPlugin(path.join(__dirname, "../node_modules/tern-def-origin/def-origin"), {});
 loadPlugin(path.join(__dirname, "../node_modules/tern-ref-plugin/ref"), {});
-loadPlugin(path.join(__dirname, "../node_modules/tern-local-scope-condense-plugin/local-scope-condense"), {});
 
 for (var i = 2, len = process.argv.length; i < len; ++i) {
   var cur = process.argv[i];
