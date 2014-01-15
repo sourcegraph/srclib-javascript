@@ -1,100 +1,47 @@
-{
-  "!name": "testdata/requirejs_b.js",
-  "!define": {
-    "!requirejs": {
-      "testdata/requirejs_b": {
-        "!type": "fn() -> number",
-        "!span": "testdata/requirejs_b.js@33[1:9]-57[1:33]",
-        "!data": {
-          "amd": {
-            "module": true
-          },
-          "aval": {
-            "originFile": "testdata/requirejs_b.js",
-            "defSpan": "33-57"
-          },
-          "type": {
-            "origin": "testdata/requirejs_b.js"
-          }
-        }
-      },
-      "testdata/requirejs.a": {
-        "!type": "number",
-        "!span": "testdata/requirejs.js@54[1:10]-55[1:11]",
-        "!data": {
-          "aval": {
-            "originFile": "testdata/requirejs.js",
-            "identSpan": "54-55",
-            "defSpan": "57-64"
-          },
-          "type": {
-            "name": "number"
-          }
-        }
-      },
-      "testdata/requirejs": {
-        "!span": "testdata/requirejs.js@53[1:9]-65[1:21]",
-        "!data": {
-          "amd": {
-            "module": true
-          },
-          "aval": {
-            "originFile": "testdata/requirejs.js",
-            "defSpan": "53-65"
-          },
-          "type": {
-            "origin": "testdata/requirejs.js"
-          }
-        }
+[
+  {
+    "path": "!requirejs.testdata/requirejs_b",
+    "!type": "fn() -> number",
+    "!typeDef": {
+      "file": "testdata/requirejs_b.js",
+      "span": "33-57"
+    },
+    "!objectDef": {
+      "file": "testdata/requirejs_b.js",
+      "identSpan": null
+    },
+    "!data": {
+      "amd": {
+        "module": true
       }
     }
   },
-  "!ref": [
-    {
-      "file": "testdata/requirejs_b.js",
-      "start": 0,
-      "end": 6,
-      "target": {
-        "origin": "requirejs",
-        "path": "define"
-      }
+  {
+    "path": "!requirejs.testdata/requirejs.a",
+    "!type": "number",
+    "!typeDef": {
+      "span": null
     },
-    {
+    "!objectDef": {
       "file": "testdata/requirejs.js",
-      "start": 0,
-      "end": 6,
-      "target": {
-        "origin": "requirejs",
-        "path": "define"
-      }
+      "identSpan": "54-55",
+      "bodySpan": "57-64"
+    }
+  },
+  {
+    "path": "!requirejs.testdata/requirejs",
+    "!typeDef": {
+      "file": "testdata/requirejs.js",
+      "span": "53-65"
     },
-    {
+    "!objectDef": {
       "file": "testdata/requirejs.js",
-      "start": 35,
-      "end": 40,
-      "target": {
-        "origin": "testdata/requirejs_b.js",
-        "path": "!requirejs.testdata/requirejs_b"
-      }
+      "identSpan": null
     },
-    {
-      "file": "testdata/requirejs.js",
-      "start": 54,
-      "end": 55,
-      "target": {
-        "path": "!requirejs.testdata/requirejs.a",
-        "origin": "testdata/requirejs.js"
-      }
-    },
-    {
-      "file": "testdata/requirejs.js",
-      "start": 57,
-      "end": 62,
-      "target": {
-        "origin": "testdata/requirejs_b.js",
-        "path": "!requirejs.testdata/requirejs_b"
+    "!data": {
+      "amd": {
+        "module": true
       }
     }
-  ],
-  "!ref_unresolved": []
-}
+  }
+]

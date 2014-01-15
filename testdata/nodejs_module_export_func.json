@@ -1,55 +1,42 @@
-{
-  "!name": "testdata/nodejs_module_export_func.js",
-  "!define": {
-    "!node.testdata/nodejs_module_export_func`js.!ret": {
-      "b": {
-        "!type": "number",
-        "!span": "testdata/nodejs_module_export_func.js@41[1:10]-42[1:11]"
-      },
-      "!span": "testdata/nodejs_module_export_func.js@40[1:9]-46[1:15]"
+[
+  {
+    "path": "!node.testdata/nodejs_module_export_func`js.!ret.b",
+    "!type": "number",
+    "!typeDef": {
+      "span": null
     },
-    "!node": {
-      "testdata/nodejs_module_export_func`js": {
-        "!type": "fn(a: ?) -> !node.testdata/nodejs_module_export_func`js.!ret",
-        "!span": "testdata/nodejs_module_export_func.js@17[0:17]-49[2:1]",
-        "!data": {
-          "nodejs": {
-            "moduleExports": true
-          }
-        }
-      }
+    "!objectDef": {
+      "file": "testdata/nodejs_module_export_func.js",
+      "identSpan": "41-42",
+      "bodySpan": "44-45"
     }
   },
-  "!ref": [
-    {
+  {
+    "path": "!node.testdata/nodejs_module_export_func`js.!ret",
+    "!typeDef": {
       "file": "testdata/nodejs_module_export_func.js",
-      "start": 7,
-      "end": 14,
-      "target": {
-        "origin": "testdata/nodejs_module_export_func.js",
-        "path": "!node.testdata/nodejs_module_export_func`js"
-      }
+      "span": "40-46"
     },
-    {
+    "!objectDef": {
       "file": "testdata/nodejs_module_export_func.js",
-      "start": 41,
-      "end": 42,
-      "target": {
-        "path": "!node.testdata/nodejs_module_export_func`js.!ret.b",
-        "origin": "testdata/nodejs_module_export_func.js"
+      "identSpan": "40-46"
+    }
+  },
+  {
+    "path": "!node.testdata/nodejs_module_export_func`js",
+    "!type": "fn(a: ?) -> !node.testdata/nodejs_module_export_func`js.!ret",
+    "!typeDef": {
+      "file": "testdata/nodejs_module_export_func.js",
+      "span": "17-49"
+    },
+    "!objectDef": {
+      "file": "testdata/nodejs_module_export_func.js",
+      "identSpan": null
+    },
+    "!data": {
+      "nodejs": {
+        "moduleExports": true
       }
     }
-  ],
-  "!ref_unresolved": [
-    {
-      "file": "testdata/nodejs_module_export_func.js",
-      "start": 0,
-      "name": "module"
-    },
-    {
-      "file": "testdata/nodejs_module_export_func.js",
-      "start": 26,
-      "name": "a"
-    }
-  ]
-}
+  }
+]

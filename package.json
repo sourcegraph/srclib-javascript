@@ -16,7 +16,8 @@
     "tern-def-origin": "0.0.5",
     "tern-node-api-doc": "0.0.5",
     "tern-jquery-api-doc": "0.0.2",
-    "acorn": "0.4.2"
+    "acorn": "0.4.2",
+    "defnode": "0.0.4"
   },
   "devDependencies": {
     "mocha": "1.10.0",

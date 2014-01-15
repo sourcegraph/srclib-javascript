@@ -43,9 +43,6 @@ function loadPlugin(name, val) {
   plugins[path.basename(name, ".js")] = val;
 }
 
-loadPlugin(path.join(__dirname, "../node_modules/tern-def-origin/def-origin"), {});
-loadPlugin(path.join(__dirname, "../node_modules/tern-ref-plugin/ref"), {});
-
 for (var i = 2, len = process.argv.length; i < len; ++i) {
   var cur = process.argv[i];
   if (cur == "--plugin" && i < len - 1) {
@@ -95,9 +92,5 @@ if (!origins.length) usage(1);
 
 server.flush(function(err) {
   if (err) throw err;
-  var g = graph.graph(origins, name);
-  var unresolved = g['!ref_unresolved'];
-  delete g['!ref_unresolved'];
-  if (unresolved.length) console.error('[jsg] Refs:', g['!ref'].length, 'resolved ', unresolved.length, 'unresolved');
-  console.log(JSON.stringify(g, null, 2));
+  console.log(JSON.stringify(graph.graph(origins, name), null, 2));
 });

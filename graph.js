@@ -1,5 +1,4 @@
-var condense = require('tern/lib/condense');
-var flatten = require('./flatten');
+var dump = require('./dump');
 var tern = require('tern');
 
 tern.registerPlugin('jsg', function(server) {
@@ -16,6 +15,7 @@ tern.registerPlugin('jsg', function(server) {
     var mods = state.cx.parent._requireJS.interfaces;
     for (var modName in mods) {
       var mod = mods[modName].getType();
+      if (!mod) continue;
       if (!mod.metaData) mod.metaData = {};
       mod.metaData.amd = {module: true};
     }
@@ -32,5 +32,5 @@ tern.registerPlugin('jsg', function(server) {
 });
 
 exports.graph = function(origins, name) {
-  return flatten(condense.condense(origins, name, {spans: true, flat: false}));
+  return dump.dump(origins, name, {spans: true, flat: false});
 };

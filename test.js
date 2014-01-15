@@ -1,8 +1,6 @@
 var assert = require('assert'), execFile = require('child_process').execFile, fs = require('fs'), path = require('path');
 var should = require('should');
 
-require('./flatten_test');
-
 describe('jsg output', function() {
   [
     {name: 'simple'},
@@ -12,10 +10,14 @@ describe('jsg output', function() {
     {name: 'nodejs', args: ['--plugin', 'node']},
     {name: 'nodejs_module_export_func', args: ['--plugin', 'node']},
     {name: 'anonymous'},
+
+    {name: 'type_ref'},
+    {name: 'nodejs_type_ref', args: ['--plugin', 'node']},
+    {name: 'nodejs_other_module_type_ref', args: ['--plugin', 'node'], files: ['nodejs_other_module_type_ref', 'nodejs_export_function_a']},
   ].filter(function(test) { return new RegExp(process.env['F'] || '').test(test.name); }).forEach(function(test) {
     it(test.name + ' (with args: ' + (test.args || []).join(' ') + ')', function(done) {
       var expFile = './testdata/' + test.name + '.json';
-      var want = require(expFile);
+      var want = fs.existsSync(expFile) ? require(expFile) : {};
       var args = [path.join(__dirname, 'bin/jsg')];
       if (test.args) args.push.apply(args, test.args);
       (test.files || [test.name]).forEach(function(f) { args.push('testdata/' + f + '.js'); });

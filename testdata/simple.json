@@ -1,310 +1,75 @@
-{
-  "!name": "testdata/simple.js",
-  "a": {
+[
+  {
+    "path": "a",
     "!type": "number",
-    "!span": "testdata/simple.js@4[0:4]-5[0:5]",
-    "!data": {
-      "aval": {
-        "originFile": "testdata/simple.js",
-        "identSpan": "131-132",
-        "defSpan": "135-136"
-      },
-      "type": {
-        "name": "number"
-      }
+    "!typeDef": {
+      "span": null
+    },
+    "!objectDef": {
+      "file": "testdata/simple.js",
+      "identSpan": "4-5",
+      "bodySpan": "8-9"
     }
   },
-  "b.c.d": {
+  {
+    "path": "b.c.d",
     "!type": "number",
-    "!span": "testdata/simple.js@28[3:13]-29[3:14]",
-    "!data": {
-      "aval": {
-        "originFile": "testdata/simple.js",
-        "identSpan": "131-132",
-        "defSpan": "135-136"
-      },
-      "type": {
-        "name": "number"
-      }
+    "!typeDef": {
+      "span": null
+    },
+    "!objectDef": {
+      "file": "testdata/simple.js",
+      "identSpan": "28-29",
+      "bodySpan": "31-32"
     }
   },
-  "b.c": {
-    "!span": "testdata/simple.js@24[3:9]-25[3:10]",
-    "!data": {
-      "aval": {
-        "originFile": "testdata/simple.js",
-        "identSpan": "24-25",
-        "defSpan": "27-33"
-      },
-      "type": {
-        "origin": "testdata/simple.js",
-        "name": "c"
-      }
+  {
+    "path": "b.c",
+    "!typeDef": {
+      "file": "testdata/simple.js",
+      "span": "27-33"
+    },
+    "!objectDef": {
+      "file": "testdata/simple.js",
+      "identSpan": "24-25",
+      "bodySpan": "27-33"
     }
   },
-  "b": {
-    "!span": "testdata/simple.js@19[3:4]-20[3:5]",
-    "!data": {
-      "aval": {
-        "originFile": "testdata/simple.js",
-        "identSpan": "19-20",
-        "defSpan": "23-34"
-      },
-      "type": {
-        "origin": "testdata/simple.js",
-        "name": "b"
-      }
+  {
+    "path": "b",
+    "!typeDef": {
+      "file": "testdata/simple.js",
+      "span": "23-34"
+    },
+    "!objectDef": {
+      "file": "testdata/simple.js",
+      "identSpan": "19-20",
+      "bodySpan": "23-34"
     }
   },
-  "E.h": {
+  {
+    "path": "E.h",
     "!type": "number",
-    "!span": "testdata/simple.js@131[18:2]-132[18:3]",
-    "!data": {
-      "aval": {
-        "originFile": "testdata/simple.js",
-        "identSpan": "131-132",
-        "defSpan": "135-136"
-      },
-      "type": {
-        "name": "number"
-      }
+    "!typeDef": {
+      "span": null
+    },
+    "!objectDef": {
+      "file": "testdata/simple.js",
+      "identSpan": "131-132",
+      "bodySpan": "135-136"
     }
   },
-  "E": {
+  {
+    "path": "E",
     "!type": "fn(f: ?) -> !0",
-    "!span": "testdata/simple.js@89[12:9]-90[12:10]",
-    "!data": {
-      "aval": {
-        "originFile": "testdata/simple.js",
-        "identSpan": "89-90",
-        "defSpan": "80-122"
-      },
-      "type": {
-        "origin": "testdata/simple.js",
-        "name": "E"
-      }
+    "!typeDef": {
+      "file": "testdata/simple.js",
+      "span": "80-122"
+    },
+    "!objectDef": {
+      "file": "testdata/simple.js",
+      "identSpan": "89-90",
+      "bodySpan": "80-122"
     }
-  },
-  "!ref": [
-    {
-      "file": "testdata/simple.js",
-      "start": 4,
-      "end": 5,
-      "target": {
-        "path": "a",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 11,
-      "end": 12,
-      "target": {
-        "path": "a",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 19,
-      "end": 20,
-      "target": {
-        "path": "b",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 24,
-      "end": 25,
-      "target": {
-        "path": "b.c",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 28,
-      "end": 29,
-      "target": {
-        "path": "b.c.d",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 31,
-      "end": 32,
-      "target": {
-        "path": "a",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 36,
-      "end": 37,
-      "target": {
-        "path": "b",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 38,
-      "end": 39,
-      "target": {
-        "path": "b.c",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 41,
-      "end": 42,
-      "target": {
-        "path": "b",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 49,
-      "end": 50,
-      "target": {
-        "path": "b",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 51,
-      "end": 52,
-      "target": {
-        "path": "b.c",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 53,
-      "end": 54,
-      "target": {
-        "path": "b.c.d",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 57,
-      "end": 62,
-      "target": {
-        "origin": "ecma5",
-        "path": "Array"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 71,
-      "end": 77,
-      "target": {
-        "origin": "ecma5",
-        "path": "String.prototype.length"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 89,
-      "end": 90,
-      "target": {
-        "path": "E",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 124,
-      "end": 125,
-      "target": {
-        "path": "E",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 129,
-      "end": 130,
-      "target": {
-        "path": "E",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 131,
-      "end": 132,
-      "target": {
-        "path": "E.h",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 138,
-      "end": 139,
-      "target": {
-        "path": "E",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 140,
-      "end": 141,
-      "target": {
-        "path": "E.h",
-        "origin": "testdata/simple.js"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 149,
-      "end": 153,
-      "target": {
-        "origin": "ecma5",
-        "path": "Date"
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 160,
-      "end": 171,
-      "target": {
-        "origin": "ecma5",
-        "path": "Date.prototype.toUTCString"
-      }
-    }
-  ],
-  "!ref_unresolved": [
-    {
-      "file": "testdata/simple.js",
-      "start": 91,
-      "name": "f"
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 102,
-      "name": "g"
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 106,
-      "name": "f"
-    },
-    {
-      "file": "testdata/simple.js",
-      "start": 118,
-      "name": "g"
-    }
-  ]
-}
+  }
+]

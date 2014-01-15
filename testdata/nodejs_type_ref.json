@@ -1,0 +1,32 @@
+[
+  {
+    "path": "!node.testdata/nodejs_type_ref`js.a",
+    "!type": "fn()",
+    "!typeDef": {
+      "file": "testdata/nodejs_type_ref.js",
+      "span": "59-72"
+    },
+    "!objectDef": {
+      "file": "testdata/nodejs_type_ref.js",
+      "identSpan": "55-56",
+      "bodySpan": "59-72"
+    },
+    "!doc": "exports.b should be an \"alias\" of exports.a"
+  },
+  {
+    "path": "!node.testdata/nodejs_type_ref`js",
+    "!typeDef": {
+      "file": "testdata/nodejs_type_ref.js",
+      "span": null
+    },
+    "!objectDef": {
+      "file": "testdata/nodejs_type_ref.js",
+      "identSpan": null
+    },
+    "!data": {
+      "nodejs": {
+        "moduleExports": true
+      }
+    }
+  }
+]
