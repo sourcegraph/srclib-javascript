@@ -208,6 +208,7 @@ function store(path, info, state) {
   if (info.objectDef) out.objectDef = info.objectDef;
   if (info.doc) out.doc = info.doc;
   if (info.data) out.data = info.data;
+  out.exported = path.slice(1).indexOf('!') == -1;
   state.output.push(out);
 }
 

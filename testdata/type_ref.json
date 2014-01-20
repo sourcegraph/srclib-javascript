@@ -11,7 +11,8 @@
         "file": "testdata/type_ref.js",
         "identSpan": "9-10",
         "bodySpan": "0-15"
-      }
+      },
+      "exported": true
     }
   ],
   "refs": [

@@ -12,7 +12,8 @@
         "identSpan": "55-56",
         "bodySpan": "59-72"
       },
-      "doc": "exports.b should be an \"alias\" of exports.a"
+      "doc": "exports.b should be an \"alias\" of exports.a",
+      "exported": true
     },
     {
       "path": "!node.testdata/nodejs_type_ref`js",
@@ -27,7 +28,8 @@
         "nodejs": {
           "moduleExports": true
         }
-      }
+      },
+      "exported": true
     }
   ],
   "refs": [

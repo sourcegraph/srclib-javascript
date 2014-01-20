@@ -14,7 +14,8 @@
         "amd": {
           "module": true
         }
-      }
+      },
+      "exported": true
     },
     {
       "path": "!requirejs.testdata/requirejs.a",
@@ -26,7 +27,8 @@
         "file": "testdata/requirejs.js",
         "identSpan": "54-55",
         "bodySpan": "57-64"
-      }
+      },
+      "exported": true
     },
     {
       "path": "!requirejs.testdata/requirejs",
@@ -41,7 +43,8 @@
         "amd": {
           "module": true
         }
-      }
+      },
+      "exported": true
     }
   ],
   "refs": [

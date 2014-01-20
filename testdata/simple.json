@@ -10,7 +10,8 @@
         "file": "testdata/simple.js",
         "identSpan": "4-5",
         "bodySpan": "8-9"
-      }
+      },
+      "exported": true
     },
     {
       "path": "b.c.d",
@@ -22,7 +23,8 @@
         "file": "testdata/simple.js",
         "identSpan": "28-29",
         "bodySpan": "31-32"
-      }
+      },
+      "exported": true
     },
     {
       "path": "b.c",
@@ -34,7 +36,8 @@
         "file": "testdata/simple.js",
         "identSpan": "24-25",
         "bodySpan": "27-33"
-      }
+      },
+      "exported": true
     },
     {
       "path": "b",
@@ -46,7 +49,8 @@
         "file": "testdata/simple.js",
         "identSpan": "19-20",
         "bodySpan": "23-34"
-      }
+      },
+      "exported": true
     },
     {
       "path": "E.h",
@@ -58,7 +62,8 @@
         "file": "testdata/simple.js",
         "identSpan": "131-132",
         "bodySpan": "135-136"
-      }
+      },
+      "exported": true
     },
     {
       "path": "E",
@@ -71,7 +76,8 @@
         "file": "testdata/simple.js",
         "identSpan": "89-90",
         "bodySpan": "80-122"
-      }
+      },
+      "exported": true
     }
   ],
   "refs": [

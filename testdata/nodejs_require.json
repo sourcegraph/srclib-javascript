@@ -11,7 +11,8 @@
         "file": "testdata/nodejs_require.js",
         "identSpan": "50-52",
         "bodySpan": "55-58"
-      }
+      },
+      "exported": true
     },
     {
       "path": "!node.testdata/nodejs_require`js.b2",
@@ -23,7 +24,8 @@
         "file": "testdata/nodejs_require.js",
         "identSpan": "68-70",
         "bodySpan": "73-76"
-      }
+      },
+      "exported": true
     },
     {
       "path": "!node.testdata/nodejs_require`js.c2",
@@ -35,7 +37,8 @@
         "file": "testdata/nodejs_require.js",
         "identSpan": "86-88",
         "bodySpan": "91-96"
-      }
+      },
+      "exported": true
     },
     {
       "path": "!node.testdata/nodejs_require`js",
@@ -50,7 +53,8 @@
         "nodejs": {
           "moduleExports": true
         }
-      }
+      },
+      "exported": true
     }
   ],
   "refs": [

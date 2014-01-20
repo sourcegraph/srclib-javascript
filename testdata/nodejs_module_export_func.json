@@ -10,7 +10,8 @@
         "file": "testdata/nodejs_module_export_func.js",
         "identSpan": "41-42",
         "bodySpan": "44-45"
-      }
+      },
+      "exported": false
     },
     {
       "path": "!node.testdata/nodejs_module_export_func`js.!ret",
@@ -21,7 +22,8 @@
       "objectDef": {
         "file": "testdata/nodejs_module_export_func.js",
         "identSpan": "40-46"
-      }
+      },
+      "exported": false
     },
     {
       "path": "!node.testdata/nodejs_module_export_func`js",
@@ -37,7 +39,8 @@
         "nodejs": {
           "moduleExports": true
         }
-      }
+      },
+      "exported": true
     }
   ],
   "refs": [

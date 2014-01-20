@@ -11,7 +11,8 @@
         "file": "testdata/nodejs_export_function_a.js",
         "identSpan": "8-9",
         "bodySpan": "12-24"
-      }
+      },
+      "exported": true
     },
     {
       "path": "!node.testdata/nodejs_export_function_a`js",
@@ -26,7 +27,8 @@
         "nodejs": {
           "moduleExports": true
         }
-      }
+      },
+      "exported": true
     },
     {
       "path": "!node.testdata/nodejs_other_module_type_ref`js",
@@ -41,7 +43,8 @@
         "nodejs": {
           "moduleExports": true
         }
-      }
+      },
+      "exported": true
     }
   ],
   "refs": [

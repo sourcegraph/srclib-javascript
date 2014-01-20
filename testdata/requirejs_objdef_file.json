@@ -11,7 +11,8 @@
         "file": "testdata/requirejs_objdef_def.js",
         "identSpan": "60-65",
         "bodySpan": "67-141"
-      }
+      },
+      "exported": true
     },
     {
       "path": "!requirejs.testdata/requirejs_objdef_def.fn",
@@ -23,7 +24,8 @@
         "file": "testdata/requirejs_objdef_def.js",
         "identSpan": "52-54",
         "bodySpan": "57-144"
-      }
+      },
+      "exported": true
     },
     {
       "path": "!requirejs.testdata/requirejs_objdef_def.extend",
@@ -36,7 +38,8 @@
         "file": "testdata/requirejs_objdef_def.js",
         "identSpan": "149-155",
         "bodySpan": "172-1669"
-      }
+      },
+      "exported": true
     },
     {
       "path": "!requirejs.testdata/requirejs_objdef_def",
@@ -52,7 +55,8 @@
         "amd": {
           "module": true
         }
-      }
+      },
+      "exported": true
     }
   ],
   "refs": [
