@@ -1,15 +1,40 @@
-[
-  {
-    "path": "a",
-    "!type": "fn()",
-    "!typeDef": {
-      "file": "testdata/type_ref.js",
-      "span": "0-15"
-    },
-    "!objectDef": {
-      "file": "testdata/type_ref.js",
-      "identSpan": "9-10",
-      "bodySpan": "0-15"
+{
+  "symbols": [
+    {
+      "path": "a",
+      "!type": "fn()",
+      "!typeDef": {
+        "file": "testdata/type_ref.js",
+        "span": "0-15"
+      },
+      "!objectDef": {
+        "file": "testdata/type_ref.js",
+        "identSpan": "9-10",
+        "bodySpan": "0-15"
+      }
     }
-  }
-]
+  ],
+  "refs": [
+    {
+      "file": "testdata/type_ref.js",
+      "span": "9-10",
+      "target": {
+        "path": "a"
+      }
+    },
+    {
+      "file": "testdata/type_ref.js",
+      "span": "20-21",
+      "target": {
+        "path": "a"
+      }
+    },
+    {
+      "file": "testdata/type_ref.js",
+      "span": "24-25",
+      "target": {
+        "path": "a"
+      }
+    }
+  ]
+}

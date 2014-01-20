@@ -192,12 +192,7 @@ function store(path, info, state) {
     var objFile;
     if (info.object.originNode) {
       objFile = info.object.originNode.sourceFile.name;
-    }
-    if (info.type && info.type.origin) {
-      objFile = info.type.origin;
-    }
-    if (info.type && info.type.origin && info.object.originNode && info.type.origin != info.object.originNode.sourceFile.name) {
-        throw new Error('Type origin ' + info.type.origin + ' != origin AST node source file ' + info.object.originNode.sourceFile.name + ' (for definition at path ' + path + ')');
+      info.object.originNode._path = path;
     }
     out['!objectDef'] = {file: objFile, identSpan: state.getSpan(info.object)};
     if (info.object.originNode) {

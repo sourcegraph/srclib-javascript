@@ -1,57 +1,231 @@
-[
-  {
-    "path": "!requirejs.testdata/requirejs_objdef_def.fn.slice",
-    "!type": "fn()",
-    "!typeDef": {
-      "file": "testdata/requirejs_objdef_def.js",
-      "span": "67-141"
+{
+  "symbols": [
+    {
+      "path": "!requirejs.testdata/requirejs_objdef_def.fn.slice",
+      "!type": "fn()",
+      "!typeDef": {
+        "file": "testdata/requirejs_objdef_def.js",
+        "span": "67-141"
+      },
+      "!objectDef": {
+        "file": "testdata/requirejs_objdef_def.js",
+        "identSpan": "60-65",
+        "bodySpan": "67-141"
+      }
     },
-    "!objectDef": {
-      "file": "testdata/requirejs_objdef_def.js",
-      "identSpan": "60-65",
-      "bodySpan": "67-141"
-    }
-  },
-  {
-    "path": "!requirejs.testdata/requirejs_objdef_def.fn",
-    "!typeDef": {
-      "file": "testdata/requirejs_objdef_def.js",
-      "span": "57-144"
+    {
+      "path": "!requirejs.testdata/requirejs_objdef_def.fn",
+      "!typeDef": {
+        "file": "testdata/requirejs_objdef_def.js",
+        "span": "57-144"
+      },
+      "!objectDef": {
+        "file": "testdata/requirejs_objdef_def.js",
+        "identSpan": "52-54",
+        "bodySpan": "57-144"
+      }
     },
-    "!objectDef": {
-      "file": "testdata/requirejs_objdef_def.js",
-      "identSpan": "52-54",
-      "bodySpan": "57-144"
-    }
-  },
-  {
-    "path": "!requirejs.testdata/requirejs_objdef_def.extend",
-    "!type": "fn() -> !this",
-    "!typeDef": {
-      "file": "testdata/requirejs_objdef_def.js",
-      "span": "172-1669"
+    {
+      "path": "!requirejs.testdata/requirejs_objdef_def.extend",
+      "!type": "fn() -> !this",
+      "!typeDef": {
+        "file": "testdata/requirejs_objdef_def.js",
+        "span": "172-1669"
+      },
+      "!objectDef": {
+        "file": "testdata/requirejs_objdef_def.js",
+        "identSpan": "149-155",
+        "bodySpan": "172-1669"
+      }
     },
-    "!objectDef": {
-      "file": "testdata/requirejs_objdef_def.js",
-      "identSpan": "149-155",
-      "bodySpan": "172-1669"
-    }
-  },
-  {
-    "path": "!requirejs.testdata/requirejs_objdef_def",
-    "!type": "fn()",
-    "!typeDef": {
-      "file": "testdata/requirejs_objdef_def.js",
-      "span": "34-47"
-    },
-    "!objectDef": {
-      "file": "testdata/requirejs_objdef_def.js",
-      "identSpan": null
-    },
-    "!data": {
-      "amd": {
-        "module": true
+    {
+      "path": "!requirejs.testdata/requirejs_objdef_def",
+      "!type": "fn()",
+      "!typeDef": {
+        "file": "testdata/requirejs_objdef_def.js",
+        "span": "34-47"
+      },
+      "!objectDef": {
+        "identSpan": null
+      },
+      "!data": {
+        "amd": {
+          "module": true
+        }
       }
     }
-  }
-]
+  ],
+  "refs": [
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "0-6",
+      "target": {
+        "path": "define",
+        "origin": "requirejs"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "30-31",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "50-51",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "52-54",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def.fn"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "60-65",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def.fn.slice"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "111-116",
+      "target": {
+        "path": "Function.prototype.apply",
+        "origin": "ecma5"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "147-148",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "149-155",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def.extend"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "158-159",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "160-162",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def.fn"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "163-169",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def.extend"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "606-607",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "1153-1154",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "1193-1194",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "1290-1291",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "1353-1354",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "1464-1465",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "1466-1472",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def.extend"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "1679-1680",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_other.js",
+      "span": "0-6",
+      "target": {
+        "path": "define",
+        "origin": "requirejs"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_other.js",
+      "span": "50-51",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_other.js",
+      "span": "58-59",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_other.js",
+      "span": "60-62",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def.fn"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_other.js",
+      "span": "63-69",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_objdef_def.extend"
+      }
+    }
+  ]
+}

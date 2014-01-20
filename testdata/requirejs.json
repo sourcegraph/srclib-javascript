@@ -1,47 +1,86 @@
-[
-  {
-    "path": "!requirejs.testdata/requirejs_b",
-    "!type": "fn() -> number",
-    "!typeDef": {
-      "file": "testdata/requirejs_b.js",
-      "span": "33-57"
+{
+  "symbols": [
+    {
+      "path": "!requirejs.testdata/requirejs_b",
+      "!type": "fn() -> number",
+      "!typeDef": {
+        "file": "testdata/requirejs_b.js",
+        "span": "33-57"
+      },
+      "!objectDef": {
+        "identSpan": null
+      },
+      "!data": {
+        "amd": {
+          "module": true
+        }
+      }
     },
-    "!objectDef": {
-      "file": "testdata/requirejs_b.js",
-      "identSpan": null
+    {
+      "path": "!requirejs.testdata/requirejs.a",
+      "!type": "number",
+      "!typeDef": {
+        "span": null
+      },
+      "!objectDef": {
+        "file": "testdata/requirejs.js",
+        "identSpan": "54-55",
+        "bodySpan": "57-64"
+      }
     },
-    "!data": {
-      "amd": {
-        "module": true
+    {
+      "path": "!requirejs.testdata/requirejs",
+      "!typeDef": {
+        "file": "testdata/requirejs.js",
+        "span": "53-65"
+      },
+      "!objectDef": {
+        "identSpan": null
+      },
+      "!data": {
+        "amd": {
+          "module": true
+        }
       }
     }
-  },
-  {
-    "path": "!requirejs.testdata/requirejs.a",
-    "!type": "number",
-    "!typeDef": {
-      "span": null
+  ],
+  "refs": [
+    {
+      "file": "testdata/requirejs_b.js",
+      "span": "0-6",
+      "target": {
+        "path": "define",
+        "origin": "requirejs"
+      }
     },
-    "!objectDef": {
+    {
       "file": "testdata/requirejs.js",
-      "identSpan": "54-55",
-      "bodySpan": "57-64"
-    }
-  },
-  {
-    "path": "!requirejs.testdata/requirejs",
-    "!typeDef": {
-      "file": "testdata/requirejs.js",
-      "span": "53-65"
+      "span": "0-6",
+      "target": {
+        "path": "define",
+        "origin": "requirejs"
+      }
     },
-    "!objectDef": {
+    {
       "file": "testdata/requirejs.js",
-      "identSpan": null
+      "span": "35-40",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_b"
+      }
     },
-    "!data": {
-      "amd": {
-        "module": true
+    {
+      "file": "testdata/requirejs.js",
+      "span": "54-55",
+      "target": {
+        "path": "!requirejs.testdata/requirejs.a"
+      }
+    },
+    {
+      "file": "testdata/requirejs.js",
+      "span": "57-62",
+      "target": {
+        "path": "!requirejs.testdata/requirejs_b"
       }
     }
-  }
-]
+  ]
+}

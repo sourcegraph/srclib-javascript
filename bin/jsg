@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+var annotate = require('../annotate');
 var tern = require("tern"), graph = require("../graph");
 var path = require("path"), fs = require("fs");
 require("tern/plugin/doc_comment");
@@ -92,5 +93,9 @@ if (!origins.length) usage(1);
 
 server.flush(function(err) {
   if (err) throw err;
+  console.log('{"symbols":');
   console.log(JSON.stringify(graph.graph(origins, name), null, 2));
+  console.log(',"refs":');
+  console.log(JSON.stringify(annotate.refs(origins, {}), null, 2));
+  console.log('}');
 });

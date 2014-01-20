@@ -1,0 +1,140 @@
+{
+  "symbols": [
+    {
+      "path": "!node.testdata/nodejs_require`js.a2",
+      "!type": "fn() -> number",
+      "!typeDef": {
+        "file": "testdata/nodejs.js",
+        "span": "12-36"
+      },
+      "!objectDef": {
+        "file": "testdata/nodejs_require.js",
+        "identSpan": "50-52",
+        "bodySpan": "55-58"
+      }
+    },
+    {
+      "path": "!node.testdata/nodejs_require`js.b2",
+      "!typeDef": {
+        "file": "testdata/nodejs.js",
+        "span": "49-59"
+      },
+      "!objectDef": {
+        "file": "testdata/nodejs_require.js",
+        "identSpan": "68-70",
+        "bodySpan": "73-76"
+      }
+    },
+    {
+      "path": "!node.testdata/nodejs_require`js.c2",
+      "!type": "number",
+      "!typeDef": {
+        "span": null
+      },
+      "!objectDef": {
+        "file": "testdata/nodejs_require.js",
+        "identSpan": "86-88",
+        "bodySpan": "91-96"
+      }
+    },
+    {
+      "path": "!node.testdata/nodejs_require`js",
+      "!typeDef": {
+        "file": "testdata/nodejs_require.js",
+        "span": null
+      },
+      "!objectDef": {
+        "identSpan": null
+      },
+      "!data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    }
+  ],
+  "refs": [
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "31-32",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js.a2",
+        "origin": "testdata/nodejs.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "36-37",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js.b2",
+        "origin": "testdata/nodejs.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "42-49",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "50-52",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js.a2"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "57-58",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js.a2",
+        "origin": "testdata/nodejs.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "60-67",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "68-70",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js.b2"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "75-76",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js.b2",
+        "origin": "testdata/nodejs.js"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "78-85",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "86-88",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js.c2"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require.js",
+      "span": "93-94",
+      "target": {
+        "path": "!node.testdata/nodejs_require`js.b2",
+        "origin": "testdata/nodejs.js"
+      }
+    }
+  ]
+}
