@@ -2,11 +2,11 @@
   "symbols": [
     {
       "path": "a",
-      "!type": "number",
-      "!typeDef": {
+      "type": "number",
+      "typeDef": {
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/simple.js",
         "identSpan": "4-5",
         "bodySpan": "8-9"
@@ -14,11 +14,11 @@
     },
     {
       "path": "b.c.d",
-      "!type": "number",
-      "!typeDef": {
+      "type": "number",
+      "typeDef": {
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/simple.js",
         "identSpan": "28-29",
         "bodySpan": "31-32"
@@ -26,11 +26,11 @@
     },
     {
       "path": "b.c",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/simple.js",
         "span": "27-33"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/simple.js",
         "identSpan": "24-25",
         "bodySpan": "27-33"
@@ -38,11 +38,11 @@
     },
     {
       "path": "b",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/simple.js",
         "span": "23-34"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/simple.js",
         "identSpan": "19-20",
         "bodySpan": "23-34"
@@ -50,11 +50,11 @@
     },
     {
       "path": "E.h",
-      "!type": "number",
-      "!typeDef": {
+      "type": "number",
+      "typeDef": {
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/simple.js",
         "identSpan": "131-132",
         "bodySpan": "135-136"
@@ -62,12 +62,12 @@
     },
     {
       "path": "E",
-      "!type": "fn(f: ?) -> !0",
-      "!typeDef": {
+      "type": "fn(f: ?) -> !0",
+      "typeDef": {
         "file": "testdata/simple.js",
         "span": "80-122"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/simple.js",
         "identSpan": "89-90",
         "bodySpan": "80-122"

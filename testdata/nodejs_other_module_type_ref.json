@@ -2,12 +2,12 @@
   "symbols": [
     {
       "path": "!node.testdata/nodejs_export_function_a`js.a",
-      "!type": "fn()",
-      "!typeDef": {
+      "type": "fn()",
+      "typeDef": {
         "file": "testdata/nodejs_export_function_a.js",
         "span": "12-24"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/nodejs_export_function_a.js",
         "identSpan": "8-9",
         "bodySpan": "12-24"
@@ -15,14 +15,14 @@
     },
     {
       "path": "!node.testdata/nodejs_export_function_a`js",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/nodejs_export_function_a.js",
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "identSpan": null
       },
-      "!data": {
+      "data": {
         "nodejs": {
           "moduleExports": true
         }
@@ -30,14 +30,14 @@
     },
     {
       "path": "!node.testdata/nodejs_other_module_type_ref`js",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/nodejs_other_module_type_ref.js",
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "identSpan": null
       },
-      "!data": {
+      "data": {
         "nodejs": {
           "moduleExports": true
         }

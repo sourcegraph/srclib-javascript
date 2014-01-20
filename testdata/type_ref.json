@@ -2,12 +2,12 @@
   "symbols": [
     {
       "path": "a",
-      "!type": "fn()",
-      "!typeDef": {
+      "type": "fn()",
+      "typeDef": {
         "file": "testdata/type_ref.js",
         "span": "0-15"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/type_ref.js",
         "identSpan": "9-10",
         "bodySpan": "0-15"

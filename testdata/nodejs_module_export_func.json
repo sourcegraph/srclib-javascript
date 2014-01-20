@@ -2,11 +2,11 @@
   "symbols": [
     {
       "path": "!node.testdata/nodejs_module_export_func`js.!ret.b",
-      "!type": "number",
-      "!typeDef": {
+      "type": "number",
+      "typeDef": {
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/nodejs_module_export_func.js",
         "identSpan": "41-42",
         "bodySpan": "44-45"
@@ -14,26 +14,26 @@
     },
     {
       "path": "!node.testdata/nodejs_module_export_func`js.!ret",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/nodejs_module_export_func.js",
         "span": "40-46"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/nodejs_module_export_func.js",
         "identSpan": "40-46"
       }
     },
     {
       "path": "!node.testdata/nodejs_module_export_func`js",
-      "!type": "fn(a: ?) -> !node.testdata/nodejs_module_export_func`js.!ret",
-      "!typeDef": {
+      "type": "fn(a: ?) -> !node.testdata/nodejs_module_export_func`js.!ret",
+      "typeDef": {
         "file": "testdata/nodejs_module_export_func.js",
         "span": "17-49"
       },
-      "!objectDef": {
+      "objectDef": {
         "identSpan": null
       },
-      "!data": {
+      "data": {
         "nodejs": {
           "moduleExports": true
         }

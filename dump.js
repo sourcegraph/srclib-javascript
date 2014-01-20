@@ -181,33 +181,33 @@ function store(path, info, state) {
   var out = {path: path};
   var name = typeName(info.type);
   if (name != info.type.path && name != '?') {
-    out['!type'] = name;
+    out.type = name;
   } else if (info.type.proto && info.type.proto != state.cx.protos.Object) {
     var protoName = typeName(info.type.proto);
-    if (protoName != '?') out['!proto'] = protoName;
+    if (protoName != '?') out.proto = protoName;
   }
-  if (info.file) out['!file'] = info.file;
-  if (info.type) out['!typeDef'] = {file: info.type.origin, span: state.getSpan(info.type)};
+  if (info.file) out.file = info.file;
+  if (info.type) out.typeDef = {file: info.type.origin, span: state.getSpan(info.type)};
   if (info.object) {
     var objFile;
     if (info.object.originNode) {
       objFile = info.object.originNode.sourceFile.name;
       info.object.originNode._path = path;
     }
-    out['!objectDef'] = {file: objFile, identSpan: state.getSpan(info.object)};
+    out.objectDef = {file: objFile, identSpan: state.getSpan(info.object)};
     if (info.object.originNode) {
       try {
         var defNode = defnode.findDefinitionNode(info.object.originNode.sourceFile.ast, info.object.originNode.start, info.object.originNode.end);
         if (defNode) {
           var bodySpan = state.getSpan({originNode: defNode});
-          if (bodySpan) out['!objectDef'].bodySpan = bodySpan;
+          if (bodySpan) out.objectDef.bodySpan = bodySpan;
         }
       } catch(e) {}
     }
   }
-  if (info.objectDef) out['!objectDef'] = info.objectDef;
-  if (info.doc) out['!doc'] = info.doc;
-  if (info.data) out['!data'] = info.data;
+  if (info.objectDef) out.objectDef = info.objectDef;
+  if (info.doc) out.doc = info.doc;
+  if (info.data) out.data = info.data;
   state.output.push(out);
 }
 

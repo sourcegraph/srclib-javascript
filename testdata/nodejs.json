@@ -2,12 +2,12 @@
   "symbols": [
     {
       "path": "!node.testdata/nodejs`js.a",
-      "!type": "fn() -> number",
-      "!typeDef": {
+      "type": "fn() -> number",
+      "typeDef": {
         "file": "testdata/nodejs.js",
         "span": "12-36"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/nodejs.js",
         "identSpan": "8-9",
         "bodySpan": "12-36"
@@ -15,11 +15,11 @@
     },
     {
       "path": "!node.testdata/nodejs`js.b.c",
-      "!type": "number",
-      "!typeDef": {
+      "type": "number",
+      "typeDef": {
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/nodejs.js",
         "identSpan": "53-54",
         "bodySpan": "56-57"
@@ -27,11 +27,11 @@
     },
     {
       "path": "!node.testdata/nodejs`js.b",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/nodejs.js",
         "span": "49-59"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/nodejs.js",
         "identSpan": "45-46",
         "bodySpan": "49-59"
@@ -39,14 +39,14 @@
     },
     {
       "path": "!node.testdata/nodejs`js",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/nodejs.js",
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "identSpan": null
       },
-      "!data": {
+      "data": {
         "nodejs": {
           "moduleExports": true
         }

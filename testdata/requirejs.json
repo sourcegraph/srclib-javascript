@@ -2,15 +2,15 @@
   "symbols": [
     {
       "path": "!requirejs.testdata/requirejs_b",
-      "!type": "fn() -> number",
-      "!typeDef": {
+      "type": "fn() -> number",
+      "typeDef": {
         "file": "testdata/requirejs_b.js",
         "span": "33-57"
       },
-      "!objectDef": {
+      "objectDef": {
         "identSpan": null
       },
-      "!data": {
+      "data": {
         "amd": {
           "module": true
         }
@@ -18,11 +18,11 @@
     },
     {
       "path": "!requirejs.testdata/requirejs.a",
-      "!type": "number",
-      "!typeDef": {
+      "type": "number",
+      "typeDef": {
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/requirejs.js",
         "identSpan": "54-55",
         "bodySpan": "57-64"
@@ -30,14 +30,14 @@
     },
     {
       "path": "!requirejs.testdata/requirejs",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/requirejs.js",
         "span": "53-65"
       },
-      "!objectDef": {
+      "objectDef": {
         "identSpan": null
       },
-      "!data": {
+      "data": {
         "amd": {
           "module": true
         }

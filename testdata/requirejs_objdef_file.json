@@ -2,12 +2,12 @@
   "symbols": [
     {
       "path": "!requirejs.testdata/requirejs_objdef_def.fn.slice",
-      "!type": "fn()",
-      "!typeDef": {
+      "type": "fn()",
+      "typeDef": {
         "file": "testdata/requirejs_objdef_def.js",
         "span": "67-141"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/requirejs_objdef_def.js",
         "identSpan": "60-65",
         "bodySpan": "67-141"
@@ -15,11 +15,11 @@
     },
     {
       "path": "!requirejs.testdata/requirejs_objdef_def.fn",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/requirejs_objdef_def.js",
         "span": "57-144"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/requirejs_objdef_def.js",
         "identSpan": "52-54",
         "bodySpan": "57-144"
@@ -27,12 +27,12 @@
     },
     {
       "path": "!requirejs.testdata/requirejs_objdef_def.extend",
-      "!type": "fn() -> !this",
-      "!typeDef": {
+      "type": "fn() -> !this",
+      "typeDef": {
         "file": "testdata/requirejs_objdef_def.js",
         "span": "172-1669"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/requirejs_objdef_def.js",
         "identSpan": "149-155",
         "bodySpan": "172-1669"
@@ -40,15 +40,15 @@
     },
     {
       "path": "!requirejs.testdata/requirejs_objdef_def",
-      "!type": "fn()",
-      "!typeDef": {
+      "type": "fn()",
+      "typeDef": {
         "file": "testdata/requirejs_objdef_def.js",
         "span": "34-47"
       },
-      "!objectDef": {
+      "objectDef": {
         "identSpan": null
       },
-      "!data": {
+      "data": {
         "amd": {
           "module": true
         }

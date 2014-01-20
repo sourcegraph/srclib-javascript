@@ -2,12 +2,12 @@
   "symbols": [
     {
       "path": "!node.testdata/nodejs_require`js.a2",
-      "!type": "fn() -> number",
-      "!typeDef": {
+      "type": "fn() -> number",
+      "typeDef": {
         "file": "testdata/nodejs.js",
         "span": "12-36"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/nodejs_require.js",
         "identSpan": "50-52",
         "bodySpan": "55-58"
@@ -15,11 +15,11 @@
     },
     {
       "path": "!node.testdata/nodejs_require`js.b2",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/nodejs.js",
         "span": "49-59"
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/nodejs_require.js",
         "identSpan": "68-70",
         "bodySpan": "73-76"
@@ -27,11 +27,11 @@
     },
     {
       "path": "!node.testdata/nodejs_require`js.c2",
-      "!type": "number",
-      "!typeDef": {
+      "type": "number",
+      "typeDef": {
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "file": "testdata/nodejs_require.js",
         "identSpan": "86-88",
         "bodySpan": "91-96"
@@ -39,14 +39,14 @@
     },
     {
       "path": "!node.testdata/nodejs_require`js",
-      "!typeDef": {
+      "typeDef": {
         "file": "testdata/nodejs_require.js",
         "span": null
       },
-      "!objectDef": {
+      "objectDef": {
         "identSpan": null
       },
-      "!data": {
+      "data": {
         "nodejs": {
           "moduleExports": true
         }
