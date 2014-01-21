@@ -1,5 +1,6 @@
 var defnode = require('defnode');
 var infer = require('tern/lib/infer');
+var symbol_id = require('./symbol_id');
 
 exports.dump = function(origins, options) {
   if (typeof origins == 'string') origins = [origins];
@@ -18,6 +19,8 @@ exports.dump = function(origins, options) {
   runPass(state.passes.postDumpReach, state);
 
   for (var path in state.types)
+    link(path, state.types[path], state);
+  for (var path in state.types)
     store(path, state.types[path], state);
   for (var path in state.altPaths)
     storeAlt(path, state.altPaths[path], state);
@@ -34,9 +37,6 @@ function State(origins, options) {
   this.origins = origins;
   this.cx = infer.cx();
   this.passes = options.passes || this.cx.parent && this.cx.parent.passes || {};
-  this.maxOrigin = -Infinity;
-  for (var i = 0; i < origins.length; ++i)
-    this.maxOrigin = Math.max(this.maxOrigin, this.cx.origins.indexOf(origins[i]));
   this.output = [];
   this.options = options;
   this.types = Object.create(null);
@@ -83,9 +83,6 @@ function reach(type, path, id, state) {
   if (!actual) return;
   var orig = type.origin || actual.origin, relevant = false;
   if (orig) {
-    var origPos = state.cx.origins.indexOf(orig);
-    // This is a path that is newer than the code we are interested in.
-    if (origPos > state.maxOrigin) return;
     relevant = state.isTarget(orig);
   }
   var newPath = path ? path + '.' + id : id, oldPath = actual.path;
@@ -101,6 +98,7 @@ function reach(type, path, id, state) {
       data.object = type;
       data.doc = type.doc || (actual != type && state.isTarget(actual.origin) && type.doc) || data.doc;
       data.data = actual.metaData;
+      data.relevant = relevant;
       state.types[newPath] = data;
     }
   } else {
@@ -177,8 +175,39 @@ function createPath(parts, state) {
   return base;
 }
 
+function link(path, info, state) {
+  if (info.type && info.type.originNode) {
+    if (info.type.originNode._path && info.type.originNode._path != path) throw new Error('Type node path conflict: ' + info.type.originNode._path + ' and ' + path);
+    info.type.originNode._path = path;
+    try {
+      var nameNodes = defnode.findNameNodes(info.type.originNode.sourceFile.ast, info.type.originNode.start, info.type.originNode.end);
+      if (nameNodes) {
+        info.type._identNodes = nameNodes;
+        nameNodes.forEach(function(n) {
+          if (n._path && n._path != path) throw new Error('Ident node path conflict: ' + n._path + ' and ' + path);
+          n._path = path;
+        });
+      }
+    } catch (e) {}
+  }
+
+  if (info.object && info.object.originNode) {
+    if (info.object.originNode._path && info.object.originNode._path != path) throw new Error('Object node path conflict: ' + info.object.originNode._path + ' and ' + path);
+    info.object.originNode._path = path;
+    try {
+      var defNode = defnode.findDefinitionNode(info.object.originNode.sourceFile.ast, info.object.originNode.start, info.object.originNode.end);
+      if (defNode) {
+        info.object.originNode._bodyNode = defNode;
+        if (defNode._path && defNode._path != path) throw new Error('Def node path conflict: ' + defNode._path + ' and ' + path);
+        defNode._path = path;
+      }
+    } catch (e) {}
+  }
+}
+
 function store(path, info, state) {
-  var out = {path: path};
+  if (!info.relevant) return;
+  var out = {path: path, id: symbol_id.parse(path)};
   var name = typeName(info.type);
   if (name != info.type.path && name != '?') {
     out.type = name;
@@ -187,25 +216,24 @@ function store(path, info, state) {
     if (protoName != '?') out.proto = protoName;
   }
   if (info.file) out.file = info.file;
-  if (info.type) out.typeDef = {file: info.type.origin, span: state.getSpan(info.type)};
+  if (info.type) {
+    out.typeDef = {file: info.type.origin};
+    var bodySpan = state.getSpan(info.type);
+    if (bodySpan) out.typeDef.bodySpan = bodySpan;
+    if (info.type.originNode && info.type.originNode._identNodes) {
+      out.typeDef.identSpans = info.type.originNode._identNodes.map(function(n) { return state.getSpan({originNode: n}); });
+    }
+  }
   if (info.object) {
     var objFile;
     if (info.object.originNode) {
       objFile = info.object.originNode.sourceFile.name;
-      info.object.originNode._path = path;
     }
-    out.objectDef = {file: objFile, identSpan: state.getSpan(info.object)};
-    if (info.object.originNode) {
-      try {
-        var defNode = defnode.findDefinitionNode(info.object.originNode.sourceFile.ast, info.object.originNode.start, info.object.originNode.end);
-        if (defNode) {
-          var bodySpan = state.getSpan({originNode: defNode});
-          if (bodySpan) out.objectDef.bodySpan = bodySpan;
-        }
-      } catch(e) {}
-    }
+    out.objectDef = {file: objFile};
+    var identSpan = state.getSpan(info.object);
+    if (identSpan) out.objectDef.identSpan = identSpan;
+    if (info.object.originNode && info.object.originNode._bodyNode) out.objectDef.bodySpan = state.getSpan({originNode: info.object.originNode._bodyNode});
   }
-  if (info.objectDef) out.objectDef = info.objectDef;
   if (info.doc) out.doc = info.doc;
   if (info.data) out.data = info.data;
   out.exported = path.slice(1).indexOf('!') == -1;

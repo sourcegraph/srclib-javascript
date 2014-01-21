@@ -2,10 +2,15 @@
   "symbols": [
     {
       "path": "!requirejs.testdata/requirejs_objdef_def.fn.slice",
+      "id": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "fn.slice"
+      },
       "type": "fn()",
       "typeDef": {
         "file": "testdata/requirejs_objdef_def.js",
-        "span": "67-141"
+        "bodySpan": "67-141"
       },
       "objectDef": {
         "file": "testdata/requirejs_objdef_def.js",
@@ -16,9 +21,14 @@
     },
     {
       "path": "!requirejs.testdata/requirejs_objdef_def.fn",
+      "id": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "fn"
+      },
       "typeDef": {
         "file": "testdata/requirejs_objdef_def.js",
-        "span": "57-144"
+        "bodySpan": "57-144"
       },
       "objectDef": {
         "file": "testdata/requirejs_objdef_def.js",
@@ -29,10 +39,15 @@
     },
     {
       "path": "!requirejs.testdata/requirejs_objdef_def.extend",
+      "id": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "extend"
+      },
       "type": "fn() -> !this",
       "typeDef": {
         "file": "testdata/requirejs_objdef_def.js",
-        "span": "172-1669"
+        "bodySpan": "172-1669"
       },
       "objectDef": {
         "file": "testdata/requirejs_objdef_def.js",
@@ -43,14 +58,17 @@
     },
     {
       "path": "!requirejs.testdata/requirejs_objdef_def",
+      "id": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": ""
+      },
       "type": "fn()",
       "typeDef": {
         "file": "testdata/requirejs_objdef_def.js",
-        "span": "34-47"
+        "bodySpan": "34-47"
       },
-      "objectDef": {
-        "identSpan": null
-      },
+      "objectDef": {},
       "data": {
         "amd": {
           "module": true
@@ -64,171 +82,292 @@
       "file": "testdata/requirejs_objdef_def.js",
       "span": "0-6",
       "target": {
+        "origin": "requirejs",
+        "abstract": true,
         "path": "define",
-        "origin": "requirejs"
+        "namespace": "global",
+        "module": ""
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "30-31",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "50-51",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "52-54",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def.fn"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "fn",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "60-65",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def.fn.slice"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "fn.slice",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "111-116",
       "target": {
+        "origin": "ecma5",
+        "abstract": true,
         "path": "Function.prototype.apply",
-        "origin": "ecma5"
+        "namespace": "global"
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "124-133",
+      "target": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "fn.slice",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "147-148",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "149-155",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def.extend"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "extend",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "158-159",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "160-162",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def.fn"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "fn",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "163-169",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def.extend"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "extend",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "247-256",
+      "target": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "extend",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "287-296",
+      "target": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "extend",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "459-468",
+      "target": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "extend",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "606-607",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/requirejs_objdef_def.js",
+      "span": "845-854",
+      "target": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "extend",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "1153-1154",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "1193-1194",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "1290-1291",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "1353-1354",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "1464-1465",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "1466-1472",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def.extend"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "extend",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_def.js",
       "span": "1679-1680",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_other.js",
       "span": "0-6",
       "target": {
+        "origin": "requirejs",
+        "abstract": true,
         "path": "define",
-        "origin": "requirejs"
+        "namespace": "global",
+        "module": ""
       }
     },
     {
       "file": "testdata/requirejs_objdef_other.js",
       "span": "50-51",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_other.js",
       "span": "58-59",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_other.js",
       "span": "60-62",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def.fn"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "fn",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs_objdef_other.js",
       "span": "63-69",
       "target": {
-        "path": "!requirejs.testdata/requirejs_objdef_def.extend"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_objdef_def",
+        "path": "extend",
+        "abstract": false
       }
     }
   ]

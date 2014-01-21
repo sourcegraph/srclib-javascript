@@ -2,10 +2,15 @@
   "symbols": [
     {
       "path": "!node.testdata/nodejs_type_ref`js.a",
+      "id": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": "a"
+      },
       "type": "fn()",
       "typeDef": {
         "file": "testdata/nodejs_type_ref.js",
-        "span": "59-72"
+        "bodySpan": "59-72"
       },
       "objectDef": {
         "file": "testdata/nodejs_type_ref.js",
@@ -17,13 +22,15 @@
     },
     {
       "path": "!node.testdata/nodejs_type_ref`js",
+      "id": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": ""
+      },
       "typeDef": {
-        "file": "testdata/nodejs_type_ref.js",
-        "span": null
+        "file": "testdata/nodejs_type_ref.js"
       },
-      "objectDef": {
-        "identSpan": null
-      },
+      "objectDef": {},
       "data": {
         "nodejs": {
           "moduleExports": true
@@ -37,42 +44,60 @@
       "file": "testdata/nodejs_type_ref.js",
       "span": "47-54",
       "target": {
-        "path": "!node.testdata/nodejs_type_ref`js"
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_type_ref.js",
       "span": "55-56",
       "target": {
-        "path": "!node.testdata/nodejs_type_ref`js.a"
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": "a",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_type_ref.js",
       "span": "74-81",
       "target": {
-        "path": "!node.testdata/nodejs_type_ref`js"
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_type_ref.js",
       "span": "82-83",
       "target": {
-        "path": "!node.testdata/nodejs_type_ref`js.a"
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": "a",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_type_ref.js",
       "span": "86-93",
       "target": {
-        "path": "!node.testdata/nodejs_type_ref`js"
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_type_ref.js",
       "span": "94-95",
       "target": {
-        "path": "!node.testdata/nodejs_type_ref`js.a"
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": "a",
+        "abstract": false
       }
     }
   ]

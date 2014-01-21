@@ -2,14 +2,17 @@
   "symbols": [
     {
       "path": "!requirejs.testdata/requirejs_b",
+      "id": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_b",
+        "path": ""
+      },
       "type": "fn() -> number",
       "typeDef": {
         "file": "testdata/requirejs_b.js",
-        "span": "33-57"
+        "bodySpan": "33-57"
       },
-      "objectDef": {
-        "identSpan": null
-      },
+      "objectDef": {},
       "data": {
         "amd": {
           "module": true
@@ -19,10 +22,13 @@
     },
     {
       "path": "!requirejs.testdata/requirejs.a",
-      "type": "number",
-      "typeDef": {
-        "span": null
+      "id": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs",
+        "path": "a"
       },
+      "type": "number",
+      "typeDef": {},
       "objectDef": {
         "file": "testdata/requirejs.js",
         "identSpan": "54-55",
@@ -32,13 +38,16 @@
     },
     {
       "path": "!requirejs.testdata/requirejs",
+      "id": {
+        "namespace": "requirejs",
+        "module": "testdata/requirejs",
+        "path": ""
+      },
       "typeDef": {
         "file": "testdata/requirejs.js",
-        "span": "53-65"
+        "bodySpan": "53-65"
       },
-      "objectDef": {
-        "identSpan": null
-      },
+      "objectDef": {},
       "data": {
         "amd": {
           "module": true
@@ -52,37 +61,52 @@
       "file": "testdata/requirejs_b.js",
       "span": "0-6",
       "target": {
+        "origin": "requirejs",
+        "abstract": true,
         "path": "define",
-        "origin": "requirejs"
+        "namespace": "global",
+        "module": ""
       }
     },
     {
       "file": "testdata/requirejs.js",
       "span": "0-6",
       "target": {
+        "origin": "requirejs",
+        "abstract": true,
         "path": "define",
-        "origin": "requirejs"
+        "namespace": "global",
+        "module": ""
       }
     },
     {
       "file": "testdata/requirejs.js",
       "span": "35-40",
       "target": {
-        "path": "!requirejs.testdata/requirejs_b"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_b",
+        "path": "",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs.js",
       "span": "54-55",
       "target": {
-        "path": "!requirejs.testdata/requirejs.a"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs",
+        "path": "a",
+        "abstract": false
       }
     },
     {
       "file": "testdata/requirejs.js",
       "span": "57-62",
       "target": {
-        "path": "!requirejs.testdata/requirejs_b"
+        "namespace": "requirejs",
+        "module": "testdata/requirejs_b",
+        "path": "",
+        "abstract": false
       }
     }
   ]

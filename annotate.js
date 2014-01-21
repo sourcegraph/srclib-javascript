@@ -1,6 +1,7 @@
 var idents = require('javascript-idents');
 var infer = require('tern/lib/infer');
 var tern = require('tern');
+var symbol_id = require('./symbol_id');
 
 exports.refs = function(origins, options) {
   if (typeof origins == 'string') origins = [origins];
@@ -34,11 +35,11 @@ function resolve(file, ident, state) {
     if (state.isTarget(out.target.origin)) delete out.target.origin;
   }
 
-  if (out.target && out.target.path) state.output.push(out);
+  if (out.target) state.output.push(out);
 }
 
 function getRefTarget(file, ident) {
-  if (ident._path) return {path: ident._path};
+  if (ident._path) return getConcretePathTypeID(ident._path);
 
   var expr;
   try {
@@ -49,11 +50,86 @@ function getRefTarget(file, ident) {
   }
 
   var av = infer.expressionType(expr);
-  if (av.originNode && av.originNode._path) return {path: av.originNode._path};
+  if (av.originNode && av.originNode._path) return getConcretePathTypeID(av.originNode._path);
 
   var type = av.getType(false);
   if (!type) return null;
-  if (type.originNode && type.originNode._path) return {path: type.originNode._path};
+  if (type.originNode && type.originNode._path) return getConcretePathTypeID(type.originNode._path);
 
-  return {path: type.path, origin: type.origin};
+  if (type instanceof infer.Prim || type instanceof infer.Arr) return;
+
+  return getTypeID(type);
+}
+
+function getConcretePathTypeID(path) {
+  var target = symbol_id.parse(path);
+  target.abstract = false;
+  return target;
+}
+
+function getTypeID(type) {
+  // Hack for CommonJS "module"
+  if (type.name == 'Module' && type.proto.origin == 'node' && type.proto.name == 'Module.prototype') {
+    type.origin = 'node';
+    type._isCommonJSModule = true;
+  }
+
+  var target = {origin: type.origin};
+  switch (type.origin) {
+  case 'ecma5':
+  case 'browser':
+    target.abstract = true;
+    target.path = type.path;
+    target.namespace = 'global';
+    break;
+  case 'node':
+    target.abstract = true;
+
+    // Hack for CommonJS "require"
+    if (!type.path && type.name == 'require') {
+      target.path = 'module.require';
+      target.namespace = 'global';
+      break;
+    }
+
+    // Hack for CommonJS "module"
+    if (type._isCommonJSModule) {
+      target.path = 'module';
+      target.namespace = 'global';
+      break;
+    }
+
+    if (!type.path) type.path = type.name;
+    var parts = type.path.split('.');
+    target.namespace = 'commonjs';
+    target.module = parts[0];
+    target.path = parts.slice(1).join('.');
+    break;
+  case 'requirejs':
+    target.abstract = true;
+    target.path = type.path;
+    target.namespace = 'global';
+    target.module = '';
+    break;
+  default:
+    target.abstract = false;
+
+    // Hack for CommonJS module obtained via "require"
+    if (type.metaData && type.metaData.nodejs && type.metaData.nodejs.moduleExports) {
+      type.path = '!commonjs.' + type.origin.replace(/\./g, '`');
+    }
+
+    // Hack for RequireJS module definition
+    if (type.metaData && type.metaData.amd && type.metaData.amd.module) {
+      type.path = '!requirejs.' + type.origin.replace(/\./g, '`');
+    }
+
+    if (!type.path) {
+      // throw new Error('no type.path: ' + require('util').inspect(type));
+      return;
+    }
+    return getConcretePathTypeID(type.path);
+  }
+
+  return target;
 }

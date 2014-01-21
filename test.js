@@ -1,5 +1,6 @@
 var assert = require('assert'), execFile = require('child_process').execFile, fs = require('fs'), path = require('path');
 var should = require('should');
+var symbol_id = require('./symbol_id');
 
 describe('jsg output', function() {
   [
@@ -14,8 +15,11 @@ describe('jsg output', function() {
     {name: 'anonymous'},
 
     {name: 'type_ref'},
+    {name: 'nodejs_export_function_a_b', args: ['--plugin', 'node']},
     {name: 'nodejs_type_ref', args: ['--plugin', 'node']},
-    {name: 'nodejs_other_module_type_ref', args: ['--plugin', 'node'], files: ['nodejs_other_module_type_ref', 'nodejs_export_function_a']},
+    {name: 'nodejs_other_module_type_export', args: ['--plugin', 'node'], files: ['nodejs_other_module_type_export', 'nodejs_export_function_a']},
+    {name: 'nodejs_other_module_type_ref_a_b', args: ['--plugin', 'node'], files: ['nodejs_other_module_type_ref_a_b', 'nodejs_export_function_a_b']},
+    {name: 'nodejs_other_module_type_ref_named', args: ['--plugin', 'node']},
   ].filter(function(test) { return new RegExp(process.env['F'] || '').test(test.name); }).forEach(function(test) {
     it(test.name + ' (with args: ' + (test.args || []).join(' ') + ')', function(done) {
       var expFile = './testdata/' + test.name + '.json';
@@ -44,6 +48,21 @@ describe('jsg output', function() {
         }
         done();
       });
+    });
+  });
+});
+
+describe('symbol_id.parse', function() {
+  [
+    {id: '!node.a/b`js.c.d', want: {namespace: 'commonjs', module: 'a/b.js', path: 'c.d'}},
+    {id: '!node.a/b`js', want: {namespace: 'commonjs', module: 'a/b.js', path: ''}},
+    {id: '!requirejs.a/b`js.c.d', want: {namespace: 'requirejs', module: 'a/b.js', path: 'c.d'}},
+    {id: '!requirejs.a/b`js', want: {namespace: 'requirejs', module: 'a/b.js', path: ''}},
+    {id: 'a.b', want: {namespace: 'global', path: 'a.b'}},
+  ].forEach(function(test) {
+    it(test.id, function(done) {
+      symbol_id.parse(test.id).should.eql(test.want);
+      done();
     });
   });
 });

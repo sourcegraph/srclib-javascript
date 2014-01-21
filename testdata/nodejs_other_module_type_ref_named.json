@@ -1,0 +1,25 @@
+{
+  "symbols": [],
+  "refs": [
+    {
+      "file": "testdata/nodejs_other_module_type_ref_named.js",
+      "span": "111-118",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "path": "module.require",
+        "namespace": "global"
+      }
+    },
+    {
+      "file": "testdata/nodejs_other_module_type_ref_named.js",
+      "span": "156-157",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_export_function_named.js",
+        "path": "c",
+        "abstract": false
+      }
+    }
+  ]
+}

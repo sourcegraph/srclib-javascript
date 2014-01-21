@@ -1,0 +1,103 @@
+{
+  "symbols": [
+    {
+      "path": "!node.testdata/nodejs_export_function_a_b`js.b",
+      "id": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "b"
+      },
+      "type": "fn()",
+      "typeDef": {
+        "file": "testdata/nodejs_export_function_a_b.js",
+        "bodySpan": "15-28"
+      },
+      "objectDef": {
+        "file": "testdata/nodejs_export_function_a_b.js",
+        "identSpan": "40-41",
+        "bodySpan": "44-47"
+      },
+      "exported": true
+    },
+    {
+      "path": "!node.testdata/nodejs_export_function_a_b`js",
+      "id": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": ""
+      },
+      "typeDef": {
+        "file": "testdata/nodejs_export_function_a_b.js"
+      },
+      "objectDef": {},
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      },
+      "exported": true
+    }
+  ],
+  "refs": [
+    {
+      "file": "testdata/nodejs_other_module_type_ref_a_b.js",
+      "span": "0-7",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "path": "module.require",
+        "namespace": "global"
+      }
+    },
+    {
+      "file": "testdata/nodejs_other_module_type_ref_a_b.js",
+      "span": "43-44",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "b",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_export_function_a_b.js",
+      "span": "12-13",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "b",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_export_function_a_b.js",
+      "span": "32-39",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_export_function_a_b.js",
+      "span": "40-41",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "b",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_export_function_a_b.js",
+      "span": "46-47",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "b",
+        "abstract": false
+      }
+    }
+  ]
+}

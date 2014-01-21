@@ -2,10 +2,14 @@
   "symbols": [
     {
       "path": "a",
+      "id": {
+        "namespace": "global",
+        "path": "a"
+      },
       "type": "fn()",
       "typeDef": {
         "file": "testdata/type_ref.js",
-        "span": "0-15"
+        "bodySpan": "0-15"
       },
       "objectDef": {
         "file": "testdata/type_ref.js",
@@ -20,21 +24,27 @@
       "file": "testdata/type_ref.js",
       "span": "9-10",
       "target": {
-        "path": "a"
+        "namespace": "global",
+        "path": "a",
+        "abstract": false
       }
     },
     {
       "file": "testdata/type_ref.js",
       "span": "20-21",
       "target": {
-        "path": "a"
+        "namespace": "global",
+        "path": "a",
+        "abstract": false
       }
     },
     {
       "file": "testdata/type_ref.js",
       "span": "24-25",
       "target": {
-        "path": "a"
+        "namespace": "global",
+        "path": "a",
+        "abstract": false
       }
     }
   ]

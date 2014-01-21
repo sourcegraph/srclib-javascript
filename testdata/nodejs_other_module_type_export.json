@@ -10,7 +10,7 @@
       "type": "fn()",
       "typeDef": {
         "file": "testdata/nodejs_export_function_a.js",
-        "span": "12-24"
+        "bodySpan": "12-24"
       },
       "objectDef": {
         "file": "testdata/nodejs_export_function_a.js",
@@ -27,12 +27,9 @@
         "path": ""
       },
       "typeDef": {
-        "file": "testdata/nodejs_export_function_a.js",
-        "span": null
+        "file": "testdata/nodejs_export_function_a.js"
       },
-      "objectDef": {
-        "identSpan": null
-      },
+      "objectDef": {},
       "data": {
         "nodejs": {
           "moduleExports": true
@@ -41,19 +38,16 @@
       "exported": true
     },
     {
-      "path": "!node.testdata/nodejs_other_module_type_ref`js",
+      "path": "!node.testdata/nodejs_other_module_type_export`js",
       "id": {
         "namespace": "commonjs",
-        "module": "testdata/nodejs_other_module_type_ref.js",
+        "module": "testdata/nodejs_other_module_type_export.js",
         "path": ""
       },
       "typeDef": {
-        "file": "testdata/nodejs_other_module_type_ref.js",
-        "span": null
+        "file": "testdata/nodejs_other_module_type_export.js"
       },
-      "objectDef": {
-        "identSpan": null
-      },
+      "objectDef": {},
       "data": {
         "nodejs": {
           "moduleExports": true
@@ -64,17 +58,17 @@
   ],
   "refs": [
     {
-      "file": "testdata/nodejs_other_module_type_ref.js",
+      "file": "testdata/nodejs_other_module_type_export.js",
       "span": "0-7",
       "target": {
         "namespace": "commonjs",
-        "module": "testdata/nodejs_other_module_type_ref.js",
+        "module": "testdata/nodejs_other_module_type_export.js",
         "path": "",
         "abstract": false
       }
     },
     {
-      "file": "testdata/nodejs_other_module_type_ref.js",
+      "file": "testdata/nodejs_other_module_type_export.js",
       "span": "8-9",
       "target": {
         "namespace": "commonjs",
@@ -84,7 +78,7 @@
       }
     },
     {
-      "file": "testdata/nodejs_other_module_type_ref.js",
+      "file": "testdata/nodejs_other_module_type_export.js",
       "span": "12-19",
       "target": {
         "origin": "node",
@@ -94,7 +88,7 @@
       }
     },
     {
-      "file": "testdata/nodejs_other_module_type_ref.js",
+      "file": "testdata/nodejs_other_module_type_export.js",
       "span": "53-54",
       "target": {
         "namespace": "commonjs",

@@ -2,10 +2,12 @@
   "symbols": [
     {
       "path": "a",
-      "type": "number",
-      "typeDef": {
-        "span": null
+      "id": {
+        "namespace": "global",
+        "path": "a"
       },
+      "type": "number",
+      "typeDef": {},
       "objectDef": {
         "file": "testdata/simple.js",
         "identSpan": "4-5",
@@ -15,10 +17,12 @@
     },
     {
       "path": "b.c.d",
-      "type": "number",
-      "typeDef": {
-        "span": null
+      "id": {
+        "namespace": "global",
+        "path": "b.c.d"
       },
+      "type": "number",
+      "typeDef": {},
       "objectDef": {
         "file": "testdata/simple.js",
         "identSpan": "28-29",
@@ -28,9 +32,13 @@
     },
     {
       "path": "b.c",
+      "id": {
+        "namespace": "global",
+        "path": "b.c"
+      },
       "typeDef": {
         "file": "testdata/simple.js",
-        "span": "27-33"
+        "bodySpan": "27-33"
       },
       "objectDef": {
         "file": "testdata/simple.js",
@@ -41,9 +49,13 @@
     },
     {
       "path": "b",
+      "id": {
+        "namespace": "global",
+        "path": "b"
+      },
       "typeDef": {
         "file": "testdata/simple.js",
-        "span": "23-34"
+        "bodySpan": "23-34"
       },
       "objectDef": {
         "file": "testdata/simple.js",
@@ -54,10 +66,12 @@
     },
     {
       "path": "E.h",
-      "type": "number",
-      "typeDef": {
-        "span": null
+      "id": {
+        "namespace": "global",
+        "path": "E.h"
       },
+      "type": "number",
+      "typeDef": {},
       "objectDef": {
         "file": "testdata/simple.js",
         "identSpan": "131-132",
@@ -67,10 +81,14 @@
     },
     {
       "path": "E",
+      "id": {
+        "namespace": "global",
+        "path": "E"
+      },
       "type": "fn(f: ?) -> !0",
       "typeDef": {
         "file": "testdata/simple.js",
-        "span": "80-122"
+        "bodySpan": "80-122"
       },
       "objectDef": {
         "file": "testdata/simple.js",
@@ -85,150 +103,192 @@
       "file": "testdata/simple.js",
       "span": "4-5",
       "target": {
-        "path": "a"
+        "namespace": "global",
+        "path": "a",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "11-12",
       "target": {
-        "path": "a"
+        "namespace": "global",
+        "path": "a",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "19-20",
       "target": {
-        "path": "b"
+        "namespace": "global",
+        "path": "b",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "24-25",
       "target": {
-        "path": "b.c"
+        "namespace": "global",
+        "path": "b.c",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "28-29",
       "target": {
-        "path": "b.c.d"
+        "namespace": "global",
+        "path": "b.c.d",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "31-32",
       "target": {
-        "path": "a"
+        "namespace": "global",
+        "path": "b.c.d",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "36-37",
       "target": {
-        "path": "b"
+        "namespace": "global",
+        "path": "b",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "38-39",
       "target": {
-        "path": "b.c"
+        "namespace": "global",
+        "path": "b.c",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "41-42",
       "target": {
-        "path": "b"
+        "namespace": "global",
+        "path": "b",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "49-50",
       "target": {
-        "path": "b"
+        "namespace": "global",
+        "path": "b",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "51-52",
       "target": {
-        "path": "b.c"
+        "namespace": "global",
+        "path": "b.c",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "53-54",
       "target": {
-        "path": "b.c.d"
+        "namespace": "global",
+        "path": "b.c.d",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "57-62",
       "target": {
+        "origin": "ecma5",
+        "abstract": true,
         "path": "Array",
-        "origin": "ecma5"
+        "namespace": "global"
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "89-90",
       "target": {
-        "path": "E"
+        "namespace": "global",
+        "path": "E",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "124-125",
       "target": {
-        "path": "E"
+        "namespace": "global",
+        "path": "E",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "129-130",
       "target": {
-        "path": "E"
+        "namespace": "global",
+        "path": "E",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "131-132",
       "target": {
-        "path": "E.h"
+        "namespace": "global",
+        "path": "E.h",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "138-139",
       "target": {
-        "path": "E"
+        "namespace": "global",
+        "path": "E",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "140-141",
       "target": {
-        "path": "E.h"
+        "namespace": "global",
+        "path": "E.h",
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "149-153",
       "target": {
+        "origin": "ecma5",
+        "abstract": true,
         "path": "Date",
-        "origin": "ecma5"
+        "namespace": "global"
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "160-171",
       "target": {
+        "origin": "ecma5",
+        "abstract": true,
         "path": "Date.prototype.toUTCString",
-        "origin": "ecma5"
+        "namespace": "global"
       }
     }
   ]
