@@ -1,5 +1,6 @@
 var idents = require('javascript-idents');
 var infer = require('tern/lib/infer');
+var nodejs_util = require('./nodejs_util');
 var tern = require('tern');
 var symbol_id = require('./symbol_id');
 
@@ -64,6 +65,11 @@ function getRefTarget(file, ident) {
 function getConcretePathTypeID(path) {
   var target = symbol_id.parse(path);
   target.abstract = false;
+
+  if (target.namespace == 'commonjs') {
+    nodejs_util.addPackageInfo(target);
+  }
+
   return target;
 }
 

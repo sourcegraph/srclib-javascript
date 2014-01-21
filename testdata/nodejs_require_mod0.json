@@ -8,7 +8,16 @@
         "namespace": "commonjs",
         "module": "testdata/node_modules/mod0/index.js",
         "path": "",
-        "abstract": false
+        "abstract": false,
+        "npmPackage": {
+          "name": "mod0",
+          "dir": "testdata/node_modules/mod0",
+          "packageJSONFile": "testdata/node_modules/mod0/package.json",
+          "repository": {
+            "type": "git",
+            "url": "git://example.com/mod0.git"
+          }
+        }
       }
     },
     {
@@ -28,7 +37,16 @@
         "namespace": "commonjs",
         "module": "testdata/node_modules/mod0/index.js",
         "path": "",
-        "abstract": false
+        "abstract": false,
+        "npmPackage": {
+          "name": "mod0",
+          "dir": "testdata/node_modules/mod0",
+          "packageJSONFile": "testdata/node_modules/mod0/package.json",
+          "repository": {
+            "type": "git",
+            "url": "git://example.com/mod0.git"
+          }
+        }
       }
     },
     {
@@ -38,7 +56,16 @@
         "namespace": "commonjs",
         "module": "testdata/node_modules/mod0/index.js",
         "path": "a",
-        "abstract": false
+        "abstract": false,
+        "npmPackage": {
+          "name": "mod0",
+          "dir": "testdata/node_modules/mod0",
+          "packageJSONFile": "testdata/node_modules/mod0/package.json",
+          "repository": {
+            "type": "git",
+            "url": "git://example.com/mod0.git"
+          }
+        }
       }
     },
     {
@@ -48,7 +75,16 @@
         "namespace": "commonjs",
         "module": "testdata/node_modules/mod0/index.js",
         "path": "",
-        "abstract": false
+        "abstract": false,
+        "npmPackage": {
+          "name": "mod0",
+          "dir": "testdata/node_modules/mod0",
+          "packageJSONFile": "testdata/node_modules/mod0/package.json",
+          "repository": {
+            "type": "git",
+            "url": "git://example.com/mod0.git"
+          }
+        }
       }
     },
     {
@@ -58,7 +94,16 @@
         "namespace": "commonjs",
         "module": "testdata/node_modules/mod0/index.js",
         "path": "bb",
-        "abstract": false
+        "abstract": false,
+        "npmPackage": {
+          "name": "mod0",
+          "dir": "testdata/node_modules/mod0",
+          "packageJSONFile": "testdata/node_modules/mod0/package.json",
+          "repository": {
+            "type": "git",
+            "url": "git://example.com/mod0.git"
+          }
+        }
       }
     },
     {
@@ -78,7 +123,16 @@
         "namespace": "commonjs",
         "module": "testdata/node_modules/mod0/index.js",
         "path": "bb",
-        "abstract": false
+        "abstract": false,
+        "npmPackage": {
+          "name": "mod0",
+          "dir": "testdata/node_modules/mod0",
+          "packageJSONFile": "testdata/node_modules/mod0/package.json",
+          "repository": {
+            "type": "git",
+            "url": "git://example.com/mod0.git"
+          }
+        }
       }
     }
   ]
