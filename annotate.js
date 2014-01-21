@@ -125,6 +125,8 @@ function getTypeID(type) {
     }
 
     if (!type.path) {
+      // Type is probably a local variable or some other type that's unreachable
+      // from the topScope or roots.
       // throw new Error('no type.path: ' + require('util').inspect(type));
       return;
     }
