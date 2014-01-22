@@ -6,6 +6,7 @@ tern.registerPlugin('jsg', function(server) {
     var mods = state.cx.parent._node.modules;
     for (var modName in mods) {
       var mod = mods[modName].getType();
+      if (!mod) continue;
       if (!mod.metaData) mod.metaData = {};
       mod.metaData.nodejs = {moduleExports: true};
     }
