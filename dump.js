@@ -242,6 +242,13 @@ function store(path, info, state) {
   if (info.object) {
     var objFile;
     if (info.object.originNode) {
+      if (!info.object.originNode.sourceFile) {
+        // Sometimes a node doesn't have a sourceFile property but one of its
+        // child nodes does. In that case, get sourceFile from the child node.
+        // TODO(sqs): why does this occur?
+        var childNode = info.object.originNode.property || info.object.originNode.argument || info.object.originNode.left;
+        info.object.originNode.sourceFile = childNode.sourceFile;
+      }
       objFile = info.object.originNode.sourceFile.name;
     }
     out.objectDef = {file: objFile};
