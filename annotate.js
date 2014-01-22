@@ -113,7 +113,7 @@ function getTypeID(type) {
     if (!type.path) type.path = type.name;
     var parts = type.path.split('.');
     target.namespace = 'commonjs';
-    target.module = 'lib/' + parts[0] + '.js';
+    target.module = parts[0];
     target.path = parts.slice(1).join('.');
     break;
   case 'requirejs':

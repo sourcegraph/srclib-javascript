@@ -52,8 +52,9 @@
       "target": {
         "origin": "node",
         "abstract": true,
-        "path": "module.require",
-        "namespace": "global"
+        "module": "module",
+        "path": "prototype.require",
+        "namespace": "commonjs"
       }
     },
     {
