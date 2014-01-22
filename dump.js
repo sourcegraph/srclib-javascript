@@ -179,6 +179,7 @@ function link(path, info, state) {
   if (info.type && info.type.originNode) {
     if (info.type.originNode._path && info.type.originNode._path != path) throw new Error('Type node path conflict: ' + info.type.originNode._path + ' and ' + path);
     info.type.originNode._path = path;
+    info.type.originNode._pathFor = 'type ' + info.type.toString();
     try {
       var nameNodes = defnode.findNameNodes(info.type.originNode.sourceFile.ast, info.type.originNode.start, info.type.originNode.end);
       if (nameNodes) {
@@ -186,20 +187,34 @@ function link(path, info, state) {
         nameNodes.forEach(function(n) {
           if (n._path && n._path != path) throw new Error('Ident node path conflict: ' + n._path + ' and ' + path);
           n._path = path;
+          n._pathFor = 'name node for type ' + info.type.toString();
         });
       }
     } catch (e) {}
   }
 
   if (info.object && info.object.originNode) {
-    if (info.object.originNode._path && info.object.originNode._path != path) throw new Error('Object node path conflict: ' + info.object.originNode._path + ' and ' + path);
+    if (info.object.originNode._path && info.object.originNode._path != path) {
+      if (info.object.originNode._pathFor == 'object') {
+        // It's unavoidable that sometimes we'll have an AST node that's the
+        // originNode for multiple AVals. See testdata/node_path_conflict.js for
+        // an example of this. Just take the shorter one for now. TODO(sqs):
+        // improve this.
+        var shorter = info.object.originNode._path.length >= path.length;
+        if (!shorter) return;
+      } else {
+        throw new Error('Object node path conflict: ' + info.object.originNode._path + ' (path for ' + (info.object.originNode._pathFor || 'unknown') + ') and ' + path + ' (at ' + info.object.originNode.sourceFile.name + ':' + info.object.originNode.start + '-' + info.object.originNode.end + ')');
+      }
+    }
     info.object.originNode._path = path;
+    info.object.originNode._pathFor = 'object';
     try {
       var defNode = defnode.findDefinitionNode(info.object.originNode.sourceFile.ast, info.object.originNode.start, info.object.originNode.end);
       if (defNode) {
         info.object.originNode._bodyNode = defNode;
         if (defNode._path && defNode._path != path) throw new Error('Def node path conflict: ' + defNode._path + ' and ' + path);
         defNode._path = path;
+        defNode._pathFor = 'def body node for object';
       }
     } catch (e) {}
   }

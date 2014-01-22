@@ -21,6 +21,9 @@ describe('jsg output', function() {
     {name: 'nodejs_other_module_type_ref_a_b', args: ['--plugin', 'node'], files: ['nodejs_other_module_type_ref_a_b', 'nodejs_export_function_a_b']},
     {name: 'nodejs_other_module_type_ref_named', args: ['--plugin', 'node']},
     {name: 'nodejs_require_mod0', args: ['--plugin', 'node']},
+
+    // Regressions
+    {name: 'node_path_conflict'},
   ].filter(function(test) { return new RegExp(process.env['F'] || '').test(test.name); }).forEach(function(test) {
     it(test.name + ' (with args: ' + (test.args || []).join(' ') + ')', function(done) {
       var expFile = './testdata/' + test.name + '.json';
