@@ -85,7 +85,11 @@ function getTypeID(type) {
   case 'ecma5':
   case 'browser':
     target.abstract = true;
-    target.path = type.path;
+    // Using the type name is usually what we want, but it may over-resolve.
+    // Uncomment this line below to see where it's resolving.
+    //
+    // if (type.path != type.name) console.error('type.path != type.name:   ', type.path, '!=', type.name);
+    target.path = type.name;
     target.namespace = 'global';
     break;
   case 'node':

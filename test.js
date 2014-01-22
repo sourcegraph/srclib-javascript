@@ -24,6 +24,8 @@ describe('jsg output', function() {
 
     // Regressions
     {name: 'node_path_conflict'},
+
+    {name: 'nodejs_require_ecma5_type', args: ['--plugin', 'node']},
   ].filter(function(test) { return new RegExp(process.env['F'] || '').test(test.name); }).forEach(function(test) {
     it(test.name + ' (with args: ' + (test.args || []).join(' ') + ')', function(done) {
       var expFile = './testdata/' + test.name + '.json';

@@ -1,0 +1,25 @@
+{
+  "symbols": [],
+  "refs": [
+    {
+      "file": "testdata/nodejs_require_ecma5_type.js",
+      "span": "4-5",
+      "target": {
+        "origin": "ecma5",
+        "abstract": true,
+        "path": "Array.prototype.slice",
+        "namespace": "global"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require_ecma5_type.js",
+      "span": "8-15",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "path": "module.require",
+        "namespace": "global"
+      }
+    }
+  ]
+}
