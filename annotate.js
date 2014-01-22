@@ -97,8 +97,9 @@ function getTypeID(type) {
 
     // Hack for CommonJS "require"
     if (!type.path && type.name == 'require') {
-      target.path = 'module.require';
-      target.namespace = 'global';
+      target.module = 'module';
+      target.path = 'prototype.require';
+      target.namespace = 'commonjs';
       break;
     }
 
@@ -112,7 +113,7 @@ function getTypeID(type) {
     if (!type.path) type.path = type.name;
     var parts = type.path.split('.');
     target.namespace = 'commonjs';
-    target.module = parts[0];
+    target.module = 'lib/' + parts[0] + '.js';
     target.path = parts.slice(1).join('.');
     break;
   case 'requirejs':
