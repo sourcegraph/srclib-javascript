@@ -113,7 +113,7 @@ function getTypeID(type) {
       type.path = type.name = type.name.replace(/^require\./, 'module.prototype.require.');
     }
 
-    if (type.name.indexOf('console.') == 0) {
+    if (/^console.[a-z]+/.test(type.name)) {
       type.path = type.name = type.name.replace(/^console\./, 'console.Console.prototype.');
     }
 
