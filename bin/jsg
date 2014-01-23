@@ -6,7 +6,7 @@ var path = require("path"), fs = require("fs");
 require("tern/plugin/doc_comment");
 
 var localDir = process.cwd(), ternDir = path.resolve(__dirname, "../node_modules/tern");
-var spans = true;
+var spans = true, stats = false;
 
 function usage(exit) {
   console.error("usage: " + process.argv[1] + " [--name name] [--plugin name]* [--def name]* [+extrafile.js]* [file.js]+");
@@ -58,6 +58,8 @@ for (var i = 2, len = process.argv.length; i < len; ++i) {
     name = process.argv[++i];
   } else if (cur == "--no-spans") {
     spans = false;
+  } else if (cur == "--stats") {
+    stats = true;
   } else if (cur.charAt(0) == "-") {
     usage(1);
   } else {
@@ -96,6 +98,6 @@ server.flush(function(err) {
   console.log('{"symbols":');
   console.log(JSON.stringify(graph.graph(origins, name), null, 2));
   console.log(',"refs":');
-  console.log(JSON.stringify(annotate.refs(origins, {}), null, 2));
+  console.log(JSON.stringify(annotate.refs(origins, {stats: stats}), null, 2));
   console.log('}');
 });

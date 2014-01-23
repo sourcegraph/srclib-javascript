@@ -8,12 +8,19 @@ exports.refs = function(origins, options) {
   if (typeof origins == 'string') origins = [origins];
   var state = new State(origins, options || {});
 
+  var numIdents = 0, numResolved = 0;
   state.cx.parent.files.forEach(function(file) {
     if (!state.isTarget(file.name)) return;
     idents.inspect(file.ast, function(ident) {
-      resolve(file, ident, state);
+      numIdents++;
+      var resolved = resolve(file, ident, state);
+      if (resolved) numResolved++;
     });
   });
+
+  if (options.stats) {
+    console.error('Resolved ' + numResolved + '/' + numIdents + ' idents (' + (100*numResolved/numIdents).toFixed(1) + '%)');
+  }
 
   return state.output;
 };
@@ -36,7 +43,11 @@ function resolve(file, ident, state) {
     if (state.isTarget(out.target.origin)) delete out.target.origin;
   }
 
-  if (out.target) state.output.push(out);
+  if (out.target) {
+    state.output.push(out);
+    return true;
+  }
+  return false;
 }
 
 function getRefTarget(file, ident) {
