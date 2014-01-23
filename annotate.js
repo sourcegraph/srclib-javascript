@@ -109,9 +109,13 @@ function getTypeID(type) {
 
     // Hack for CommonJS "module"
     if (type._isCommonJSModule) {
-      target.path = 'module';
+      target.module = 'module';
       target.namespace = 'global';
       break;
+    }
+
+    if (type.name.indexOf('console.') == 0) {
+      type.path = type.name = type.name.replace(/^console\./, 'console.Console.prototype.');
     }
 
     if (!type.path) type.path = type.name;

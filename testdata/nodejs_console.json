@@ -1,0 +1,27 @@
+{
+  "symbols": [],
+  "refs": [
+    {
+      "file": "testdata/nodejs_console.js",
+      "span": "0-7",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "console",
+        "path": ""
+      }
+    },
+    {
+      "file": "testdata/nodejs_console.js",
+      "span": "8-11",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "console",
+        "path": "Console.prototype.log"
+      }
+    }
+  ]
+}

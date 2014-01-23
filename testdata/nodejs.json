@@ -149,7 +149,7 @@
       "target": {
         "origin": "node",
         "abstract": true,
-        "path": "module",
+        "module": "module",
         "namespace": "global"
       }
     },

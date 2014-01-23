@@ -22,6 +22,7 @@ describe('jsg output', function() {
     {name: 'nodejs_other_module_type_ref_named', args: ['--plugin', 'node']},
     {name: 'nodejs_require_mod0', args: ['--plugin', 'node']},
     {name: 'nodejs_require_exported_node_origin_type', args: ['--plugin', 'node']},
+    {name: 'nodejs_console', args: ['--plugin', 'node']},
 
 
     // Regressions
