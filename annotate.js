@@ -99,19 +99,18 @@ function getTypeID(type) {
   case 'node':
     target.abstract = true;
 
-    // Hack for CommonJS "require"
-    if (!type.path && type.name == 'require') {
-      target.module = 'module';
-      target.path = 'prototype.require';
-      target.namespace = 'commonjs';
-      break;
-    }
-
     // Hack for CommonJS "module"
     if (type._isCommonJSModule) {
       target.module = 'module';
       target.namespace = 'global';
       break;
+    }
+
+    // Hack for CommonJS "require"
+    if (type.name == 'require') {
+      type.path = type.name = 'module.prototype.require';
+    } else if (type.name.indexOf('require.') == 0) {
+      type.path = type.name = type.name.replace(/^require\./, 'module.prototype.require.');
     }
 
     if (type.name.indexOf('console.') == 0) {

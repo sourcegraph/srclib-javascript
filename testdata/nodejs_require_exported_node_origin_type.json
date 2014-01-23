@@ -18,9 +18,9 @@
       "target": {
         "origin": "node",
         "abstract": true,
+        "namespace": "commonjs",
         "module": "module",
-        "path": "prototype.require",
-        "namespace": "commonjs"
+        "path": "prototype.require"
       }
     },
     {
@@ -29,9 +29,9 @@
       "target": {
         "origin": "node",
         "abstract": true,
+        "namespace": "commonjs",
         "module": "module",
-        "path": "prototype.require",
-        "namespace": "commonjs"
+        "path": "prototype.require"
       }
     },
     {
