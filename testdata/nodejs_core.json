@@ -1,0 +1,181 @@
+{
+  "symbols": [],
+  "refs": [
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "0-7",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "module",
+        "path": "prototype.require"
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "14-22",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/fs.js",
+        "path": "readFile",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "24-31",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "module",
+        "path": "prototype.require"
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "40-52",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/http.js",
+        "path": "createServer",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "54-61",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "module",
+        "path": "prototype.require"
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "70-74",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/path.js",
+        "path": "join",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "81-88",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "module",
+        "path": "prototype.require"
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "115-119",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/events.js",
+        "path": "prototype.emit",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "125-138",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/string_decoder.js",
+        "path": "StringDecoder",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "141-148",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "module",
+        "path": "prototype.require"
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "167-180",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/string_decoder.js",
+        "path": "StringDecoder",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "182-195",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/string_decoder.js",
+        "path": "StringDecoder",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "196-205",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/string_decoder.js",
+        "path": "StringDecoder.prototype",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "206-211",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/string_decoder.js",
+        "path": "StringDecoder.prototype.write",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "231-244",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/string_decoder.js",
+        "path": "StringDecoder",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "273-279",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/assert.js",
+        "path": "",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core.js",
+      "span": "282-289",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "module",
+        "path": "prototype.require"
+      }
+    }
+  ]
+}
