@@ -1,6 +1,7 @@
 var idents = require('javascript-idents');
 var infer = require('tern/lib/infer');
 var nodejs_util = require('./nodejs_util');
+var path = require('path');
 var tern = require('tern');
 var symbol_id = require('./symbol_id');
 
@@ -73,9 +74,15 @@ function getRefTarget(file, ident) {
   return getTypeID(type);
 }
 
-function getConcretePathTypeID(path) {
-  var target = symbol_id.parse(path);
+function getConcretePathTypeID(symbolPath) {
+  var target = symbol_id.parse(symbolPath);
   target.abstract = false;
+
+  var server = infer.cx().parent;
+  if (server._node && server._node.options.coreModulesDir) {
+    var isInNodeCoreModule = path.resolve(path.dirname(target.module)) == path.resolve(server._node.options.coreModulesDir);
+    if (isInNodeCoreModule) target.nodejsCoreModule = path.basename(target.module, '.js');
+  }
 
   if (target.namespace == 'commonjs') {
     nodejs_util.addPackageInfo(target);

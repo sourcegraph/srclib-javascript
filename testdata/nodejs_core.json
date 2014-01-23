@@ -19,7 +19,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/fs.js",
         "path": "readFile",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "fs"
       }
     },
     {
@@ -40,7 +41,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/http.js",
         "path": "createServer",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "http"
       }
     },
     {
@@ -61,7 +63,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/path.js",
         "path": "join",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "path"
       }
     },
     {
@@ -82,7 +85,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/events.js",
         "path": "prototype.emit",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "events"
       }
     },
     {
@@ -92,7 +96,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/string_decoder.js",
         "path": "StringDecoder",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "string_decoder"
       }
     },
     {
@@ -113,7 +118,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/string_decoder.js",
         "path": "StringDecoder",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "string_decoder"
       }
     },
     {
@@ -123,7 +129,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/string_decoder.js",
         "path": "StringDecoder",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "string_decoder"
       }
     },
     {
@@ -133,7 +140,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/string_decoder.js",
         "path": "StringDecoder.prototype",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "string_decoder"
       }
     },
     {
@@ -143,7 +151,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/string_decoder.js",
         "path": "StringDecoder.prototype.write",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "string_decoder"
       }
     },
     {
@@ -153,7 +162,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/string_decoder.js",
         "path": "StringDecoder",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "string_decoder"
       }
     },
     {
@@ -163,7 +173,8 @@
         "namespace": "commonjs",
         "module": "testdata/node_core_modules/assert.js",
         "path": "",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "assert"
       }
     },
     {
