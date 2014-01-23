@@ -28,6 +28,7 @@ describe('jsg output', function() {
 
     // Regressions
     {name: 'node_path_conflict'},
+    {name: 'constructor_overwrite_prototype_method', failing: true},
 
     {name: 'nodejs_require_ecma5_type', args: ['--plugin', 'node']},
   ].filter(function(test) { return new RegExp(process.env['F'] || '').test(test.name); }).forEach(function(test) {
@@ -40,6 +41,7 @@ describe('jsg output', function() {
       execFile(process.execPath /* node */, args, function(err, stdout, stderr) {
         if (stderr) console.error(stderr);
         assert.ifError(err);
+        if (test.failing) return done();
         var got = JSON.parse(stdout);
         if (process.env['EXP']) {
           var pp = JSON.stringify(got, null, 2);
