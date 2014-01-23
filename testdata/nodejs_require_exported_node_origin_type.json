@@ -1,0 +1,49 @@
+{
+  "symbols": [],
+  "refs": [
+    {
+      "file": "testdata/nodejs_require_exported_node_origin_type.js",
+      "span": "4-5",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "assert",
+        "path": ""
+      }
+    },
+    {
+      "file": "testdata/nodejs_require_exported_node_origin_type.js",
+      "span": "8-15",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "module": "module",
+        "path": "prototype.require",
+        "namespace": "commonjs"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require_exported_node_origin_type.js",
+      "span": "53-60",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "module": "module",
+        "path": "prototype.require",
+        "namespace": "commonjs"
+      }
+    },
+    {
+      "file": "testdata/nodejs_require_exported_node_origin_type.js",
+      "span": "99-100",
+      "target": {
+        "origin": "node",
+        "abstract": true,
+        "namespace": "commonjs",
+        "module": "assert",
+        "path": ""
+      }
+    }
+  ]
+}

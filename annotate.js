@@ -80,6 +80,10 @@ function getTypeID(type) {
     type._isCommonJSModule = true;
   }
 
+  if (type.path && type.path.indexOf('!node') == 0 && type.origin == 'node') {
+    type.path = type.name;
+  }
+
   var target = {origin: type.origin};
   switch (type.origin) {
   case 'ecma5':
