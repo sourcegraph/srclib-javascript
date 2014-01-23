@@ -98,10 +98,6 @@ function getTypeID(type) {
     type._isCommonJSModule = true;
   }
 
-  if (type.path && type.path.indexOf('!node') == 0 && type.origin == 'node') {
-    type.path = type.name;
-  }
-
   var target = {origin: type.origin};
   switch (type.origin) {
   case 'ecma5':
@@ -128,15 +124,13 @@ function getTypeID(type) {
     if (type.name == 'require') {
       type.path = type.name = 'module.prototype.require';
     } else if (type.name.indexOf('require.') == 0) {
-      type.path = type.name = type.name.replace(/^require\./, 'module.prototype.require.');
+      type.name = type.name.replace(/^require\./, 'module.prototype.require.');
     }
 
     if (/^console.[a-z]+/.test(type.name)) {
-      type.path = type.name = type.name.replace(/^console\./, 'console.Console.prototype.');
+      type.name = type.name.replace(/^console\./, 'console.Console.prototype.');
     }
-
-    if (!type.path) type.path = type.name;
-    var parts = type.path.split('.');
+    var parts = type.name.split('.');
     target.namespace = 'commonjs';
     target.module = parts[0];
     target.path = parts.slice(1).join('.');
