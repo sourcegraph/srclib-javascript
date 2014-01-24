@@ -5,6 +5,7 @@ var symbol_id = require('./symbol_id');
 describe('jsg output', function() {
   [
     {name: 'simple'},
+    {name: 'recv'},
     {name: 'builtin_origin'},
     {name: 'target_primitive'},
     {name: 'requirejs', args: ['--plugin', 'requirejs'], files: ['requirejs_b', 'requirejs']},
