@@ -1,53 +1,95 @@
 {
-  "symbols": [],
+  "symbols": [
+    {
+      "id": "!node.testdata/nodejs_require_mod0`js",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_require_mod0.js",
+        "path": ""
+      },
+      "recv": [
+        "@testdata/nodejs_require_mod0`js.exports",
+        "@testdata/nodejs_require_mod0`js.module.exports"
+      ],
+      "type": "{}",
+      "exported": true,
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    },
+    {
+      "id": "@testdata/nodejs_require_mod0`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_require_mod0.js",
+        "path": "exports"
+      },
+      "type": "{}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_require_mod0`js.mod0",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_require_mod0.js",
+        "path": "mod0"
+      },
+      "recv": [
+        "!node.testdata/node_modules/mod0/index`js",
+        "@testdata/node_modules/mod0/index`js.exports",
+        "@testdata/node_modules/mod0/index`js.module.exports"
+      ],
+      "type": "{a: fn(), bb: fn()}",
+      "file": "testdata/nodejs_require_mod0.js",
+      "ident": "4-8",
+      "defn": "4-26",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_require_mod0`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_require_mod0.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_require_mod0`js.exports"
+      ],
+      "type": "{}",
+      "exported": false
+    }
+  ],
   "refs": [
     {
       "file": "testdata/nodejs_require_mod0.js",
       "span": "4-8",
       "target": {
-        "namespace": "commonjs",
-        "module": "testdata/node_modules/mod0/index.js",
-        "path": "",
-        "abstract": false,
-        "npmPackage": {
-          "name": "mod0",
-          "dir": "testdata/node_modules/mod0",
-          "packageJSONFile": "testdata/node_modules/mod0/package.json",
-          "repository": {
-            "type": "git",
-            "url": "git://example.com/mod0.git"
-          }
-        }
+        "namespace": "file",
+        "module": "testdata/nodejs_require_mod0.js",
+        "path": "mod0",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_require_mod0.js",
       "span": "11-18",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "namespace": "commonjs",
-        "module": "module",
-        "path": "prototype.require"
+        "namespace": "file",
+        "module": "testdata/nodejs_require_mod0.js",
+        "path": "require",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_require_mod0.js",
       "span": "28-32",
       "target": {
-        "namespace": "commonjs",
-        "module": "testdata/node_modules/mod0/index.js",
-        "path": "",
-        "abstract": false,
-        "npmPackage": {
-          "name": "mod0",
-          "dir": "testdata/node_modules/mod0",
-          "packageJSONFile": "testdata/node_modules/mod0/package.json",
-          "repository": {
-            "type": "git",
-            "url": "git://example.com/mod0.git"
-          }
-        }
+        "namespace": "file",
+        "module": "testdata/nodejs_require_mod0.js",
+        "path": "mod0",
+        "abstract": false
       }
     },
     {
@@ -73,19 +115,10 @@
       "file": "testdata/nodejs_require_mod0.js",
       "span": "36-40",
       "target": {
-        "namespace": "commonjs",
-        "module": "testdata/node_modules/mod0/index.js",
-        "path": "",
-        "abstract": false,
-        "npmPackage": {
-          "name": "mod0",
-          "dir": "testdata/node_modules/mod0",
-          "packageJSONFile": "testdata/node_modules/mod0/package.json",
-          "repository": {
-            "type": "git",
-            "url": "git://example.com/mod0.git"
-          }
-        }
+        "namespace": "file",
+        "module": "testdata/nodejs_require_mod0.js",
+        "path": "mod0",
+        "abstract": false
       }
     },
     {
@@ -111,11 +144,10 @@
       "file": "testdata/nodejs_require_mod0.js",
       "span": "46-53",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "namespace": "commonjs",
-        "module": "module",
-        "path": "prototype.require"
+        "namespace": "file",
+        "module": "testdata/nodejs_require_mod0.js",
+        "path": "require",
+        "abstract": false
       }
     },
     {
@@ -123,8 +155,8 @@
       "span": "64-65",
       "target": {
         "namespace": "commonjs",
-        "module": "testdata/node_modules/mod0/index.js",
-        "path": "bb",
+        "module": "testdata/node_modules/mod0/b.js",
+        "path": "b",
         "abstract": false,
         "npmPackage": {
           "name": "mod0",

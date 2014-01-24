@@ -1,21 +1,30 @@
 {
   "symbols": [
     {
-      "path": "a",
-      "id": {
+      "id": "^.a",
+      "key": {
         "namespace": "global",
         "path": "a"
       },
       "type": "fn()",
-      "typeDef": {
-        "file": "testdata/type_ref.js",
-        "bodySpan": "0-15"
+      "file": "testdata/type_ref.js",
+      "ident": "9-10",
+      "defn": "0-15",
+      "exported": true
+    },
+    {
+      "id": "^.b",
+      "key": {
+        "namespace": "global",
+        "path": "b"
       },
-      "objectDef": {
-        "file": "testdata/type_ref.js",
-        "identSpan": "9-10",
-        "bodySpan": "0-15"
-      },
+      "recv": [
+        "^.a"
+      ],
+      "type": "fn()",
+      "file": "testdata/type_ref.js",
+      "ident": "20-21",
+      "defn": "20-25",
       "exported": true
     }
   ],
@@ -34,7 +43,7 @@
       "span": "20-21",
       "target": {
         "namespace": "global",
-        "path": "a",
+        "path": "b",
         "abstract": false
       }
     },

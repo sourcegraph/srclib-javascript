@@ -1,48 +1,105 @@
 {
-  "symbols": [],
+  "symbols": [
+    {
+      "id": "!node.testdata/nodejs_require_exported_node_origin_type`js",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_require_exported_node_origin_type.js",
+        "path": ""
+      },
+      "recv": [
+        "@testdata/nodejs_require_exported_node_origin_type`js.exports",
+        "@testdata/nodejs_require_exported_node_origin_type`js.module.exports"
+      ],
+      "type": "{}",
+      "exported": true,
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    },
+    {
+      "id": "@testdata/nodejs_require_exported_node_origin_type`js.a",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_require_exported_node_origin_type.js",
+        "path": "a"
+      },
+      "recv": [
+        "!node.testdata/nodejs_export_node_origin_type`js",
+        "@testdata/nodejs_export_node_origin_type`js.exports",
+        "@testdata/nodejs_export_node_origin_type`js.module.exports"
+      ],
+      "type": "fn(value: ?, message?: string)",
+      "file": "testdata/nodejs_require_exported_node_origin_type.js",
+      "ident": "4-5",
+      "defn": "4-51",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_require_exported_node_origin_type`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_require_exported_node_origin_type.js",
+        "path": "exports"
+      },
+      "type": "{}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_require_exported_node_origin_type`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_require_exported_node_origin_type.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_require_exported_node_origin_type`js.exports"
+      ],
+      "type": "{}",
+      "exported": false
+    }
+  ],
   "refs": [
     {
       "file": "testdata/nodejs_require_exported_node_origin_type.js",
       "span": "4-5",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "namespace": "commonjs",
-        "module": "assert",
-        "path": ""
+        "namespace": "file",
+        "module": "testdata/nodejs_require_exported_node_origin_type.js",
+        "path": "a",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_require_exported_node_origin_type.js",
       "span": "8-15",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "namespace": "commonjs",
-        "module": "module",
-        "path": "prototype.require"
+        "namespace": "file",
+        "module": "testdata/nodejs_require_exported_node_origin_type.js",
+        "path": "require",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_require_exported_node_origin_type.js",
       "span": "53-60",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "namespace": "commonjs",
-        "module": "module",
-        "path": "prototype.require"
+        "namespace": "file",
+        "module": "testdata/nodejs_require_exported_node_origin_type.js",
+        "path": "require",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_require_exported_node_origin_type.js",
       "span": "99-100",
       "target": {
-        "origin": "node",
-        "abstract": true,
         "namespace": "commonjs",
-        "module": "assert",
-        "path": ""
+        "module": "testdata/nodejs_export_node_origin_type_2.js",
+        "path": "b",
+        "abstract": false
       }
     }
   ]

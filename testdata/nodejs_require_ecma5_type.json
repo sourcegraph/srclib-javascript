@@ -1,25 +1,85 @@
 {
-  "symbols": [],
+  "symbols": [
+    {
+      "id": "!node.testdata/nodejs_require_ecma5_type`js",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_require_ecma5_type.js",
+        "path": ""
+      },
+      "recv": [
+        "@testdata/nodejs_require_ecma5_type`js.exports",
+        "@testdata/nodejs_require_ecma5_type`js.module.exports"
+      ],
+      "type": "{}",
+      "exported": true,
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    },
+    {
+      "id": "@testdata/nodejs_require_ecma5_type`js.a",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_require_ecma5_type.js",
+        "path": "a"
+      },
+      "recv": [
+        "!node.testdata/nodejs_export_ecma5`js",
+        "@testdata/nodejs_export_ecma5`js.exports",
+        "@testdata/nodejs_export_ecma5`js.module.exports"
+      ],
+      "type": "fn(from: number, to?: number)",
+      "file": "testdata/nodejs_require_ecma5_type.js",
+      "ident": "4-5",
+      "defn": "4-40",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_require_ecma5_type`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_require_ecma5_type.js",
+        "path": "exports"
+      },
+      "type": "{}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_require_ecma5_type`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_require_ecma5_type.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_require_ecma5_type`js.exports"
+      ],
+      "type": "{}",
+      "exported": false
+    }
+  ],
   "refs": [
     {
       "file": "testdata/nodejs_require_ecma5_type.js",
       "span": "4-5",
       "target": {
-        "origin": "ecma5",
-        "abstract": true,
-        "path": "Array.prototype.slice",
-        "namespace": "global"
+        "namespace": "file",
+        "module": "testdata/nodejs_require_ecma5_type.js",
+        "path": "a",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_require_ecma5_type.js",
       "span": "8-15",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "namespace": "commonjs",
-        "module": "module",
-        "path": "prototype.require"
+        "namespace": "file",
+        "module": "testdata/nodejs_require_ecma5_type.js",
+        "path": "require",
+        "abstract": false
       }
     }
   ]

@@ -6,12 +6,14 @@ describe('jsg output', function() {
   [
     {name: 'simple'},
     {name: 'recv'},
+    {name: 'method'},
     {name: 'builtin_origin'},
     {name: 'target_primitive'},
     {name: 'requirejs', args: ['--plugin', 'requirejs'], files: ['requirejs_b', 'requirejs']},
     {name: 'requirejs_objdef_file', args: ['--plugin', 'requirejs'], files: ['requirejs_objdef_def', 'requirejs_objdef_other']},
     {name: 'nodejs', args: ['--plugin', 'node']},
     {name: 'nodejs_require', args: ['--plugin', 'node']},
+    {name: 'nodejs_exports_ref', args: ['--plugin', 'node']},
     {name: 'nodejs_module_export_func', args: ['--plugin', 'node']},
     {name: 'anonymous'},
 
@@ -25,6 +27,9 @@ describe('jsg output', function() {
     {name: 'nodejs_require_exported_node_origin_type', args: ['--plugin', 'node']},
     {name: 'nodejs_console', args: ['--plugin', 'node']},
     {name: 'nodejs_core', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
+    {name: 'nodejs_EventEmitter', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
+    {name: 'nodejs_core_require', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
+    {name: 'nodejs_core_method', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
     {name: 'nodejs_globals', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
 
 
@@ -72,7 +77,8 @@ describe('symbol_id.parse', function() {
     {id: '!node.a/b`js', want: {namespace: 'commonjs', module: 'a/b.js', path: ''}},
     {id: '!requirejs.a/b`js.c.d', want: {namespace: 'requirejs', module: 'a/b.js', path: 'c.d'}},
     {id: '!requirejs.a/b`js', want: {namespace: 'requirejs', module: 'a/b.js', path: ''}},
-    {id: 'a.b', want: {namespace: 'global', path: 'a.b'}},
+    {id: '^.a.b', want: {namespace: 'global', path: 'a.b'}},
+    {id: '@a/b`js.a.b', want: {namespace: 'file', module: 'a/b.js', path: 'a.b'}},
   ].forEach(function(test) {
     it(test.id, function(done) {
       symbol_id.parse(test.id).should.eql(test.want);

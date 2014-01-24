@@ -1,42 +1,76 @@
 {
   "symbols": [
     {
-      "path": "!node.testdata/nodejs_type_ref`js.a",
-      "id": {
+      "id": "!node.testdata/nodejs_type_ref`js",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": ""
+      },
+      "recv": [
+        "@testdata/nodejs_type_ref`js.exports",
+        "@testdata/nodejs_type_ref`js.module.exports"
+      ],
+      "type": "{a: fn(), b: fn()}",
+      "exported": true,
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    },
+    {
+      "id": "!node.testdata/nodejs_type_ref`js.a",
+      "key": {
         "namespace": "commonjs",
         "module": "testdata/nodejs_type_ref.js",
         "path": "a"
       },
       "type": "fn()",
-      "typeDef": {
-        "file": "testdata/nodejs_type_ref.js",
-        "bodySpan": "59-72"
-      },
-      "objectDef": {
-        "file": "testdata/nodejs_type_ref.js",
-        "identSpan": "55-56",
-        "bodySpan": "59-72"
-      },
       "doc": "exports.b should be an \"alias\" of exports.a",
+      "file": "testdata/nodejs_type_ref.js",
+      "ident": "55-56",
+      "defn": "55-72",
       "exported": true
     },
     {
-      "path": "!node.testdata/nodejs_type_ref`js",
-      "id": {
+      "id": "!node.testdata/nodejs_type_ref`js.b",
+      "key": {
         "namespace": "commonjs",
         "module": "testdata/nodejs_type_ref.js",
-        "path": ""
+        "path": "b"
       },
-      "typeDef": {
-        "file": "testdata/nodejs_type_ref.js"
-      },
-      "objectDef": {},
-      "data": {
-        "nodejs": {
-          "moduleExports": true
-        }
-      },
+      "recv": [
+        "!node.testdata/nodejs_type_ref`js.a"
+      ],
+      "type": "fn()",
+      "file": "testdata/nodejs_type_ref.js",
+      "ident": "82-83",
+      "defn": "82-95",
       "exported": true
+    },
+    {
+      "id": "@testdata/nodejs_type_ref`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": "exports"
+      },
+      "type": "{a: fn(), b: fn()}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_type_ref`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_type_ref.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_type_ref`js.exports"
+      ],
+      "type": "{a: fn(), b: fn()}",
+      "exported": false
     }
   ],
   "refs": [
@@ -44,9 +78,9 @@
       "file": "testdata/nodejs_type_ref.js",
       "span": "47-54",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs_type_ref.js",
-        "path": "",
+        "path": "exports",
         "abstract": false
       }
     },
@@ -64,9 +98,9 @@
       "file": "testdata/nodejs_type_ref.js",
       "span": "74-81",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs_type_ref.js",
-        "path": "",
+        "path": "exports",
         "abstract": false
       }
     },
@@ -76,7 +110,7 @@
       "target": {
         "namespace": "commonjs",
         "module": "testdata/nodejs_type_ref.js",
-        "path": "a",
+        "path": "b",
         "abstract": false
       }
     },
@@ -84,9 +118,9 @@
       "file": "testdata/nodejs_type_ref.js",
       "span": "86-93",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs_type_ref.js",
-        "path": "",
+        "path": "exports",
         "abstract": false
       }
     },

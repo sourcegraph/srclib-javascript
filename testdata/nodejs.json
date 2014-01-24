@@ -1,75 +1,85 @@
 {
   "symbols": [
     {
-      "path": "!node.testdata/nodejs`js.a",
-      "id": {
+      "id": "!node.testdata/nodejs`js",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs.js",
+        "path": ""
+      },
+      "recv": [
+        "@testdata/nodejs`js.exports",
+        "@testdata/nodejs`js.module.exports"
+      ],
+      "type": "{a: fn() -> number, b: exports.b}",
+      "exported": true,
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    },
+    {
+      "id": "!node.testdata/nodejs`js.a",
+      "key": {
         "namespace": "commonjs",
         "module": "testdata/nodejs.js",
         "path": "a"
       },
       "type": "fn() -> number",
-      "typeDef": {
-        "file": "testdata/nodejs.js",
-        "bodySpan": "12-36"
-      },
-      "objectDef": {
-        "file": "testdata/nodejs.js",
-        "identSpan": "8-9",
-        "bodySpan": "12-36"
-      },
+      "file": "testdata/nodejs.js",
+      "ident": "8-9",
+      "defn": "8-36",
       "exported": true
     },
     {
-      "path": "!node.testdata/nodejs`js.b.c",
-      "id": {
+      "id": "!node.testdata/nodejs`js.b",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs.js",
+        "path": "b"
+      },
+      "type": "{c: number}",
+      "file": "testdata/nodejs.js",
+      "ident": "45-46",
+      "defn": "45-59",
+      "exported": true
+    },
+    {
+      "id": "!node.testdata/nodejs`js.b.c",
+      "key": {
         "namespace": "commonjs",
         "module": "testdata/nodejs.js",
         "path": "b.c"
       },
       "type": "number",
-      "typeDef": {},
-      "objectDef": {
-        "file": "testdata/nodejs.js",
-        "identSpan": "53-54",
-        "bodySpan": "56-57"
-      },
+      "file": "testdata/nodejs.js",
+      "ident": "53-54",
+      "defn": "53-57",
       "exported": true
     },
     {
-      "path": "!node.testdata/nodejs`js.b",
-      "id": {
-        "namespace": "commonjs",
+      "id": "@testdata/nodejs`js.exports",
+      "key": {
+        "namespace": "file",
         "module": "testdata/nodejs.js",
-        "path": "b"
+        "path": "exports"
       },
-      "typeDef": {
-        "file": "testdata/nodejs.js",
-        "bodySpan": "49-59"
-      },
-      "objectDef": {
-        "file": "testdata/nodejs.js",
-        "identSpan": "45-46",
-        "bodySpan": "49-59"
-      },
-      "exported": true
+      "type": "{a: fn() -> number, b: exports.b}",
+      "exported": false
     },
     {
-      "path": "!node.testdata/nodejs`js",
-      "id": {
-        "namespace": "commonjs",
+      "id": "@testdata/nodejs`js.module.exports",
+      "key": {
+        "namespace": "file",
         "module": "testdata/nodejs.js",
-        "path": ""
+        "path": "module.exports"
       },
-      "typeDef": {
-        "file": "testdata/nodejs.js"
-      },
-      "objectDef": {},
-      "data": {
-        "nodejs": {
-          "moduleExports": true
-        }
-      },
-      "exported": true
+      "recv": [
+        "@testdata/nodejs`js.exports"
+      ],
+      "type": "{a: fn() -> number, b: exports.b}",
+      "exported": false
     }
   ],
   "refs": [
@@ -77,9 +87,9 @@
       "file": "testdata/nodejs.js",
       "span": "0-7",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs.js",
-        "path": "",
+        "path": "exports",
         "abstract": false
       }
     },
@@ -97,9 +107,9 @@
       "file": "testdata/nodejs.js",
       "span": "37-44",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs.js",
-        "path": "",
+        "path": "exports",
         "abstract": false
       }
     },
@@ -115,21 +125,11 @@
     },
     {
       "file": "testdata/nodejs.js",
-      "span": "53-54",
-      "target": {
-        "namespace": "commonjs",
-        "module": "testdata/nodejs.js",
-        "path": "b.c",
-        "abstract": false
-      }
-    },
-    {
-      "file": "testdata/nodejs.js",
       "span": "61-68",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs.js",
-        "path": "",
+        "path": "exports",
         "abstract": false
       }
     },
@@ -147,19 +147,19 @@
       "file": "testdata/nodejs.js",
       "span": "72-78",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "module": "module",
-        "namespace": "global"
+        "namespace": "file",
+        "module": "testdata/nodejs.js",
+        "path": "module",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs.js",
       "span": "79-86",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs.js",
-        "path": "",
+        "path": "module.exports",
         "abstract": false
       }
     },
@@ -177,11 +177,10 @@
       "file": "testdata/nodejs.js",
       "span": "90-97",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "namespace": "commonjs",
-        "module": "module",
-        "path": "prototype.require"
+        "namespace": "file",
+        "module": "testdata/nodejs.js",
+        "path": "require",
+        "abstract": false
       }
     },
     {

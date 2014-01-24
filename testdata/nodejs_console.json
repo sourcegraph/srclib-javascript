@@ -1,26 +1,65 @@
 {
-  "symbols": [],
+  "symbols": [
+    {
+      "id": "!node.testdata/nodejs_console`js",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_console.js",
+        "path": ""
+      },
+      "recv": [
+        "@testdata/nodejs_console`js.exports",
+        "@testdata/nodejs_console`js.module.exports"
+      ],
+      "type": "{}",
+      "exported": true,
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    },
+    {
+      "id": "@testdata/nodejs_console`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_console.js",
+        "path": "exports"
+      },
+      "type": "{}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_console`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_console.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_console`js.exports"
+      ],
+      "type": "{}",
+      "exported": false
+    }
+  ],
   "refs": [
     {
       "file": "testdata/nodejs_console.js",
       "span": "0-7",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "namespace": "commonjs",
-        "module": "console",
-        "path": ""
+        "namespace": "global",
+        "path": "console",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_console.js",
       "span": "8-11",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "namespace": "commonjs",
-        "module": "console",
-        "path": "Console.prototype.log"
+        "namespace": "global",
+        "path": "console.log",
+        "abstract": false
       }
     }
   ]

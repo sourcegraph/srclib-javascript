@@ -52,8 +52,6 @@ function resolve(file, ident, state) {
 }
 
 function getRefTarget(file, ident) {
-  if (ident._path) return getConcretePathTypeID(ident._path);
-
   var expr;
   try {
     expr = tern.findQueryExpr(file, ident);
@@ -63,14 +61,9 @@ function getRefTarget(file, ident) {
   }
 
   var av = infer.expressionType(expr);
-  if (av.originNode && av.originNode._path) return getConcretePathTypeID(av.originNode._path);
-
+  if (av._path) return getConcretePathTypeID(av._path);
   var type = av.getType(false);
   if (!type) return null;
-  if (type.originNode && type.originNode._path) return getConcretePathTypeID(type.originNode._path);
-
-  if (type instanceof infer.Prim || type instanceof infer.Arr) return;
-
   return getTypeID(type);
 }
 

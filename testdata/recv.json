@@ -1,21 +1,30 @@
 {
   "symbols": [
     {
-      "path": "a",
-      "id": {
+      "id": "^.a",
+      "key": {
         "namespace": "global",
         "path": "a"
       },
       "type": "fn()",
-      "typeDef": {
-        "file": "testdata/recv.js",
-        "bodySpan": "8-21"
+      "file": "testdata/recv.js",
+      "ident": "4-5",
+      "defn": "4-21",
+      "exported": true
+    },
+    {
+      "id": "^.b",
+      "key": {
+        "namespace": "global",
+        "path": "b"
       },
-      "objectDef": {
-        "file": "testdata/recv.js",
-        "identSpan": "4-5",
-        "bodySpan": "8-21"
-      },
+      "recv": [
+        "^.a"
+      ],
+      "type": "fn()",
+      "file": "testdata/recv.js",
+      "ident": "27-28",
+      "defn": "27-32",
       "exported": true
     }
   ],
@@ -34,7 +43,7 @@
       "span": "27-28",
       "target": {
         "namespace": "global",
-        "path": "a",
+        "path": "b",
         "abstract": false
       }
     },

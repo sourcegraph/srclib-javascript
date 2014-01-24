@@ -1,0 +1,78 @@
+{
+  "symbols": [
+    {
+      "id": "!node.testdata/nodejs_exports_ref`js",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_exports_ref.js",
+        "path": ""
+      },
+      "recv": [
+        "@testdata/nodejs_exports_ref`js.exports",
+        "@testdata/nodejs_exports_ref`js.module.exports"
+      ],
+      "type": "{}",
+      "exported": true,
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    },
+    {
+      "id": "@testdata/nodejs_exports_ref`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_exports_ref.js",
+        "path": "exports"
+      },
+      "type": "{}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_exports_ref`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_exports_ref.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_exports_ref`js.exports"
+      ],
+      "type": "{}",
+      "exported": false
+    }
+  ],
+  "refs": [
+    {
+      "file": "testdata/nodejs_exports_ref.js",
+      "span": "45-51",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_exports_ref.js",
+        "path": "module",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_exports_ref.js",
+      "span": "52-59",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_exports_ref.js",
+        "path": "module.exports",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_exports_ref.js",
+      "span": "61-68",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_exports_ref.js",
+        "path": "exports",
+        "abstract": false
+      }
+    }
+  ]
+}

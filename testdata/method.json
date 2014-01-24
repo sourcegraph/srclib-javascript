@@ -1,0 +1,123 @@
+{
+  "symbols": [
+    {
+      "id": "^.A",
+      "key": {
+        "namespace": "global",
+        "path": "A"
+      },
+      "type": "fn()",
+      "file": "testdata/method.js",
+      "ident": "9-10",
+      "defn": "0-15",
+      "exported": true
+    },
+    {
+      "id": "^.A.prototype",
+      "key": {
+        "namespace": "global",
+        "path": "A.prototype"
+      },
+      "type": "{b: fn()}",
+      "exported": true
+    },
+    {
+      "id": "^.A.prototype.b",
+      "key": {
+        "namespace": "global",
+        "path": "A.prototype.b"
+      },
+      "type": "fn()",
+      "file": "testdata/method.js",
+      "ident": "28-29",
+      "defn": "28-45",
+      "exported": true
+    },
+    {
+      "id": "^.a",
+      "key": {
+        "namespace": "global",
+        "path": "a"
+      },
+      "type": "{}",
+      "file": "testdata/method.js",
+      "ident": "52-53",
+      "defn": "52-63",
+      "exported": true
+    }
+  ],
+  "refs": [
+    {
+      "file": "testdata/method.js",
+      "span": "9-10",
+      "target": {
+        "namespace": "global",
+        "path": "A",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/method.js",
+      "span": "16-17",
+      "target": {
+        "namespace": "global",
+        "path": "A",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/method.js",
+      "span": "18-27",
+      "target": {
+        "namespace": "global",
+        "path": "A.prototype",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/method.js",
+      "span": "28-29",
+      "target": {
+        "namespace": "global",
+        "path": "A.prototype.b",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/method.js",
+      "span": "52-53",
+      "target": {
+        "namespace": "global",
+        "path": "a",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/method.js",
+      "span": "60-61",
+      "target": {
+        "namespace": "global",
+        "path": "A",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/method.js",
+      "span": "65-66",
+      "target": {
+        "namespace": "global",
+        "path": "a",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/method.js",
+      "span": "67-68",
+      "target": {
+        "namespace": "global",
+        "path": "A.prototype.b",
+        "abstract": false
+      }
+    }
+  ]
+}

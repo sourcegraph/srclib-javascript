@@ -1,197 +1,180 @@
 {
   "symbols": [
     {
-      "path": "Protocol.prototype.serialize.!0.seq",
-      "id": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0.seq"
+      "id": "@testdata/node_path_conflict`js.@176.@local.req",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@176.@local.req"
+      },
+      "recv": [
+        "@testdata/node_path_conflict`js.@261.@local.req",
+        "@testdata/node_path_conflict`js.@345.@local.req"
+      ],
+      "type": "{seq: number}",
+      "file": "testdata/node_path_conflict.js",
+      "ident": "185-188",
+      "defn": "185-188",
+      "exported": false
+    },
+    {
+      "id": "@testdata/node_path_conflict`js.@261.@local.req",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@261.@local.req"
+      },
+      "type": "{seq: number}",
+      "file": "testdata/node_path_conflict.js",
+      "ident": "270-273",
+      "defn": "270-273",
+      "exported": false
+    },
+    {
+      "id": "@testdata/node_path_conflict`js.@261.@local.req.seq",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@261.@local.req.seq"
       },
       "type": "number",
-      "typeDef": {},
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "79-82",
-        "bodySpan": "85-86"
-      },
+      "file": "testdata/node_path_conflict.js",
+      "ident": "79-82",
+      "defn": "79-86",
       "exported": false
     },
     {
-      "path": "Protocol.prototype.serialize.!0",
-      "id": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0"
+      "id": "@testdata/node_path_conflict`js.@345.@local.req",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@345.@local.req"
       },
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js",
-        "bodySpan": "369-371"
-      },
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "369-371"
-      },
+      "type": "{seq: number}",
+      "file": "testdata/node_path_conflict.js",
+      "ident": "354-357",
+      "defn": "354-357",
       "exported": false
     },
     {
-      "path": "Protocol.prototype.serialize",
-      "id": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize"
+      "id": "@testdata/node_path_conflict`js.@57.@local.req",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@57.@local.req"
       },
-      "type": "fn(req: Protocol.prototype.serialize.!0)",
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js",
-        "bodySpan": "57-89"
-      },
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "45-54",
-        "bodySpan": "57-89"
-      },
-      "exported": true
+      "recv": [
+        "@testdata/node_path_conflict`js.@176.@local.req",
+        "@testdata/node_path_conflict`js.@261.@local.req",
+        "@testdata/node_path_conflict`js.@345.@local.req"
+      ],
+      "type": "{seq: number}",
+      "file": "testdata/node_path_conflict.js",
+      "ident": "66-69",
+      "defn": "66-69",
+      "exported": false
     },
     {
-      "path": "Protocol.prototype",
-      "id": {
-        "namespace": "global",
-        "path": "Protocol.prototype"
-      },
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js"
-      },
-      "objectDef": {},
-      "exported": true
-    },
-    {
-      "path": "Protocol",
-      "id": {
-        "namespace": "global",
-        "path": "Protocol"
-      },
-      "type": "fn()",
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js",
-        "bodySpan": "0-24"
-      },
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "9-17",
-        "bodySpan": "0-24"
-      },
-      "exported": true
-    },
-    {
-      "path": "Client.prototype.req",
-      "id": {
-        "namespace": "global",
-        "path": "Client.prototype.req"
-      },
-      "type": "fn(req: Protocol.prototype.serialize.!0)",
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js",
-        "bodySpan": "176-225"
-      },
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "170-173",
-        "bodySpan": "176-225"
-      },
-      "exported": true
-    },
-    {
-      "path": "Client.prototype.setBreakpoint.!0.seq",
-      "id": {
-        "namespace": "global",
-        "path": "Client.prototype.setBreakpoint.!0.seq"
+      "id": "@testdata/node_path_conflict`js.@57.@local.req.seq",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@57.@local.req.seq"
       },
       "type": "number",
-      "typeDef": {},
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "79-82",
-        "bodySpan": "85-86"
-      },
+      "file": "testdata/node_path_conflict.js",
+      "ident": "79-82",
+      "defn": "79-86",
       "exported": false
     },
     {
-      "path": "Client.prototype.setBreakpoint.!0",
-      "id": {
-        "namespace": "global",
-        "path": "Client.prototype.setBreakpoint.!0"
-      },
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js",
-        "bodySpan": "285-287"
-      },
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "285-287"
-      },
-      "exported": false
-    },
-    {
-      "path": "Client.prototype.setBreakpoint",
-      "id": {
-        "namespace": "global",
-        "path": "Client.prototype.setBreakpoint"
-      },
-      "type": "fn(req: Client.prototype.setBreakpoint.!0)",
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js",
-        "bodySpan": "261-307"
-      },
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "245-258",
-        "bodySpan": "261-307"
-      },
-      "exported": true
-    },
-    {
-      "path": "Client.prototype.clearBreakpoint",
-      "id": {
-        "namespace": "global",
-        "path": "Client.prototype.clearBreakpoint"
-      },
-      "type": "fn(req: Protocol.prototype.serialize.!0)",
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js",
-        "bodySpan": "345-391"
-      },
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "327-342",
-        "bodySpan": "345-391"
-      },
-      "exported": true
-    },
-    {
-      "path": "Client.prototype",
-      "id": {
-        "namespace": "global",
-        "path": "Client.prototype"
-      },
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js"
-      },
-      "objectDef": {},
-      "exported": true
-    },
-    {
-      "path": "Client",
-      "id": {
+      "id": "^.Client",
+      "key": {
         "namespace": "global",
         "path": "Client"
       },
       "type": "fn()",
-      "typeDef": {
-        "file": "testdata/node_path_conflict.js",
-        "bodySpan": "92-151"
+      "file": "testdata/node_path_conflict.js",
+      "ident": "101-107",
+      "defn": "92-151",
+      "exported": true
+    },
+    {
+      "id": "^.Client.prototype",
+      "key": {
+        "namespace": "global",
+        "path": "Client.prototype"
       },
-      "objectDef": {
-        "file": "testdata/node_path_conflict.js",
-        "identSpan": "101-107",
-        "bodySpan": "92-151"
+      "type": "{clearBreakpoint: fn(req: req), req: fn(req: req), setBreakpoint: fn(req: req)}",
+      "exported": true
+    },
+    {
+      "id": "^.Client.prototype.clearBreakpoint",
+      "key": {
+        "namespace": "global",
+        "path": "Client.prototype.clearBreakpoint"
       },
+      "type": "fn(req: req)",
+      "file": "testdata/node_path_conflict.js",
+      "ident": "327-342",
+      "defn": "327-391",
+      "exported": true
+    },
+    {
+      "id": "^.Client.prototype.req",
+      "key": {
+        "namespace": "global",
+        "path": "Client.prototype.req"
+      },
+      "type": "fn(req: req)",
+      "file": "testdata/node_path_conflict.js",
+      "ident": "170-173",
+      "defn": "170-225",
+      "exported": true
+    },
+    {
+      "id": "^.Client.prototype.setBreakpoint",
+      "key": {
+        "namespace": "global",
+        "path": "Client.prototype.setBreakpoint"
+      },
+      "type": "fn(req: req)",
+      "file": "testdata/node_path_conflict.js",
+      "ident": "245-258",
+      "defn": "245-307",
+      "exported": true
+    },
+    {
+      "id": "^.Protocol",
+      "key": {
+        "namespace": "global",
+        "path": "Protocol"
+      },
+      "type": "fn()",
+      "file": "testdata/node_path_conflict.js",
+      "ident": "9-17",
+      "defn": "0-24",
+      "exported": true
+    },
+    {
+      "id": "^.Protocol.prototype",
+      "key": {
+        "namespace": "global",
+        "path": "Protocol.prototype"
+      },
+      "type": "{serialize: fn(req: req)}",
+      "exported": true
+    },
+    {
+      "id": "^.Protocol.prototype.serialize",
+      "key": {
+        "namespace": "global",
+        "path": "Protocol.prototype.serialize"
+      },
+      "type": "fn(req: req)",
+      "file": "testdata/node_path_conflict.js",
+      "ident": "45-54",
+      "defn": "45-89",
       "exported": true
     }
   ],
@@ -236,8 +219,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "66-69",
       "target": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@57.@local.req",
         "abstract": false
       }
     },
@@ -245,8 +229,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "75-78",
       "target": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@57.@local.req",
         "abstract": false
       }
     },
@@ -254,8 +239,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "79-82",
       "target": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0.seq",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@57.@local.req.seq",
         "abstract": false
       }
     },
@@ -308,8 +294,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "185-188",
       "target": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@176.@local.req",
         "abstract": false
       }
     },
@@ -326,8 +313,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "218-221",
       "target": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@176.@local.req",
         "abstract": false
       }
     },
@@ -362,8 +350,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "270-273",
       "target": {
-        "namespace": "global",
-        "path": "Client.prototype.setBreakpoint.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@261.@local.req",
         "abstract": false
       }
     },
@@ -371,8 +360,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "279-282",
       "target": {
-        "namespace": "global",
-        "path": "Client.prototype.setBreakpoint.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@261.@local.req",
         "abstract": false
       }
     },
@@ -389,8 +379,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "300-303",
       "target": {
-        "namespace": "global",
-        "path": "Client.prototype.setBreakpoint.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@261.@local.req",
         "abstract": false
       }
     },
@@ -425,8 +416,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "354-357",
       "target": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@345.@local.req",
         "abstract": false
       }
     },
@@ -434,8 +426,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "363-366",
       "target": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@345.@local.req",
         "abstract": false
       }
     },
@@ -452,8 +445,9 @@
       "file": "testdata/node_path_conflict.js",
       "span": "384-387",
       "target": {
-        "namespace": "global",
-        "path": "Protocol.prototype.serialize.!0",
+        "namespace": "file",
+        "module": "testdata/node_path_conflict.js",
+        "path": "@345.@local.req",
         "abstract": false
       }
     }

@@ -1,51 +1,98 @@
 {
   "symbols": [
     {
-      "path": "!node.testdata/nodejs_export_function_a_b`js.b",
-      "id": {
-        "namespace": "commonjs",
-        "module": "testdata/nodejs_export_function_a_b.js",
-        "path": "b"
-      },
-      "type": "fn()",
-      "typeDef": {
-        "file": "testdata/nodejs_export_function_a_b.js",
-        "bodySpan": "15-28"
-      },
-      "objectDef": {
-        "file": "testdata/nodejs_export_function_a_b.js",
-        "identSpan": "40-41",
-        "bodySpan": "44-47"
-      },
-      "exported": true
-    },
-    {
-      "path": "!node.testdata/nodejs_export_function_a_b`js",
-      "id": {
+      "id": "!node.testdata/nodejs_export_function_a_b`js",
+      "key": {
         "namespace": "commonjs",
         "module": "testdata/nodejs_export_function_a_b.js",
         "path": ""
       },
-      "typeDef": {
-        "file": "testdata/nodejs_export_function_a_b.js"
-      },
-      "objectDef": {},
+      "recv": [
+        "@testdata/nodejs_export_function_a_b`js.exports",
+        "@testdata/nodejs_export_function_a_b`js.module.exports"
+      ],
+      "type": "{b: fn()}",
+      "exported": true,
       "data": {
         "nodejs": {
           "moduleExports": true
         }
+      }
+    },
+    {
+      "id": "!node.testdata/nodejs_export_function_a_b`js.b",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "b"
       },
+      "recv": [
+        "@testdata/nodejs_export_function_a_b`js.a.b"
+      ],
+      "type": "fn()",
+      "file": "testdata/nodejs_export_function_a_b.js",
+      "ident": "40-41",
+      "defn": "40-47",
       "exported": true
+    },
+    {
+      "id": "@testdata/nodejs_export_function_a_b`js.a",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "a"
+      },
+      "type": "{b: fn()}",
+      "file": "testdata/nodejs_export_function_a_b.js",
+      "ident": "4-5",
+      "defn": "4-30",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_export_function_a_b`js.a.b",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "a.b"
+      },
+      "type": "fn()",
+      "file": "testdata/nodejs_export_function_a_b.js",
+      "ident": "12-13",
+      "defn": "12-28",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_export_function_a_b`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "exports"
+      },
+      "type": "{b: fn()}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_export_function_a_b`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_export_function_a_b`js.exports"
+      ],
+      "type": "{b: fn()}",
+      "exported": false
     }
   ],
   "refs": [
     {
       "file": "testdata/nodejs_export_function_a_b.js",
-      "span": "12-13",
+      "span": "4-5",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs_export_function_a_b.js",
-        "path": "b",
+        "path": "a",
         "abstract": false
       }
     },
@@ -53,9 +100,9 @@
       "file": "testdata/nodejs_export_function_a_b.js",
       "span": "32-39",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs_export_function_a_b.js",
-        "path": "",
+        "path": "exports",
         "abstract": false
       }
     },
@@ -71,11 +118,21 @@
     },
     {
       "file": "testdata/nodejs_export_function_a_b.js",
+      "span": "44-45",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_export_function_a_b.js",
+        "path": "a",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_export_function_a_b.js",
       "span": "46-47",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs_export_function_a_b.js",
-        "path": "b",
+        "path": "a.b",
         "abstract": false
       }
     }

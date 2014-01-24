@@ -1,100 +1,105 @@
 {
   "symbols": [
     {
-      "path": "a",
-      "id": {
+      "id": "@testdata/simple`js.E.@local.f",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/simple.js",
+        "path": "E.@local.f"
+      },
+      "file": "testdata/simple.js",
+      "ident": "91-92",
+      "defn": "91-92",
+      "exported": false
+    },
+    {
+      "id": "@testdata/simple`js.E.@local.g",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/simple.js",
+        "path": "E.@local.g"
+      },
+      "recv": [
+        "@testdata/simple`js.E.@local.f"
+      ],
+      "file": "testdata/simple.js",
+      "ident": "102-103",
+      "defn": "102-107",
+      "exported": false
+    },
+    {
+      "id": "^.E",
+      "key": {
         "namespace": "global",
-        "path": "a"
+        "path": "E"
       },
-      "type": "number",
-      "typeDef": {},
-      "objectDef": {
-        "file": "testdata/simple.js",
-        "identSpan": "4-5",
-        "bodySpan": "8-9"
-      },
+      "type": "fn(f: ?)",
+      "file": "testdata/simple.js",
+      "ident": "89-90",
+      "defn": "80-122",
       "exported": true
     },
     {
-      "path": "b.c.d",
-      "id": {
-        "namespace": "global",
-        "path": "b.c.d"
-      },
-      "type": "number",
-      "typeDef": {},
-      "objectDef": {
-        "file": "testdata/simple.js",
-        "identSpan": "28-29",
-        "bodySpan": "31-32"
-      },
-      "exported": true
-    },
-    {
-      "path": "b.c",
-      "id": {
-        "namespace": "global",
-        "path": "b.c"
-      },
-      "typeDef": {
-        "file": "testdata/simple.js",
-        "bodySpan": "27-33"
-      },
-      "objectDef": {
-        "file": "testdata/simple.js",
-        "identSpan": "24-25",
-        "bodySpan": "27-33"
-      },
-      "exported": true
-    },
-    {
-      "path": "b",
-      "id": {
-        "namespace": "global",
-        "path": "b"
-      },
-      "typeDef": {
-        "file": "testdata/simple.js",
-        "bodySpan": "23-34"
-      },
-      "objectDef": {
-        "file": "testdata/simple.js",
-        "identSpan": "19-20",
-        "bodySpan": "23-34"
-      },
-      "exported": true
-    },
-    {
-      "path": "E.h",
-      "id": {
+      "id": "^.E.h",
+      "key": {
         "namespace": "global",
         "path": "E.h"
       },
       "type": "number",
-      "typeDef": {},
-      "objectDef": {
-        "file": "testdata/simple.js",
-        "identSpan": "131-132",
-        "bodySpan": "135-136"
-      },
+      "file": "testdata/simple.js",
+      "ident": "131-132",
+      "defn": "131-136",
       "exported": true
     },
     {
-      "path": "E",
-      "id": {
+      "id": "^.a",
+      "key": {
         "namespace": "global",
-        "path": "E"
+        "path": "a"
       },
-      "type": "fn(f: ?) -> !0",
-      "typeDef": {
-        "file": "testdata/simple.js",
-        "bodySpan": "80-122"
+      "type": "number",
+      "file": "testdata/simple.js",
+      "ident": "4-5",
+      "defn": "4-9",
+      "exported": true
+    },
+    {
+      "id": "^.b",
+      "key": {
+        "namespace": "global",
+        "path": "b"
       },
-      "objectDef": {
-        "file": "testdata/simple.js",
-        "identSpan": "89-90",
-        "bodySpan": "80-122"
+      "type": "{c: c}",
+      "file": "testdata/simple.js",
+      "ident": "19-20",
+      "defn": "19-34",
+      "exported": true
+    },
+    {
+      "id": "^.b.c",
+      "key": {
+        "namespace": "global",
+        "path": "b.c"
       },
+      "type": "{d: number}",
+      "file": "testdata/simple.js",
+      "ident": "24-25",
+      "defn": "24-33",
+      "exported": true
+    },
+    {
+      "id": "^.b.c.d",
+      "key": {
+        "namespace": "global",
+        "path": "b.c.d"
+      },
+      "recv": [
+        "^.a"
+      ],
+      "type": "number",
+      "file": "testdata/simple.js",
+      "ident": "28-29",
+      "defn": "28-32",
       "exported": true
     }
   ],
@@ -128,28 +133,10 @@
     },
     {
       "file": "testdata/simple.js",
-      "span": "24-25",
-      "target": {
-        "namespace": "global",
-        "path": "b.c",
-        "abstract": false
-      }
-    },
-    {
-      "file": "testdata/simple.js",
-      "span": "28-29",
-      "target": {
-        "namespace": "global",
-        "path": "b.c.d",
-        "abstract": false
-      }
-    },
-    {
-      "file": "testdata/simple.js",
       "span": "31-32",
       "target": {
         "namespace": "global",
-        "path": "b.c.d",
+        "path": "a",
         "abstract": false
       }
     },
@@ -211,10 +198,18 @@
       "file": "testdata/simple.js",
       "span": "57-62",
       "target": {
-        "origin": "ecma5",
-        "abstract": true,
+        "namespace": "global",
         "path": "Array",
-        "namespace": "global"
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/simple.js",
+      "span": "71-77",
+      "target": {
+        "namespace": "global",
+        "path": "String.prototype.length",
+        "abstract": false
       }
     },
     {
@@ -223,6 +218,46 @@
       "target": {
         "namespace": "global",
         "path": "E",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/simple.js",
+      "span": "91-92",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/simple.js",
+        "path": "E.@local.f",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/simple.js",
+      "span": "102-103",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/simple.js",
+        "path": "E.@local.g",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/simple.js",
+      "span": "106-107",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/simple.js",
+        "path": "E.@local.f",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/simple.js",
+      "span": "118-119",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/simple.js",
+        "path": "E.@local.g",
         "abstract": false
       }
     },
@@ -275,20 +310,18 @@
       "file": "testdata/simple.js",
       "span": "149-153",
       "target": {
-        "origin": "ecma5",
-        "abstract": true,
+        "namespace": "global",
         "path": "Date",
-        "namespace": "global"
+        "abstract": false
       }
     },
     {
       "file": "testdata/simple.js",
       "span": "160-171",
       "target": {
-        "origin": "ecma5",
-        "abstract": true,
+        "namespace": "global",
         "path": "Date.prototype.toUTCString",
-        "namespace": "global"
+        "abstract": false
       }
     }
   ]

@@ -1,0 +1,148 @@
+{
+  "symbols": [
+    {
+      "id": "!node.testdata/nodejs_core_method`js",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_core_method.js",
+        "path": ""
+      },
+      "recv": [
+        "@testdata/nodejs_core_method`js.exports",
+        "@testdata/nodejs_core_method`js.module.exports"
+      ],
+      "type": "{}",
+      "exported": true,
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    },
+    {
+      "id": "@testdata/nodejs_core_method`js.StringDecoder",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "StringDecoder"
+      },
+      "recv": [
+        "!node.testdata/node_core_modules/string_decoder`js.StringDecoder"
+      ],
+      "type": "fn(encoding: string)",
+      "file": "testdata/nodejs_core_method.js",
+      "ident": "4-17",
+      "defn": "4-59",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_core_method`js.decoder",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "decoder"
+      },
+      "type": "{charBuffer: ?, charReceived: number, detectIncompleteChar: fn(buffer: ?) -> number, encoding: string, surrogateSize: number, write: fn(buffer: string) -> string, ...}",
+      "file": "testdata/nodejs_core_method.js",
+      "ident": "65-72",
+      "defn": "65-100",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_core_method`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "exports"
+      },
+      "type": "{}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_core_method`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_core_method`js.exports"
+      ],
+      "type": "{}",
+      "exported": false
+    }
+  ],
+  "refs": [
+    {
+      "file": "testdata/nodejs_core_method.js",
+      "span": "4-17",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "StringDecoder",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core_method.js",
+      "span": "20-27",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "require",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core_method.js",
+      "span": "46-59",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/string_decoder.js",
+        "path": "StringDecoder",
+        "abstract": false,
+        "nodejsCoreModule": "string_decoder"
+      }
+    },
+    {
+      "file": "testdata/nodejs_core_method.js",
+      "span": "65-72",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "decoder",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core_method.js",
+      "span": "79-92",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "StringDecoder",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core_method.js",
+      "span": "102-109",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "decoder",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core_method.js",
+      "span": "110-115",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_method.js",
+        "path": "decoder.write",
+        "abstract": false
+      }
+    }
+  ]
+}

@@ -3,28 +3,32 @@ var tern = require('tern');
 
 tern.registerPlugin('jsg', function(server) {
   function markNodeModules(state) {
+    function markNodeModule(av) {
+      if (!av.metaData) av.metaData = {};
+      av.metaData.nodejs = {moduleExports: true};
+    }
     var mods = state.cx.parent._node.modules;
     for (var modName in mods) {
-      var mod = mods[modName].getType();
-      if (!mod) continue;
-      if (!mod.metaData) mod.metaData = {};
-      mod.metaData.nodejs = {moduleExports: true};
+      var mod = mods[modName];
+      markNodeModule(mod);
     }
   }
 
   function markAMDModules(state) {
+    function markAMDModule(av) {
+      if (!av.metaData) av.metaData = {};
+      av.metaData.amd = {module: true};
+    }
     var mods = state.cx.parent._requireJS.interfaces;
     for (var modName in mods) {
-      var mod = mods[modName].getType();
-      if (!mod) continue;
-      if (!mod.metaData) mod.metaData = {};
-      mod.metaData.amd = {module: true};
+      var mod = mods[modName];
+      markAMDModule(mod);
     }
   }
 
   return {
     passes: {
-      preCondenseReach: function(state) {
+      postDumpScopeWalk: function(state) {
         if (server.options.plugins.node) markNodeModules(state);
         if (server.options.plugins.requirejs) markAMDModules(state);
       },

@@ -1,57 +1,61 @@
 {
   "symbols": [
     {
-      "path": "!node.testdata/nodejs_module_export_func`js.!ret.b",
-      "id": {
-        "namespace": "commonjs",
-        "module": "testdata/nodejs_module_export_func.js",
-        "path": "!ret.b"
-      },
-      "type": "number",
-      "typeDef": {},
-      "objectDef": {
-        "file": "testdata/nodejs_module_export_func.js",
-        "identSpan": "41-42",
-        "bodySpan": "44-45"
-      },
-      "exported": false
-    },
-    {
-      "path": "!node.testdata/nodejs_module_export_func`js.!ret",
-      "id": {
-        "namespace": "commonjs",
-        "module": "testdata/nodejs_module_export_func.js",
-        "path": "!ret"
-      },
-      "typeDef": {
-        "file": "testdata/nodejs_module_export_func.js",
-        "bodySpan": "40-46"
-      },
-      "objectDef": {
-        "file": "testdata/nodejs_module_export_func.js",
-        "identSpan": "40-46"
-      },
-      "exported": false
-    },
-    {
-      "path": "!node.testdata/nodejs_module_export_func`js",
-      "id": {
+      "id": "!node.testdata/nodejs_module_export_func`js",
+      "key": {
         "namespace": "commonjs",
         "module": "testdata/nodejs_module_export_func.js",
         "path": ""
       },
-      "type": "fn(a: ?) -> !node.testdata/nodejs_module_export_func`js.!ret",
-      "typeDef": {
-        "file": "testdata/nodejs_module_export_func.js",
-        "bodySpan": "17-49"
-      },
-      "objectDef": {},
+      "recv": [
+        "@testdata/nodejs_module_export_func`js.exports",
+        "@testdata/nodejs_module_export_func`js.module.exports"
+      ],
+      "type": "fn(a: ?) -> {b}",
+      "exported": true,
       "data": {
         "nodejs": {
           "moduleExports": true
         }
+      }
+    },
+    {
+      "id": "@testdata/nodejs_module_export_func`js.@17.@local.a",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_module_export_func.js",
+        "path": "@17.@local.a"
       },
-      "exported": true
+      "file": "testdata/nodejs_module_export_func.js",
+      "ident": "26-27",
+      "defn": "26-27",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_module_export_func`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_module_export_func.js",
+        "path": "exports"
+      },
+      "type": "{}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_module_export_func`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_module_export_func.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_module_export_func`js.exports"
+      ],
+      "type": "fn(a: ?) -> {b}",
+      "file": "testdata/nodejs_module_export_func.js",
+      "ident": "7-14",
+      "defn": "7-49",
+      "exported": false
     }
   ],
   "refs": [
@@ -59,29 +63,29 @@
       "file": "testdata/nodejs_module_export_func.js",
       "span": "0-6",
       "target": {
-        "origin": "node",
-        "abstract": true,
-        "module": "module",
-        "namespace": "global"
+        "namespace": "file",
+        "module": "testdata/nodejs_module_export_func.js",
+        "path": "module",
+        "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_module_export_func.js",
       "span": "7-14",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs_module_export_func.js",
-        "path": "",
+        "path": "module.exports",
         "abstract": false
       }
     },
     {
       "file": "testdata/nodejs_module_export_func.js",
-      "span": "41-42",
+      "span": "26-27",
       "target": {
-        "namespace": "commonjs",
+        "namespace": "file",
         "module": "testdata/nodejs_module_export_func.js",
-        "path": "!ret.b",
+        "path": "@17.@local.a",
         "abstract": false
       }
     }

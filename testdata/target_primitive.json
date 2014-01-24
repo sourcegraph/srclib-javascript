@@ -1,4 +1,14 @@
 {
   "symbols": [],
-  "refs": []
+  "refs": [
+    {
+      "file": "testdata/target_primitive.js",
+      "span": "6-12",
+      "target": {
+        "namespace": "global",
+        "path": "String.prototype.length",
+        "abstract": false
+      }
+    }
+  ]
 }
