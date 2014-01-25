@@ -147,10 +147,12 @@ function astNodeFilename(node) {
   // child nodes does. In that case, get sourceFile from the child node.
   // TODO(sqs): why does this occur?
   if (!node.sourceFile) {
-    var childNode = node.property || node.argument || node.left;
-    node.sourceFile = childNode.sourceFile;
-  }
-  return node.sourceFile.name;
+    for (var prop in node) if (node.hasOwnProperty(prop) && prop != 'type' && prop != 'start' && prop != 'end' && prop != 'scope') {
+      var filename;
+      if (node[prop] != node) filename = astNodeFilename(node[prop]);
+      if (filename) return filename;
+    }
+  } else return node.sourceFile.name;
 }
 
 function runPass(functions) {
