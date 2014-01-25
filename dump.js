@@ -11,7 +11,7 @@ exports.dump = function(origins, options) {
   var avals = scopewalk.walk(allOrigins);
   for (var path in avals) {
     var aval = avals[path];
-    aval.backprop();
+    backprop(aval);
     if (!state.isTarget(aval.origin)) delete avals[path];
   }
 
@@ -47,7 +47,7 @@ function hop(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 }
 
-infer.AVal.prototype.backprop = function() {
+function backprop(aval) {
   function getForwardsRecursively(av, seen) {
     if (!seen) seen = [];
     if (av.forward) for (var i = 0; i < av.forward.length; i++) {
@@ -68,12 +68,12 @@ infer.AVal.prototype.backprop = function() {
     return seen;
   }
 
-  var allFwds = getForwardsRecursively(this);
+  var allFwds = getForwardsRecursively(aval);
   for (var i = 0; i < allFwds.length; i++) {
     var fwd = allFwds[i];
-    if (fwd == this) continue;
+    if (fwd == aval) continue;
     if (!fwd.recv) fwd.recv = [];
-    fwd.recv.push(this);
+    fwd.recv.push(aval);
   }
 }
 
