@@ -11,12 +11,14 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_export_function_a_b.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_export_function_a_b.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{b: fn()}",
@@ -38,7 +40,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_export_function_a_b.js",
-          "path": "a.b"
+          "path": "a.b",
+          "abstract": false
         }
       ],
       "type": "fn()",
@@ -58,12 +61,14 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_other_module_type_ref_a_b.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_other_module_type_ref_a_b.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{}",
@@ -121,7 +126,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_export_function_a_b.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{b: fn()}",
@@ -148,7 +154,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_other_module_type_ref_a_b.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{}",

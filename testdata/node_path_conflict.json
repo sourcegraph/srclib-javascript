@@ -11,12 +11,14 @@
         {
           "namespace": "file",
           "module": "testdata/node_path_conflict.js",
-          "path": "@261.@local.req"
+          "path": "@261.@local.req",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/node_path_conflict.js",
-          "path": "@345.@local.req"
+          "path": "@345.@local.req",
+          "abstract": false
         }
       ],
       "type": "{seq: number}",
@@ -75,17 +77,20 @@
         {
           "namespace": "file",
           "module": "testdata/node_path_conflict.js",
-          "path": "@176.@local.req"
+          "path": "@176.@local.req",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/node_path_conflict.js",
-          "path": "@261.@local.req"
+          "path": "@261.@local.req",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/node_path_conflict.js",
-          "path": "@345.@local.req"
+          "path": "@345.@local.req",
+          "abstract": false
         }
       ],
       "type": "{seq: number}",

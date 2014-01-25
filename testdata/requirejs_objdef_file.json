@@ -11,7 +11,8 @@
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.A"
+          "path": "@12.@local.A",
+          "abstract": false
         }
       ],
       "type": "fn()",
@@ -119,27 +120,32 @@
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src"
+          "path": "@12.@local.@172.@local.src",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.copy"
+          "path": "@12.@local.@172.@local.copy",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.clone"
+          "path": "@12.@local.@172.@local.clone",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.target"
+          "path": "@12.@local.@172.@local.target",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.deep"
+          "path": "@12.@local.@172.@local.deep",
+          "abstract": false
         }
       ],
       "exported": false
@@ -155,7 +161,8 @@
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src"
+          "path": "@12.@local.@172.@local.src",
+          "abstract": false
         }
       ],
       "file": "testdata/requirejs_objdef_def.js",
@@ -196,27 +203,32 @@
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src"
+          "path": "@12.@local.@172.@local.src",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.copy"
+          "path": "@12.@local.@172.@local.copy",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.clone"
+          "path": "@12.@local.@172.@local.clone",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.target"
+          "path": "@12.@local.@172.@local.target",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.arguments.<i>"
+          "path": "@12.@local.@172.@local.arguments.<i>",
+          "abstract": false
         }
       ],
       "file": "testdata/requirejs_objdef_def.js",
@@ -272,32 +284,38 @@
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src"
+          "path": "@12.@local.@172.@local.src",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.copy"
+          "path": "@12.@local.@172.@local.copy",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.clone"
+          "path": "@12.@local.@172.@local.clone",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.target"
+          "path": "@12.@local.@172.@local.target",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.deep"
+          "path": "@12.@local.@172.@local.deep",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.arguments.<i>"
+          "path": "@12.@local.@172.@local.arguments.<i>",
+          "abstract": false
         }
       ],
       "file": "testdata/requirejs_objdef_def.js",
@@ -327,27 +345,32 @@
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src"
+          "path": "@12.@local.@172.@local.src",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.copy"
+          "path": "@12.@local.@172.@local.copy",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.clone"
+          "path": "@12.@local.@172.@local.clone",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.deep"
+          "path": "@12.@local.@172.@local.deep",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.arguments.<i>"
+          "path": "@12.@local.@172.@local.arguments.<i>",
+          "abstract": false
         }
       ],
       "doc": "skip the boolean and the target",
@@ -401,7 +424,8 @@
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.A"
+          "path": "@12.@local.A",
+          "abstract": false
         }
       ],
       "type": "fn()",

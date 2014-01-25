@@ -21,7 +21,8 @@
       "recv": [
         {
           "namespace": "global",
-          "path": "a"
+          "path": "a",
+          "abstract": false
         }
       ],
       "type": "fn()",

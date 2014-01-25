@@ -11,12 +11,14 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_require_exported_node_origin_type.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_require_exported_node_origin_type.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{}",
@@ -38,17 +40,20 @@
         {
           "namespace": "commonjs",
           "module": "testdata/nodejs_export_node_origin_type.js",
-          "path": ""
+          "path": "",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_export_node_origin_type.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_export_node_origin_type.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "fn(value: ?, message?: string)",
@@ -78,7 +83,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_require_exported_node_origin_type.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{}",

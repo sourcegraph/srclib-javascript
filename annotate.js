@@ -60,7 +60,10 @@ function getRefTarget(file, ident) {
     return null;
   }
 
-  var av = infer.expressionType(expr);
+  return getTarget(infer.expressionType(expr));
+}
+
+var getTarget = exports.getTarget = function (av) {
   if (av._path) return getConcretePathTypeID(av._path);
   var type = av.getType(false);
   if (!type) return null;

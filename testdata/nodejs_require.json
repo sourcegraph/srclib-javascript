@@ -11,12 +11,14 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_require.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_require.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{a2: fn() -> number, b2: exports.b, c2: number}",
@@ -38,7 +40,8 @@
         {
           "namespace": "commonjs",
           "module": "testdata/nodejs.js",
-          "path": "a"
+          "path": "a",
+          "abstract": false
         }
       ],
       "type": "fn() -> number",
@@ -58,7 +61,8 @@
         {
           "namespace": "commonjs",
           "module": "testdata/nodejs.js",
-          "path": "b"
+          "path": "b",
+          "abstract": false
         }
       ],
       "type": "{c: number}",
@@ -78,7 +82,8 @@
         {
           "namespace": "commonjs",
           "module": "testdata/nodejs.js",
-          "path": "b.c"
+          "path": "b.c",
+          "abstract": false
         }
       ],
       "type": "number",
@@ -108,7 +113,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_require.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{a2: fn() -> number, b2: exports.b, c2: number}",
@@ -125,17 +131,20 @@
         {
           "namespace": "commonjs",
           "module": "testdata/nodejs.js",
-          "path": ""
+          "path": "",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{a: fn() -> number, b: exports.b}",

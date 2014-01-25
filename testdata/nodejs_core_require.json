@@ -11,12 +11,14 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_core_require.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_core_require.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{}",
@@ -38,17 +40,23 @@
         {
           "namespace": "commonjs",
           "module": "testdata/node_core_modules/fs.js",
-          "path": ""
+          "path": "",
+          "abstract": false,
+          "nodejsCoreModule": "fs"
         },
         {
           "namespace": "file",
           "module": "testdata/node_core_modules/fs.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false,
+          "nodejsCoreModule": "fs"
         },
         {
           "namespace": "file",
           "module": "testdata/node_core_modules/fs.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false,
+          "nodejsCoreModule": "fs"
         }
       ],
       "type": "{Stats: ?, close: fn(fd: ?, callback: ?), exists: fn(path: string, callback: fn(bool)), existsSync: fn(path: string) -> bool, readFile: fn(path: ?, options: options, callback_: ?), readFileSync: fn(path: ?, options: options), ...}",
@@ -78,7 +86,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_core_require.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{}",

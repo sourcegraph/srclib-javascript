@@ -11,12 +11,14 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_core_method.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_core_method.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{}",
@@ -38,7 +40,9 @@
         {
           "namespace": "commonjs",
           "module": "testdata/node_core_modules/string_decoder.js",
-          "path": "StringDecoder"
+          "path": "StringDecoder",
+          "abstract": false,
+          "nodejsCoreModule": "string_decoder"
         }
       ],
       "type": "fn(encoding: string)",
@@ -81,7 +85,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_core_method.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{}",

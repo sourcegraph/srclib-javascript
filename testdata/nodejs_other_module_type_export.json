@@ -11,12 +11,14 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_export_function_a.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_export_function_a.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{a: fn()}",
@@ -51,12 +53,14 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_other_module_type_export.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_other_module_type_export.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{b: fn()}",
@@ -78,7 +82,8 @@
         {
           "namespace": "commonjs",
           "module": "testdata/nodejs_export_function_a.js",
-          "path": "a"
+          "path": "a",
+          "abstract": false
         }
       ],
       "type": "fn()",
@@ -108,7 +113,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_export_function_a.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{a: fn()}",
@@ -135,7 +141,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_other_module_type_export.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "{b: fn()}",

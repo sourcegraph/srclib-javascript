@@ -11,12 +11,14 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_module_export_func.js",
-          "path": "module.exports"
+          "path": "module.exports",
+          "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/nodejs_module_export_func.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "fn(a: ?) -> {b}",
@@ -60,7 +62,8 @@
         {
           "namespace": "file",
           "module": "testdata/nodejs_module_export_func.js",
-          "path": "exports"
+          "path": "exports",
+          "abstract": false
         }
       ],
       "type": "fn(a: ?) -> {b}",

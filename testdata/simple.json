@@ -23,7 +23,8 @@
         {
           "namespace": "file",
           "module": "testdata/simple.js",
-          "path": "E.@local.f"
+          "path": "E.@local.f",
+          "abstract": false
         }
       ],
       "file": "testdata/simple.js",
@@ -100,7 +101,8 @@
       "recv": [
         {
           "namespace": "global",
-          "path": "a"
+          "path": "a",
+          "abstract": false
         }
       ],
       "type": "number",
