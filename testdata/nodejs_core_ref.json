@@ -1,0 +1,69 @@
+{
+  "symbols": [
+    {
+      "id": "!node.testdata/nodejs_core_ref`js",
+      "key": {
+        "namespace": "commonjs",
+        "module": "testdata/nodejs_core_ref.js",
+        "path": ""
+      },
+      "recv": [
+        "@testdata/nodejs_core_ref`js.exports",
+        "@testdata/nodejs_core_ref`js.module.exports"
+      ],
+      "type": "{}",
+      "exported": true,
+      "data": {
+        "nodejs": {
+          "moduleExports": true
+        }
+      }
+    },
+    {
+      "id": "@testdata/nodejs_core_ref`js.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_ref.js",
+        "path": "exports"
+      },
+      "type": "{}",
+      "exported": false
+    },
+    {
+      "id": "@testdata/nodejs_core_ref`js.module.exports",
+      "key": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_ref.js",
+        "path": "module.exports"
+      },
+      "recv": [
+        "@testdata/nodejs_core_ref`js.exports"
+      ],
+      "type": "{}",
+      "exported": false
+    }
+  ],
+  "refs": [
+    {
+      "file": "testdata/nodejs_core_ref.js",
+      "span": "0-7",
+      "target": {
+        "namespace": "file",
+        "module": "testdata/nodejs_core_ref.js",
+        "path": "require",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_core_ref.js",
+      "span": "14-22",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/fs.js",
+        "path": "readFile",
+        "abstract": false,
+        "nodejsCoreModule": "fs"
+      }
+    }
+  ]
+}

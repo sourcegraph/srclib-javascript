@@ -106,9 +106,9 @@
       "file": "testdata/nodejs_core.js",
       "span": "14-22",
       "target": {
-        "namespace": "file",
+        "namespace": "commonjs",
         "module": "testdata/node_core_modules/fs.js",
-        "path": "fs.readFile",
+        "path": "readFile",
         "abstract": false,
         "nodejsCoreModule": "fs"
       }
@@ -221,10 +221,11 @@
       "file": "testdata/nodejs_core.js",
       "span": "196-205",
       "target": {
-        "namespace": "file",
-        "module": "testdata/nodejs_core.js",
+        "namespace": "commonjs",
+        "module": "testdata/node_core_modules/string_decoder.js",
         "path": "StringDecoder.prototype",
-        "abstract": false
+        "abstract": false,
+        "nodejsCoreModule": "string_decoder"
       }
     },
     {

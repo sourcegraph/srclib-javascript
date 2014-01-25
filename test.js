@@ -27,6 +27,7 @@ describe('jsg output', function() {
     {name: 'nodejs_require_exported_node_origin_type', args: ['--plugin', 'node']},
     {name: 'nodejs_console', args: ['--plugin', 'node']},
     {name: 'nodejs_core', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
+    {name: 'nodejs_core_ref', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
     {name: 'nodejs_EventEmitter', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
     {name: 'nodejs_core_require', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
     {name: 'nodejs_core_method', args: ['--plugin', 'node={"coreModulesDir":"testdata/node_core_modules"}']},
