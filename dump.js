@@ -80,7 +80,7 @@ function backprop(aval) {
 function describe(path, aval, state) {
   var o = {id: path, key: symbol_id.parse(path)};
 
-  if (aval.recv) o.recv = aval.recv.map(function(av) { return av._path; }).sort();
+  if (aval.recv) o.recv = aval.recv.map(function(av) { return symbol_id.parse(av._path); }).sort();
 
   var type = aval.getType(true);
   if (type) {

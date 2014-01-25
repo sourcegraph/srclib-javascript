@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_globals`js.exports",
-        "@testdata/nodejs_globals`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_globals.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_globals.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": true,
@@ -37,7 +45,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_globals`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_globals.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": false

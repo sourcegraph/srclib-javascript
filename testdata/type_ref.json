@@ -19,7 +19,10 @@
         "path": "b"
       },
       "recv": [
-        "^.a"
+        {
+          "namespace": "global",
+          "path": "a"
+        }
       ],
       "type": "fn()",
       "file": "testdata/type_ref.js",

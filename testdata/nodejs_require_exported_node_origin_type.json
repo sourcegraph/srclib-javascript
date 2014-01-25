@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_require_exported_node_origin_type`js.exports",
-        "@testdata/nodejs_require_exported_node_origin_type`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_require_exported_node_origin_type.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_require_exported_node_origin_type.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": true,
@@ -27,9 +35,21 @@
         "path": "a"
       },
       "recv": [
-        "!node.testdata/nodejs_export_node_origin_type`js",
-        "@testdata/nodejs_export_node_origin_type`js.exports",
-        "@testdata/nodejs_export_node_origin_type`js.module.exports"
+        {
+          "namespace": "commonjs",
+          "module": "testdata/nodejs_export_node_origin_type.js",
+          "path": ""
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_export_node_origin_type.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_export_node_origin_type.js",
+          "path": "exports"
+        }
       ],
       "type": "fn(value: ?, message?: string)",
       "file": "testdata/nodejs_require_exported_node_origin_type.js",
@@ -55,7 +75,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_require_exported_node_origin_type`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_require_exported_node_origin_type.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": false

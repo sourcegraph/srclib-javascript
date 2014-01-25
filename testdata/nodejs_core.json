@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_core`js.exports",
-        "@testdata/nodejs_core`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_core.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_core.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": true,
@@ -27,7 +35,11 @@
         "path": "StringDecoder"
       },
       "recv": [
-        "!node.testdata/node_core_modules/string_decoder`js.StringDecoder"
+        {
+          "namespace": "commonjs",
+          "module": "testdata/node_core_modules/string_decoder.js",
+          "path": "StringDecoder"
+        }
       ],
       "type": "fn(encoding: string)",
       "file": "testdata/nodejs_core.js",
@@ -43,10 +55,26 @@
         "path": "assert"
       },
       "recv": [
-        "!node.testdata/node_core_modules/assert`js",
-        "@testdata/node_core_modules/assert`js.exports",
-        "@testdata/node_core_modules/assert`js.module.exports",
-        "@testdata/node_core_modules/assert`js.ok"
+        {
+          "namespace": "commonjs",
+          "module": "testdata/node_core_modules/assert.js",
+          "path": ""
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_core_modules/assert.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_core_modules/assert.js",
+          "path": "exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_core_modules/assert.js",
+          "path": "ok"
+        }
       ],
       "type": "fn(value: bool, message: string)",
       "file": "testdata/nodejs_core.js",
@@ -85,7 +113,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_core`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_core.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": false

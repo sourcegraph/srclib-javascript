@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_core_require`js.exports",
-        "@testdata/nodejs_core_require`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_core_require.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_core_require.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": true,
@@ -27,9 +35,21 @@
         "path": "a"
       },
       "recv": [
-        "!node.testdata/node_core_modules/fs`js",
-        "@testdata/node_core_modules/fs`js.exports",
-        "@testdata/node_core_modules/fs`js.module.exports"
+        {
+          "namespace": "commonjs",
+          "module": "testdata/node_core_modules/fs.js",
+          "path": ""
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_core_modules/fs.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_core_modules/fs.js",
+          "path": "exports"
+        }
       ],
       "type": "{Stats: ?, close: fn(fd: ?, callback: ?), exists: fn(path: string, callback: fn(bool)), existsSync: fn(path: string) -> bool, readFile: fn(path: ?, options: options, callback_: ?), readFileSync: fn(path: ?, options: options), ...}",
       "file": "testdata/nodejs_core_require.js",
@@ -55,7 +75,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_core_require`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_core_require.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": false

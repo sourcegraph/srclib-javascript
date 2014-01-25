@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_export_function_a`js.exports",
-        "@testdata/nodejs_export_function_a`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_export_function_a.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_export_function_a.js",
+          "path": "exports"
+        }
       ],
       "type": "{a: fn()}",
       "exported": true,
@@ -40,8 +48,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_other_module_type_export`js.exports",
-        "@testdata/nodejs_other_module_type_export`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_other_module_type_export.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_other_module_type_export.js",
+          "path": "exports"
+        }
       ],
       "type": "{b: fn()}",
       "exported": true,
@@ -59,7 +75,11 @@
         "path": "b"
       },
       "recv": [
-        "!node.testdata/nodejs_export_function_a`js.a"
+        {
+          "namespace": "commonjs",
+          "module": "testdata/nodejs_export_function_a.js",
+          "path": "a"
+        }
       ],
       "type": "fn()",
       "file": "testdata/nodejs_other_module_type_export.js",
@@ -85,7 +105,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_export_function_a`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_export_function_a.js",
+          "path": "exports"
+        }
       ],
       "type": "{a: fn()}",
       "exported": false
@@ -108,7 +132,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_other_module_type_export`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_other_module_type_export.js",
+          "path": "exports"
+        }
       ],
       "type": "{b: fn()}",
       "exported": false

@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_type_ref`js.exports",
-        "@testdata/nodejs_type_ref`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_type_ref.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_type_ref.js",
+          "path": "exports"
+        }
       ],
       "type": "{a: fn(), b: fn()}",
       "exported": true,
@@ -41,7 +49,11 @@
         "path": "b"
       },
       "recv": [
-        "!node.testdata/nodejs_type_ref`js.a"
+        {
+          "namespace": "commonjs",
+          "module": "testdata/nodejs_type_ref.js",
+          "path": "a"
+        }
       ],
       "type": "fn()",
       "file": "testdata/nodejs_type_ref.js",
@@ -67,7 +79,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_type_ref`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_type_ref.js",
+          "path": "exports"
+        }
       ],
       "type": "{a: fn(), b: fn()}",
       "exported": false

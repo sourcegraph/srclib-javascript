@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_EventEmitter`js.exports",
-        "@testdata/nodejs_EventEmitter`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_EventEmitter.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_EventEmitter.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": true,
@@ -50,7 +58,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_EventEmitter`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_EventEmitter.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": false

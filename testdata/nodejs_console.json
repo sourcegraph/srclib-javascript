@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_console`js.exports",
-        "@testdata/nodejs_console`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_console.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_console.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": true,
@@ -37,7 +45,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_console`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_console.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": false

@@ -20,7 +20,11 @@
         "path": "E.@local.g"
       },
       "recv": [
-        "@testdata/simple`js.E.@local.f"
+        {
+          "namespace": "file",
+          "module": "testdata/simple.js",
+          "path": "E.@local.f"
+        }
       ],
       "file": "testdata/simple.js",
       "ident": "102-103",
@@ -94,7 +98,10 @@
         "path": "b.c.d"
       },
       "recv": [
-        "^.a"
+        {
+          "namespace": "global",
+          "path": "a"
+        }
       ],
       "type": "number",
       "file": "testdata/simple.js",

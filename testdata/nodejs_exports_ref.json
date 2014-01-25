@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_exports_ref`js.exports",
-        "@testdata/nodejs_exports_ref`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_exports_ref.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_exports_ref.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": true,
@@ -37,7 +45,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_exports_ref`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_exports_ref.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": false

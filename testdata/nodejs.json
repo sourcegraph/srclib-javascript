@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs`js.exports",
-        "@testdata/nodejs`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs.js",
+          "path": "exports"
+        }
       ],
       "type": "{a: fn() -> number, b: exports.b}",
       "exported": true,
@@ -76,7 +84,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs.js",
+          "path": "exports"
+        }
       ],
       "type": "{a: fn() -> number, b: exports.b}",
       "exported": false

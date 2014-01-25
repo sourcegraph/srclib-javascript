@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_core_method`js.exports",
-        "@testdata/nodejs_core_method`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_core_method.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_core_method.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": true,
@@ -27,7 +35,11 @@
         "path": "StringDecoder"
       },
       "recv": [
-        "!node.testdata/node_core_modules/string_decoder`js.StringDecoder"
+        {
+          "namespace": "commonjs",
+          "module": "testdata/node_core_modules/string_decoder.js",
+          "path": "StringDecoder"
+        }
       ],
       "type": "fn(encoding: string)",
       "file": "testdata/nodejs_core_method.js",
@@ -66,7 +78,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_core_method`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_core_method.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": false

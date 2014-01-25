@@ -8,7 +8,11 @@
         "path": ""
       },
       "recv": [
-        "@testdata/requirejs_objdef_def`js.@12.@local.A"
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.A"
+        }
       ],
       "type": "fn()",
       "exported": true
@@ -112,11 +116,31 @@
         "path": "@12.@local.@172.@local.arguments.<i>"
       },
       "recv": [
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.clone",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.copy",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.deep",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.src",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.target"
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.src"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.copy"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.clone"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.target"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.deep"
+        }
       ],
       "exported": false
     },
@@ -128,7 +152,11 @@
         "path": "@12.@local.@172.@local.clone"
       },
       "recv": [
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.src"
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.src"
+        }
       ],
       "file": "testdata/requirejs_objdef_def.js",
       "ident": "229-234",
@@ -165,11 +193,31 @@
         "path": "@12.@local.@172.@local.deep"
       },
       "recv": [
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.arguments.<i>",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.clone",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.copy",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.src",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.target"
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.src"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.copy"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.clone"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.target"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.arguments.<i>"
+        }
       ],
       "file": "testdata/requirejs_objdef_def.js",
       "ident": "307-311",
@@ -221,12 +269,36 @@
         "path": "@12.@local.@172.@local.options"
       },
       "recv": [
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.arguments.<i>",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.clone",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.copy",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.deep",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.src",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.target"
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.src"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.copy"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.clone"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.target"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.deep"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.arguments.<i>"
+        }
       ],
       "file": "testdata/requirejs_objdef_def.js",
       "ident": "190-197",
@@ -252,11 +324,31 @@
         "path": "@12.@local.@172.@local.target"
       },
       "recv": [
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.arguments.<i>",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.clone",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.copy",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.deep",
-        "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.src"
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.src"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.copy"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.clone"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.deep"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.@172.@local.arguments.<i>"
+        }
       ],
       "doc": "skip the boolean and the target",
       "file": "testdata/requirejs_objdef_def.js",
@@ -306,7 +398,11 @@
         "path": "@40.@local.A"
       },
       "recv": [
-        "@testdata/requirejs_objdef_def`js.@12.@local.A"
+        {
+          "namespace": "file",
+          "module": "testdata/requirejs_objdef_def.js",
+          "path": "@12.@local.A"
+        }
       ],
       "type": "fn()",
       "file": "testdata/requirejs_objdef_other.js",

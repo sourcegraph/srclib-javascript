@@ -8,8 +8,16 @@
         "path": "@176.@local.req"
       },
       "recv": [
-        "@testdata/node_path_conflict`js.@261.@local.req",
-        "@testdata/node_path_conflict`js.@345.@local.req"
+        {
+          "namespace": "file",
+          "module": "testdata/node_path_conflict.js",
+          "path": "@261.@local.req"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_path_conflict.js",
+          "path": "@345.@local.req"
+        }
       ],
       "type": "{seq: number}",
       "file": "testdata/node_path_conflict.js",
@@ -64,9 +72,21 @@
         "path": "@57.@local.req"
       },
       "recv": [
-        "@testdata/node_path_conflict`js.@176.@local.req",
-        "@testdata/node_path_conflict`js.@261.@local.req",
-        "@testdata/node_path_conflict`js.@345.@local.req"
+        {
+          "namespace": "file",
+          "module": "testdata/node_path_conflict.js",
+          "path": "@176.@local.req"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_path_conflict.js",
+          "path": "@261.@local.req"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_path_conflict.js",
+          "path": "@345.@local.req"
+        }
       ],
       "type": "{seq: number}",
       "file": "testdata/node_path_conflict.js",

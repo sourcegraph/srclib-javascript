@@ -8,8 +8,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_export_function_a_b`js.exports",
-        "@testdata/nodejs_export_function_a_b`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_export_function_a_b.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_export_function_a_b.js",
+          "path": "exports"
+        }
       ],
       "type": "{b: fn()}",
       "exported": true,
@@ -27,7 +35,11 @@
         "path": "b"
       },
       "recv": [
-        "@testdata/nodejs_export_function_a_b`js.a.b"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_export_function_a_b.js",
+          "path": "a.b"
+        }
       ],
       "type": "fn()",
       "file": "testdata/nodejs_export_function_a_b.js",
@@ -43,8 +55,16 @@
         "path": ""
       },
       "recv": [
-        "@testdata/nodejs_other_module_type_ref_a_b`js.exports",
-        "@testdata/nodejs_other_module_type_ref_a_b`js.module.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_other_module_type_ref_a_b.js",
+          "path": "module.exports"
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_other_module_type_ref_a_b.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": true,
@@ -98,7 +118,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_export_function_a_b`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_export_function_a_b.js",
+          "path": "exports"
+        }
       ],
       "type": "{b: fn()}",
       "exported": false
@@ -121,7 +145,11 @@
         "path": "module.exports"
       },
       "recv": [
-        "@testdata/nodejs_other_module_type_ref_a_b`js.exports"
+        {
+          "namespace": "file",
+          "module": "testdata/nodejs_other_module_type_ref_a_b.js",
+          "path": "exports"
+        }
       ],
       "type": "{}",
       "exported": false
