@@ -8,7 +8,6 @@ suitable for browsing, documentation generation, or static analysis.
 [![Build Status](https://travis-ci.org/sourcegraph/jsg.png?branch=master)](https://travis-ci.org/sourcegraph/jsg)
 [![status](https://sourcegraph.com/api/repos/github.com/sourcegraph/jsg/badges/status.png)](https://sourcegraph.com/github.com/sourcegraph/jsg)
 [![authors](https://sourcegraph.com/api/repos/github.com/sourcegraph/jsg/badges/authors.png)](https://sourcegraph.com/github.com/sourcegraph/jsg)
-[![Total views](https://sourcegraph.com/api/repos/github.com/sourcegraph/jsg/counters/views.png)](https://sourcegraph.com/github.com/sourcegraph/jsg)
 
 
 ## Usage
