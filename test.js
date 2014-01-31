@@ -37,6 +37,7 @@ describe('jsg output', function() {
     // Regressions
     {name: 'node_path_conflict'},
     {name: 'constructor_overwrite_prototype_method', failing: true},
+    {name: 'nul_byte_in_name'},
 
     {name: 'nodejs_require_ecma5_type', args: ['--plugin', 'node']},
   ].filter(function(test) { return new RegExp(process.env['F'] || '').test(test.name); }).forEach(function(test) {
