@@ -1,5 +1,7 @@
 # jsg: JavaScript grapher
 
+<a href="http://graphkit.org"><img align="right" alt="GraphKit logo" src="https://raw.github.com/sourcegraph/graphkit/master/media/logo.png"></a>
+
 **jsg** analyzes JavaScript source code and emits a representation of the code
 suitable for browsing, documentation generation, or static analysis. The output
 consists of all of the code's **symbols** (defined variables, functions, etc.)
@@ -37,6 +39,7 @@ integrations are still TODO. jsg is currently in use on
 [![status](https://sourcegraph.com/api/repos/github.com/sourcegraph/jsg/badges/status.png)](https://sourcegraph.com/github.com/sourcegraph/jsg)
 [![authors](https://sourcegraph.com/api/repos/github.com/sourcegraph/jsg/badges/authors.png)](https://sourcegraph.com/github.com/sourcegraph/jsg)
 
+Follow [@GraphKitProj](https://twitter.com/GraphKitProj)
 
 ## Usage
 
