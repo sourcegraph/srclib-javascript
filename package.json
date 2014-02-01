@@ -27,6 +27,7 @@
     "should": "~2.1.1"
   },
   "scripts": {
+    "postinstall": "make rm_other_terns",
     "test": "mocha"
   },
   "bin": {
