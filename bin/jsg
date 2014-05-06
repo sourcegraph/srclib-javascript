@@ -72,7 +72,8 @@ var server = new tern.Server({
   defs: defs,
   plugins: plugins,
   debug: true,
-  projectDir: localDir
+  projectDir: localDir,
+  dependencyBudget: 500000,
 });
 
 var origins = [];

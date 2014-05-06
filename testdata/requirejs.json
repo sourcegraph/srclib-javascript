@@ -41,6 +41,9 @@
         "path": "@26.@local.rjs_b"
       },
       "type": "fn() -> number",
+      "file": "testdata/requirejs.js",
+      "ident": "35-40",
+      "defn": "35-40",
       "exported": false
     }
   ],

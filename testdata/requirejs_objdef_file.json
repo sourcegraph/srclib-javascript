@@ -98,11 +98,11 @@
       "exported": true
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.arguments",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.arguments",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.arguments"
+        "path": "@12.@local.@12.@local.@172.@local.arguments"
       },
       "type": "[?]",
       "file": "testdata/requirejs_objdef_def.js",
@@ -110,58 +110,58 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.arguments.<i>",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.arguments.<i>",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.arguments.<i>"
+        "path": "@12.@local.@12.@local.@172.@local.arguments.<i>"
       },
       "recv": [
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src",
+          "path": "@12.@local.@12.@local.@172.@local.src",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.copy",
+          "path": "@12.@local.@12.@local.@172.@local.copy",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.clone",
+          "path": "@12.@local.@12.@local.@172.@local.clone",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.target",
+          "path": "@12.@local.@12.@local.@172.@local.target",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.deep",
+          "path": "@12.@local.@12.@local.@172.@local.deep",
           "abstract": false
         }
       ],
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.clone",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.clone",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.clone"
+        "path": "@12.@local.@12.@local.@172.@local.clone"
       },
       "recv": [
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src",
+          "path": "@12.@local.@12.@local.@172.@local.src",
           "abstract": false
         }
       ],
@@ -170,22 +170,22 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.copy",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.copy",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy"
+        "path": "@12.@local.@12.@local.@172.@local.copy"
       },
       "file": "testdata/requirejs_objdef_def.js",
       "ident": "210-214",
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.copyIsArray",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.copyIsArray",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copyIsArray"
+        "path": "@12.@local.@12.@local.@172.@local.copyIsArray"
       },
       "type": "bool",
       "file": "testdata/requirejs_objdef_def.js",
@@ -193,41 +193,41 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.deep",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.deep",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.deep"
+        "path": "@12.@local.@12.@local.@172.@local.deep"
       },
       "recv": [
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src",
+          "path": "@12.@local.@12.@local.@172.@local.src",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.copy",
+          "path": "@12.@local.@12.@local.@172.@local.copy",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.clone",
+          "path": "@12.@local.@12.@local.@172.@local.clone",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.target",
+          "path": "@12.@local.@12.@local.@172.@local.target",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.arguments.<i>",
+          "path": "@12.@local.@12.@local.@172.@local.arguments.<i>",
           "abstract": false
         }
       ],
@@ -237,11 +237,11 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.i",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.i",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.i"
+        "path": "@12.@local.@12.@local.@172.@local.i"
       },
       "type": "number",
       "file": "testdata/requirejs_objdef_def.js",
@@ -250,11 +250,11 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.length",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.length",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.length"
+        "path": "@12.@local.@12.@local.@172.@local.length"
       },
       "type": "number",
       "file": "testdata/requirejs_objdef_def.js",
@@ -263,58 +263,58 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.name",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.name",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.name"
+        "path": "@12.@local.@12.@local.@172.@local.name"
       },
       "file": "testdata/requirejs_objdef_def.js",
       "ident": "199-203",
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.options",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.options",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.options"
+        "path": "@12.@local.@12.@local.@172.@local.options"
       },
       "recv": [
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src",
+          "path": "@12.@local.@12.@local.@172.@local.src",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.copy",
+          "path": "@12.@local.@12.@local.@172.@local.copy",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.clone",
+          "path": "@12.@local.@12.@local.@172.@local.clone",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.target",
+          "path": "@12.@local.@12.@local.@172.@local.target",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.deep",
+          "path": "@12.@local.@12.@local.@172.@local.deep",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.arguments.<i>",
+          "path": "@12.@local.@12.@local.@172.@local.arguments.<i>",
           "abstract": false
         }
       ],
@@ -323,11 +323,11 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.src",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.src",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.src"
+        "path": "@12.@local.@12.@local.@172.@local.src"
       },
       "type": "{extend: ?, fn: ?, slice: ?}",
       "file": "testdata/requirejs_objdef_def.js",
@@ -335,41 +335,41 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@172.@local.target",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@172.@local.target",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target"
+        "path": "@12.@local.@12.@local.@172.@local.target"
       },
       "recv": [
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.src",
+          "path": "@12.@local.@12.@local.@172.@local.src",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.copy",
+          "path": "@12.@local.@12.@local.@172.@local.copy",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.clone",
+          "path": "@12.@local.@12.@local.@172.@local.clone",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.deep",
+          "path": "@12.@local.@12.@local.@172.@local.deep",
           "abstract": false
         },
         {
           "namespace": "file",
           "module": "testdata/requirejs_objdef_def.js",
-          "path": "@12.@local.@172.@local.arguments.<i>",
+          "path": "@12.@local.@12.@local.@172.@local.arguments.<i>",
           "abstract": false
         }
       ],
@@ -380,11 +380,11 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@67.@local.arguments",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@67.@local.arguments",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@67.@local.arguments"
+        "path": "@12.@local.@12.@local.@67.@local.arguments"
       },
       "type": "[?]",
       "file": "testdata/requirejs_objdef_def.js",
@@ -392,11 +392,11 @@
       "exported": false
     },
     {
-      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@67.@local.arguments.<i>",
+      "id": "@testdata/requirejs_objdef_def`js.@12.@local.@12.@local.@67.@local.arguments.<i>",
       "key": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@67.@local.arguments.<i>"
+        "path": "@12.@local.@12.@local.@67.@local.arguments.<i>"
       },
       "exported": false
     },
@@ -490,7 +490,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@67.@local.arguments",
+        "path": "@12.@local.@12.@local.@67.@local.arguments",
         "abstract": false
       }
     },
@@ -550,7 +550,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.options",
+        "path": "@12.@local.@12.@local.@172.@local.options",
         "abstract": false
       }
     },
@@ -560,7 +560,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.name",
+        "path": "@12.@local.@12.@local.@172.@local.name",
         "abstract": false
       }
     },
@@ -570,7 +570,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.src",
+        "path": "@12.@local.@12.@local.@172.@local.src",
         "abstract": false
       }
     },
@@ -580,7 +580,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy",
+        "path": "@12.@local.@12.@local.@172.@local.copy",
         "abstract": false
       }
     },
@@ -590,7 +590,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copyIsArray",
+        "path": "@12.@local.@12.@local.@172.@local.copyIsArray",
         "abstract": false
       }
     },
@@ -600,7 +600,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.clone",
+        "path": "@12.@local.@12.@local.@172.@local.clone",
         "abstract": false
       }
     },
@@ -610,7 +610,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -620,7 +620,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.arguments",
+        "path": "@12.@local.@12.@local.@172.@local.arguments",
         "abstract": false
       }
     },
@@ -630,7 +630,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.i",
+        "path": "@12.@local.@12.@local.@172.@local.i",
         "abstract": false
       }
     },
@@ -640,7 +640,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.length",
+        "path": "@12.@local.@12.@local.@172.@local.length",
         "abstract": false
       }
     },
@@ -650,7 +650,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.arguments",
+        "path": "@12.@local.@12.@local.@172.@local.arguments",
         "abstract": false
       }
     },
@@ -669,7 +669,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.deep",
+        "path": "@12.@local.@12.@local.@172.@local.deep",
         "abstract": false
       }
     },
@@ -679,7 +679,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -689,7 +689,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.deep",
+        "path": "@12.@local.@12.@local.@172.@local.deep",
         "abstract": false
       }
     },
@@ -699,7 +699,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -709,7 +709,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -719,7 +719,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.arguments",
+        "path": "@12.@local.@12.@local.@172.@local.arguments",
         "abstract": false
       }
     },
@@ -729,7 +729,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.i",
+        "path": "@12.@local.@12.@local.@172.@local.i",
         "abstract": false
       }
     },
@@ -739,7 +739,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.i",
+        "path": "@12.@local.@12.@local.@172.@local.i",
         "abstract": false
       }
     },
@@ -749,7 +749,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -769,7 +769,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -779,7 +779,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -789,7 +789,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.i",
+        "path": "@12.@local.@12.@local.@172.@local.i",
         "abstract": false
       }
     },
@@ -799,7 +799,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.length",
+        "path": "@12.@local.@12.@local.@172.@local.length",
         "abstract": false
       }
     },
@@ -809,7 +809,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -819,7 +819,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.i",
+        "path": "@12.@local.@12.@local.@172.@local.i",
         "abstract": false
       }
     },
@@ -829,7 +829,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.i",
+        "path": "@12.@local.@12.@local.@172.@local.i",
         "abstract": false
       }
     },
@@ -839,7 +839,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.length",
+        "path": "@12.@local.@12.@local.@172.@local.length",
         "abstract": false
       }
     },
@@ -849,7 +849,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.i",
+        "path": "@12.@local.@12.@local.@172.@local.i",
         "abstract": false
       }
     },
@@ -859,7 +859,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.options",
+        "path": "@12.@local.@12.@local.@172.@local.options",
         "abstract": false
       }
     },
@@ -869,7 +869,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.arguments",
+        "path": "@12.@local.@12.@local.@172.@local.arguments",
         "abstract": false
       }
     },
@@ -879,7 +879,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.i",
+        "path": "@12.@local.@12.@local.@172.@local.i",
         "abstract": false
       }
     },
@@ -889,7 +889,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.name",
+        "path": "@12.@local.@12.@local.@172.@local.name",
         "abstract": false
       }
     },
@@ -899,7 +899,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.options",
+        "path": "@12.@local.@12.@local.@172.@local.options",
         "abstract": false
       }
     },
@@ -909,7 +909,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.src",
+        "path": "@12.@local.@12.@local.@172.@local.src",
         "abstract": false
       }
     },
@@ -919,7 +919,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -929,7 +929,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.name",
+        "path": "@12.@local.@12.@local.@172.@local.name",
         "abstract": false
       }
     },
@@ -939,7 +939,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy",
+        "path": "@12.@local.@12.@local.@172.@local.copy",
         "abstract": false
       }
     },
@@ -949,7 +949,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.options",
+        "path": "@12.@local.@12.@local.@172.@local.options",
         "abstract": false
       }
     },
@@ -959,7 +959,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.name",
+        "path": "@12.@local.@12.@local.@172.@local.name",
         "abstract": false
       }
     },
@@ -969,7 +969,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -979,7 +979,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy",
+        "path": "@12.@local.@12.@local.@172.@local.copy",
         "abstract": false
       }
     },
@@ -989,7 +989,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.deep",
+        "path": "@12.@local.@12.@local.@172.@local.deep",
         "abstract": false
       }
     },
@@ -999,7 +999,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy",
+        "path": "@12.@local.@12.@local.@172.@local.copy",
         "abstract": false
       }
     },
@@ -1019,7 +1019,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy",
+        "path": "@12.@local.@12.@local.@172.@local.copy",
         "abstract": false
       }
     },
@@ -1029,7 +1029,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copyIsArray",
+        "path": "@12.@local.@12.@local.@172.@local.copyIsArray",
         "abstract": false
       }
     },
@@ -1049,7 +1049,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy",
+        "path": "@12.@local.@12.@local.@172.@local.copy",
         "abstract": false
       }
     },
@@ -1059,7 +1059,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copyIsArray",
+        "path": "@12.@local.@12.@local.@172.@local.copyIsArray",
         "abstract": false
       }
     },
@@ -1069,7 +1069,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copyIsArray",
+        "path": "@12.@local.@12.@local.@172.@local.copyIsArray",
         "abstract": false
       }
     },
@@ -1079,7 +1079,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.clone",
+        "path": "@12.@local.@12.@local.@172.@local.clone",
         "abstract": false
       }
     },
@@ -1089,7 +1089,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.src",
+        "path": "@12.@local.@12.@local.@172.@local.src",
         "abstract": false
       }
     },
@@ -1109,7 +1109,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.src",
+        "path": "@12.@local.@12.@local.@172.@local.src",
         "abstract": false
       }
     },
@@ -1119,7 +1119,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.src",
+        "path": "@12.@local.@12.@local.@172.@local.src",
         "abstract": false
       }
     },
@@ -1129,7 +1129,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.clone",
+        "path": "@12.@local.@12.@local.@172.@local.clone",
         "abstract": false
       }
     },
@@ -1139,7 +1139,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.src",
+        "path": "@12.@local.@12.@local.@172.@local.src",
         "abstract": false
       }
     },
@@ -1159,7 +1159,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.src",
+        "path": "@12.@local.@12.@local.@172.@local.src",
         "abstract": false
       }
     },
@@ -1169,7 +1169,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.src",
+        "path": "@12.@local.@12.@local.@172.@local.src",
         "abstract": false
       }
     },
@@ -1179,7 +1179,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -1189,7 +1189,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.name",
+        "path": "@12.@local.@12.@local.@172.@local.name",
         "abstract": false
       }
     },
@@ -1219,7 +1219,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.deep",
+        "path": "@12.@local.@12.@local.@172.@local.deep",
         "abstract": false
       }
     },
@@ -1229,7 +1229,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.clone",
+        "path": "@12.@local.@12.@local.@172.@local.clone",
         "abstract": false
       }
     },
@@ -1239,7 +1239,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy",
+        "path": "@12.@local.@12.@local.@172.@local.copy",
         "abstract": false
       }
     },
@@ -1249,7 +1249,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy",
+        "path": "@12.@local.@12.@local.@172.@local.copy",
         "abstract": false
       }
     },
@@ -1268,7 +1268,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
@@ -1278,7 +1278,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.name",
+        "path": "@12.@local.@12.@local.@172.@local.name",
         "abstract": false
       }
     },
@@ -1288,7 +1288,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.copy",
+        "path": "@12.@local.@12.@local.@172.@local.copy",
         "abstract": false
       }
     },
@@ -1298,7 +1298,7 @@
       "target": {
         "namespace": "file",
         "module": "testdata/requirejs_objdef_def.js",
-        "path": "@12.@local.@172.@local.target",
+        "path": "@12.@local.@12.@local.@172.@local.target",
         "abstract": false
       }
     },
