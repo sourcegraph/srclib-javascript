@@ -46,6 +46,36 @@
         "module": "testdata/nodejs_require_mod0.js",
         "path": "mod0"
       },
+      "recv": [
+        {
+          "namespace": "commonjs",
+          "module": "testdata/node_modules/mod0/index.js",
+          "path": "",
+          "abstract": false,
+          "npmPackage": {
+            "name": "mod0",
+            "dir": "testdata/node_modules/mod0",
+            "packageJSONFile": "testdata/node_modules/mod0/package.json",
+            "repository": {
+              "type": "git",
+              "url": "git://example.com/mod0.git"
+            }
+          }
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_modules/mod0/index.js",
+          "path": "module.exports",
+          "abstract": false
+        },
+        {
+          "namespace": "file",
+          "module": "testdata/node_modules/mod0/index.js",
+          "path": "exports",
+          "abstract": false
+        }
+      ],
+      "type": "{a: fn(), bb: fn()}",
       "file": "testdata/nodejs_require_mod0.js",
       "ident": "4-8",
       "defn": "4-26",
@@ -103,6 +133,25 @@
     },
     {
       "file": "testdata/nodejs_require_mod0.js",
+      "span": "33-34",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_modules/mod0/index.js",
+        "path": "a",
+        "abstract": false,
+        "npmPackage": {
+          "name": "mod0",
+          "dir": "testdata/node_modules/mod0",
+          "packageJSONFile": "testdata/node_modules/mod0/package.json",
+          "repository": {
+            "type": "git",
+            "url": "git://example.com/mod0.git"
+          }
+        }
+      }
+    },
+    {
+      "file": "testdata/nodejs_require_mod0.js",
       "span": "36-40",
       "target": {
         "namespace": "file",
@@ -113,12 +162,50 @@
     },
     {
       "file": "testdata/nodejs_require_mod0.js",
+      "span": "41-43",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_modules/mod0/index.js",
+        "path": "bb",
+        "abstract": false,
+        "npmPackage": {
+          "name": "mod0",
+          "dir": "testdata/node_modules/mod0",
+          "packageJSONFile": "testdata/node_modules/mod0/package.json",
+          "repository": {
+            "type": "git",
+            "url": "git://example.com/mod0.git"
+          }
+        }
+      }
+    },
+    {
+      "file": "testdata/nodejs_require_mod0.js",
       "span": "46-53",
       "target": {
         "namespace": "file",
         "module": "testdata/nodejs_require_mod0.js",
         "path": "require",
         "abstract": false
+      }
+    },
+    {
+      "file": "testdata/nodejs_require_mod0.js",
+      "span": "64-65",
+      "target": {
+        "namespace": "commonjs",
+        "module": "testdata/node_modules/mod0/b.js",
+        "path": "b",
+        "abstract": false,
+        "npmPackage": {
+          "name": "mod0",
+          "dir": "testdata/node_modules/mod0",
+          "packageJSONFile": "testdata/node_modules/mod0/package.json",
+          "repository": {
+            "type": "git",
+            "url": "git://example.com/mod0.git"
+          }
+        }
       }
     }
   ]
