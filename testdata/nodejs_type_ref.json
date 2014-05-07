@@ -112,7 +112,8 @@
         "module": "testdata/nodejs_type_ref.js",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_type_ref.js",
@@ -132,7 +133,8 @@
         "module": "testdata/nodejs_type_ref.js",
         "path": "b",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_type_ref.js",

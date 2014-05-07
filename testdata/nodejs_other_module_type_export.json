@@ -168,7 +168,8 @@
         "module": "testdata/nodejs_other_module_type_export.js",
         "path": "b",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_other_module_type_export.js",
@@ -208,7 +209,8 @@
         "module": "testdata/nodejs_export_function_a.js",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     }
   ]
 }

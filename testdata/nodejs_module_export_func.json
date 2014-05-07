@@ -92,7 +92,8 @@
         "module": "testdata/nodejs_module_export_func.js",
         "path": "module.exports",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_module_export_func.js",
@@ -102,7 +103,8 @@
         "module": "testdata/nodejs_module_export_func.js",
         "path": "@17.@local.a",
         "abstract": false
-      }
+      },
+      "def": true
     }
   ]
 }

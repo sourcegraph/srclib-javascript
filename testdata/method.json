@@ -54,7 +54,8 @@
         "namespace": "global",
         "path": "A",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/method.js",
@@ -81,7 +82,8 @@
         "namespace": "global",
         "path": "A.prototype.b",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/method.js",
@@ -90,7 +92,8 @@
         "namespace": "global",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/method.js",

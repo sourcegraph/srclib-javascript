@@ -103,7 +103,8 @@
         "module": "testdata/nodejs_core_require.js",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_core_require.js",

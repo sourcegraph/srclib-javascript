@@ -163,7 +163,8 @@
         "module": "testdata/nodejs_require.js",
         "path": "n",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_require.js",
@@ -243,7 +244,8 @@
         "module": "testdata/nodejs_require.js",
         "path": "a2",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_require.js",
@@ -283,7 +285,8 @@
         "module": "testdata/nodejs_require.js",
         "path": "b2",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_require.js",
@@ -323,7 +326,8 @@
         "module": "testdata/nodejs_require.js",
         "path": "c2",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_require.js",

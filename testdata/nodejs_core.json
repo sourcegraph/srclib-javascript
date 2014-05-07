@@ -229,7 +229,8 @@
         "module": "testdata/nodejs_core.js",
         "path": "StringDecoder",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_core.js",
@@ -292,7 +293,8 @@
         "module": "testdata/nodejs_core.js",
         "path": "decoder",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_core.js",
@@ -332,7 +334,8 @@
         "module": "testdata/nodejs_core.js",
         "path": "assert",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_core.js",

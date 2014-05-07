@@ -33,7 +33,8 @@
         "namespace": "global",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     }
   ]
 }

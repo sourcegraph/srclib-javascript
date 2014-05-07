@@ -90,7 +90,8 @@
         "module": "testdata/nodejs_EventEmitter.js",
         "path": "ee",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_EventEmitter.js",

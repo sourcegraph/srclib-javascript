@@ -40,7 +40,8 @@
         "namespace": "global",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/type_ref.js",
@@ -49,7 +50,8 @@
         "namespace": "global",
         "path": "b",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/type_ref.js",

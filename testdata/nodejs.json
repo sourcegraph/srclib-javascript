@@ -116,7 +116,8 @@
         "module": "testdata/nodejs.js",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs.js",
@@ -136,7 +137,8 @@
         "module": "testdata/nodejs.js",
         "path": "b",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs.js",

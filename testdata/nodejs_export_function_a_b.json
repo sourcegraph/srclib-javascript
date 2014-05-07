@@ -114,7 +114,8 @@
         "module": "testdata/nodejs_export_function_a_b.js",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_export_function_a_b.js",
@@ -134,7 +135,8 @@
         "module": "testdata/nodejs_export_function_a_b.js",
         "path": "b",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_export_function_a_b.js",

@@ -44,6 +44,8 @@ function resolve(file, ident, state) {
     if (state.isTarget(out.target.origin)) delete out.target.origin;
   }
 
+  out.def = ident._isDef;
+
   if (out.target) {
     state.output.push(out);
     return true;

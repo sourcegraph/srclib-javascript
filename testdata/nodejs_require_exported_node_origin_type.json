@@ -100,7 +100,8 @@
         "module": "testdata/nodejs_require_exported_node_origin_type.js",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_require_exported_node_origin_type.js",

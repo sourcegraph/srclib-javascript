@@ -74,7 +74,8 @@
         "module": "testdata/requirejs.js",
         "path": "@26.@local.rjs_b",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/requirejs.js",

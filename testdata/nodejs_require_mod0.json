@@ -109,7 +109,8 @@
         "module": "testdata/nodejs_require_mod0.js",
         "path": "mod0",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_require_mod0.js",

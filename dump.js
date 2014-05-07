@@ -93,6 +93,9 @@ function describe(path, aval, state) {
   if (node) {
     o.file = astNodeFilename(node);
 
+    // Track whether idents are of the definition of a symbol or just a reference.
+    node._isDef = true;
+
     o.ident = state.getSpan(node);
 
     try {

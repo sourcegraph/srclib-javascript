@@ -211,7 +211,8 @@
         "namespace": "global",
         "path": "Protocol",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -238,7 +239,8 @@
         "namespace": "global",
         "path": "Protocol.prototype.serialize",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -248,7 +250,8 @@
         "module": "testdata/node_path_conflict.js",
         "path": "@57.@local.req",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -268,7 +271,8 @@
         "module": "testdata/node_path_conflict.js",
         "path": "@57.@local.req.seq",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -277,7 +281,8 @@
         "namespace": "global",
         "path": "Client",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -313,7 +318,8 @@
         "namespace": "global",
         "path": "Client.prototype.req",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -323,7 +329,8 @@
         "module": "testdata/node_path_conflict.js",
         "path": "@176.@local.req",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -369,7 +376,8 @@
         "namespace": "global",
         "path": "Client.prototype.setBreakpoint",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -379,7 +387,8 @@
         "module": "testdata/node_path_conflict.js",
         "path": "@261.@local.req",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -435,7 +444,8 @@
         "namespace": "global",
         "path": "Client.prototype.clearBreakpoint",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",
@@ -445,7 +455,8 @@
         "module": "testdata/node_path_conflict.js",
         "path": "@345.@local.req",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/node_path_conflict.js",

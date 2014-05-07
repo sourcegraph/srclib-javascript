@@ -120,7 +120,8 @@
         "namespace": "global",
         "path": "a",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/simple.js",
@@ -138,7 +139,8 @@
         "namespace": "global",
         "path": "b",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/simple.js",
@@ -228,7 +230,8 @@
         "namespace": "global",
         "path": "E",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/simple.js",
@@ -238,7 +241,8 @@
         "module": "testdata/simple.js",
         "path": "E.@local.f",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/simple.js",
@@ -248,7 +252,8 @@
         "module": "testdata/simple.js",
         "path": "E.@local.g",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/simple.js",
@@ -295,7 +300,8 @@
         "namespace": "global",
         "path": "E.h",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/simple.js",

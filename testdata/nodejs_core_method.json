@@ -102,7 +102,8 @@
         "module": "testdata/nodejs_core_method.js",
         "path": "StringDecoder",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_core_method.js",
@@ -133,7 +134,8 @@
         "module": "testdata/nodejs_core_method.js",
         "path": "decoder",
         "abstract": false
-      }
+      },
+      "def": true
     },
     {
       "file": "testdata/nodejs_core_method.js",
