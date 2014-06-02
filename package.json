@@ -1,7 +1,7 @@
 {
   "name": "jsg",
   "description": "jsg analyzes JavaScript source code and emits a representation of the code suitable for browsing, documentation generation, or static analysis.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Quinn Slack",
     "email": "sqs@sourcegraph.com"
