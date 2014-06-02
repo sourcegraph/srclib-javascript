@@ -68,7 +68,7 @@ for (var i = 2, len = process.argv.length; i < len; ++i) {
 }
 
 var server = new tern.Server({
-  getFile: function(file) { return fs.readFileSync(path.resolve(localDir, file), "ascii"); },
+  getFile: function(file) { return fs.readFileSync(path.resolve(localDir, file), "utf8"); },
   defs: defs,
   plugins: plugins,
   debug: true,
@@ -89,7 +89,7 @@ for (var i = 0; i < files.length; ++i) {
     console.error("File " + file + " does not exist");
     process.exit(1);
   }
-  server.addFile(file, fs.readFileSync(file, "ascii"));
+  server.addFile(file, fs.readFileSync(file, "utf8"));
 }
 
 if (!origins.length) usage(1);
