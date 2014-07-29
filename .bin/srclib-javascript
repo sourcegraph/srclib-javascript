@@ -140,6 +140,12 @@ parser.command("graph")
     stdin.on("end", function () {
       var inputJSON = inputChunks.join("");
       var commonJSPackage = JSON.parse(inputJSON);
+
+      // TODO(sqs) install npm deps if we're in a docker container, since we can't rely on
+      // them to have been installed locally. we need to account for the fact
+      // that we've mounted the source volume readonly, so we can't just run
+      // `npm install`.
+
       jsgAdapter.run(".", commonJSPackage, function(err, graphData) {
         if (err) {
           console.error("Graphing " + commonJSPackage.Name + " failed:", err);

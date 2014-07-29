@@ -1,0 +1,58 @@
+[
+  {
+    "Raw": {
+      "name": "minimatch",
+      "version": "~0.2.14"
+    },
+    "Error": "error occurred while resolving: {}"
+  },
+  {
+    "Raw": {
+      "name": "glob",
+      "version": "~3.2.9"
+    },
+    "Error": "error occurred while resolving: {}"
+  },
+  {
+    "Raw": {
+      "name": "read-package-json",
+      "version": "~1.1.9"
+    },
+    "Error": "error occurred while resolving: {}"
+  },
+  {
+    "Raw": {
+      "name": "mysql",
+      "version": "~2.2.0"
+    },
+    "Error": "error occurred while resolving: {}"
+  },
+  {
+    "Raw": {
+      "name": "pg",
+      "version": "~3.0.3"
+    },
+    "Error": "error occurred while resolving: {}"
+  },
+  {
+    "Raw": {
+      "name": "underscore",
+      "version": "~1.6.0"
+    },
+    "Error": "error occurred while resolving: {}"
+  },
+  {
+    "Raw": {
+      "name": "async",
+      "version": "~0.8.0"
+    },
+    "Error": "error occurred while resolving: {}"
+  },
+  {
+    "Raw": {
+      "name": "lodash",
+      "version": "~2.4.1"
+    },
+    "Error": "error occurred while resolving: {}"
+  }
+]

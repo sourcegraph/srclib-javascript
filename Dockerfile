@@ -7,6 +7,8 @@ RUN apt-get install -qqy nodejs node-gyp npm git
 # it is on Ubuntu).
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 
+ENV IN_DOCKER_CONTAINER true
+
 # Add this toolchain
 ADD . /srclib/srclib-javascript/
 WORKDIR /srclib/srclib-javascript
