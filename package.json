@@ -1,0 +1,33 @@
+{
+  "name": "srclib-javascript",
+  "version": "0.0.1",
+  "description": "JavaScript source analysis toolchain for srclib",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "srclib-javascript": "./.bin/srclib-javascript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sourcegraph/srclib-javascript.git"
+  },
+  "keywords": [
+    "srclib",
+    "javascript",
+    "tern",
+    "analysis"
+  ],
+  "author": "Quinn Slack <sqs@sourcegraph.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/sourcegraph/srclib-javascript/issues"
+  },
+  "homepage": "https://github.com/sourcegraph/srclib-javascript",
+  "dependencies": {
+    "commonjs-findpkgs": "0.0.6",
+    "minimist": "^0.2.0",
+    "nomnom": "^1.8.0"
+  }
+}

@@ -1,0 +1,61 @@
+#!/usr/bin/env node
+
+var parser = require("nomnom");
+var findpkgs = require("commonjs-findpkgs");
+
+parser.command("scan-commonjs")
+   .option("repo", {
+      help: "repository URI"
+   })
+   .option("subdir", {
+      help: "subdirectory in repository"
+   })
+   .callback(function(opts) {
+     // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
+     findpkgs(".", ["node_modules"], function(err, pkgs) {
+       if (err) {
+         console.error("Scanning failed:", err);
+         process.exit(1);
+       }
+
+       // filter out undesirable packages
+       pkgs = pkgs.filter(function(pkg) {
+         // TODO(sqs): we probably want to process things in node_modules for
+         // local code, so remove this filter.
+         return pkg.dir.split("/").indexOf("node_modules") == -1;
+       });
+
+       // filter out undesirable source files (minified files) from
+       // packages
+       pkgs.forEach(function(pkg) {
+         pkg.libFiles = pkg.libFiles.filter(function(f) {
+           return !/\.min\.js$/.test(f);
+         });
+       });
+
+       // convert from commonjs-findpkgs format to source unit
+       var srcunits = pkgs.map(function(pkg) {
+         // collect all deps
+         var allDeps = [];
+         function collectDeps(deps) {
+           if (deps) Object.keys(deps).forEach(function(name) { allDeps.push({name: name, version: deps[name]}); });
+         }
+         collectDeps(pkg.package.dependencies);
+         collectDeps(pkg.package.devDependencies);
+
+         return {
+           name: pkg.package.name,
+           type: "CommonJSPackage",
+           files: pkg.libFiles.concat(pkg.testFiles),
+           dependencies: allDeps,
+           data: pkg.package,
+           ops: {depresolve: null, graph: null},
+         };
+       });
+
+       console.log(JSON.stringify(srcunits, null, 2));
+     });
+   })
+   .help("scan for CommonJS packages");
+
+parser.parse();

@@ -1,0 +1,25 @@
+{
+  "Tools": [
+    {
+      "Subcmd": "scan",
+      "Op": "scan",
+      "SourceUnitTypes": [
+        "CommonJSPackage"
+      ]
+    },
+    {
+      "Subcmd": "graph",
+      "Op": "graph",
+      "SourceUnitTypes": [
+        "CommonJSPackage"
+      ]
+    },
+    {
+      "Subcmd": "depresolve",
+      "Op": "depresolve",
+      "SourceUnitTypes": [
+        "CommonJSPackage"
+      ]
+    }
+  ]
+}
