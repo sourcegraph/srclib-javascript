@@ -1,0 +1,16 @@
+[
+  {
+    "Raw": {
+      "name": "mocha",
+      "version": "1.10.0"
+    },
+    "Error": "error occurred while resolving: {}"
+  },
+  {
+    "Raw": {
+      "name": "should",
+      "version": "~1.2.2"
+    },
+    "Error": "error occurred while resolving: {}"
+  }
+]

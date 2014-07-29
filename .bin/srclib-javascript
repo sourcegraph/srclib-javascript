@@ -84,8 +84,8 @@ parser.command("depresolve")
         var i = commonJSPackage.Dependencies.indexOf(dep);
         resolutions[i] = {Raw: dep};
         var spec = dep.name+"@"+dep.version;
-        npm.load({loglevel: "error"}, function(err, npm) {
-          npm.commands.view([spec], function(err,data) {
+        npm.load(function(err, npm) {
+          npm.commands.view(["--silent", spec], function(err,data) {
             if (err) {
               resolutions[i].Error = "error occurred while resolving: " + JSON.stringify(err);
             } else if (!data || Object.keys(data).length == 0) {
