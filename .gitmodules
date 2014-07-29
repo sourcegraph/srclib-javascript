@@ -1,0 +1,3 @@
+[submodule "testdata/case/javascript-nodejs-sample-0"]
+	path = testdata/case/javascript-nodejs-sample-0
+	url = git@github.com:sgtest/javascript-nodejs-sample-0

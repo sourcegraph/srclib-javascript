@@ -4,7 +4,7 @@
   "description": "JavaScript source analysis toolchain for srclib",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "src test --gen"
   },
   "bin": {
     "srclib-javascript": "./.bin/srclib-javascript"
@@ -27,7 +27,6 @@
   "homepage": "https://github.com/sourcegraph/srclib-javascript",
   "dependencies": {
     "commonjs-findpkgs": "0.0.6",
-    "minimist": "^0.2.0",
     "nomnom": "^1.8.0"
   }
 }
