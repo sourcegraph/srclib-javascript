@@ -2,60 +2,110 @@
 
 var parser = require("nomnom");
 var findpkgs = require("commonjs-findpkgs");
+var jsgAdapter = require("../lib/jsg_adapter")
 
 parser.command("scan-commonjs")
-   .option("repo", {
-      help: "repository URI"
-   })
-   .option("subdir", {
-      help: "subdirectory in repository"
-   })
-   .callback(function(opts) {
-     // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
-     findpkgs(".", ["node_modules"], function(err, pkgs) {
-       if (err) {
-         console.error("Scanning failed:", err);
-         process.exit(1);
-       }
+  .option("repo", {
+    help: "repository URI"
+  })
+  .option("subdir", {
+    help: "subdirectory in repository"
+  })
+  .callback(function(opts) {
+    // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
+    findpkgs(".", ["node_modules"], function(err, pkgs) {
+      if (err) {
+        console.error("Scanning failed:", err);
+        process.exit(1);
+      }
 
-       // filter out undesirable packages
-       pkgs = pkgs.filter(function(pkg) {
-         // TODO(sqs): we probably want to process things in node_modules for
-         // local code, so remove this filter.
-         return pkg.dir.split("/").indexOf("node_modules") == -1;
-       });
+      // filter out undesirable packages
+      pkgs = pkgs.filter(function(pkg) {
+        // TODO(sqs): we probably want to process things in node_modules for
+        // local code, so remove this filter.
+        return pkg.dir.split("/").indexOf("node_modules") == -1;
+      });
 
-       // filter out undesirable source files (minified files) from
-       // packages
-       pkgs.forEach(function(pkg) {
-         pkg.libFiles = pkg.libFiles.filter(function(f) {
-           return !/\.min\.js$/.test(f);
-         });
-       });
+      // filter out undesirable source files (minified files) from
+      // packages
+      pkgs.forEach(function(pkg) {
+        pkg.libFiles = pkg.libFiles.filter(function(f) {
+          return !/\.min\.js$/.test(f);
+        });
+      });
 
-       // convert from commonjs-findpkgs format to source unit
-       var srcunits = pkgs.map(function(pkg) {
-         // collect all deps
-         var allDeps = [];
-         function collectDeps(deps) {
-           if (deps) Object.keys(deps).forEach(function(name) { allDeps.push({name: name, version: deps[name]}); });
-         }
-         collectDeps(pkg.package.dependencies);
-         collectDeps(pkg.package.devDependencies);
+      // convert from commonjs-findpkgs format to source unit
+      var srcunits = pkgs.map(function(pkg) {
+        // collect all deps
+        var allDeps = [];
+        function collectDeps(deps) {
+          if (deps) Object.keys(deps).forEach(function(name) { allDeps.push({name: name, version: deps[name]}); });
+        }
+        collectDeps(pkg.package.dependencies);
+        collectDeps(pkg.package.devDependencies);
 
-         return {
-           name: pkg.package.name,
-           type: "CommonJSPackage",
-           files: pkg.libFiles.concat(pkg.testFiles),
-           dependencies: allDeps,
-           data: pkg.package,
-           ops: {depresolve: null, graph: null},
-         };
-       });
+        return {
+          Name: pkg.package.name,
+          Type: "CommonJSPackage",
+          Files: pkg.libFiles.concat(pkg.testFiles),
+          Dependencies: allDeps,
+          Data: pkg.package,
+          Ops: {depresolve: null, graph: null},
+        };
+      });
 
-       console.log(JSON.stringify(srcunits, null, 2));
-     });
-   })
-   .help("scan for CommonJS packages");
+      console.log(JSON.stringify(srcunits, null, 2));
+    });
+  })
+  .help("scan for CommonJS packages");
+
+parser.command("depresolve")
+  .callback(function(opts) {
+    var stdin = process.stdin,
+    stdout = process.stdout,
+    inputChunks = [];
+
+    stdin.resume();
+    stdin.setEncoding("utf8");
+
+    stdin.on("data", function (chunk) {
+      inputChunks.push(chunk);
+    });
+
+    stdin.on("end", function () {
+      var inputJSON = inputChunks.join("");
+      var commonJSPackage = JSON.parse(inputJSON);
+      // TODO(sqs): implement this
+      console.log("[]");
+    });
+  })
+  .help("resolves dependencies of a CommonJS package");
+
+parser.command("graph")
+  .callback(function(opts) {
+    var stdin = process.stdin,
+    stdout = process.stdout,
+    inputChunks = [];
+
+    stdin.resume();
+    stdin.setEncoding("utf8");
+
+    stdin.on("data", function (chunk) {
+      inputChunks.push(chunk);
+    });
+
+    stdin.on("end", function () {
+      var inputJSON = inputChunks.join("");
+      var commonJSPackage = JSON.parse(inputJSON);
+      jsgAdapter.run(".", commonJSPackage, function(err, graphData) {
+        if (err) {
+          console.error("Graphing " + commonJSPackage.Name + " failed:", err);
+          process.exit(1);
+        }
+        console.log(JSON.stringify(graphData, null, 2));
+      });
+    });
+  })
+  .help("graph a CommonJS package using jsg/tern");
 
 parser.parse();

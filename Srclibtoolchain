@@ -1,7 +1,7 @@
 {
   "Tools": [
     {
-      "Subcmd": "scan",
+      "Subcmd": "scan-commonjs",
       "Op": "scan",
       "SourceUnitTypes": [
         "CommonJSPackage"

@@ -11,6 +11,7 @@ RUN ln -s /usr/bin/nodejs /usr/bin/node
 ADD . /srclib/srclib-javascript/
 WORKDIR /srclib/srclib-javascript
 RUN npm install
+RUN cd node_modules/jsg && npm install
 ENV PATH /srclib/srclib-javascript/.bin:$PATH
 
 WORKDIR /src
