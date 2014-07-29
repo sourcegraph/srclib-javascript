@@ -27,8 +27,11 @@
   "homepage": "https://github.com/sourcegraph/srclib-javascript",
   "dependencies": {
     "commonjs-findpkgs": "0.0.6",
+    "jsg": "*",
     "nomnom": "^1.8.0",
-    "jsg": "*"
+    "npm": "^1.4.21"
   },
-  "bundledDependencies": ["jsg"]
+  "bundledDependencies": [
+    "jsg"
+  ]
 }
