@@ -1,0 +1,108 @@
+{
+  "symbols": [
+    {
+      "path": "A.prototype.b",
+      "id": {
+        "namespace": "global",
+        "path": "A.prototype.b"
+      },
+      "type": "fn()",
+      "typeDef": {
+        "file": "testdata/constructor_overwrite_prototype_method.js",
+        "bodySpan": "60-73"
+      },
+      "objectDef": {
+        "file": "testdata/constructor_overwrite_prototype_method.js",
+        "identSpan": "56-57",
+        "bodySpan": "60-73"
+      },
+      "exported": true
+    },
+    {
+      "path": "A.prototype",
+      "id": {
+        "namespace": "global",
+        "path": "A.prototype"
+      },
+      "typeDef": {
+        "file": "testdata/constructor_overwrite_prototype_method.js"
+      },
+      "objectDef": {},
+      "exported": true
+    },
+    {
+      "path": "A",
+      "id": {
+        "namespace": "global",
+        "path": "A"
+      },
+      "type": "fn()",
+      "typeDef": {
+        "file": "testdata/constructor_overwrite_prototype_method.js",
+        "bodySpan": "0-42"
+      },
+      "objectDef": {
+        "file": "testdata/constructor_overwrite_prototype_method.js",
+        "identSpan": "9-10",
+        "bodySpan": "0-42"
+      },
+      "exported": true
+    }
+  ],
+  "refs": [
+    {
+      "file": "testdata/constructor_overwrite_prototype_method.js",
+      "span": "9-10",
+      "target": {
+        "namespace": "global",
+        "path": "A",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/constructor_overwrite_prototype_method.js",
+      "span": "44-45",
+      "target": {
+        "namespace": "global",
+        "path": "A",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/constructor_overwrite_prototype_method.js",
+      "span": "46-55",
+      "target": {
+        "namespace": "global",
+        "path": "A.prototype",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/constructor_overwrite_prototype_method.js",
+      "span": "56-57",
+      "target": {
+        "namespace": "global",
+        "path": "A.prototype.b",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/constructor_overwrite_prototype_method.js",
+      "span": "80-81",
+      "target": {
+        "namespace": "global",
+        "path": "A",
+        "abstract": false
+      }
+    },
+    {
+      "file": "testdata/constructor_overwrite_prototype_method.js",
+      "span": "86-87",
+      "target": {
+        "namespace": "global",
+        "path": "A.prototype.b",
+        "abstract": false
+      }
+    }
+  ]
+}
