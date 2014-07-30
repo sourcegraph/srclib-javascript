@@ -1,7 +1,7 @@
 {
   "Symbols": [
     {
-      "Path": "",
+      "Path": "commonjs/index.js",
       "TreePath": "-commonjs/index.js",
       "Kind": "module",
       "Name": "index",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/async.js",
       "TreePath": "-commonjs/lib/async.js",
       "Kind": "module",
       "Name": "lib/async",
@@ -53,7 +53,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/fs.js",
       "TreePath": "-commonjs/lib/fs.js",
       "Kind": "module",
       "Name": "lib/fs",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/glob.js",
       "TreePath": "-commonjs/lib/glob.js",
       "Kind": "module",
       "Name": "lib/glob",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/http.js",
       "TreePath": "-commonjs/lib/http.js",
       "Kind": "module",
       "Name": "lib/http",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/lodash.js",
       "TreePath": "-commonjs/lib/lodash.js",
       "Kind": "module",
       "Name": "lib/lodash",
@@ -157,7 +157,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/minimatch.js",
       "TreePath": "-commonjs/lib/minimatch.js",
       "Kind": "module",
       "Name": "lib/minimatch",
@@ -183,7 +183,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/mysql.js",
       "TreePath": "-commonjs/lib/mysql.js",
       "Kind": "module",
       "Name": "lib/mysql",
@@ -209,7 +209,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/pg.js",
       "TreePath": "-commonjs/lib/pg.js",
       "Kind": "module",
       "Name": "lib/pg",
@@ -235,7 +235,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/read-package-json.js",
       "TreePath": "-commonjs/lib/read-package-json.js",
       "Kind": "module",
       "Name": "lib/read-package-json",
@@ -261,7 +261,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/lib/underscore.js",
       "TreePath": "-commonjs/lib/underscore.js",
       "Kind": "module",
       "Name": "lib/underscore",
@@ -287,7 +287,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/index.js/-/exports",
       "TreePath": "-file/index.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -308,7 +308,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/index.js/-/module/exports",
       "TreePath": "-file/index.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -329,7 +329,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/async.js/-/@104/@local/err",
       "TreePath": "-file/lib/async.js/-/@104/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -348,7 +348,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/async.js/-/@104/@local/results",
       "TreePath": "-file/lib/async.js/-/@104/@local/results",
       "Kind": "field",
       "Name": "results",
@@ -367,7 +367,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/async.js/-/@223/@local/results",
       "TreePath": "-file/lib/async.js/-/@223/@local/results",
       "Kind": "field",
       "Name": "results",
@@ -386,7 +386,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/async.js/-/async",
       "TreePath": "-file/lib/async.js/-/async",
       "Kind": "var",
       "Name": "async",
@@ -407,7 +407,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/async.js/-/exports",
       "TreePath": "-file/lib/async.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -428,7 +428,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/async.js/-/fs",
       "TreePath": "-file/lib/async.js/-/fs",
       "Kind": "var",
       "Name": "fs",
@@ -449,7 +449,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/async.js/-/module/exports",
       "TreePath": "-file/lib/async.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -470,7 +470,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/fs.js/-/@53/@local/data",
       "TreePath": "-file/lib/fs.js/-/@53/@local/data",
       "Kind": "field",
       "Name": "data",
@@ -489,7 +489,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/fs.js/-/@53/@local/err",
       "TreePath": "-file/lib/fs.js/-/@53/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -510,7 +510,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/fs.js/-/exports",
       "TreePath": "-file/lib/fs.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -531,7 +531,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/fs.js/-/fs",
       "TreePath": "-file/lib/fs.js/-/fs",
       "Kind": "var",
       "Name": "fs",
@@ -552,7 +552,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/fs.js/-/module/exports",
       "TreePath": "-file/lib/fs.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -573,7 +573,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/glob.js/-/@88/@local/err",
       "TreePath": "-file/lib/glob.js/-/@88/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -592,7 +592,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/glob.js/-/@88/@local/files",
       "TreePath": "-file/lib/glob.js/-/@88/@local/files",
       "Kind": "field",
       "Name": "files",
@@ -611,7 +611,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/glob.js/-/exports",
       "TreePath": "-file/lib/glob.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -632,7 +632,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/glob.js/-/glob",
       "TreePath": "-file/lib/glob.js/-/glob",
       "Kind": "func",
       "Name": "glob",
@@ -653,7 +653,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/glob.js/-/module/exports",
       "TreePath": "-file/lib/glob.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -674,7 +674,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/http.js/-/@155/@local/e",
       "TreePath": "-file/lib/http.js/-/@155/@local/e",
       "Kind": "field",
       "Name": "e",
@@ -695,7 +695,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/http.js/-/@74/@local/res",
       "TreePath": "-file/lib/http.js/-/@74/@local/res",
       "Kind": "field",
       "Name": "res",
@@ -716,7 +716,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/http.js/-/exports",
       "TreePath": "-file/lib/http.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -737,7 +737,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/http.js/-/http",
       "TreePath": "-file/lib/http.js/-/http",
       "Kind": "var",
       "Name": "http",
@@ -758,7 +758,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/http.js/-/module/exports",
       "TreePath": "-file/lib/http.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -779,7 +779,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/@227/@local/a",
       "TreePath": "-file/lib/lodash.js/-/@227/@local/a",
       "Kind": "field",
       "Name": "a",
@@ -800,7 +800,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/@227/@local/b",
       "TreePath": "-file/lib/lodash.js/-/@227/@local/b",
       "Kind": "field",
       "Name": "b",
@@ -819,7 +819,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/@339/@local/num",
       "TreePath": "-file/lib/lodash.js/-/@339/@local/num",
       "Kind": "field",
       "Name": "num",
@@ -838,7 +838,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/@449/@local/num",
       "TreePath": "-file/lib/lodash.js/-/@449/@local/num",
       "Kind": "field",
       "Name": "num",
@@ -857,7 +857,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/@560/@local/num",
       "TreePath": "-file/lib/lodash.js/-/@560/@local/num",
       "Kind": "field",
       "Name": "num",
@@ -876,7 +876,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/@91/@local/num",
       "TreePath": "-file/lib/lodash.js/-/@91/@local/num",
       "Kind": "field",
       "Name": "num",
@@ -895,7 +895,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/_",
       "TreePath": "-file/lib/lodash.js/-/_",
       "Kind": "var",
       "Name": "_",
@@ -914,7 +914,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/even",
       "TreePath": "-file/lib/lodash.js/-/even",
       "Kind": "var",
       "Name": "even",
@@ -933,7 +933,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/evens",
       "TreePath": "-file/lib/lodash.js/-/evens",
       "Kind": "var",
       "Name": "evens",
@@ -952,7 +952,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/exports",
       "TreePath": "-file/lib/lodash.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -973,7 +973,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/flat",
       "TreePath": "-file/lib/lodash.js/-/flat",
       "Kind": "var",
       "Name": "flat",
@@ -992,7 +992,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/list",
       "TreePath": "-file/lib/lodash.js/-/list",
       "Kind": "var",
       "Name": "list",
@@ -1013,7 +1013,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/list/\u003ci\u003e",
       "TreePath": "-file/lib/lodash.js/-/list/\u003ci\u003e",
       "Kind": "var",
       "Name": "\u003ci\u003e",
@@ -1034,7 +1034,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/list/\u003ci\u003e/\u003ci\u003e",
       "TreePath": "-file/lib/lodash.js/-/list/\u003ci\u003e/\u003ci\u003e",
       "Kind": "field",
       "Name": "\u003ci\u003e",
@@ -1055,7 +1055,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/module/exports",
       "TreePath": "-file/lib/lodash.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -1076,7 +1076,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/odds",
       "TreePath": "-file/lib/lodash.js/-/odds",
       "Kind": "var",
       "Name": "odds",
@@ -1095,7 +1095,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/lodash.js/-/thrice",
       "TreePath": "-file/lib/lodash.js/-/thrice",
       "Kind": "var",
       "Name": "thrice",
@@ -1114,7 +1114,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/minimatch.js/-/exports",
       "TreePath": "-file/lib/minimatch.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -1135,7 +1135,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/minimatch.js/-/minimatch",
       "TreePath": "-file/lib/minimatch.js/-/minimatch",
       "Kind": "func",
       "Name": "minimatch",
@@ -1156,7 +1156,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/minimatch.js/-/module/exports",
       "TreePath": "-file/lib/minimatch.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -1177,7 +1177,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1033/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@1033/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1196,7 +1196,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1033/@local/response",
       "TreePath": "-file/lib/mysql.js/-/@1033/@local/response",
       "Kind": "field",
       "Name": "response",
@@ -1215,7 +1215,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1220/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@1220/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1234,7 +1234,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1328/@local/fields",
       "TreePath": "-file/lib/mysql.js/-/@1328/@local/fields",
       "Kind": "field",
       "Name": "fields",
@@ -1253,7 +1253,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1416/@local/row",
       "TreePath": "-file/lib/mysql.js/-/@1416/@local/row",
       "Kind": "field",
       "Name": "row",
@@ -1272,7 +1272,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/@2023/@local/@2170/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/@2023/@local/@2170/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1291,7 +1291,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1310,7 +1310,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/result",
       "TreePath": "-file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/result",
       "Kind": "field",
       "Name": "result",
@@ -1329,7 +1329,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1348,7 +1348,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/log",
       "TreePath": "-file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/log",
       "Kind": "field",
       "Name": "log",
@@ -1369,7 +1369,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/result",
       "TreePath": "-file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/result",
       "Kind": "field",
       "Name": "result",
@@ -1388,7 +1388,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@1699/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@1699/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1407,7 +1407,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@217/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@217/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1426,7 +1426,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@217/@local/fields",
       "TreePath": "-file/lib/mysql.js/-/@217/@local/fields",
       "Kind": "field",
       "Name": "fields",
@@ -1445,7 +1445,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@217/@local/rows",
       "TreePath": "-file/lib/mysql.js/-/@217/@local/rows",
       "Kind": "field",
       "Name": "rows",
@@ -1464,7 +1464,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@2463/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@2463/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1483,7 +1483,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@2590/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@2590/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1502,7 +1502,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/key",
       "TreePath": "-file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/key",
       "Kind": "field",
       "Name": "key",
@@ -1521,7 +1521,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/txt",
       "TreePath": "-file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/txt",
       "Kind": "field",
       "Name": "txt",
@@ -1540,7 +1540,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@362/@local/query",
       "TreePath": "-file/lib/mysql.js/-/@362/@local/query",
       "Kind": "field",
       "Name": "query",
@@ -1561,7 +1561,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@362/@local/values",
       "TreePath": "-file/lib/mysql.js/-/@362/@local/values",
       "Kind": "field",
       "Name": "values",
@@ -1582,7 +1582,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@736/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@736/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1601,7 +1601,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@736/@local/result",
       "TreePath": "-file/lib/mysql.js/-/@736/@local/result",
       "Kind": "field",
       "Name": "result",
@@ -1620,7 +1620,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@880/@local/err",
       "TreePath": "-file/lib/mysql.js/-/@880/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1639,7 +1639,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/@880/@local/result",
       "TreePath": "-file/lib/mysql.js/-/@880/@local/result",
       "Kind": "field",
       "Name": "result",
@@ -1658,7 +1658,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/connection",
       "TreePath": "-file/lib/mysql.js/-/connection",
       "Kind": "var",
       "Name": "connection",
@@ -1677,7 +1677,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/exports",
       "TreePath": "-file/lib/mysql.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -1698,7 +1698,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/module/exports",
       "TreePath": "-file/lib/mysql.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -1719,7 +1719,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/mysql",
       "TreePath": "-file/lib/mysql.js/-/mysql",
       "Kind": "var",
       "Name": "mysql",
@@ -1740,7 +1740,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/mysql.js/-/query",
       "TreePath": "-file/lib/mysql.js/-/query",
       "Kind": "var",
       "Name": "query",
@@ -1761,7 +1761,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/err",
       "TreePath": "-file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1780,7 +1780,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/result",
       "TreePath": "-file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/result",
       "Kind": "field",
       "Name": "result",
@@ -1799,7 +1799,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/@114/@local/client",
       "TreePath": "-file/lib/pg.js/-/@114/@local/client",
       "Kind": "field",
       "Name": "client",
@@ -1820,7 +1820,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/@114/@local/done",
       "TreePath": "-file/lib/pg.js/-/@114/@local/done",
       "Kind": "func",
       "Name": "done",
@@ -1841,7 +1841,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/@114/@local/err",
       "TreePath": "-file/lib/pg.js/-/@114/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1860,7 +1860,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/err",
       "TreePath": "-file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1879,7 +1879,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/result",
       "TreePath": "-file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/result",
       "Kind": "field",
       "Name": "result",
@@ -1898,7 +1898,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/@570/@local/err",
       "TreePath": "-file/lib/pg.js/-/@570/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -1917,7 +1917,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/client",
       "TreePath": "-file/lib/pg.js/-/client",
       "Kind": "var",
       "Name": "client",
@@ -1936,7 +1936,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/conString",
       "TreePath": "-file/lib/pg.js/-/conString",
       "Kind": "var",
       "Name": "conString",
@@ -1957,7 +1957,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/exports",
       "TreePath": "-file/lib/pg.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -1978,7 +1978,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/module/exports",
       "TreePath": "-file/lib/pg.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -1999,7 +1999,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/pg.js/-/pg",
       "TreePath": "-file/lib/pg.js/-/pg",
       "Kind": "var",
       "Name": "pg",
@@ -2018,7 +2018,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/read-package-json.js/-/@70/@local/data",
       "TreePath": "-file/lib/read-package-json.js/-/@70/@local/data",
       "Kind": "field",
       "Name": "data",
@@ -2037,7 +2037,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/read-package-json.js/-/@70/@local/err",
       "TreePath": "-file/lib/read-package-json.js/-/@70/@local/err",
       "Kind": "field",
       "Name": "err",
@@ -2056,7 +2056,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/read-package-json.js/-/exports",
       "TreePath": "-file/lib/read-package-json.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -2077,7 +2077,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/read-package-json.js/-/module/exports",
       "TreePath": "-file/lib/read-package-json.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -2098,7 +2098,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/read-package-json.js/-/readJson",
       "TreePath": "-file/lib/read-package-json.js/-/readJson",
       "Kind": "func",
       "Name": "readJson",
@@ -2119,7 +2119,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/@231/@local/a",
       "TreePath": "-file/lib/underscore.js/-/@231/@local/a",
       "Kind": "field",
       "Name": "a",
@@ -2140,7 +2140,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/@231/@local/b",
       "TreePath": "-file/lib/underscore.js/-/@231/@local/b",
       "Kind": "field",
       "Name": "b",
@@ -2159,7 +2159,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/@343/@local/num",
       "TreePath": "-file/lib/underscore.js/-/@343/@local/num",
       "Kind": "field",
       "Name": "num",
@@ -2178,7 +2178,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/@453/@local/num",
       "TreePath": "-file/lib/underscore.js/-/@453/@local/num",
       "Kind": "field",
       "Name": "num",
@@ -2197,7 +2197,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/@564/@local/num",
       "TreePath": "-file/lib/underscore.js/-/@564/@local/num",
       "Kind": "field",
       "Name": "num",
@@ -2216,7 +2216,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/@95/@local/num",
       "TreePath": "-file/lib/underscore.js/-/@95/@local/num",
       "Kind": "field",
       "Name": "num",
@@ -2235,7 +2235,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/_",
       "TreePath": "-file/lib/underscore.js/-/_",
       "Kind": "var",
       "Name": "_",
@@ -2254,7 +2254,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/even",
       "TreePath": "-file/lib/underscore.js/-/even",
       "Kind": "var",
       "Name": "even",
@@ -2273,7 +2273,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/evens",
       "TreePath": "-file/lib/underscore.js/-/evens",
       "Kind": "var",
       "Name": "evens",
@@ -2292,7 +2292,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/exports",
       "TreePath": "-file/lib/underscore.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -2313,7 +2313,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/flat",
       "TreePath": "-file/lib/underscore.js/-/flat",
       "Kind": "var",
       "Name": "flat",
@@ -2332,7 +2332,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/list",
       "TreePath": "-file/lib/underscore.js/-/list",
       "Kind": "var",
       "Name": "list",
@@ -2353,7 +2353,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/list/\u003ci\u003e",
       "TreePath": "-file/lib/underscore.js/-/list/\u003ci\u003e",
       "Kind": "var",
       "Name": "\u003ci\u003e",
@@ -2374,7 +2374,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/list/\u003ci\u003e/\u003ci\u003e",
       "TreePath": "-file/lib/underscore.js/-/list/\u003ci\u003e/\u003ci\u003e",
       "Kind": "field",
       "Name": "\u003ci\u003e",
@@ -2395,7 +2395,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/module/exports",
       "TreePath": "-file/lib/underscore.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -2416,7 +2416,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/odds",
       "TreePath": "-file/lib/underscore.js/-/odds",
       "Kind": "var",
       "Name": "odds",
@@ -2435,7 +2435,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/lib/underscore.js/-/thrice",
       "TreePath": "-file/lib/underscore.js/-/thrice",
       "Kind": "var",
       "Name": "thrice",
@@ -2566,7 +2566,7 @@
       "End": 64
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/fs.js/-/exists",
@@ -2577,7 +2577,7 @@
       "End": 221
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/fs.js/-/readFile",
@@ -2588,7 +2588,7 @@
       "End": 36
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/fs.js/-/stat",
@@ -2599,7 +2599,7 @@
       "End": 102
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/http.js/-/Agent/prototype/createConnection",
@@ -2610,7 +2610,7 @@
       "End": 2407
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/http.js/-/Client",
@@ -2621,7 +2621,7 @@
       "End": 542
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/http.js/-/get",
@@ -2632,7 +2632,7 @@
       "End": 37
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
@@ -2643,7 +2643,7 @@
       "End": 167
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
@@ -2654,7 +2654,7 @@
       "End": 2462
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
@@ -2665,7 +2665,7 @@
       "End": 569
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
@@ -2676,7 +2676,7 @@
       "End": 102
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/createConnection",
@@ -2687,7 +2687,7 @@
       "End": 74
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/querystring.js/-/escape",
@@ -2698,7 +2698,7 @@
       "End": 537
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
@@ -2709,7 +2709,7 @@
       "End": 1210
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
@@ -2720,7 +2720,7 @@
       "End": 1317
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
@@ -2731,7 +2731,7 @@
       "End": 1405
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
@@ -2742,7 +2742,7 @@
       "End": 1608
     },
     {
-      "SymbolRepo": "git://github.com/sourcegraph/jsg.git",
+      "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/testdata/node_core_modules/util.js/-/inspect/styles/number",
@@ -2775,7 +2775,7 @@
       "End": 2628
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/assert.js/-/getMessage/@local/self/message",
@@ -2940,7 +2940,7 @@
       "End": 16
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/fs.js/-/@39239/@local/self/end",
@@ -2951,7 +2951,7 @@
       "End": 2702
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/fs.js/-/@39239/@local/self/end",
@@ -5316,7 +5316,7 @@
       "End": 75
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5327,7 +5327,7 @@
       "End": 1008
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5338,7 +5338,7 @@
       "End": 1174
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5349,7 +5349,7 @@
       "End": 1759
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5360,7 +5360,7 @@
       "End": 188
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5371,7 +5371,7 @@
       "End": 1987
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5382,7 +5382,7 @@
       "End": 2577
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5393,7 +5393,7 @@
       "End": 611
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5404,7 +5404,7 @@
       "End": 691
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5415,7 +5415,7 @@
       "End": 836
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
@@ -5426,7 +5426,7 @@
       "End": 240
     },
     {
-      "SymbolRepo": "https://github.com/joyent/node.git",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",

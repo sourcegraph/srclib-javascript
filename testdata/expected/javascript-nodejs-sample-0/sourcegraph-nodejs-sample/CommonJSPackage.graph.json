@@ -1,7 +1,7 @@
 {
   "Symbols": [
     {
-      "Path": "",
+      "Path": "commonjs/animal.js",
       "TreePath": "-commonjs/animal.js",
       "Kind": "module",
       "Name": "animal",
@@ -27,14 +27,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/animal.js/-/Animal",
       "TreePath": "-commonjs/animal.js/-/Animal",
       "Kind": "func",
       "Name": "Animal",
       "Callable": true,
       "File": "",
-      "DefStart": 512,
-      "DefEnd": 526,
+      "DefStart": 752,
+      "DefEnd": 766,
       "Exported": true,
       "Data": {
         "Kind": "func",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/animal.js/-/Animal/prototype",
       "TreePath": "-commonjs/animal.js/-/Animal/prototype",
       "Kind": "type",
       "Name": "prototype",
@@ -69,14 +69,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/animal.js/-/Animal/prototype/makeNoise",
       "TreePath": "-commonjs/animal.js/-/Animal/prototype/makeNoise",
       "Kind": "func",
       "Name": "makeNoise",
       "Callable": true,
       "File": "",
-      "DefStart": 145,
-      "DefEnd": 205,
+      "DefStart": 303,
+      "DefEnd": 363,
       "Exported": true,
       "Data": {
         "Kind": "func",
@@ -90,14 +90,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/animal.js/-/Animal/prototype/sayHello",
       "TreePath": "-commonjs/animal.js/-/Animal/prototype/sayHello",
       "Kind": "func",
       "Name": "sayHello",
       "Callable": true,
       "File": "",
-      "DefStart": 64,
-      "DefEnd": 125,
+      "DefStart": 168,
+      "DefEnd": 229,
       "Exported": true,
       "Data": {
         "Kind": "func",
@@ -111,14 +111,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/animal.js/-/Dog",
       "TreePath": "-commonjs/animal.js/-/Dog",
       "Kind": "func",
       "Name": "Dog",
       "Callable": true,
       "File": "",
-      "DefStart": 530,
-      "DefEnd": 538,
+      "DefStart": 770,
+      "DefEnd": 778,
       "Exported": true,
       "Data": {
         "Kind": "func",
@@ -132,14 +132,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/animal.js/-/Dog/prototype",
       "TreePath": "-commonjs/animal.js/-/Dog/prototype",
       "Kind": "type",
       "Name": "prototype",
       "Callable": false,
       "File": "",
-      "DefStart": 309,
-      "DefEnd": 333,
+      "DefStart": 490,
+      "DefEnd": 514,
       "Exported": true,
       "Data": {
         "Kind": "prototype",
@@ -153,14 +153,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/animal.js/-/Dog/prototype/bark",
       "TreePath": "-commonjs/animal.js/-/Dog/prototype/bark",
       "Kind": "func",
       "Name": "bark",
       "Callable": true,
       "File": "",
-      "DefStart": 446,
-      "DefEnd": 488,
+      "DefStart": 686,
+      "DefEnd": 728,
       "Exported": true,
       "Data": {
         "Kind": "func",
@@ -174,14 +174,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/animal.js/-/Dog/prototype/name",
       "TreePath": "-commonjs/animal.js/-/Dog/prototype/name",
       "Kind": "field",
       "Name": "name",
       "Callable": false,
       "File": "",
-      "DefStart": 31,
-      "DefEnd": 42,
+      "DefStart": 104,
+      "DefEnd": 115,
       "Exported": true,
       "Data": {
         "Kind": "property",
@@ -195,14 +195,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
       "TreePath": "-commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
       "Kind": "func",
       "Name": "sayExtendedHello",
       "Callable": true,
       "File": "",
-      "DefStart": 350,
-      "DefEnd": 429,
+      "DefStart": 575,
+      "DefEnd": 654,
       "Exported": true,
       "Data": {
         "Kind": "func",
@@ -216,7 +216,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "commonjs/test/animal_test.js",
       "TreePath": "-commonjs/test/animal_test.js",
       "Kind": "module",
       "Name": "test/animal_test",
@@ -242,14 +242,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/animal.js/-/Animal",
       "TreePath": "-file/animal.js/-/Animal",
       "Kind": "func",
       "Name": "Animal",
       "Callable": true,
       "File": "",
-      "DefStart": 0,
-      "DefEnd": 45,
+      "DefStart": 73,
+      "DefEnd": 118,
       "Exported": false,
       "Data": {
         "Kind": "func",
@@ -263,14 +263,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/animal.js/-/Animal/@local/name",
       "TreePath": "-file/animal.js/-/Animal/@local/name",
       "Kind": "field",
       "Name": "name",
       "Callable": false,
       "File": "",
-      "DefStart": 16,
-      "DefEnd": 20,
+      "DefStart": 89,
+      "DefEnd": 93,
       "Exported": false,
       "Data": {
         "Kind": "property",
@@ -284,14 +284,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/animal.js/-/Dog",
       "TreePath": "-file/animal.js/-/Dog",
       "Kind": "func",
       "Name": "Dog",
       "Callable": true,
       "File": "",
-      "DefStart": 208,
-      "DefEnd": 303,
+      "DefStart": 389,
+      "DefEnd": 484,
       "Exported": false,
       "Data": {
         "Kind": "func",
@@ -305,14 +305,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/animal.js/-/Dog/@local/breed",
       "TreePath": "-file/animal.js/-/Dog/@local/breed",
       "Kind": "field",
       "Name": "breed",
       "Callable": false,
       "File": "",
-      "DefStart": 227,
-      "DefEnd": 232,
+      "DefStart": 408,
+      "DefEnd": 413,
       "Exported": false,
       "Data": {
         "Kind": "property",
@@ -326,14 +326,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/animal.js/-/Dog/@local/name",
       "TreePath": "-file/animal.js/-/Dog/@local/name",
       "Kind": "field",
       "Name": "name",
       "Callable": false,
       "File": "",
-      "DefStart": 221,
-      "DefEnd": 225,
+      "DefStart": 402,
+      "DefEnd": 406,
       "Exported": false,
       "Data": {
         "Kind": "property",
@@ -347,7 +347,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/animal.js/-/exports",
       "TreePath": "-file/animal.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -368,14 +368,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/animal.js/-/module/exports",
       "TreePath": "-file/animal.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
       "Callable": false,
       "File": "",
-      "DefStart": 498,
-      "DefEnd": 541,
+      "DefStart": 738,
+      "DefEnd": 781,
       "Exported": false,
       "Data": {
         "Kind": "var",
@@ -389,7 +389,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
       "Kind": "field",
       "Name": "a",
@@ -410,7 +410,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
       "Kind": "func",
       "Name": "done",
@@ -431,7 +431,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
       "Kind": "field",
       "Name": "a",
@@ -452,14 +452,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
       "Kind": "field",
       "Name": "breed",
       "Callable": false,
       "File": "",
-      "DefStart": 263,
-      "DefEnd": 276,
+      "DefStart": 444,
+      "DefEnd": 457,
       "Exported": false,
       "Data": {
         "Kind": "property",
@@ -473,14 +473,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
       "Kind": "field",
       "Name": "name",
       "Callable": false,
       "File": "",
-      "DefStart": 243,
-      "DefEnd": 254,
+      "DefStart": 424,
+      "DefEnd": 435,
       "Exported": false,
       "Data": {
         "Kind": "property",
@@ -494,14 +494,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
       "Kind": "field",
       "Name": "noise",
       "Callable": false,
       "File": "",
-      "DefStart": 285,
-      "DefEnd": 300,
+      "DefStart": 466,
+      "DefEnd": 481,
       "Exported": false,
       "Data": {
         "Kind": "property",
@@ -515,7 +515,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
       "Kind": "func",
       "Name": "done",
@@ -536,7 +536,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
       "Kind": "field",
       "Name": "a",
@@ -557,7 +557,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
       "Kind": "func",
       "Name": "done",
@@ -578,7 +578,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
       "Kind": "field",
       "Name": "a",
@@ -599,7 +599,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
       "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
       "Kind": "func",
       "Name": "done",
@@ -620,7 +620,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
       "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
       "Kind": "field",
       "Name": "a",
@@ -641,14 +641,14 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
       "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
       "Kind": "field",
       "Name": "name",
       "Callable": false,
       "File": "",
-      "DefStart": 31,
-      "DefEnd": 42,
+      "DefStart": 104,
+      "DefEnd": 115,
       "Exported": false,
       "Data": {
         "Kind": "property",
@@ -662,7 +662,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
       "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
       "Kind": "func",
       "Name": "done",
@@ -683,7 +683,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
       "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
       "Kind": "field",
       "Name": "a",
@@ -704,7 +704,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
       "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
       "Kind": "func",
       "Name": "done",
@@ -725,7 +725,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
       "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
       "Kind": "field",
       "Name": "a",
@@ -746,7 +746,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
       "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
       "Kind": "func",
       "Name": "done",
@@ -767,7 +767,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/animal",
       "TreePath": "-file/test/animal_test.js/-/animal",
       "Kind": "var",
       "Name": "animal",
@@ -788,7 +788,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/exports",
       "TreePath": "-file/test/animal_test.js/-/exports",
       "Kind": "var",
       "Name": "exports",
@@ -809,7 +809,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/module/exports",
       "TreePath": "-file/test/animal_test.js/-/module/exports",
       "Kind": "var",
       "Name": "exports",
@@ -830,7 +830,7 @@
       }
     },
     {
-      "Path": "",
+      "Path": "file/test/animal_test.js/-/should",
       "TreePath": "-file/test/animal_test.js/-/should",
       "Kind": "var",
       "Name": "should",
@@ -858,8 +858,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 145,
-      "End": 154
+      "Start": 303,
+      "End": 312
     },
     {
       "SymbolRepo": "",
@@ -888,22 +888,22 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/lib/animal.js.js/-/Animal/prototype/sayHello",
-      "Def": false,
+      "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 396,
-      "End": 404
+      "Start": 168,
+      "End": 176
     },
     {
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "commonjs/lib/animal.js.js/-/Animal/prototype/sayHello",
-      "Def": true,
+      "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 64,
-      "End": 72
+      "Start": 621,
+      "End": 629
     },
     {
       "SymbolRepo": "",
@@ -924,8 +924,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 135,
-      "End": 144
+      "Start": 158,
+      "End": 167
     },
     {
       "SymbolRepo": "",
@@ -935,8 +935,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 54,
-      "End": 63
+      "Start": 293,
+      "End": 302
     },
     {
       "SymbolRepo": "",
@@ -979,8 +979,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 446,
-      "End": 450
+      "Start": 686,
+      "End": 690
     },
     {
       "SymbolRepo": "",
@@ -1001,8 +1001,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 350,
-      "End": 366
+      "Start": 575,
+      "End": 591
     },
     {
       "SymbolRepo": "",
@@ -1023,8 +1023,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 309,
-      "End": 318
+      "Start": 490,
+      "End": 499
     },
     {
       "SymbolRepo": "",
@@ -1034,8 +1034,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 340,
-      "End": 349
+      "Start": 565,
+      "End": 574
     },
     {
       "SymbolRepo": "",
@@ -1045,8 +1045,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 436,
-      "End": 445
+      "Start": 676,
+      "End": 685
     },
     {
       "SymbolRepo": "",
@@ -1097,22 +1097,22 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/animal.js/-/Animal/@local/name",
-      "Def": true,
+      "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 16,
-      "End": 20
+      "Start": 111,
+      "End": 115
     },
     {
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/animal.js/-/Animal/@local/name",
-      "Def": false,
+      "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 38,
-      "End": 42
+      "Start": 89,
+      "End": 93
     },
     {
       "SymbolRepo": "",
@@ -1122,8 +1122,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 128,
-      "End": 134
+      "Start": 151,
+      "End": 157
     },
     {
       "SymbolRepo": "",
@@ -1133,8 +1133,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 325,
-      "End": 331
+      "Start": 286,
+      "End": 292
     },
     {
       "SymbolRepo": "",
@@ -1144,8 +1144,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 47,
-      "End": 53
+      "Start": 506,
+      "End": 512
     },
     {
       "SymbolRepo": "",
@@ -1155,8 +1155,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 520,
-      "End": 526
+      "Start": 760,
+      "End": 766
     },
     {
       "SymbolRepo": "",
@@ -1166,8 +1166,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 9,
-      "End": 15
+      "Start": 82,
+      "End": 88
     },
     {
       "SymbolRepo": "",
@@ -1177,8 +1177,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 227,
-      "End": 232
+      "Start": 408,
+      "End": 413
     },
     {
       "SymbolRepo": "",
@@ -1188,8 +1188,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 271,
-      "End": 276
+      "Start": 452,
+      "End": 457
     },
     {
       "SymbolRepo": "",
@@ -1199,8 +1199,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 221,
-      "End": 225
+      "Start": 402,
+      "End": 406
     },
     {
       "SymbolRepo": "",
@@ -1210,51 +1210,7 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 250,
-      "End": 254
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog",
-      "Def": true,
-      "Repo": "",
-      "File": "animal.js",
-      "Start": 217,
-      "End": 220
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog",
-      "Def": false,
-      "Repo": "",
-      "File": "animal.js",
-      "Start": 305,
-      "End": 308
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog",
-      "Def": false,
-      "Repo": "",
-      "File": "animal.js",
-      "Start": 336,
-      "End": 339
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog",
-      "Def": false,
-      "Repo": "",
-      "File": "animal.js",
-      "Start": 432,
+      "Start": 431,
       "End": 435
     },
     {
@@ -1262,11 +1218,55 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/animal.js/-/Dog",
+      "Def": true,
+      "Repo": "",
+      "File": "animal.js",
+      "Start": 398,
+      "End": 401
+    },
+    {
+      "SymbolRepo": "",
+      "SymbolUnitType": "",
+      "SymbolUnit": "",
+      "SymbolPath": "file/animal.js/-/Dog",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 535,
-      "End": 538
+      "Start": 486,
+      "End": 489
+    },
+    {
+      "SymbolRepo": "",
+      "SymbolUnitType": "",
+      "SymbolUnit": "",
+      "SymbolPath": "file/animal.js/-/Dog",
+      "Def": false,
+      "Repo": "",
+      "File": "animal.js",
+      "Start": 561,
+      "End": 564
+    },
+    {
+      "SymbolRepo": "",
+      "SymbolUnitType": "",
+      "SymbolUnit": "",
+      "SymbolPath": "file/animal.js/-/Dog",
+      "Def": false,
+      "Repo": "",
+      "File": "animal.js",
+      "Start": 672,
+      "End": 675
+    },
+    {
+      "SymbolRepo": "",
+      "SymbolUnitType": "",
+      "SymbolUnit": "",
+      "SymbolPath": "file/animal.js/-/Dog",
+      "Def": false,
+      "Repo": "",
+      "File": "animal.js",
+      "Start": 775,
+      "End": 778
     },
     {
       "SymbolRepo": "",
@@ -1276,8 +1276,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 498,
-      "End": 505
+      "Start": 738,
+      "End": 745
     },
     {
       "SymbolRepo": "",
@@ -1287,8 +1287,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 491,
-      "End": 497
+      "Start": 731,
+      "End": 737
     },
     {
       "SymbolRepo": "",
@@ -1342,8 +1342,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 263,
-      "End": 268
+      "Start": 444,
+      "End": 449
     },
     {
       "SymbolRepo": "",
@@ -1353,8 +1353,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 421,
-      "End": 426
+      "Start": 646,
+      "End": 651
     },
     {
       "SymbolRepo": "",
@@ -1364,8 +1364,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 243,
-      "End": 247
+      "Start": 424,
+      "End": 428
     },
     {
       "SymbolRepo": "",
@@ -1386,8 +1386,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 184,
-      "End": 189
+      "Start": 342,
+      "End": 347
     },
     {
       "SymbolRepo": "",
@@ -1397,8 +1397,8 @@
       "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 285,
-      "End": 290
+      "Start": 466,
+      "End": 471
     },
     {
       "SymbolRepo": "",
@@ -1408,8 +1408,8 @@
       "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 480,
-      "End": 485
+      "Start": 720,
+      "End": 725
     },
     {
       "SymbolRepo": "",
@@ -1548,22 +1548,22 @@
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
-      "Def": false,
+      "Def": true,
       "Repo": "",
       "File": "animal.js",
-      "Start": 118,
-      "End": 122
+      "Start": 104,
+      "End": 108
     },
     {
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
       "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
-      "Def": true,
+      "Def": false,
       "Repo": "",
       "File": "animal.js",
-      "Start": 31,
-      "End": 35
+      "Start": 222,
+      "End": 226
     },
     {
       "SymbolRepo": "",
@@ -1828,6 +1828,56 @@
       "File": "test/animal_test.js",
       "Start": 39,
       "End": 45
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "commonjs/animal.js/-/Animal/prototype/makeNoise",
+      "Format": "",
+      "Data": "makeNoise emits the animal's characteristic noise.",
+      "File": "",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "commonjs/animal.js/-/Animal/prototype/sayHello",
+      "Format": "",
+      "Data": "sayHello greets the caller.",
+      "File": "",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "commonjs/animal.js/-/Dog/prototype/bark",
+      "Format": "",
+      "Data": "bark barks.",
+      "File": "",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
+      "Format": "",
+      "Data": "sayExtendedHello gives a doggy greeting.",
+      "File": "",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "file/animal.js/-/Animal",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise.",
+      "File": "",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "Path": "file/animal.js/-/Dog",
+      "Format": "",
+      "Data": "A Dog is an animal.",
+      "File": "",
+      "Start": 0,
+      "End": 0
     }
   ]
 }
