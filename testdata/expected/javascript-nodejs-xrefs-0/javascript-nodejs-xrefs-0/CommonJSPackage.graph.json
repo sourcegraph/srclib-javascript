@@ -2547,17 +2547,6 @@
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
-      "SymbolPath": "commonjs/../usr/lib/nodejs/glob.js/-/Glob/super_/prototype/on",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/http.js",
-      "Start": 143,
-      "End": 145
-    },
-    {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
       "SymbolPath": "commonjs/../usr/lib/nodejs/glob.js/-/sync",
       "Def": false,
       "Repo": "",
@@ -2566,10 +2555,21 @@
       "End": 64
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/fs.js/-/exists",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/events.js/-/prototype/on",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/http.js",
+      "Start": 143,
+      "End": 145
+    },
+    {
+      "SymbolRepo": "github.com/joyent/node",
+      "SymbolUnitType": "",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/fs.js/-/exists",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2577,10 +2577,10 @@
       "End": 221
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/fs.js/-/readFile",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/fs.js/-/readFile",
       "Def": false,
       "Repo": "",
       "File": "lib/fs.js",
@@ -2588,10 +2588,10 @@
       "End": 36
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/fs.js/-/stat",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/fs.js/-/stat",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2599,10 +2599,10 @@
       "End": 102
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/http.js/-/Agent/prototype/createConnection",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/http.js/-/Agent/prototype/createConnection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2610,10 +2610,10 @@
       "End": 2407
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/http.js/-/Client",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/http.js/-/Client",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -2621,10 +2621,10 @@
       "End": 542
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/http.js/-/get",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/http.js/-/get",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -2632,10 +2632,10 @@
       "End": 37
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/net.js/-/connect",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2643,10 +2643,10 @@
       "End": 167
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/net.js/-/connect",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2654,10 +2654,10 @@
       "End": 2462
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/net.js/-/connect",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -2665,10 +2665,10 @@
       "End": 569
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/net.js/-/connect",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -2676,10 +2676,10 @@
       "End": 102
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/createConnection",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/net.js/-/createConnection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2687,10 +2687,10 @@
       "End": 74
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/querystring.js/-/escape",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/querystring.js/-/escape",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2698,10 +2698,10 @@
       "End": 537
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2709,10 +2709,10 @@
       "End": 1210
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2720,10 +2720,10 @@
       "End": 1317
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2731,10 +2731,10 @@
       "End": 1405
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2742,10 +2742,10 @@
       "End": 1608
     },
     {
-      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "jsg",
-      "SymbolPath": "commonjs/testdata/node_core_modules/util.js/-/inspect/styles/number",
+      "SymbolUnit": "node",
+      "SymbolPath": "commonjs/lib/util.js/-/inspect/styles/number",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",

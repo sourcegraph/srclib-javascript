@@ -16,6 +16,10 @@ RUN npm install
 RUN cd node_modules/jsg && npm install
 ENV PATH /srclib/srclib-javascript/.bin:$PATH
 
+# otherwise these get picked up as being in the jsg package
+ENV NODEJS_CORE_MODULES_DIR /tmp/node_core_modules
+RUN ln -rs /srclib/srclib-javascript/node_modules/jsg/testdata/node_core_modules $NODEJS_CORE_MODULES_DIR
+
 WORKDIR /src
 
 ENTRYPOINT ["srclib-javascript"]
