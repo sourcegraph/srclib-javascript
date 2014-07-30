@@ -1093,6 +1093,83 @@
       "End": 937
     },
     {
+      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolUnitType": "",
+      "SymbolUnit": "jsg",
+      "SymbolPath": "commonjs/testdata/node_core_modules/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 1145,
+      "End": 1148
+    },
+    {
+      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolUnitType": "",
+      "SymbolUnit": "jsg",
+      "SymbolPath": "commonjs/testdata/node_core_modules/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 204,
+      "End": 207
+    },
+    {
+      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolUnitType": "",
+      "SymbolUnit": "jsg",
+      "SymbolPath": "commonjs/testdata/node_core_modules/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 336,
+      "End": 339
+    },
+    {
+      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolUnitType": "",
+      "SymbolUnit": "jsg",
+      "SymbolPath": "commonjs/testdata/node_core_modules/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 481,
+      "End": 484
+    },
+    {
+      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolUnitType": "",
+      "SymbolUnit": "jsg",
+      "SymbolPath": "commonjs/testdata/node_core_modules/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 647,
+      "End": 650
+    },
+    {
+      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolUnitType": "",
+      "SymbolUnit": "jsg",
+      "SymbolPath": "commonjs/testdata/node_core_modules/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 816,
+      "End": 819
+    },
+    {
+      "SymbolRepo": "github.com/sourcegraph/jsg",
+      "SymbolUnitType": "",
+      "SymbolUnit": "jsg",
+      "SymbolPath": "commonjs/testdata/node_core_modules/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 991,
+      "End": 994
+    },
+    {
       "SymbolRepo": "",
       "SymbolUnitType": "",
       "SymbolUnit": "",
