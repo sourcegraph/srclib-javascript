@@ -2568,7 +2568,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/fs.js/-/exists",
       "Def": false,
       "Repo": "",
@@ -2579,7 +2579,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/fs.js/-/readFile",
       "Def": false,
       "Repo": "",
@@ -2590,7 +2590,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/fs.js/-/stat",
       "Def": false,
       "Repo": "",
@@ -2601,7 +2601,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/http.js/-/Agent/prototype/createConnection",
       "Def": false,
       "Repo": "",
@@ -2612,7 +2612,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/http.js/-/Client",
       "Def": false,
       "Repo": "",
@@ -2623,7 +2623,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/http.js/-/get",
       "Def": false,
       "Repo": "",
@@ -2634,7 +2634,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
       "Def": false,
       "Repo": "",
@@ -2645,7 +2645,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
       "Def": false,
       "Repo": "",
@@ -2656,7 +2656,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
       "Def": false,
       "Repo": "",
@@ -2667,7 +2667,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/connect",
       "Def": false,
       "Repo": "",
@@ -2678,7 +2678,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/net.js/-/createConnection",
       "Def": false,
       "Repo": "",
@@ -2689,7 +2689,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/querystring.js/-/escape",
       "Def": false,
       "Repo": "",
@@ -2700,7 +2700,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
@@ -2711,7 +2711,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
@@ -2722,7 +2722,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
@@ -2733,7 +2733,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
@@ -2744,7 +2744,7 @@
     {
       "SymbolRepo": "github.com/sourcegraph/jsg",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "jsg",
       "SymbolPath": "commonjs/testdata/node_core_modules/util.js/-/inspect/styles/number",
       "Def": false,
       "Repo": "",
@@ -2777,7 +2777,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/assert.js/-/getMessage/@local/self/message",
       "Def": false,
       "Repo": "",
@@ -2942,7 +2942,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/fs.js/-/@39239/@local/self/end",
       "Def": false,
       "Repo": "",
@@ -2953,7 +2953,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/fs.js/-/@39239/@local/self/end",
       "Def": false,
       "Repo": "",
@@ -5318,7 +5318,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5329,7 +5329,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5340,7 +5340,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5351,7 +5351,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5362,7 +5362,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5373,7 +5373,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5384,7 +5384,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5395,7 +5395,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5406,7 +5406,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5417,7 +5417,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
@@ -5428,7 +5428,7 @@
     {
       "SymbolRepo": "github.com/joyent/node",
       "SymbolUnitType": "",
-      "SymbolUnit": "",
+      "SymbolUnit": "node",
       "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
