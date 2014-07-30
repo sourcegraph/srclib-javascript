@@ -1,0 +1,91 @@
+{
+  "!name": "testdata/simple.js",
+  "a": {
+    "!type": "fn()",
+    "!span": "4[0:4]-5[0:5]",
+    "!data": {
+      "aval": {
+        "originFile": "testdata/simple.js",
+        "identSpan": "4-5",
+        "defSpan": "8-21"
+      },
+      "type": {
+        "origin": "testdata/simple.js",
+        "name": "a"
+      }
+    }
+  },
+  "b": {
+    "!type": "number",
+    "!span": "27[1:4]-28[1:5]",
+    "!data": {
+      "aval": {
+        "originFile": "testdata/simple.js",
+        "identSpan": "46-47",
+        "defSpan": "49-50"
+      },
+      "type": {
+        "name": "number"
+      }
+    }
+  },
+  "c": {
+    "d": {
+      "!type": "number",
+      "!span": "46[3:2]-47[3:3]",
+      "!data": {
+        "aval": {
+          "originFile": "testdata/simple.js",
+          "identSpan": "46-47",
+          "defSpan": "49-50"
+        },
+        "type": {
+          "name": "number"
+        }
+      }
+    },
+    "f": {
+      "!type": "fn()",
+      "!span": "54[4:2]-55[4:3]",
+      "!data": {
+        "aval": {
+          "originFile": "testdata/simple.js",
+          "identSpan": "54-55",
+          "defSpan": "57-70"
+        },
+        "type": {
+          "origin": "testdata/simple.js",
+          "name": "f"
+        }
+      }
+    },
+    "!span": "38[2:4]-39[2:5]",
+    "!data": {
+      "aval": {
+        "originFile": "testdata/simple.js",
+        "identSpan": "38-39",
+        "defSpan": "42-73"
+      },
+      "type": {
+        "origin": "testdata/simple.js",
+        "name": "c"
+      }
+    }
+  },
+  "g": {
+    "!type": "fn()",
+    "!span": "85[7:9]-86[7:10]",
+    "!data": {
+      "aval": {
+        "originFile": "testdata/simple.js",
+        "identSpan": "85-86",
+        "defSpan": "76-91"
+      },
+      "type": {
+        "origin": "testdata/simple.js",
+        "name": "g"
+      }
+    }
+  },
+  "e": "Array"
+}

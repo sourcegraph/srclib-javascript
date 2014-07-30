@@ -1,0 +1,7 @@
+[
+  "!node.testdata/prefer_exported`js",
+  "!node.testdata/prefer_exported`js.a",
+  "@testdata/prefer_exported`js.module.exports",
+  "@testdata/prefer_exported`js.exports",
+  "@testdata/prefer_exported`js.fs"
+]

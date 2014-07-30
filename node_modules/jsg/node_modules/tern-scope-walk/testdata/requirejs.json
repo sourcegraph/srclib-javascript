@@ -1,0 +1,6 @@
+[
+  "!requirejs.testdata/requirejs_b",
+  "!requirejs.testdata/requirejs",
+  "!requirejs.testdata/requirejs.a",
+  "@testdata/requirejs`js.@26.@local.rjs_b"
+]

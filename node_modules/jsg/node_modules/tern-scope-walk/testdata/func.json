@@ -1,0 +1,5 @@
+[
+  "^.a",
+  "@testdata/func`js.a.@local.b",
+  "@testdata/func`js.a.@local.c"
+]

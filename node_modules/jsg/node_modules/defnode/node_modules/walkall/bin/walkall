@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+var file = process.argv[2];
+if (!file) {
+  console.error('error: no file specified\n');
+  console.error('usage:', process.argv[0], process.argv[1], '<file>');
+  process.exit(1);
+}
+
+var acorn = require('acorn'), fs = require('fs'), walk = require('acorn/util/walk'), walkall = require('../walkall');
+fs.readFile(file, 'utf8', function(err, src) {
+  if (err) {
+    console.error('error:', err.message);
+    process.exit(err.errno);
+  }
+  var ast = acorn.parse(src);
+  walk.simple(ast, walkall.makeVisitors(function(node) {
+    console.log(node.type, node.start + '-' + node.end);
+  }), walkall.traversers);
+});

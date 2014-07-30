@@ -1,0 +1,9 @@
+exports.readFile = require('fs').readFile;
+exports.createServer = require('http').createServer;
+exports.path = require('path');
+exports.emit = (new require('events').EventEmitter()).emit;
+exports.StringDecoder = require('string_decoder').StringDecoder;
+exports.StringDecoderWrite = StringDecoder.prototype.write;
+exports.decoder = new StringDecoder('utf8');
+exports.decoderWrite = decoder.write;
+exports.assert = require('assert');

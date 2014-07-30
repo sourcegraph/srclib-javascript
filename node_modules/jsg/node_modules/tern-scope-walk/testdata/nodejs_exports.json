@@ -1,0 +1,5 @@
+[
+  "!node.testdata/nodejs_exports`js",
+  "@testdata/nodejs_exports`js.module.exports",
+  "@testdata/nodejs_exports`js.exports"
+]
