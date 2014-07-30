@@ -1,0 +1,11 @@
+{
+  "!name": "proto",
+  "X": {
+    "!type": "fn()",
+    "prototype": {
+      "foo": {
+        "!type": "fn() -> number"
+      }
+    }
+  }
+}
