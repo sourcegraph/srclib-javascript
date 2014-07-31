@@ -5,5 +5,5 @@ node_js:
   - "0.10"
 
 install:
-  - sudo -NO /usr/local/bin/src https://github.com/sourcegraph/srclib/releases/download/v0.0.1/src
+  - sudo -NO /usr/local/bin/src https://github.com/sourcegraph/srclib/releases/download/v0.0.2/src
   - sudo chmod +x /usr/local/bin/src
