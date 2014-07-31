@@ -12,8 +12,6 @@ ENV IN_DOCKER_CONTAINER true
 # Add this toolchain
 ADD . /srclib/srclib-javascript/
 WORKDIR /srclib/srclib-javascript
-RUN npm install
-RUN cd node_modules/jsg && npm install
 ENV PATH /srclib/srclib-javascript/.bin:$PATH
 
 # otherwise these get picked up as being in the jsg package
