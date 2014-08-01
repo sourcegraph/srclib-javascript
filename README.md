@@ -80,7 +80,28 @@ adapted for other use cases. It also has several limitations.
   job of tracing external invocations of the module to their actual function
   literal definition.)
 
-# Contributing
+## Tests
+
+Testing this toolchain requires that you have installed `src` from
+[srclib](https://sourcegraph.com/sourcegraph/srclib) and that you have this
+toolchain set up. See srclib documentation for more information.
+
+To test this toolchain's output against the expected output, run:
+
+```
+# build the Docker container to run the tests in isolation
+src toolchain build sourcegraph.com/sourcegraph/srclib-javascript
+
+# run the tests
+src test
+```
+
+By default, that command runs tests in an isolated Docker container. To run the
+tests on your local machine, run `src test -m program`. See the srclib
+documentation for more information about the differences between these two
+execution methods.
+
+## Contributing
 
 Patches are welcomed via GitHub pull request! See
 [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.
