@@ -84,3 +84,5 @@ adapted for other use cases. It also has several limitations.
 
 Patches are welcomed via GitHub pull request! See
 [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.
+
+srclib-javascript's type inference is based on [Tern](http://ternjs.net/).
