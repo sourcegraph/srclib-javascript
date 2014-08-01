@@ -18,7 +18,8 @@ Screenshots are below.
 This toolchain is not a standalone program; it provides additional functionality
 to editor plugins and other applications that use [srclib](https://srclib.org).
 
-First, [install the `src` program (see srclib installation instructions)](https://sourcegraph.com/sourcegraph/srclib).
+First,
+[install the `src` program (see srclib installation instructions)](https://sourcegraph.com/sourcegraph/srclib).
 
 Then run:
 
