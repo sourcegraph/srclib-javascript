@@ -5,6 +5,6 @@ node_js:
   - "0.10"
 
 install:
-  - sudo wget -NO /usr/local/bin/src https://github.com/sourcegraph/srclib/releases/download/v0.0.5/src
+  - sudo wget -NO /usr/local/bin/src https://github.com/sourcegraph/srclib/releases/download/v0.0.7/src
   - sudo chmod +x /usr/local/bin/src
   - src toolchain add sourcegraph.com/sourcegraph/srclib-javascript
