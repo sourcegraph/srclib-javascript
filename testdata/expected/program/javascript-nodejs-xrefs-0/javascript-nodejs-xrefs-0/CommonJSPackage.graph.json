@@ -1,5 +1,5 @@
 {
-  "Symbols": [
+  "Defs": [
     {
       "Path": "commonjs/index.js",
       "TreePath": "-commonjs/index.js",
@@ -17,7 +17,7 @@
           "module": "index.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -43,7 +43,7 @@
           "module": "lib/async.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -69,7 +69,7 @@
           "module": "lib/fs.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -95,7 +95,7 @@
           "module": "lib/glob.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -121,7 +121,7 @@
           "module": "lib/http.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -147,7 +147,7 @@
           "module": "lib/lodash.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -173,7 +173,7 @@
           "module": "lib/minimatch.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -199,7 +199,7 @@
           "module": "lib/mysql.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -225,7 +225,7 @@
           "module": "lib/pg.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -251,7 +251,7 @@
           "module": "lib/read-package-json.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -277,7 +277,7 @@
           "module": "lib/underscore.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -2454,10 +2454,10 @@
   ],
   "Refs": [
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/events.js/-/prototype/on",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/events.js/-/prototype/on",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -2465,10 +2465,10 @@
       "End": 145
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/fs.js/-/exists",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/fs.js/-/exists",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2476,10 +2476,10 @@
       "End": 221
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/fs.js/-/readFile",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/fs.js/-/readFile",
       "Def": false,
       "Repo": "",
       "File": "lib/fs.js",
@@ -2487,10 +2487,10 @@
       "End": 36
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/fs.js/-/stat",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/fs.js/-/stat",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2498,10 +2498,10 @@
       "End": 102
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/http.js/-/Agent/prototype/createConnection",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/http.js/-/Agent/prototype/createConnection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2509,10 +2509,10 @@
       "End": 2407
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/http.js/-/Client",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/http.js/-/Client",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -2520,10 +2520,10 @@
       "End": 542
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/http.js/-/ServerResponse/prototype/statusCode",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/http.js/-/ServerResponse/prototype/statusCode",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -2531,10 +2531,10 @@
       "End": 137
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/http.js/-/get",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/http.js/-/get",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -2542,10 +2542,10 @@
       "End": 37
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/net.js/-/connect",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/net.js/-/connect",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2553,10 +2553,10 @@
       "End": 167
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/net.js/-/connect",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/net.js/-/connect",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2564,10 +2564,10 @@
       "End": 2462
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/net.js/-/connect",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/net.js/-/connect",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -2575,10 +2575,10 @@
       "End": 569
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/net.js/-/connect",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/net.js/-/connect",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -2586,10 +2586,10 @@
       "End": 102
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/net.js/-/createConnection",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/net.js/-/createConnection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2597,10 +2597,10 @@
       "End": 74
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/querystring.js/-/escape",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/querystring.js/-/escape",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2608,10 +2608,10 @@
       "End": 537
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2619,10 +2619,10 @@
       "End": 1210
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2630,10 +2630,10 @@
       "End": 1317
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2641,10 +2641,10 @@
       "End": 1405
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2652,10 +2652,10 @@
       "End": 1608
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/pause",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/pause",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2663,10 +2663,10 @@
       "End": 1525
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/stream.js/-/Readable/prototype/resume",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/resume",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2674,10 +2674,10 @@
       "End": 1586
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "commonjs/lib/util.js/-/inspect/styles/number",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/util.js/-/inspect/styles/number",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -2685,10 +2685,10 @@
       "End": 485
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/assert.js/-/getMessage/@local/self/message",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/assert.js/-/getMessage/@local/self/message",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -2696,10 +2696,10 @@
       "End": 208
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/@104/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/@104/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/async.js",
@@ -2707,10 +2707,10 @@
       "End": 116
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/@104/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/@104/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2718,10 +2718,10 @@
       "End": 153
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/@104/@local/results",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/@104/@local/results",
       "Def": true,
       "Repo": "",
       "File": "lib/async.js",
@@ -2729,10 +2729,10 @@
       "End": 125
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/@104/@local/results",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/@104/@local/results",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2740,10 +2740,10 @@
       "End": 162
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/@223/@local/results",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/@223/@local/results",
       "Def": true,
       "Repo": "",
       "File": "lib/async.js",
@@ -2751,10 +2751,10 @@
       "End": 239
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/@223/@local/results",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/@223/@local/results",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2762,10 +2762,10 @@
       "End": 274
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/async",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/async",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2773,10 +2773,10 @@
       "End": 175
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/async",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/async",
       "Def": true,
       "Repo": "",
       "File": "lib/async.js",
@@ -2784,10 +2784,10 @@
       "End": 33
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/async",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/async",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2795,10 +2795,10 @@
       "End": 60
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/fs",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/fs",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2806,10 +2806,10 @@
       "End": 214
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/fs",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/fs",
       "Def": true,
       "Repo": "",
       "File": "lib/async.js",
@@ -2817,10 +2817,10 @@
       "End": 6
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/fs",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/fs",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2828,10 +2828,10 @@
       "End": 97
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2839,10 +2839,10 @@
       "End": 43
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/async.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/async.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2850,10 +2850,10 @@
       "End": 16
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/fs.js/-/@39239/@local/self/end",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/fs.js/-/@39239/@local/self/end",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -2861,10 +2861,10 @@
       "End": 2702
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/fs.js/-/@39239/@local/self/end",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/fs.js/-/@39239/@local/self/end",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -2872,10 +2872,10 @@
       "End": 918
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/fs.js/-/@53/@local/data",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/fs.js/-/@53/@local/data",
       "Def": false,
       "Repo": "",
       "File": "lib/fs.js",
@@ -2883,10 +2883,10 @@
       "End": 112
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/fs.js/-/@53/@local/data",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/fs.js/-/@53/@local/data",
       "Def": true,
       "Repo": "",
       "File": "lib/fs.js",
@@ -2894,10 +2894,10 @@
       "End": 71
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/fs.js/-/@53/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/fs.js/-/@53/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/fs.js",
@@ -2905,10 +2905,10 @@
       "End": 106
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/fs.js/-/@53/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/fs.js/-/@53/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/fs.js",
@@ -2916,10 +2916,10 @@
       "End": 65
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/fs.js/-/fs",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/fs.js/-/fs",
       "Def": false,
       "Repo": "",
       "File": "lib/fs.js",
@@ -2927,10 +2927,10 @@
       "End": 27
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/fs.js/-/fs",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/fs.js/-/fs",
       "Def": true,
       "Repo": "",
       "File": "lib/fs.js",
@@ -2938,10 +2938,10 @@
       "End": 6
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/fs.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/fs.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/fs.js",
@@ -2949,10 +2949,10 @@
       "End": 16
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/glob.js/-/@88/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/glob.js/-/@88/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/glob.js",
@@ -2960,10 +2960,10 @@
       "End": 137
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/glob.js/-/@88/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/glob.js/-/@88/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/glob.js",
@@ -2971,10 +2971,10 @@
       "End": 100
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/glob.js/-/@88/@local/files",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/glob.js/-/@88/@local/files",
       "Def": true,
       "Repo": "",
       "File": "lib/glob.js",
@@ -2982,10 +2982,10 @@
       "End": 107
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/glob.js/-/@88/@local/files",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/glob.js/-/@88/@local/files",
       "Def": false,
       "Repo": "",
       "File": "lib/glob.js",
@@ -2993,10 +2993,10 @@
       "End": 144
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/glob.js/-/glob",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/glob.js/-/glob",
       "Def": true,
       "Repo": "",
       "File": "lib/glob.js",
@@ -3004,10 +3004,10 @@
       "End": 8
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/glob.js/-/glob",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/glob.js/-/glob",
       "Def": false,
       "Repo": "",
       "File": "lib/glob.js",
@@ -3015,10 +3015,10 @@
       "End": 59
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/glob.js/-/glob",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/glob.js/-/glob",
       "Def": false,
       "Repo": "",
       "File": "lib/glob.js",
@@ -3026,10 +3026,10 @@
       "End": 79
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/glob.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/glob.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/glob.js",
@@ -3037,10 +3037,10 @@
       "End": 18
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/http.js/-/@155/@local/e",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/http.js/-/@155/@local/e",
       "Def": true,
       "Repo": "",
       "File": "lib/http.js",
@@ -3048,10 +3048,10 @@
       "End": 165
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/http.js/-/@155/@local/e",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/http.js/-/@155/@local/e",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -3059,10 +3059,10 @@
       "End": 200
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/http.js/-/@74/@local/res",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/http.js/-/@74/@local/res",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -3070,10 +3070,10 @@
       "End": 126
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/http.js/-/@74/@local/res",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/http.js/-/@74/@local/res",
       "Def": true,
       "Repo": "",
       "File": "lib/http.js",
@@ -3081,10 +3081,10 @@
       "End": 86
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/http.js/-/http",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/http.js/-/http",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -3092,10 +3092,10 @@
       "End": 33
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/http.js/-/http",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/http.js/-/http",
       "Def": true,
       "Repo": "",
       "File": "lib/http.js",
@@ -3103,10 +3103,10 @@
       "End": 8
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/http.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/http.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -3114,10 +3114,10 @@
       "End": 18
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@227/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@227/@local/a",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3125,10 +3125,10 @@
       "End": 237
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@227/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@227/@local/a",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3136,10 +3136,10 @@
       "End": 252
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@227/@local/b",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@227/@local/b",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3147,10 +3147,10 @@
       "End": 240
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@227/@local/b",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@227/@local/b",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3158,10 +3158,10 @@
       "End": 261
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@339/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@339/@local/num",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3169,10 +3169,10 @@
       "End": 351
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@339/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@339/@local/num",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3180,10 +3180,10 @@
       "End": 364
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@449/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@449/@local/num",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3191,10 +3191,10 @@
       "End": 461
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@449/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@449/@local/num",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3202,10 +3202,10 @@
       "End": 474
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@560/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@560/@local/num",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3213,10 +3213,10 @@
       "End": 572
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@560/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@560/@local/num",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3224,10 +3224,10 @@
       "End": 585
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@91/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@91/@local/num",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3235,10 +3235,10 @@
       "End": 103
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/@91/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/@91/@local/num",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3246,10 +3246,10 @@
       "End": 116
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3257,10 +3257,10 @@
       "End": 208
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3268,10 +3268,10 @@
       "End": 29
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3279,10 +3279,10 @@
       "End": 313
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3290,10 +3290,10 @@
       "End": 421
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/_",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3301,10 +3301,10 @@
       "End": 5
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3312,10 +3312,10 @@
       "End": 532
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3323,10 +3323,10 @@
       "End": 75
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/even",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/even",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3334,10 +3334,10 @@
       "End": 309
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/even",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/even",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3345,10 +3345,10 @@
       "End": 404
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/evens",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/evens",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3356,10 +3356,10 @@
       "End": 417
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/evens",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/evens",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3367,10 +3367,10 @@
       "End": 516
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/flat",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/flat",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3378,10 +3378,10 @@
       "End": 204
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/flat",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/flat",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3389,10 +3389,10 @@
       "End": 297
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/list",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/list",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3400,10 +3400,10 @@
       "End": 167
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/list",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/list",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3411,10 +3411,10 @@
       "End": 225
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/odds",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/odds",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3422,10 +3422,10 @@
       "End": 528
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/odds",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/odds",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3433,10 +3433,10 @@
       "End": 625
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3444,10 +3444,10 @@
       "End": 15
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/thrice",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/thrice",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3455,10 +3455,10 @@
       "End": 155
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/lodash.js/-/thrice",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/lodash.js/-/thrice",
       "Def": true,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -3466,10 +3466,10 @@
       "End": 71
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/minimatch.js/-/minimatch",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/minimatch.js/-/minimatch",
       "Def": true,
       "Repo": "",
       "File": "lib/minimatch.js",
@@ -3477,10 +3477,10 @@
       "End": 13
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/minimatch.js/-/minimatch",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/minimatch.js/-/minimatch",
       "Def": false,
       "Repo": "",
       "File": "lib/minimatch.js",
@@ -3488,10 +3488,10 @@
       "End": 74
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/minimatch.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/minimatch.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/minimatch.js",
@@ -3499,10 +3499,10 @@
       "End": 23
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1033/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1033/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3510,10 +3510,10 @@
       "End": 1046
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1033/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1033/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3521,10 +3521,10 @@
       "End": 1069
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1033/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1033/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3532,10 +3532,10 @@
       "End": 1080
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1033/@local/response",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1033/@local/response",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3543,10 +3543,10 @@
       "End": 1056
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1220/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1220/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3554,10 +3554,10 @@
       "End": 1232
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1328/@local/fields",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1328/@local/fields",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3565,10 +3565,10 @@
       "End": 1343
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1416/@local/row",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1416/@local/row",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3576,10 +3576,10 @@
       "End": 1428
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1416/@local/row",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1416/@local/row",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3587,10 +3587,10 @@
       "End": 1548
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/@2023/@local/@2170/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/@2023/@local/@2170/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3598,10 +3598,10 @@
       "End": 2182
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/@2023/@local/@2170/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/@2023/@local/@2170/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3609,10 +3609,10 @@
       "End": 2201
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/@2023/@local/@2170/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/@2023/@local/@2170/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3620,10 +3620,10 @@
       "End": 2269
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3631,10 +3631,10 @@
       "End": 2035
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3642,10 +3642,10 @@
       "End": 2060
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3653,10 +3653,10 @@
       "End": 2124
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/@1800/@local/@2023/@local/result",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3664,10 +3664,10 @@
       "End": 2043
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3675,10 +3675,10 @@
       "End": 1812
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3686,10 +3686,10 @@
       "End": 1835
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3697,10 +3697,10 @@
       "End": 1895
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/log",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3708,10 +3708,10 @@
       "End": 1925
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3719,10 +3719,10 @@
       "End": 2021
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/result",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3730,10 +3730,10 @@
       "End": 1820
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/@1699/@local/@1800/@local/result",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3741,10 +3741,10 @@
       "End": 1944
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3752,10 +3752,10 @@
       "End": 1711
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3763,10 +3763,10 @@
       "End": 1724
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@1699/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@1699/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3774,10 +3774,10 @@
       "End": 1737
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@217/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@217/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3785,10 +3785,10 @@
       "End": 229
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@217/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@217/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3796,10 +3796,10 @@
       "End": 256
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@217/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@217/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3807,10 +3807,10 @@
       "End": 267
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@217/@local/fields",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@217/@local/fields",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3818,10 +3818,10 @@
       "End": 243
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@217/@local/rows",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@217/@local/rows",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3829,10 +3829,10 @@
       "End": 235
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@217/@local/rows",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@217/@local/rows",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3840,10 +3840,10 @@
       "End": 309
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@2463/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@2463/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3851,10 +3851,10 @@
       "End": 2475
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@2463/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@2463/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3862,10 +3862,10 @@
       "End": 2496
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@2463/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@2463/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3873,10 +3873,10 @@
       "End": 2539
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@2590/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@2590/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3884,10 +3884,10 @@
       "End": 2602
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@2590/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@2590/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3895,10 +3895,10 @@
       "End": 2623
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@2590/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@2590/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3906,10 +3906,10 @@
       "End": 2666
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/key",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/key",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3917,10 +3917,10 @@
       "End": 471
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/key",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/key",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3928,10 +3928,10 @@
       "End": 508
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/key",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/key",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3939,10 +3939,10 @@
       "End": 548
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/txt",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/txt",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3950,10 +3950,10 @@
       "End": 466
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/txt",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/@362/@local/@453/@local/txt",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3961,10 +3961,10 @@
       "End": 572
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/query",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3972,10 +3972,10 @@
       "End": 377
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3983,10 +3983,10 @@
       "End": 416
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -3994,10 +3994,10 @@
       "End": 432
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/values",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/values",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4005,10 +4005,10 @@
       "End": 385
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/values",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/values",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4016,10 +4016,10 @@
       "End": 402
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/values",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/values",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4027,10 +4027,10 @@
       "End": 489
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@362/@local/values",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@362/@local/values",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4038,10 +4038,10 @@
       "End": 544
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@736/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@736/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4049,10 +4049,10 @@
       "End": 748
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@736/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@736/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4060,10 +4060,10 @@
       "End": 769
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@736/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@736/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4071,10 +4071,10 @@
       "End": 780
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@736/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@736/@local/result",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4082,10 +4082,10 @@
       "End": 756
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@736/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@736/@local/result",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4093,10 +4093,10 @@
       "End": 803
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@880/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@880/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4104,10 +4104,10 @@
       "End": 893
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@880/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@880/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4115,10 +4115,10 @@
       "End": 914
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@880/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@880/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4126,10 +4126,10 @@
       "End": 925
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@880/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@880/@local/result",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4137,10 +4137,10 @@
       "End": 901
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/@880/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/@880/@local/result",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4148,10 +4148,10 @@
       "End": 961
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4159,10 +4159,10 @@
       "End": 1168
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4170,10 +4170,10 @@
       "End": 159
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4181,10 +4181,10 @@
       "End": 1519
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4192,10 +4192,10 @@
       "End": 1579
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4203,10 +4203,10 @@
       "End": 1681
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4214,10 +4214,10 @@
       "End": 182
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4225,10 +4225,10 @@
       "End": 1753
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4236,10 +4236,10 @@
       "End": 1855
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4247,10 +4247,10 @@
       "End": 1981
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4258,10 +4258,10 @@
       "End": 2082
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4269,10 +4269,10 @@
       "End": 2162
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4280,10 +4280,10 @@
       "End": 2225
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4291,10 +4291,10 @@
       "End": 2371
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4302,10 +4302,10 @@
       "End": 2454
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4313,10 +4313,10 @@
       "End": 2571
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4324,10 +4324,10 @@
       "End": 2698
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4335,10 +4335,10 @@
       "End": 340
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4346,10 +4346,10 @@
       "End": 49
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4357,10 +4357,10 @@
       "End": 605
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4368,10 +4368,10 @@
       "End": 685
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4379,10 +4379,10 @@
       "End": 830
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/connection",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4390,10 +4390,10 @@
       "End": 1002
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/mysql",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/mysql",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4401,10 +4401,10 @@
       "End": 9
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/mysql",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/mysql",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4412,10 +4412,10 @@
       "End": 57
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/query",
       "Def": true,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4423,10 +4423,10 @@
       "End": 1155
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/query",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4434,10 +4434,10 @@
       "End": 1204
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4445,10 +4445,10 @@
       "End": 24
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/mysql.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -4456,10 +4456,10 @@
       "End": 2381
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4467,10 +4467,10 @@
       "End": 288
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4478,10 +4478,10 @@
       "End": 382
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4489,10 +4489,10 @@
       "End": 439
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/result",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4500,10 +4500,10 @@
       "End": 296
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/@114/@local/@276/@local/result",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4511,10 +4511,10 @@
       "End": 470
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/client",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/client",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4522,10 +4522,10 @@
       "End": 134
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/client",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/client",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4533,10 +4533,10 @@
       "End": 234
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/done",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4544,10 +4544,10 @@
       "End": 140
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/done",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4555,10 +4555,10 @@
       "End": 367
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4566,10 +4566,10 @@
       "End": 126
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4577,10 +4577,10 @@
       "End": 152
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@114/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@114/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4588,10 +4588,10 @@
       "End": 219
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4599,10 +4599,10 @@
       "End": 722
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4610,10 +4610,10 @@
       "End": 744
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4621,10 +4621,10 @@
       "End": 801
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/result",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4632,10 +4632,10 @@
       "End": 730
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/result",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@570/@local/@570/@local/@710/@local/result",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4643,10 +4643,10 @@
       "End": 832
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@570/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@570/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4654,10 +4654,10 @@
       "End": 582
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@570/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@570/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4665,10 +4665,10 @@
       "End": 594
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/@570/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/@570/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4676,10 +4676,10 @@
       "End": 659
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/client",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/client",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4687,10 +4687,10 @@
       "End": 526
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/client",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/client",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4698,10 +4698,10 @@
       "End": 561
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/client",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/client",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4709,10 +4709,10 @@
       "End": 674
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/client",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/client",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4720,10 +4720,10 @@
       "End": 914
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/conString",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/conString",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4731,10 +4731,10 @@
       "End": 112
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/conString",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/conString",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4742,10 +4742,10 @@
       "End": 37
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/conString",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/conString",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4753,10 +4753,10 @@
       "End": 552
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/pg",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/pg",
       "Def": true,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4764,10 +4764,10 @@
       "End": 6
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/pg",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/pg",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4775,10 +4775,10 @@
       "End": 535
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/pg",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/pg",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4786,10 +4786,10 @@
       "End": 94
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/pg.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/pg.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -4797,10 +4797,10 @@
       "End": 16
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/read-package-json.js/-/@70/@local/data",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/read-package-json.js/-/@70/@local/data",
       "Def": false,
       "Repo": "",
       "File": "lib/read-package-json.js",
@@ -4808,10 +4808,10 @@
       "End": 128
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/read-package-json.js/-/@70/@local/data",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/read-package-json.js/-/@70/@local/data",
       "Def": true,
       "Repo": "",
       "File": "lib/read-package-json.js",
@@ -4819,10 +4819,10 @@
       "End": 88
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/read-package-json.js/-/@70/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/read-package-json.js/-/@70/@local/err",
       "Def": false,
       "Repo": "",
       "File": "lib/read-package-json.js",
@@ -4830,10 +4830,10 @@
       "End": 122
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/read-package-json.js/-/@70/@local/err",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/read-package-json.js/-/@70/@local/err",
       "Def": true,
       "Repo": "",
       "File": "lib/read-package-json.js",
@@ -4841,10 +4841,10 @@
       "End": 82
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/read-package-json.js/-/readJson",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/read-package-json.js/-/readJson",
       "Def": true,
       "Repo": "",
       "File": "lib/read-package-json.js",
@@ -4852,10 +4852,10 @@
       "End": 12
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/read-package-json.js/-/readJson",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/read-package-json.js/-/readJson",
       "Def": false,
       "Repo": "",
       "File": "lib/read-package-json.js",
@@ -4863,10 +4863,10 @@
       "End": 53
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/read-package-json.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/read-package-json.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/read-package-json.js",
@@ -4874,10 +4874,10 @@
       "End": 22
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@231/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@231/@local/a",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4885,10 +4885,10 @@
       "End": 241
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@231/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@231/@local/a",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4896,10 +4896,10 @@
       "End": 256
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@231/@local/b",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@231/@local/b",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4907,10 +4907,10 @@
       "End": 244
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@231/@local/b",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@231/@local/b",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4918,10 +4918,10 @@
       "End": 265
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@343/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@343/@local/num",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4929,10 +4929,10 @@
       "End": 355
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@343/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@343/@local/num",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4940,10 +4940,10 @@
       "End": 368
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@453/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@453/@local/num",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4951,10 +4951,10 @@
       "End": 465
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@453/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@453/@local/num",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4962,10 +4962,10 @@
       "End": 478
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@564/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@564/@local/num",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4973,10 +4973,10 @@
       "End": 576
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@564/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@564/@local/num",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4984,10 +4984,10 @@
       "End": 589
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@95/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@95/@local/num",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -4995,10 +4995,10 @@
       "End": 107
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/@95/@local/num",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/@95/@local/num",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5006,10 +5006,10 @@
       "End": 120
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5017,10 +5017,10 @@
       "End": 212
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5028,10 +5028,10 @@
       "End": 317
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5039,10 +5039,10 @@
       "End": 33
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5050,10 +5050,10 @@
       "End": 425
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/_",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5061,10 +5061,10 @@
       "End": 5
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5072,10 +5072,10 @@
       "End": 536
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/_",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/_",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5083,10 +5083,10 @@
       "End": 79
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/even",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/even",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5094,10 +5094,10 @@
       "End": 313
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/even",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/even",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5105,10 +5105,10 @@
       "End": 408
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/evens",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/evens",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5116,10 +5116,10 @@
       "End": 421
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/evens",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/evens",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5127,10 +5127,10 @@
       "End": 520
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/flat",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/flat",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5138,10 +5138,10 @@
       "End": 208
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/flat",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/flat",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5149,10 +5149,10 @@
       "End": 301
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/list",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/list",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5160,10 +5160,10 @@
       "End": 171
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/list",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/list",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5171,10 +5171,10 @@
       "End": 229
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/odds",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/odds",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5182,10 +5182,10 @@
       "End": 532
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/odds",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/odds",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5193,10 +5193,10 @@
       "End": 629
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5204,10 +5204,10 @@
       "End": 15
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/thrice",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/thrice",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5215,10 +5215,10 @@
       "End": 159
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/lib/underscore.js/-/thrice",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/lib/underscore.js/-/thrice",
       "Def": true,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5226,10 +5226,10 @@
       "End": 75
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5237,10 +5237,10 @@
       "End": 1008
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5248,10 +5248,10 @@
       "End": 1174
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5259,10 +5259,10 @@
       "End": 1759
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5270,10 +5270,10 @@
       "End": 188
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5281,10 +5281,10 @@
       "End": 1987
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5292,10 +5292,10 @@
       "End": 2577
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5303,10 +5303,10 @@
       "End": 611
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5314,10 +5314,10 @@
       "End": 691
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5325,10 +5325,10 @@
       "End": 836
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -5336,10 +5336,10 @@
       "End": 240
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -5347,10 +5347,10 @@
       "End": 680
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/util.js/-/@17792/@local/e/code",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/util.js/-/@17792/@local/e/code",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5358,10 +5358,10 @@
       "End": 2501
     },
     {
-      "SymbolRepo": "github.com/joyent/node",
-      "SymbolUnitType": "",
-      "SymbolUnit": "node",
-      "SymbolPath": "file/lib/util.js/-/@17792/@local/e/code",
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/util.js/-/@17792/@local/e/code",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5369,10 +5369,10 @@
       "End": 2628
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Array.prototype.filter",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.filter",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -5380,10 +5380,10 @@
       "End": 182
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Array.prototype.filter",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.filter",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5391,10 +5391,10 @@
       "End": 428
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Array.prototype.filter",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.filter",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5402,10 +5402,10 @@
       "End": 432
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Array.prototype.map",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.map",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -5413,10 +5413,10 @@
       "End": 64
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Array.prototype.map",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.map",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5424,10 +5424,10 @@
       "End": 79
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Array.prototype.map",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.map",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5435,10 +5435,10 @@
       "End": 83
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Array.prototype.reduceRight",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.reduceRight",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5446,10 +5446,10 @@
       "End": 220
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Array.prototype.reduceRight",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.reduceRight",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5457,10 +5457,10 @@
       "End": 224
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Function.prototype.bind",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Function.prototype.bind",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5468,10 +5468,10 @@
       "End": 582
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/Object.prototype.hasOwnProperty",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Object.prototype.hasOwnProperty",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5479,10 +5479,10 @@
       "End": 504
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/String.prototype.concat",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/String.prototype.concat",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5490,10 +5490,10 @@
       "End": 259
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/String.prototype.concat",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/String.prototype.concat",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5501,10 +5501,10 @@
       "End": 263
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/String.prototype.replace",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/String.prototype.replace",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5512,10 +5512,10 @@
       "End": 440
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.error",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.error",
       "Def": false,
       "Repo": "",
       "File": "index.js",
@@ -5523,10 +5523,10 @@
       "End": 13
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.error",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.error",
       "Def": false,
       "Repo": "",
       "File": "lib/fs.js",
@@ -5534,10 +5534,10 @@
       "End": 90
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.error",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.error",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -5545,10 +5545,10 @@
       "End": 180
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.error",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.error",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -5556,10 +5556,10 @@
       "End": 412
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.error",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.error",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -5567,10 +5567,10 @@
       "End": 622
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.error",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.error",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -5578,10 +5578,10 @@
       "End": 774
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -5589,10 +5589,10 @@
       "End": 141
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -5600,10 +5600,10 @@
       "End": 255
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/glob.js",
@@ -5611,10 +5611,10 @@
       "End": 124
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/glob.js",
@@ -5622,10 +5622,10 @@
       "End": 40
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -5633,10 +5633,10 @@
       "End": 103
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -5644,10 +5644,10 @@
       "End": 182
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5655,10 +5655,10 @@
       "End": 137
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5666,10 +5666,10 @@
       "End": 283
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5677,10 +5677,10 @@
       "End": 390
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5688,10 +5688,10 @@
       "End": 500
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5699,10 +5699,10 @@
       "End": 57
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -5710,10 +5710,10 @@
       "End": 611
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/minimatch.js",
@@ -5721,10 +5721,10 @@
       "End": 50
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5732,10 +5732,10 @@
       "End": 1096
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5743,10 +5743,10 @@
       "End": 2314
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5754,10 +5754,10 @@
       "End": 2492
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5765,10 +5765,10 @@
       "End": 2535
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5776,10 +5776,10 @@
       "End": 2619
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5787,10 +5787,10 @@
       "End": 2662
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5798,10 +5798,10 @@
       "End": 283
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5809,10 +5809,10 @@
       "End": 796
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -5820,10 +5820,10 @@
       "End": 941
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -5831,10 +5831,10 @@
       "End": 463
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -5842,10 +5842,10 @@
       "End": 825
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/read-package-json.js",
@@ -5853,10 +5853,10 @@
       "End": 105
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5864,10 +5864,10 @@
       "End": 141
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5875,10 +5875,10 @@
       "End": 287
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5886,10 +5886,10 @@
       "End": 394
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5897,10 +5897,10 @@
       "End": 504
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5908,10 +5908,10 @@
       "End": 61
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console.log",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -5919,10 +5919,10 @@
       "End": 615
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "index.js",
@@ -5930,10 +5930,10 @@
       "End": 7
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -5941,10 +5941,10 @@
       "End": 137
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -5952,10 +5952,10 @@
       "End": 251
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/fs.js",
@@ -5963,10 +5963,10 @@
       "End": 84
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/glob.js",
@@ -5974,10 +5974,10 @@
       "End": 120
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/glob.js",
@@ -5985,10 +5985,10 @@
       "End": 36
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -5996,10 +5996,10 @@
       "End": 178
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/http.js",
@@ -6007,10 +6007,10 @@
       "End": 99
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -6018,10 +6018,10 @@
       "End": 133
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -6029,10 +6029,10 @@
       "End": 279
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -6040,10 +6040,10 @@
       "End": 386
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -6051,10 +6051,10 @@
       "End": 53
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -6062,10 +6062,10 @@
       "End": 496
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -6073,10 +6073,10 @@
       "End": 607
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/minimatch.js",
@@ -6084,10 +6084,10 @@
       "End": 46
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -6095,10 +6095,10 @@
       "End": 1092
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -6106,10 +6106,10 @@
       "End": 2310
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -6117,10 +6117,10 @@
       "End": 2488
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -6128,10 +6128,10 @@
       "End": 2531
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -6139,10 +6139,10 @@
       "End": 2615
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -6150,10 +6150,10 @@
       "End": 2658
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -6161,10 +6161,10 @@
       "End": 279
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -6172,10 +6172,10 @@
       "End": 792
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",
@@ -6183,10 +6183,10 @@
       "End": 937
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -6194,10 +6194,10 @@
       "End": 174
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -6205,10 +6205,10 @@
       "End": 406
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -6216,10 +6216,10 @@
       "End": 459
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -6227,10 +6227,10 @@
       "End": 616
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -6238,10 +6238,10 @@
       "End": 768
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -6249,10 +6249,10 @@
       "End": 821
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/read-package-json.js",
@@ -6260,10 +6260,10 @@
       "End": 101
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -6271,10 +6271,10 @@
       "End": 137
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -6282,10 +6282,10 @@
       "End": 283
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -6293,10 +6293,10 @@
       "End": 390
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -6304,10 +6304,10 @@
       "End": 500
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -6315,10 +6315,10 @@
       "End": 57
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/console",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
       "Def": false,
       "Repo": "",
       "File": "lib/underscore.js",
@@ -6326,10 +6326,10 @@
       "End": 611
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "global/-/process.config",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/process.config",
       "Def": false,
       "Repo": "",
       "File": "lib/mysql.js",

@@ -1,5 +1,5 @@
 {
-  "Symbols": [
+  "Defs": [
     {
       "Path": "commonjs/animal.js",
       "TreePath": "-commonjs/animal.js",
@@ -17,7 +17,7 @@
           "module": "animal.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -232,7 +232,7 @@
           "module": "test/animal_test.js",
           "path": ""
         },
-        "jsgSymbolData": {
+        "jsgDefData": {
           "nodejs": {
             "moduleExports": true
           }
@@ -851,10 +851,10 @@
   ],
   "Refs": [
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal/prototype/makeNoise",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal/prototype/makeNoise",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -862,10 +862,10 @@
       "End": 312
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal/prototype/makeNoise",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal/prototype/makeNoise",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -873,10 +873,10 @@
       "End": 1135
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal/prototype/makeNoise",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal/prototype/makeNoise",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -884,10 +884,10 @@
       "End": 471
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal/prototype/sayHello",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal/prototype/sayHello",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -895,10 +895,10 @@
       "End": 176
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal/prototype/sayHello",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal/prototype/sayHello",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -906,10 +906,10 @@
       "End": 629
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal/prototype/sayHello",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal/prototype/sayHello",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -917,10 +917,10 @@
       "End": 326
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal/prototype",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal/prototype",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -928,10 +928,10 @@
       "End": 167
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal/prototype",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal/prototype",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -939,10 +939,10 @@
       "End": 302
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -950,10 +950,10 @@
       "End": 175
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -961,10 +961,10 @@
       "End": 301
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -972,10 +972,10 @@
       "End": 445
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog/prototype/bark",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog/prototype/bark",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -983,10 +983,10 @@
       "End": 690
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog/prototype/bark",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog/prototype/bark",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -994,10 +994,10 @@
       "End": 981
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1005,10 +1005,10 @@
       "End": 591
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1016,10 +1016,10 @@
       "End": 806
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog/prototype",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog/prototype",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1027,10 +1027,10 @@
       "End": 499
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog/prototype",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog/prototype",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1038,10 +1038,10 @@
       "End": 574
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog/prototype",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog/prototype",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1049,10 +1049,10 @@
       "End": 685
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1060,10 +1060,10 @@
       "End": 1086
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1071,10 +1071,10 @@
       "End": 618
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1082,10 +1082,10 @@
       "End": 750
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "commonjs/animal.js/-/Dog",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "commonjs/animal.js/-/Dog",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1093,10 +1093,10 @@
       "End": 937
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Animal/@local/name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Animal/@local/name",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1104,10 +1104,10 @@
       "End": 115
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Animal/@local/name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Animal/@local/name",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1115,10 +1115,10 @@
       "End": 93
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Animal",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1126,10 +1126,10 @@
       "End": 157
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Animal",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1137,10 +1137,10 @@
       "End": 292
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Animal",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1148,10 +1148,10 @@
       "End": 512
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Animal",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1159,10 +1159,10 @@
       "End": 766
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Animal",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1170,10 +1170,10 @@
       "End": 88
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog/@local/breed",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Dog/@local/breed",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1181,10 +1181,10 @@
       "End": 413
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog/@local/breed",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Dog/@local/breed",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1192,10 +1192,10 @@
       "End": 457
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog/@local/name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Dog/@local/name",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1203,10 +1203,10 @@
       "End": 406
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog/@local/name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Dog/@local/name",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1214,10 +1214,10 @@
       "End": 435
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Dog",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1225,10 +1225,10 @@
       "End": 401
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Dog",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1236,10 +1236,10 @@
       "End": 489
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Dog",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1247,10 +1247,10 @@
       "End": 564
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Dog",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1258,10 +1258,10 @@
       "End": 675
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/Dog",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/Dog",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1269,10 +1269,10 @@
       "End": 778
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/module/exports",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/module/exports",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1280,10 +1280,10 @@
       "End": 745
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/animal.js/-/module",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/animal.js/-/module",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1291,10 +1291,10 @@
       "End": 737
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1302,10 +1302,10 @@
       "End": 1069
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1313,10 +1313,10 @@
       "End": 1125
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1324,10 +1324,10 @@
       "End": 1056
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1335,10 +1335,10 @@
       "End": 1167
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1346,10 +1346,10 @@
       "End": 449
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1357,10 +1357,10 @@
       "End": 651
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1368,10 +1368,10 @@
       "End": 428
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1379,10 +1379,10 @@
       "End": 639
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1390,10 +1390,10 @@
       "End": 347
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1401,10 +1401,10 @@
       "End": 471
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1412,10 +1412,10 @@
       "End": 725
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1423,10 +1423,10 @@
       "End": 601
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1434,10 +1434,10 @@
       "End": 634
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1445,10 +1445,10 @@
       "End": 588
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1456,10 +1456,10 @@
       "End": 669
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1467,10 +1467,10 @@
       "End": 733
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1478,10 +1478,10 @@
       "End": 789
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1489,10 +1489,10 @@
       "End": 720
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1500,10 +1500,10 @@
       "End": 870
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1511,10 +1511,10 @@
       "End": 920
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1522,10 +1522,10 @@
       "End": 976
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1533,10 +1533,10 @@
       "End": 1013
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1544,10 +1544,10 @@
       "End": 907
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
       "Def": true,
       "Repo": "",
       "File": "animal.js",
@@ -1555,10 +1555,10 @@
       "End": 108
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
       "Def": false,
       "Repo": "",
       "File": "animal.js",
@@ -1566,10 +1566,10 @@
       "End": 226
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1577,10 +1577,10 @@
       "End": 196
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1588,10 +1588,10 @@
       "End": 155
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1599,10 +1599,10 @@
       "End": 191
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1610,10 +1610,10 @@
       "End": 142
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1621,10 +1621,10 @@
       "End": 226
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1632,10 +1632,10 @@
       "End": 281
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1643,10 +1643,10 @@
       "End": 317
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1654,10 +1654,10 @@
       "End": 268
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1665,10 +1665,10 @@
       "End": 369
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1676,10 +1676,10 @@
       "End": 425
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1687,10 +1687,10 @@
       "End": 461
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1698,10 +1698,10 @@
       "End": 412
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1709,10 +1709,10 @@
       "End": 505
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1720,10 +1720,10 @@
       "End": 1082
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1731,10 +1731,10 @@
       "End": 168
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1742,10 +1742,10 @@
       "End": 294
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/animal",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1753,10 +1753,10 @@
       "End": 10
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1764,10 +1764,10 @@
       "End": 438
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1775,10 +1775,10 @@
       "End": 614
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1786,10 +1786,10 @@
       "End": 746
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/animal",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/animal",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1797,10 +1797,10 @@
       "End": 933
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1808,10 +1808,10 @@
       "End": 20
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/require",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/require",
       "Def": false,
       "Repo": "",
       "File": "test/animal_test.js",
@@ -1819,10 +1819,10 @@
       "End": 55
     },
     {
-      "SymbolRepo": "",
-      "SymbolUnitType": "",
-      "SymbolUnit": "",
-      "SymbolPath": "file/test/animal_test.js/-/should",
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/test/animal_test.js/-/should",
       "Def": true,
       "Repo": "",
       "File": "test/animal_test.js",
