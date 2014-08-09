@@ -14,6 +14,9 @@ parser.command("scan-commonjs")
   .option("subdir", {
     help: "subdirectory in repository"
   })
+  .option("config", {
+    help: "KEY=VAL properties from Srcfile Config key"
+  })
   .callback(function(opts) {
     // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
     findpkgs(".", ["node_modules"], function(err, pkgs) {
