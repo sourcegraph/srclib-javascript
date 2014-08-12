@@ -1,0 +1,12 @@
+[
+  {
+    "dir": "testdata/syntax_error",
+    "packageJSONFile": "testdata/syntax_error/package.json",
+    "error": {
+      "code": "EJSONPARSE",
+      "file": "testdata/syntax_error/package.json"
+    },
+    "libFiles": [],
+    "testFiles": []
+  }
+]

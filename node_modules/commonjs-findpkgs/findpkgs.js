@@ -31,20 +31,19 @@ module.exports = function(dir, ignores, cb) {
     var pkgs = [];
     files.forEach(function(file) {
       readJson(file, function(err, data) {
-        if (err) {
-          cb(err, null);
-        }
-
         var pkgdir = path.dirname(file);
 
         var libFiles = glob.sync(path.join(pkgdir, 'lib/**/*.js'));
-        var mainFile = findMainFile(pkgdir, data.main || 'index');
-        if (mainFile && libFiles.indexOf(mainFile) == -1) libFiles.push(mainFile);
+        if (!err) {
+          var mainFile = findMainFile(pkgdir, data.main || 'index');
+          if (mainFile && libFiles.indexOf(mainFile) == -1) libFiles.push(mainFile);
+        }
 
         pkgs.push({
           dir: pkgdir,
           packageJSONFile: file,
           package: data,
+          error: err || undefined,
           libFiles: libFiles,
           testFiles: glob.sync(path.join(pkgdir, 'test/**/*.js')),
         });
