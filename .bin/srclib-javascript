@@ -60,7 +60,7 @@ parser.command("scan-commonjs")
             jsg: {
               plugins: {
                 node: {
-                  coreModulesDir: process.env.NODEJS_CORE_MODULES_DIR || path.join(__dirname, "../node_modules/jsg/testdata/node_core_modules"),
+                  coreModulesDir: process.env.NODEJS_CORE_MODULES_DIR || "$(JSG_DIR)/testdata/node_core_modules",
                 }
               },
             },
