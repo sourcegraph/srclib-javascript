@@ -18,6 +18,12 @@ ENV PATH /srclib/srclib-javascript/.bin:$PATH
 ENV NODEJS_CORE_MODULES_DIR /tmp/node_core_modules
 RUN ln -rs /srclib/srclib-javascript/node_modules/jsg/testdata/node_core_modules $NODEJS_CORE_MODULES_DIR
 
+RUN useradd -ms /bin/bash srclib
+RUN mkdir /src /.npm /node_modules
+RUN touch /npm-debug.log
+RUN chown -R srclib /src /srclib /.npm /npm-debug.log /node_modules
+USER srclib
+
 WORKDIR /src
 
 ENTRYPOINT ["srclib-javascript"]

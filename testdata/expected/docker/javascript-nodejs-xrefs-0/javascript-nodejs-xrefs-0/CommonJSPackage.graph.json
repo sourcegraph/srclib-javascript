@@ -402,7 +402,7 @@
           "module": "lib/async.js",
           "path": "async"
         },
-        "Type": "{each: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), eachSeries: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), forEach: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), forEachSeries: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), nextTick: fn(callback: fn()), noConflict: fn() -\u003e async, ...}",
+        "Type": "{each: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: bool)), callback: ?)), eachSeries: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: bool)), callback: ?), forEach: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: bool)), callback: ?)), nextTick: fn(callback: fn()), noConflict: fn() -\u003e async, setImmediate: fn(fn: fn()), ...}",
         "IsFunc": false
       }
     },
@@ -505,7 +505,7 @@
           "module": "lib/fs.js",
           "path": "@53.@local.err"
         },
-        "Type": "{code: string, errno: string, file: string, path: ?, stack: string, syscall: string, ...}",
+        "Type": "{code: string, errno: string, file: string, path: string, source: string, stack: string, ...}",
         "IsFunc": false
       }
     },
@@ -795,7 +795,7 @@
           "module": "lib/lodash.js",
           "path": "@227.@local.a"
         },
-        "Type": "{each: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), eachSeries: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), forEach: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), forEachSeries: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), nextTick: fn(callback: fn()), noConflict: fn() -\u003e async, ...}",
+        "Type": "[number]",
         "IsFunc": false
       }
     },
@@ -815,7 +815,9 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "@227.@local.b"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
       }
     },
     {
@@ -834,7 +836,9 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "@339.@local.num"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -853,7 +857,9 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "@449.@local.num"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -872,7 +878,9 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "@560.@local.num"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -891,7 +899,9 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "@91.@local.num"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -929,7 +939,9 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "even"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -948,7 +960,9 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "evens"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
       }
     },
     {
@@ -988,7 +1002,30 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "flat"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/lib/lodash.js/-/flat/\u003ci\u003e",
+      "TreePath": "-file/lib/lodash.js/-/flat/\u003ci\u003e",
+      "Kind": "var",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "var",
+        "Key": {
+          "namespace": "file",
+          "module": "lib/lodash.js",
+          "path": "flat.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -1034,27 +1071,6 @@
       }
     },
     {
-      "Path": "file/lib/lodash.js/-/list/\u003ci\u003e/\u003ci\u003e",
-      "TreePath": "-file/lib/lodash.js/-/list/\u003ci\u003e/\u003ci\u003e",
-      "Kind": "field",
-      "Name": "\u003ci\u003e",
-      "Callable": false,
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": false,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "lib/lodash.js",
-          "path": "list.\u003ci\u003e.\u003ci\u003e"
-        },
-        "Type": "number",
-        "IsFunc": false
-      }
-    },
-    {
       "Path": "file/lib/lodash.js/-/module/exports",
       "TreePath": "-file/lib/lodash.js/-/module/exports",
       "Kind": "var",
@@ -1091,7 +1107,9 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "odds"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
       }
     },
     {
@@ -1110,7 +1128,9 @@
           "namespace": "file",
           "module": "lib/lodash.js",
           "path": "thrice"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
       }
     },
     {
@@ -1479,7 +1499,9 @@
           "namespace": "file",
           "module": "lib/mysql.js",
           "path": "@2463.@local.err"
-        }
+        },
+        "Type": "{code: string, errno: string, file: string, path: string, source: string, stack: string, ...}",
+        "IsFunc": false
       }
     },
     {
@@ -1498,7 +1520,9 @@
           "namespace": "file",
           "module": "lib/mysql.js",
           "path": "@2590.@local.err"
-        }
+        },
+        "Type": "{code: string, errno: string, file: string, path: string, source: string, stack: string, ...}",
+        "IsFunc": false
       }
     },
     {
@@ -1536,7 +1560,9 @@
           "namespace": "file",
           "module": "lib/mysql.js",
           "path": "@362.@local.@362.@local.@453.@local.txt"
-        }
+        },
+        "Type": "string",
+        "IsFunc": false
       }
     },
     {
@@ -1673,7 +1699,30 @@
           "namespace": "file",
           "module": "lib/mysql.js",
           "path": "connection"
-        }
+        },
+        "Type": "{_connectCalled: bool, _protocol: Protocol, _socket: Socket, config: ConnectionConfig, state: string, threadId: ?}",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/lib/mysql.js/-/connection/config/queryFormat",
+      "TreePath": "-file/lib/mysql.js/-/connection/config/queryFormat",
+      "Kind": "func",
+      "Name": "queryFormat",
+      "Callable": true,
+      "File": "node_modules/mysql/lib/ConnectionConfig.js",
+      "DefStart": 1281,
+      "DefEnd": 1321,
+      "Exported": false,
+      "Data": {
+        "Kind": "func",
+        "Key": {
+          "namespace": "file",
+          "module": "lib/mysql.js",
+          "path": "connection.config.queryFormat"
+        },
+        "Type": "fn(query: String, values: Object)",
+        "IsFunc": true
       }
     },
     {
@@ -1735,7 +1784,7 @@
           "module": "lib/mysql.js",
           "path": "mysql"
         },
-        "Type": "{Socket: fn(options: options) -\u003e Socket, Stream: fn(options: options) -\u003e Socket, _normalizeConnectArgs: fn(args: [options]) -\u003e [options], connect: fn() -\u003e Socket, createConnection: fn() -\u003e Socket, createServer: fn() -\u003e Server, ...}",
+        "Type": "{Types: exports, createConnection: fn(config: {port}) -\u003e Connection, createPool: fn(config: string) -\u003e Pool, createPoolCluster: fn(config: {}) -\u003e PoolCluster, createQuery: fn(sql: string, values: ?, cb: fn(err: Error, rows: Error, fields: Error)) -\u003e string, escape: fn(val: string, stringifyObjects: bool, timeZone: string) -\u003e string, ...}",
         "IsFunc": false
       }
     },
@@ -1756,7 +1805,7 @@
           "module": "lib/mysql.js",
           "path": "query"
         },
-        "Type": "{_events: {}, _maxListeners: ?, _readableState: ReadableState, closed: bool, domain: Domain, readable: bool, ...}",
+        "Type": "string",
         "IsFunc": false
       }
     },
@@ -1795,7 +1844,9 @@
           "namespace": "file",
           "module": "lib/pg.js",
           "path": "@114.@local.@114.@local.@276.@local.result"
-        }
+        },
+        "Type": "{eofPackets: [?], fieldPackets: [?], resultSetHeaderPacket: ?, rows: [?]}",
+        "IsFunc": false
       }
     },
     {
@@ -1894,7 +1945,9 @@
           "namespace": "file",
           "module": "lib/pg.js",
           "path": "@570.@local.@570.@local.@710.@local.result"
-        }
+        },
+        "Type": "{eofPackets: [?], fieldPackets: [?], resultSetHeaderPacket: ?, rows: [?]}",
+        "IsFunc": false
       }
     },
     {
@@ -1932,7 +1985,9 @@
           "namespace": "file",
           "module": "lib/pg.js",
           "path": "client"
-        }
+        },
+        "Type": "{_connectCalled: bool, _protocol: Protocol, _socket: Socket, config: ConnectionConfig, state: string, threadId: ?}",
+        "IsFunc": false
       }
     },
     {
@@ -2014,7 +2069,9 @@
           "namespace": "file",
           "module": "lib/pg.js",
           "path": "pg"
-        }
+        },
+        "Type": "{Client: ?, Connection: ?, Query: ?, defaults: ?, pools: ?, types: module.exports, ...}",
+        "IsFunc": false
       }
     },
     {
@@ -2134,9 +2191,7 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "@231.@local.a"
-        },
-        "Type": "{each: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), eachSeries: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), forEach: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), forEachSeries: fn(arr: ?, iterator: fn(k: ?, callback: fn(err: ?)), callback: fn(err: ?)), nextTick: fn(callback: fn()), noConflict: fn() -\u003e async, ...}",
-        "IsFunc": false
+        }
       }
     },
     {
@@ -2155,7 +2210,9 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "@231.@local.b"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
       }
     },
     {
@@ -2174,7 +2231,9 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "@343.@local.num"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -2193,7 +2252,9 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "@453.@local.num"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -2212,7 +2273,9 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "@564.@local.num"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -2231,26 +2294,30 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "@95.@local.num"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
       "Path": "file/lib/underscore.js/-/_",
       "TreePath": "-file/lib/underscore.js/-/_",
-      "Kind": "var",
+      "Kind": "func",
       "Name": "_",
-      "Callable": false,
+      "Callable": true,
       "File": "lib/underscore.js",
       "DefStart": 4,
       "DefEnd": 29,
       "Exported": false,
       "Data": {
-        "Kind": "var",
+        "Kind": "func",
         "Key": {
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "_"
-        }
+        },
+        "Type": "fn(obj: ?) -\u003e _",
+        "IsFunc": true
       }
     },
     {
@@ -2269,7 +2336,9 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "even"
-        }
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -2288,7 +2357,30 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "evens"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/lib/underscore.js/-/evens/\u003ci\u003e",
+      "TreePath": "-file/lib/underscore.js/-/evens/\u003ci\u003e",
+      "Kind": "var",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "var",
+        "Key": {
+          "namespace": "file",
+          "module": "lib/underscore.js",
+          "path": "evens.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -2328,7 +2420,30 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "flat"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/lib/underscore.js/-/flat/\u003ci\u003e",
+      "TreePath": "-file/lib/underscore.js/-/flat/\u003ci\u003e",
+      "Kind": "var",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "var",
+        "Key": {
+          "namespace": "file",
+          "module": "lib/underscore.js",
+          "path": "flat.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -2374,27 +2489,6 @@
       }
     },
     {
-      "Path": "file/lib/underscore.js/-/list/\u003ci\u003e/\u003ci\u003e",
-      "TreePath": "-file/lib/underscore.js/-/list/\u003ci\u003e/\u003ci\u003e",
-      "Kind": "field",
-      "Name": "\u003ci\u003e",
-      "Callable": false,
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": false,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "lib/underscore.js",
-          "path": "list.\u003ci\u003e.\u003ci\u003e"
-        },
-        "Type": "number",
-        "IsFunc": false
-      }
-    },
-    {
       "Path": "file/lib/underscore.js/-/module/exports",
       "TreePath": "-file/lib/underscore.js/-/module/exports",
       "Kind": "var",
@@ -2431,7 +2525,30 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "odds"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/lib/underscore.js/-/odds/\u003ci\u003e",
+      "TreePath": "-file/lib/underscore.js/-/odds/\u003ci\u003e",
+      "Kind": "var",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "var",
+        "Key": {
+          "namespace": "file",
+          "module": "lib/underscore.js",
+          "path": "odds.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     },
     {
@@ -2450,38 +2567,535 @@
           "namespace": "file",
           "module": "lib/underscore.js",
           "path": "thrice"
-        }
+        },
+        "Type": "[number]",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/@52057/@local/object/\u003ci\u003e",
+      "TreePath": "-file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/@52057/@local/object/\u003ci\u003e",
+      "Kind": "field",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "property",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/lodash/dist/lodash.js",
+          "path": "@410.@local.@410.@local.runInContext.@local.runInContext.@local.@52057.@local.object.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/find/@local/callback/prototype",
+      "TreePath": "-file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/find/@local/callback/prototype",
+      "Kind": "type",
+      "Name": "prototype",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "prototype",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/lodash/dist/lodash.js",
+          "path": "@410.@local.@410.@local.runInContext.@local.runInContext.@local.find.@local.callback.prototype"
+        },
+        "Type": "{}",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/find/@local/collection/\u003ci\u003e",
+      "TreePath": "-file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/find/@local/collection/\u003ci\u003e",
+      "Kind": "field",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "property",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/lodash/dist/lodash.js",
+          "path": "@410.@local.@410.@local.runInContext.@local.runInContext.@local.find.@local.collection.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/forEach/@local/collection/\u003ci\u003e",
+      "TreePath": "-file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/forEach/@local/collection/\u003ci\u003e",
+      "Kind": "field",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "property",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/lodash/dist/lodash.js",
+          "path": "@410.@local.@410.@local.runInContext.@local.runInContext.@local.forEach.@local.collection.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/map/@local/callback/prototype",
+      "TreePath": "-file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/map/@local/callback/prototype",
+      "Kind": "type",
+      "Name": "prototype",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "prototype",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/lodash/dist/lodash.js",
+          "path": "@410.@local.@410.@local.runInContext.@local.runInContext.@local.map.@local.callback.prototype"
+        },
+        "Type": "{}",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/map/@local/collection/\u003ci\u003e",
+      "TreePath": "-file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/map/@local/collection/\u003ci\u003e",
+      "Kind": "field",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "property",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/lodash/dist/lodash.js",
+          "path": "@410.@local.@410.@local.runInContext.@local.runInContext.@local.map.@local.collection.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/reduceRight/@local/callback/prototype",
+      "TreePath": "-file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/reduceRight/@local/callback/prototype",
+      "Kind": "type",
+      "Name": "prototype",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "prototype",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/lodash/dist/lodash.js",
+          "path": "@410.@local.@410.@local.runInContext.@local.runInContext.@local.reduceRight.@local.callback.prototype"
+        },
+        "Type": "{}",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/reject/@local/callback/prototype",
+      "TreePath": "-file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/runInContext/@local/reject/@local/callback/prototype",
+      "Kind": "type",
+      "Name": "prototype",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "prototype",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/lodash/dist/lodash.js",
+          "path": "@410.@local.@410.@local.runInContext.@local.runInContext.@local.reject.@local.callback.prototype"
+        },
+        "Type": "{}",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/mysql/index.js/-/@415/@local/config/port",
+      "TreePath": "-file/node_modules/mysql/index.js/-/@415/@local/config/port",
+      "Kind": "field",
+      "Name": "port",
+      "Callable": false,
+      "File": "lib/mysql.js",
+      "DefStart": 2412,
+      "DefEnd": 2423,
+      "Exported": false,
+      "Data": {
+        "Kind": "property",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/mysql/index.js",
+          "path": "@415.@local.config.port"
+        },
+        "Type": "number",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/underscore/underscore.js/-/@216/@local/@216/@local/@3357/@local/obj/\u003ci\u003e",
+      "TreePath": "-file/node_modules/underscore/underscore.js/-/@216/@local/@216/@local/@3357/@local/obj/\u003ci\u003e",
+      "Kind": "field",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "property",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/underscore/underscore.js",
+          "path": "@216.@local.@216.@local.@3357.@local.obj.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/node_modules/underscore/underscore.js/-/@216/@local/@216/@local/@5582/@local/obj/\u003ci\u003e",
+      "TreePath": "-file/node_modules/underscore/underscore.js/-/@216/@local/@216/@local/@5582/@local/obj/\u003ci\u003e",
+      "Kind": "field",
+      "Name": "\u003ci\u003e",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "property",
+        "Key": {
+          "namespace": "file",
+          "module": "node_modules/underscore/underscore.js",
+          "path": "@216.@local.@216.@local.@5582.@local.obj.\u003ci\u003e"
+        },
+        "Type": "number",
+        "IsFunc": false
       }
     }
   ],
   "Refs": [
     {
-      "DefRepo": "",
+      "DefRepo": "github.com/isaacs/node-glob",
       "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "commonjs/../usr/lib/nodejs/async.js/-/concat",
+      "DefUnit": "glob",
+      "DefPath": "commonjs/glob.js/-/sync",
       "Def": false,
       "Repo": "",
-      "File": "lib/lodash.js",
-      "Start": 253,
-      "End": 259
+      "File": "lib/glob.js",
+      "Start": 60,
+      "End": 64
     },
     {
-      "DefRepo": "",
+      "DefRepo": "github.com/felixge/node-mysql",
       "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "commonjs/../usr/lib/nodejs/async.js/-/concat",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/index.js/-/createConnection",
       "Def": false,
       "Repo": "",
-      "File": "lib/underscore.js",
-      "Start": 257,
-      "End": 263
+      "File": "lib/mysql.js",
+      "Start": 2391,
+      "End": 2407
     },
     {
-      "DefRepo": "",
+      "DefRepo": "github.com/felixge/node-mysql",
       "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "commonjs/../usr/lib/nodejs/async.js/-/each",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/index.js/-/createConnection",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 58,
+      "End": 74
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/beginTransaction",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1682,
+      "End": 1698
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/commit",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2163,
+      "End": 2169
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/connect",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 160,
+      "End": 167
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/connect",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2455,
+      "End": 2462
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/connect",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/pg.js",
+      "Start": 562,
+      "End": 569
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/end",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2699,
+      "End": 2702
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/end",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/pg.js",
+      "Start": 915,
+      "End": 918
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/escape",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 531,
+      "End": 537
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/pause",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1520,
+      "End": 1525
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1003,
+      "End": 1008
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1169,
+      "End": 1174
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1754,
+      "End": 1759
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 183,
+      "End": 188
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1982,
+      "End": 1987
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2572,
+      "End": 2577
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 606,
+      "End": 611
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 686,
+      "End": 691
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 831,
+      "End": 836
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/query",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/pg.js",
+      "Start": 675,
+      "End": 680
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/resume",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1580,
+      "End": 1586
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/rollback",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1856,
+      "End": 1864
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/rollback",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2083,
+      "End": 2091
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnitType": "",
+      "DefUnit": "mysql",
+      "DefPath": "commonjs/lib/Connection.js/-/prototype/rollback",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2226,
+      "End": 2234
+    },
+    {
+      "DefRepo": "github.com/caolan/async",
+      "DefUnitType": "",
+      "DefUnit": "async",
+      "DefPath": "commonjs/lib/async.js/-/each",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
@@ -2489,21 +3103,10 @@
       "End": 34
     },
     {
-      "DefRepo": "",
+      "DefRepo": "github.com/caolan/async",
       "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "commonjs/../usr/lib/nodejs/async.js/-/each",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/underscore.js",
-      "Start": 34,
-      "End": 38
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "commonjs/../usr/lib/nodejs/async.js/-/filter",
+      "DefUnit": "async",
+      "DefPath": "commonjs/lib/async.js/-/filter",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2511,10 +3114,10 @@
       "End": 182
     },
     {
-      "DefRepo": "",
+      "DefRepo": "github.com/caolan/async",
       "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "commonjs/../usr/lib/nodejs/async.js/-/map",
+      "DefUnit": "async",
+      "DefPath": "commonjs/lib/async.js/-/map",
       "Def": false,
       "Repo": "",
       "File": "lib/async.js",
@@ -2522,37 +3125,15 @@
       "End": 64
     },
     {
-      "DefRepo": "",
+      "DefRepo": "github.com/caolan/async",
       "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "commonjs/../usr/lib/nodejs/async.js/-/reject",
+      "DefUnit": "async",
+      "DefPath": "commonjs/lib/async.js/-/reject",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
       "Start": 533,
       "End": 539
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "commonjs/../usr/lib/nodejs/async.js/-/reject",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/underscore.js",
-      "Start": 537,
-      "End": 543
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "commonjs/../usr/lib/nodejs/glob.js/-/sync",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/glob.js",
-      "Start": 60,
-      "End": 64
     },
     {
       "DefRepo": "github.com/joyent/node",
@@ -2564,6 +3145,39 @@
       "File": "lib/http.js",
       "Start": 143,
       "End": 145
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/events.js/-/prototype/on",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1315,
+      "End": 1317
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/events.js/-/prototype/on",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1403,
+      "End": 1405
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/events.js/-/prototype/on",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 1606,
+      "End": 1608
     },
     {
       "DefRepo": "github.com/joyent/node",
@@ -2602,28 +3216,6 @@
       "DefRepo": "github.com/joyent/node",
       "DefUnitType": "",
       "DefUnit": "node",
-      "DefPath": "commonjs/lib/http.js/-/Agent/prototype/createConnection",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 2391,
-      "End": 2407
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/http.js/-/Client",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/pg.js",
-      "Start": 536,
-      "End": 542
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
       "DefPath": "commonjs/lib/http.js/-/get",
       "Def": false,
       "Repo": "",
@@ -2632,147 +3224,81 @@
       "End": 37
     },
     {
-      "DefRepo": "github.com/joyent/node",
+      "DefRepo": "github.com/brianc/node-postgres",
       "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/net.js/-/connect",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 160,
-      "End": 167
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/net.js/-/connect",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 2455,
-      "End": 2462
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/net.js/-/connect",
+      "DefUnit": "pg",
+      "DefPath": "commonjs/lib/index.js/-/Client",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
-      "Start": 562,
-      "End": 569
+      "Start": 536,
+      "End": 542
     },
     {
-      "DefRepo": "github.com/joyent/node",
+      "DefRepo": "github.com/jashkenas/underscore",
       "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/net.js/-/connect",
+      "DefUnit": "underscore",
+      "DefPath": "commonjs/underscore.js/-/each",
       "Def": false,
       "Repo": "",
-      "File": "lib/pg.js",
-      "Start": 95,
-      "End": 102
+      "File": "lib/underscore.js",
+      "Start": 34,
+      "End": 38
     },
     {
-      "DefRepo": "github.com/joyent/node",
+      "DefRepo": "github.com/jashkenas/underscore",
       "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/net.js/-/createConnection",
+      "DefUnit": "underscore",
+      "DefPath": "commonjs/underscore.js/-/filter",
       "Def": false,
       "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 58,
-      "End": 74
+      "File": "lib/underscore.js",
+      "Start": 426,
+      "End": 432
     },
     {
-      "DefRepo": "github.com/joyent/node",
+      "DefRepo": "github.com/jashkenas/underscore",
       "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/querystring.js/-/escape",
+      "DefUnit": "underscore",
+      "DefPath": "commonjs/underscore.js/-/find",
       "Def": false,
       "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 531,
-      "End": 537
+      "File": "lib/underscore.js",
+      "Start": 318,
+      "End": 322
     },
     {
-      "DefRepo": "github.com/joyent/node",
+      "DefRepo": "github.com/jashkenas/underscore",
       "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
+      "DefUnit": "underscore",
+      "DefPath": "commonjs/underscore.js/-/map",
       "Def": false,
       "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 1208,
-      "End": 1210
+      "File": "lib/underscore.js",
+      "Start": 80,
+      "End": 83
     },
     {
-      "DefRepo": "github.com/joyent/node",
+      "DefRepo": "github.com/jashkenas/underscore",
       "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
+      "DefUnit": "underscore",
+      "DefPath": "commonjs/underscore.js/-/reduceRight",
       "Def": false,
       "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 1315,
-      "End": 1317
+      "File": "lib/underscore.js",
+      "Start": 213,
+      "End": 224
     },
     {
-      "DefRepo": "github.com/joyent/node",
+      "DefRepo": "github.com/jashkenas/underscore",
       "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
+      "DefUnit": "underscore",
+      "DefPath": "commonjs/underscore.js/-/reject",
       "Def": false,
       "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 1403,
-      "End": 1405
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/stream.js/-/Readable/prototype/on",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 1606,
-      "End": 1608
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/util.js/-/inspect/styles/number",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/pg.js",
-      "Start": 479,
-      "End": 485
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file/../usr/lib/nodejs/glob.js/-/@13313/@local/e/code",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 2497,
-      "End": 2501
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "file/../usr/lib/nodejs/glob.js/-/@13313/@local/e/code",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 2624,
-      "End": 2628
+      "File": "lib/underscore.js",
+      "Start": 537,
+      "End": 543
     },
     {
       "DefRepo": "github.com/joyent/node",
@@ -2938,28 +3464,6 @@
       "File": "lib/async.js",
       "Start": 9,
       "End": 16
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/fs.js/-/@39239/@local/self/end",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 2699,
-      "End": 2702
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/fs.js/-/@39239/@local/self/end",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/pg.js",
-      "Start": 915,
-      "End": 918
     },
     {
       "DefRepo": "",
@@ -4241,6 +4745,17 @@
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
+      "DefPath": "file/lib/mysql.js/-/connection/config/queryFormat",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 348,
+      "End": 359
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
       "DefPath": "file/lib/mysql.js/-/connection",
       "Def": false,
       "Repo": "",
@@ -5319,106 +5834,7 @@
       "DefRepo": "github.com/joyent/node",
       "DefUnitType": "",
       "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 1003,
-      "End": 1008
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 1169,
-      "End": 1174
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 1754,
-      "End": 1759
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 183,
-      "End": 188
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 1982,
-      "End": 1987
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 2572,
-      "End": 2577
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 606,
-      "End": 611
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 686,
-      "End": 691
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 831,
-      "End": 836
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefPath": "file/lib/url.js/-/urlParse/@local/u/query",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
@@ -5426,15 +5842,125 @@
       "End": 240
     },
     {
-      "DefRepo": "github.com/joyent/node",
+      "DefRepo": "",
       "DefUnitType": "",
-      "DefUnit": "node",
-      "DefPath": "file/lib/url.js/-/@3515/@local/url/query",
+      "DefUnit": "",
+      "DefPath": "file/node_modules/glob/glob.js/-/@14723/@local/e/code",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2497,
+      "End": 2501
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/node_modules/glob/glob.js/-/@14723/@local/e/code",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2624,
+      "End": 2628
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/@410/@local/runInContext/@local/lodash/find",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/lodash.js",
+      "Start": 314,
+      "End": 318
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/node_modules/lodash/dist/lodash.js/-/@410/@local/objectTypes/number",
       "Def": false,
       "Repo": "",
       "File": "lib/pg.js",
-      "Start": 675,
-      "End": 680
+      "Start": 479,
+      "End": 485
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/node_modules/mysql/lib/Connection.js/-/@3057/@local/self/config",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 341,
+      "End": 347
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/node_modules/mysql/lib/protocol/Protocol.js/-/@1896/@local/err/fatal",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2540,
+      "End": 2545
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/node_modules/mysql/lib/protocol/Protocol.js/-/@1896/@local/err/fatal",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/mysql.js",
+      "Start": 2667,
+      "End": 2672
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/node_modules/mysql/lib/protocol/sequences/Query.js/-/@4123/@local/self/_resultSet/rows",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/pg.js",
+      "Start": 471,
+      "End": 475
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "file/node_modules/mysql/lib/protocol/sequences/Query.js/-/@4123/@local/self/_resultSet/rows",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/pg.js",
+      "Start": 833,
+      "End": 837
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.concat",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/lodash.js",
+      "Start": 253,
+      "End": 259
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/Array.prototype.concat",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/underscore.js",
+      "Start": 257,
+      "End": 263
     },
     {
       "DefRepo": "",
@@ -5451,17 +5977,6 @@
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
-      "DefPath": "global/-/Array.prototype.filter",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/underscore.js",
-      "Start": 426,
-      "End": 432
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "global/-/Array.prototype.map",
       "Def": false,
       "Repo": "",
@@ -5473,34 +5988,12 @@
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
-      "DefPath": "global/-/Array.prototype.map",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/underscore.js",
-      "Start": 80,
-      "End": 83
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "global/-/Array.prototype.reduceRight",
       "Def": false,
       "Repo": "",
       "File": "lib/lodash.js",
       "Start": 209,
       "End": 220
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "global/-/Array.prototype.reduceRight",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/underscore.js",
-      "Start": 213,
-      "End": 224
     },
     {
       "DefRepo": "",
@@ -6348,17 +6841,6 @@
       "File": "lib/underscore.js",
       "Start": 604,
       "End": 611
-    },
-    {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
-      "DefPath": "global/-/process.config",
-      "Def": false,
-      "Repo": "",
-      "File": "lib/mysql.js",
-      "Start": 341,
-      "End": 347
     }
   ]
 }

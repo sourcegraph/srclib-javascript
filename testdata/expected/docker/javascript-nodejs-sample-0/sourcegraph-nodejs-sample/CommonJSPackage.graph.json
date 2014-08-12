@@ -1093,6 +1093,83 @@
       "End": 937
     },
     {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 1145,
+      "End": 1148
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 204,
+      "End": 207
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 336,
+      "End": 339
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 481,
+      "End": 484
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 647,
+      "End": 650
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 816,
+      "End": 819
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
+      "Def": false,
+      "Repo": "",
+      "File": "test/animal_test.js",
+      "Start": 991,
+      "End": 994
+    },
+    {
       "DefRepo": "",
       "DefUnitType": "",
       "DefUnit": "",
