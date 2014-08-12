@@ -4,3 +4,6 @@
 [submodule "testdata/case/javascript-nodejs-xrefs-0"]
 	path = testdata/case/javascript-nodejs-xrefs-0
 	url = https://github.com/sgtest/javascript-nodejs-xrefs-0.git
+[submodule "testdata/case/minimal_nodejs_stdlib"]
+	path = testdata/case/minimal_nodejs_stdlib
+	url = https://github.com/sgtest/minimal_nodejs_stdlib.git
