@@ -172,7 +172,7 @@ parser.command("graph")
         // TODO(sqs): only works for top-level package.jsons. we actually need
         // "/src/${dirname(package.json path)", which also requires us to
         // track the path to the package.json.
-        execFile("npm", ["install", "/src"], {cwd: "/"}, function(err, stdout, stderr) {
+        execFile("npm", ["install", "--ignore-scripts", "/src"], {cwd: "/"}, function(err, stdout, stderr) {
           if (stderr) console.error(stderr);
           if (stdout) console.error(stdout);
           if (err) {
