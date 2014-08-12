@@ -50,10 +50,21 @@ parser.command("scan-commonjs")
         return {
           Name: pkg.package.name,
           Type: "CommonJSPackage",
+          Dir: pkg.dir,
           Files: pkg.libFiles.concat(pkg.testFiles),
           Dependencies: allDeps,
           Data: pkg.package,
           Ops: {depresolve: null, graph: null},
+          Config: {
+            npmInstall: !!process.env.IN_DOCKER_CONTAINER,
+            jsg: {
+              plugins: {
+                node: {
+                  coreModulesDir: process.env.NODEJS_CORE_MODULES_DIR || path.join(__dirname, "../node_modules/jsg/testdata/node_core_modules"),
+                }
+              },
+            },
+          },
         };
       });
 
@@ -79,8 +90,13 @@ parser.command("depresolve")
       var inputJSON = inputChunks.join("");
       var commonJSPackage = JSON.parse(inputJSON);
 
-      var remaining = commonJSPackage.Dependencies.length;
+      var remaining = commonJSPackage.Dependencies ? commonJSPackage.Dependencies.length : 0;
       var resolutions = [];
+
+      if (remaining == 0) {
+        console.log('[]');
+        return;
+      }
 
       commonJSPackage.Dependencies.forEach(function(dep) {
         var i = commonJSPackage.Dependencies.indexOf(dep);
@@ -162,7 +178,7 @@ parser.command("graph")
       // them to have been installed locally. we need to account for the fact
       // that we've mounted the source volume readonly, so we can't just run
       // `npm install`.
-      if (process.env.IN_DOCKER_CONTAINER) {
+      if (process.env.IN_DOCKER_CONTAINER && commonJSPackage.Config.npmInstall) {
         // running `npm install` in the /src dir fails because it's mounted
         // readonly. but `npm install -g` in the /src dir does nothing. so we
         // need to `npm install /src` from a dir other than /src to get `npm

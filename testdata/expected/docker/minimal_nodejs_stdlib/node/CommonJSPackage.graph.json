@@ -1,0 +1,127 @@
+{
+  "Defs": [
+    {
+      "Path": "commonjs/lib/my_module.js",
+      "TreePath": "-commonjs/lib/my_module.js",
+      "Kind": "module",
+      "Name": "lib/my_module",
+      "Callable": false,
+      "File": "lib/my_module.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "Data": {
+        "Kind": "commonjs-module",
+        "Key": {
+          "namespace": "commonjs",
+          "module": "lib/my_module.js",
+          "path": ""
+        },
+        "jsgDefData": {
+          "nodejs": {
+            "moduleExports": true
+          }
+        },
+        "Type": "{myFunc: fn() -\u003e number}",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "commonjs/lib/my_module.js/-/myFunc",
+      "TreePath": "-commonjs/lib/my_module.js/-/myFunc",
+      "Kind": "func",
+      "Name": "myFunc",
+      "Callable": true,
+      "File": "lib/my_module.js",
+      "DefStart": 8,
+      "DefEnd": 41,
+      "Exported": true,
+      "Data": {
+        "Kind": "func",
+        "Key": {
+          "namespace": "commonjs",
+          "module": "lib/my_module.js",
+          "path": "myFunc"
+        },
+        "Type": "fn() -\u003e number",
+        "IsFunc": true
+      }
+    },
+    {
+      "Path": "file/lib/my_module.js/-/exports",
+      "TreePath": "-file/lib/my_module.js/-/exports",
+      "Kind": "var",
+      "Name": "exports",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "var",
+        "Key": {
+          "namespace": "file",
+          "module": "lib/my_module.js",
+          "path": "exports"
+        },
+        "Type": "{myFunc: fn() -\u003e number}",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/lib/my_module.js/-/module/exports",
+      "TreePath": "-file/lib/my_module.js/-/module/exports",
+      "Kind": "var",
+      "Name": "exports",
+      "Callable": false,
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "var",
+        "Key": {
+          "namespace": "file",
+          "module": "lib/my_module.js",
+          "path": "module.exports"
+        },
+        "Type": "{myFunc: fn() -\u003e number}",
+        "IsFunc": false
+      }
+    }
+  ],
+  "Refs": [
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "commonjs/lib/my_module.js/-/myFunc",
+      "Def": true,
+      "Repo": "",
+      "File": "lib/my_module.js",
+      "Start": 8,
+      "End": 14
+    },
+    {
+      "DefRepo": "github.com/joyent/node",
+      "DefUnitType": "",
+      "DefUnit": "node",
+      "DefPath": "file/lib/my_module.js/-/exports",
+      "Def": false,
+      "Repo": "",
+      "File": "lib/my_module.js",
+      "Start": 0,
+      "End": 7
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "commonjs/lib/my_module.js/-/myFunc",
+      "Format": "",
+      "Data": "\u003cp\u003eThis is documentation for myFunc.\n\n\n\u003c/p\u003e",
+      "File": "",
+      "Start": 0,
+      "End": 0
+    }
+  ]
+}
