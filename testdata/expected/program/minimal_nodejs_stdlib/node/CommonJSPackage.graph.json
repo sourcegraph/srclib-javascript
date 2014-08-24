@@ -3,9 +3,8 @@
     {
       "Path": "commonjs/lib/my_module.js",
       "TreePath": "-commonjs/lib/my_module.js",
-      "Kind": "module",
       "Name": "lib/my_module",
-      "Callable": false,
+      "Kind": "module",
       "File": "lib/my_module.js",
       "DefStart": 0,
       "DefEnd": 0,
@@ -29,9 +28,8 @@
     {
       "Path": "commonjs/lib/my_module.js/-/myFunc",
       "TreePath": "-commonjs/lib/my_module.js/-/myFunc",
-      "Kind": "func",
       "Name": "myFunc",
-      "Callable": true,
+      "Kind": "func",
       "File": "lib/my_module.js",
       "DefStart": 8,
       "DefEnd": 41,
@@ -50,9 +48,8 @@
     {
       "Path": "file/lib/my_module.js/-/exports",
       "TreePath": "-file/lib/my_module.js/-/exports",
-      "Kind": "var",
       "Name": "exports",
-      "Callable": false,
+      "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
@@ -71,9 +68,8 @@
     {
       "Path": "file/lib/my_module.js/-/module/exports",
       "TreePath": "-file/lib/my_module.js/-/module/exports",
-      "Kind": "var",
       "Name": "exports",
-      "Callable": false,
+      "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
