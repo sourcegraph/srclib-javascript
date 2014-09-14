@@ -22,11 +22,13 @@ parser.command("scan-commonjs")
         process.exit(1);
       }
 
-      // filter out undesirable packages
+      // filter out undesirable packages (packages whose paths contain
+      // "node_modules", "test", etc.)
       pkgs = pkgs.filter(function(pkg) {
         // TODO(sqs): we probably want to process things in node_modules for
         // local code, so remove this filter.
-        return pkg.dir.split("/").indexOf("node_modules") == -1;
+        var pathComps = pkg.dir.split("/");
+        return pathComps.indexOf("node_modules") == -1 && pathComps.indexOf("test") == -1 && pathComps.indexOf("templates") == -1;
       });
 
       // filter out undesirable source files (minified files) from
