@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var parser = require("nomnom");
+var glob = require("glob");
 var findpkgs = require("commonjs-findpkgs");
 var jsgAdapter = require("../lib/jsg_adapter")
 var npm = require("npm");
@@ -39,6 +40,15 @@ parser.command("scan-commonjs")
           return !/\.min\.js$/.test(f);
         });
       });
+
+      // automatically include files in the src dir (not just
+      // lib). this is somewhat common for client-side libs even
+      // though it is technically in violation of the commonjs spec.
+      // TODO(sqs): add this functionality (as an option?) to commonjs-findpkgs?
+      pkgs.forEach(function(pkg) {
+        var srcFiles = glob.sync(path.join(pkg.dir, 'src/**/*.js'));
+        if (srcFiles) pkg.libFiles.push.apply(pkg.libFiles, srcFiles);
+      });        
 
       // convert from commonjs-findpkgs format to source unit
       var srcunits = pkgs.map(function(pkg) {
