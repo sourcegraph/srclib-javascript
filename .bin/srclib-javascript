@@ -6,6 +6,7 @@ var jsgAdapter = require("../lib/jsg_adapter")
 var npm = require("npm");
 var path = require("path");
 var execFile = require("child_process").execFile;
+var fs = require("fs");
 
 parser.command("scan-commonjs")
   .option("repo", {
@@ -53,7 +54,7 @@ parser.command("scan-commonjs")
           Name: pkg.package.name,
           Type: "CommonJSPackage",
           Dir: pkg.dir,
-          Files: pkg.libFiles.concat(pkg.testFiles),
+          Files: pkg.libFiles.concat(pkg.testFiles).filter(function(f) { return fs.statSync(f).isFile(); }),
           Dependencies: allDeps,
           Data: pkg.package,
           Ops: {depresolve: null, graph: null},
