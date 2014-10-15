@@ -1,0 +1,93 @@
+{
+  "Defs": [
+    {
+      "Path": "commonjs/no-version-provided/index.js",
+      "TreePath": "-commonjs/no-version-provided/index.js",
+      "Name": "no-version-provided/index",
+      "Kind": "module",
+      "File": "no-version-provided/index.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "Data": {
+        "Kind": "commonjs-module",
+        "Key": {
+          "namespace": "commonjs",
+          "module": "no-version-provided/index.js",
+          "path": ""
+        },
+        "jsgDefData": {
+          "nodejs": {
+            "moduleExports": true
+          }
+        },
+        "Type": "{}",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/no-version-provided/index.js/-/exports",
+      "TreePath": "-file/no-version-provided/index.js/-/exports",
+      "Name": "exports",
+      "Kind": "var",
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "var",
+        "Key": {
+          "namespace": "file",
+          "module": "no-version-provided/index.js",
+          "path": "exports"
+        },
+        "Type": "{}",
+        "IsFunc": false
+      }
+    },
+    {
+      "Path": "file/no-version-provided/index.js/-/module/exports",
+      "TreePath": "-file/no-version-provided/index.js/-/module/exports",
+      "Name": "exports",
+      "Kind": "var",
+      "File": "",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": false,
+      "Data": {
+        "Kind": "var",
+        "Key": {
+          "namespace": "file",
+          "module": "no-version-provided/index.js",
+          "path": "module.exports"
+        },
+        "Type": "{}",
+        "IsFunc": false
+      }
+    }
+  ],
+  "Refs": [
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console.log",
+      "Def": false,
+      "Repo": "",
+      "File": "no-version-provided/index.js",
+      "Start": 8,
+      "End": 11
+    },
+    {
+      "DefRepo": "",
+      "DefUnitType": "",
+      "DefUnit": "",
+      "DefPath": "global/-/console",
+      "Def": false,
+      "Repo": "",
+      "File": "no-version-provided/index.js",
+      "Start": 0,
+      "End": 7
+    }
+  ]
+}

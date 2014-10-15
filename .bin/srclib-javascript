@@ -197,8 +197,7 @@ parser.command("graph")
           if (stderr) console.error(stderr);
           if (stdout) console.error(stdout);
           if (err) {
-            console.error("npm install in Docker container failed: ", err);
-            process.exit(1)
+            console.error("warning: npm install in Docker container failed: ", err, "(continuing with graphing...)");
           }
           graph();
         });
