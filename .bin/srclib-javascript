@@ -50,6 +50,15 @@ parser.command("scan-commonjs")
         if (srcFiles) pkg.libFiles.push.apply(pkg.libFiles, srcFiles);
       });        
 
+      // automatically include files in the dir containing the main file (if it's a subdir)
+      // TODO(sqs): add this functionality (as an option?) to commonjs-findpkgs?
+      pkgs.forEach(function(pkg) {
+        if (pkg.package.main && pkg.package.main.indexOf('/') != -1) {
+          var files = glob.sync(path.join(pkg.dir, path.dirname(pkg.package.main), '**/*.js'));
+          if (files) pkg.libFiles.push.apply(pkg.libFiles, files);
+        }
+      });        
+
       // convert from commonjs-findpkgs format to source unit
       var srcunits = pkgs.map(function(pkg) {
         // collect all deps
@@ -60,11 +69,13 @@ parser.command("scan-commonjs")
         collectDeps(pkg.package.dependencies);
         collectDeps(pkg.package.devDependencies);
 
+        files = arrayUnique(pkg.libFiles.concat(pkg.testFiles).filter(function(f) { return fs.statSync(f).isFile(); }));
+
         return {
           Name: pkg.package.name,
           Type: "CommonJSPackage",
           Dir: pkg.dir,
-          Files: pkg.libFiles.concat(pkg.testFiles).filter(function(f) { return fs.statSync(f).isFile(); }),
+          Files: files,
           Dependencies: allDeps,
           Data: pkg.package,
           Ops: {depresolve: null, graph: null},
@@ -243,3 +254,10 @@ parser.command("graph")
   .help("graph a CommonJS package using jsg/tern");
 
 parser.parse();
+
+var arrayUnique = function(a) {
+    return a.reduce(function(p, c) {
+        if (p.indexOf(c) < 0) p.push(c);
+        return p;
+    }, []);
+};
