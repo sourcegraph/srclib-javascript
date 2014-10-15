@@ -24,6 +24,9 @@ parser.command("scan-commonjs")
         process.exit(1);
       }
 
+      // omit package.json files that have syntax errors
+      pkgs = pkgs.filter(function(pkg) { return !pkg.error; });
+
       // filter out undesirable packages (packages whose paths contain
       // "node_modules", "test", etc.)
       pkgs = pkgs.filter(function(pkg) {
