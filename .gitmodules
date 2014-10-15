@@ -7,3 +7,6 @@
 [submodule "testdata/case/minimal_nodejs_stdlib"]
 	path = testdata/case/minimal_nodejs_stdlib
 	url = https://github.com/sgtest/minimal_nodejs_stdlib.git
+[submodule "testdata/case/js-misc"]
+	path = testdata/case/js-misc
+	url = https://github.com/sgtest/js-misc.git
