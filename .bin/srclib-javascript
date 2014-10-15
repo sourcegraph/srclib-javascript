@@ -168,6 +168,10 @@ parser.command("graph")
       var commonJSPackage = JSON.parse(inputJSON);
 
       function graph() {
+        if (commonJSPackage.Files.length == 0) {
+          console.log("{}");
+          process.exit(0);
+        }
         jsgAdapter.run(".", commonJSPackage, function(err, graphData) {
           if (err) {
             console.error("Graphing " + commonJSPackage.Name + " failed:", err);
