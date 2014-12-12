@@ -65,7 +65,7 @@ parser.command("scan-commonjs")
       // convert from commonjs-findpkgs format to source unit
       var srcunits = pkgs.map(function(pkg) {
         // collect all deps
-        var allDeps = [];
+        var allDeps = [{name: "node", "version": ""}];
         function collectDeps(deps) {
           if (deps) Object.keys(deps).forEach(function(name) { allDeps.push({name: name, version: deps[name]}); });
         }
@@ -128,7 +128,7 @@ parser.command("depresolve")
       commonJSPackage.Dependencies.forEach(function(dep) {
         var i = commonJSPackage.Dependencies.indexOf(dep);
         resolutions[i] = {Raw: dep};
-        var spec = dep.name+"@"+dep.version;
+        var spec = dep.name+(dep.version ? "@"+dep.version : "");
         npm.load(function(err, npm) {
           if (err) {
             console.error("npm.load failed: ", err);
@@ -136,8 +136,13 @@ parser.command("depresolve")
           }
 
           npm.commands.view(["--silent", spec], function(err,data) {
+            if (hardcodedRepoURLs[spec]) {
+              data = {"": {}}
+              err = null
+            }
+
             if (err) {
-              resolutions[i].Error = "error occurred while resolving: " + JSON.stringify(err);
+              resolutions[i].Error = "error occurred while resolving '" + spec + "': " + JSON.stringify(err);
             } else if (!data || Object.keys(data).length == 0) {
               resolutions[i].Error = "no npm package found with spec " + JSON.stringify(spec);
             } else {
@@ -149,7 +154,9 @@ parser.command("depresolve")
               var info = data[chooseVersion];
 
               var repoURL = "";
-              if (info.repository) {
+              if (hardcodedRepoURLs[spec]) {
+                repoURL = hardcodedRepoURLs[spec];
+              } else if (info.repository) {
                 if (typeof info.repository == "string") repoURL = info.repository;
                 else repoURL = info.repository.url;
               }
@@ -173,6 +180,10 @@ parser.command("depresolve")
     });
   })
   .help("resolves dependencies of a CommonJS package");
+
+var hardcodedRepoURLs = {
+    "node": "https://github.com/joyent/node.git",
+};
 
 parser.command("graph")
   .callback(function(opts) {

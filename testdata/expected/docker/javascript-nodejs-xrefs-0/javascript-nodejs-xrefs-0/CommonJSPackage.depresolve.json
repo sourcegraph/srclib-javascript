@@ -1,58 +1,68 @@
 [
   {
     "Raw": {
+      "name": "node",
+      "version": ""
+    },
+    "Target": {
+      "ToRepoCloneURL": "https://github.com/joyent/node.git",
+      "ToUnitType": "CommonJSPackage"
+    }
+  },
+  {
+    "Raw": {
       "name": "minimatch",
       "version": "~0.2.14"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'minimatch@~0.2.14': {}"
   },
   {
     "Raw": {
       "name": "glob",
       "version": "~3.2.9"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'glob@~3.2.9': {}"
   },
   {
     "Raw": {
       "name": "read-package-json",
       "version": "~1.1.9"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'read-package-json@~1.1.9': {}"
   },
   {
     "Raw": {
       "name": "mysql",
       "version": "~2.2.0"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'mysql@~2.2.0': {}"
   },
   {
     "Raw": {
       "name": "pg",
       "version": "~3.0.3"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'pg@~3.0.3': {}"
   },
   {
     "Raw": {
       "name": "underscore",
       "version": "~1.6.0"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'underscore@~1.6.0': {}"
   },
   {
     "Raw": {
       "name": "async",
       "version": "~0.8.0"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'async@~0.8.0': {}"
   },
   {
     "Raw": {
       "name": "lodash",
       "version": "~2.4.1"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'lodash@~2.4.1': {}"
   }
 ]

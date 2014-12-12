@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "Raw": {
+      "name": "node",
+      "version": ""
+    },
+    "Target": {
+      "ToRepoCloneURL": "https://github.com/joyent/node.git",
+      "ToUnitType": "CommonJSPackage"
+    }
+  }
+]

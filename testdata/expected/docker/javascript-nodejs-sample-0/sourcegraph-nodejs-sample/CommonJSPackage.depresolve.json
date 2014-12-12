@@ -1,16 +1,26 @@
 [
   {
     "Raw": {
+      "name": "node",
+      "version": ""
+    },
+    "Target": {
+      "ToRepoCloneURL": "https://github.com/joyent/node.git",
+      "ToUnitType": "CommonJSPackage"
+    }
+  },
+  {
+    "Raw": {
       "name": "mocha",
       "version": "1.10.0"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'mocha@1.10.0': {}"
   },
   {
     "Raw": {
       "name": "should",
       "version": "~1.2.2"
     },
-    "Error": "error occurred while resolving: {}"
+    "Error": "error occurred while resolving 'should@~1.2.2': {}"
   }
 ]
