@@ -33,7 +33,7 @@ parser.command("scan-commonjs")
         // TODO(sqs): we probably want to process things in node_modules for
         // local code, so remove this filter.
         var pathComps = pkg.dir.split("/");
-        return pathComps.indexOf("node_modules") == -1 && pathComps.indexOf("test") == -1 && pathComps.indexOf("templates") == -1;
+        return pathComps.indexOf("node_modules") == -1 && pathComps.indexOf("test") == -1 && pathComps.indexOf("templates") == -1 && pathComps.indexOf("bower_components") == -1;
       });
 
       // filter out undesirable source files (minified files) from
