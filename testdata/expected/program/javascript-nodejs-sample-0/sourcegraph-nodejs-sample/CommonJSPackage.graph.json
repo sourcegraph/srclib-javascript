@@ -2,7 +2,6 @@
   "Defs": [
     {
       "Path": "commonjs/animal.js",
-      "TreePath": "-commonjs/animal.js",
       "Name": "animal",
       "Kind": "module",
       "File": "animal.js",
@@ -24,11 +23,11 @@
         },
         "Type": "{Animal: fn(name: string), Dog: fn(name: string, breed: string)}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-commonjs/animal.js"
     },
     {
       "Path": "commonjs/animal.js/-/Animal",
-      "TreePath": "-commonjs/animal.js/-/Animal",
       "Name": "Animal",
       "Kind": "func",
       "File": "animal.js",
@@ -45,11 +44,11 @@
         },
         "Type": "fn(name: string)",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-commonjs/animal.js/-/Animal"
     },
     {
       "Path": "commonjs/animal.js/-/Animal/prototype",
-      "TreePath": "-commonjs/animal.js/-/Animal/prototype",
       "Name": "prototype",
       "Kind": "type",
       "File": "",
@@ -66,11 +65,11 @@
         },
         "Type": "{makeNoise: fn() -\u003e string, sayHello: fn() -\u003e string}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-commonjs/animal.js/-/Animal/prototype"
     },
     {
       "Path": "commonjs/animal.js/-/Animal/prototype/makeNoise",
-      "TreePath": "-commonjs/animal.js/-/Animal/prototype/makeNoise",
       "Name": "makeNoise",
       "Kind": "func",
       "File": "animal.js",
@@ -87,11 +86,11 @@
         },
         "Type": "fn() -\u003e string",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-commonjs/animal.js/-/Animal/prototype/makeNoise"
     },
     {
       "Path": "commonjs/animal.js/-/Animal/prototype/sayHello",
-      "TreePath": "-commonjs/animal.js/-/Animal/prototype/sayHello",
       "Name": "sayHello",
       "Kind": "func",
       "File": "animal.js",
@@ -108,11 +107,11 @@
         },
         "Type": "fn() -\u003e string",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-commonjs/animal.js/-/Animal/prototype/sayHello"
     },
     {
       "Path": "commonjs/animal.js/-/Dog",
-      "TreePath": "-commonjs/animal.js/-/Dog",
       "Name": "Dog",
       "Kind": "func",
       "File": "animal.js",
@@ -129,11 +128,11 @@
         },
         "Type": "fn(name: string, breed: string)",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-commonjs/animal.js/-/Dog"
     },
     {
       "Path": "commonjs/animal.js/-/Dog/prototype",
-      "TreePath": "-commonjs/animal.js/-/Dog/prototype",
       "Name": "prototype",
       "Kind": "type",
       "File": "animal.js",
@@ -150,11 +149,11 @@
         },
         "Type": "{bark: fn() -\u003e string, name: string, sayExtendedHello: fn() -\u003e string}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-commonjs/animal.js/-/Dog/prototype"
     },
     {
       "Path": "commonjs/animal.js/-/Dog/prototype/bark",
-      "TreePath": "-commonjs/animal.js/-/Dog/prototype/bark",
       "Name": "bark",
       "Kind": "func",
       "File": "animal.js",
@@ -171,11 +170,11 @@
         },
         "Type": "fn() -\u003e string",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-commonjs/animal.js/-/Dog/prototype/bark"
     },
     {
       "Path": "commonjs/animal.js/-/Dog/prototype/name",
-      "TreePath": "-commonjs/animal.js/-/Dog/prototype/name",
       "Name": "name",
       "Kind": "field",
       "File": "animal.js",
@@ -192,11 +191,11 @@
         },
         "Type": "string",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-commonjs/animal.js/-/Dog/prototype/name"
     },
     {
       "Path": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
-      "TreePath": "-commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
       "Name": "sayExtendedHello",
       "Kind": "func",
       "File": "animal.js",
@@ -213,11 +212,11 @@
         },
         "Type": "fn() -\u003e string",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-commonjs/animal.js/-/Dog/prototype/sayExtendedHello"
     },
     {
       "Path": "commonjs/test/animal_test.js",
-      "TreePath": "-commonjs/test/animal_test.js",
       "Name": "test/animal_test",
       "Kind": "module",
       "File": "test/animal_test.js",
@@ -239,11 +238,11 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-commonjs/test/animal_test.js"
     },
     {
       "Path": "file/animal.js/-/Animal",
-      "TreePath": "-file/animal.js/-/Animal",
       "Name": "Animal",
       "Kind": "func",
       "File": "animal.js",
@@ -260,11 +259,11 @@
         },
         "Type": "fn(name: string)",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-file/animal.js/-/Animal"
     },
     {
       "Path": "file/animal.js/-/Animal/@local/name",
-      "TreePath": "-file/animal.js/-/Animal/@local/name",
       "Name": "name",
       "Kind": "field",
       "File": "animal.js",
@@ -281,11 +280,11 @@
         },
         "Type": "string",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/animal.js/-/Animal/@local/name"
     },
     {
       "Path": "file/animal.js/-/Dog",
-      "TreePath": "-file/animal.js/-/Dog",
       "Name": "Dog",
       "Kind": "func",
       "File": "animal.js",
@@ -302,11 +301,11 @@
         },
         "Type": "fn(name: string, breed: string)",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-file/animal.js/-/Dog"
     },
     {
       "Path": "file/animal.js/-/Dog/@local/breed",
-      "TreePath": "-file/animal.js/-/Dog/@local/breed",
       "Name": "breed",
       "Kind": "field",
       "File": "animal.js",
@@ -323,11 +322,11 @@
         },
         "Type": "string",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/animal.js/-/Dog/@local/breed"
     },
     {
       "Path": "file/animal.js/-/Dog/@local/name",
-      "TreePath": "-file/animal.js/-/Dog/@local/name",
       "Name": "name",
       "Kind": "field",
       "File": "animal.js",
@@ -344,11 +343,11 @@
         },
         "Type": "string",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/animal.js/-/Dog/@local/name"
     },
     {
       "Path": "file/animal.js/-/exports",
-      "TreePath": "-file/animal.js/-/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
@@ -365,11 +364,11 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/animal.js/-/exports"
     },
     {
       "Path": "file/animal.js/-/module/exports",
-      "TreePath": "-file/animal.js/-/module/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "animal.js",
@@ -386,11 +385,11 @@
         },
         "Type": "{Animal: fn(name: string), Dog: fn(name: string, breed: string)}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/animal.js/-/module/exports"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
       "Name": "a",
       "Kind": "field",
       "File": "test/animal_test.js",
@@ -407,11 +406,11 @@
         },
         "Type": "{breed: string, name: string, noise: string}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
       "Name": "done",
       "Kind": "func",
       "File": "test/animal_test.js",
@@ -428,11 +427,11 @@
         },
         "Type": "fn()",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
       "Name": "a",
       "Kind": "field",
       "File": "test/animal_test.js",
@@ -449,11 +448,11 @@
         },
         "Type": "{breed: string, name: string, noise: string}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
       "Name": "breed",
       "Kind": "field",
       "File": "animal.js",
@@ -470,11 +469,11 @@
         },
         "Type": "string",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
       "Name": "name",
       "Kind": "field",
       "File": "animal.js",
@@ -491,11 +490,11 @@
         },
         "Type": "string",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
       "Name": "noise",
       "Kind": "field",
       "File": "animal.js",
@@ -512,11 +511,11 @@
         },
         "Type": "string",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
       "Name": "done",
       "Kind": "func",
       "File": "test/animal_test.js",
@@ -533,11 +532,11 @@
         },
         "Type": "fn()",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
       "Name": "a",
       "Kind": "field",
       "File": "test/animal_test.js",
@@ -554,11 +553,11 @@
         },
         "Type": "{breed: string, name: string, noise: string}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
       "Name": "done",
       "Kind": "func",
       "File": "test/animal_test.js",
@@ -575,11 +574,11 @@
         },
         "Type": "fn()",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
       "Name": "a",
       "Kind": "field",
       "File": "test/animal_test.js",
@@ -596,11 +595,11 @@
         },
         "Type": "{breed: string, name: string, noise: string}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a"
     },
     {
       "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
       "Name": "done",
       "Kind": "func",
       "File": "test/animal_test.js",
@@ -617,11 +616,11 @@
         },
         "Type": "fn()",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done"
     },
     {
       "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
       "Name": "a",
       "Kind": "field",
       "File": "test/animal_test.js",
@@ -638,11 +637,11 @@
         },
         "Type": "{name: string}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a"
     },
     {
       "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
       "Name": "name",
       "Kind": "field",
       "File": "animal.js",
@@ -659,11 +658,11 @@
         },
         "Type": "string",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name"
     },
     {
       "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
       "Name": "done",
       "Kind": "func",
       "File": "test/animal_test.js",
@@ -680,11 +679,11 @@
         },
         "Type": "fn()",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done"
     },
     {
       "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
       "Name": "a",
       "Kind": "field",
       "File": "test/animal_test.js",
@@ -701,11 +700,11 @@
         },
         "Type": "{name: string}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a"
     },
     {
       "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
       "Name": "done",
       "Kind": "func",
       "File": "test/animal_test.js",
@@ -722,11 +721,11 @@
         },
         "Type": "fn()",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done"
     },
     {
       "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
       "Name": "a",
       "Kind": "field",
       "File": "test/animal_test.js",
@@ -743,11 +742,11 @@
         },
         "Type": "{name: string}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a"
     },
     {
       "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
       "Name": "done",
       "Kind": "func",
       "File": "test/animal_test.js",
@@ -764,11 +763,11 @@
         },
         "Type": "fn()",
         "IsFunc": true
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done"
     },
     {
       "Path": "file/test/animal_test.js/-/animal",
-      "TreePath": "-file/test/animal_test.js/-/animal",
       "Name": "animal",
       "Kind": "var",
       "File": "test/animal_test.js",
@@ -785,11 +784,11 @@
         },
         "Type": "{Animal: fn(name: string), Dog: fn(name: string, breed: string)}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/animal"
     },
     {
       "Path": "file/test/animal_test.js/-/exports",
-      "TreePath": "-file/test/animal_test.js/-/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
@@ -806,11 +805,11 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/exports"
     },
     {
       "Path": "file/test/animal_test.js/-/module/exports",
-      "TreePath": "-file/test/animal_test.js/-/module/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
@@ -827,11 +826,11 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/module/exports"
     },
     {
       "Path": "file/test/animal_test.js/-/should",
-      "TreePath": "-file/test/animal_test.js/-/should",
       "Name": "should",
       "Kind": "var",
       "File": "test/animal_test.js",
@@ -846,7 +845,8 @@
           "module": "test/animal_test.js",
           "path": "should"
         }
-      }
+      },
+      "TreePath": "-file/test/animal_test.js/-/should"
     }
   ],
   "Refs": [
