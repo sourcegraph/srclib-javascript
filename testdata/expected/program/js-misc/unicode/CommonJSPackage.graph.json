@@ -2,14 +2,12 @@
   "Defs": [
     {
       "Path": "commonjs/unicode/index.js",
-      "TreePath": "-commonjs/unicode/index.js",
       "Name": "unicode/index",
       "Kind": "module",
       "File": "unicode/index.js",
       "DefStart": 0,
       "DefEnd": 0,
       "Exported": true,
-      "Local": false,
       "Data": {
         "Kind": "commonjs-module",
         "Key": {
@@ -24,18 +22,16 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-commonjs/unicode/index.js"
     },
     {
       "Path": "file/unicode/index.js/-/a",
-      "TreePath": "-file/unicode/index.js/-/a",
       "Name": "a",
       "Kind": "var",
       "File": "unicode/index.js",
       "DefStart": 11,
       "DefEnd": 18,
-      "Exported": false,
-      "Local": false,
       "Data": {
         "Kind": "var",
         "Key": {
@@ -45,18 +41,16 @@
         },
         "Type": "number",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/unicode/index.js/-/a"
     },
     {
       "Path": "file/unicode/index.js/-/exports",
-      "TreePath": "-file/unicode/index.js/-/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
-      "Exported": false,
-      "Local": false,
       "Data": {
         "Kind": "var",
         "Key": {
@@ -66,18 +60,16 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/unicode/index.js/-/exports"
     },
     {
       "Path": "file/unicode/index.js/-/module/exports",
-      "TreePath": "-file/unicode/index.js/-/module/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
-      "Exported": false,
-      "Local": false,
       "Data": {
         "Kind": "var",
         "Key": {
@@ -87,17 +79,14 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/unicode/index.js/-/module/exports"
     }
   ],
   "Refs": [
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "file/unicode/index.js/-/a",
       "Def": true,
-      "Repo": "",
       "File": "unicode/index.js",
       "Start": 11,
       "End": 12
@@ -107,10 +96,7 @@
     {
       "Path": "file/unicode/index.js/-/a",
       "Format": "",
-      "Data": "✱",
-      "File": "",
-      "Start": 0,
-      "End": 0
+      "Data": "✱"
     }
   ]
 }

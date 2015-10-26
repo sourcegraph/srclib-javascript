@@ -2,14 +2,12 @@
   "Defs": [
     {
       "Path": "commonjs/dir-not-file/lib/index.js",
-      "TreePath": "-commonjs/dir-not-file/lib/index.js",
       "Name": "dir-not-file/lib/index",
       "Kind": "module",
       "File": "dir-not-file/lib/index.js",
       "DefStart": 0,
       "DefEnd": 0,
       "Exported": true,
-      "Local": false,
       "Data": {
         "Kind": "commonjs-module",
         "Key": {
@@ -24,18 +22,16 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-commonjs/dir-not-file/lib/index.js"
     },
     {
       "Path": "file/dir-not-file/lib/index.js/-/exports",
-      "TreePath": "-file/dir-not-file/lib/index.js/-/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
-      "Exported": false,
-      "Local": false,
       "Data": {
         "Kind": "var",
         "Key": {
@@ -45,18 +41,16 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/dir-not-file/lib/index.js/-/exports"
     },
     {
       "Path": "file/dir-not-file/lib/index.js/-/module/exports",
-      "TreePath": "-file/dir-not-file/lib/index.js/-/module/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
-      "Exported": false,
-      "Local": false,
       "Data": {
         "Kind": "var",
         "Key": {
@@ -66,28 +60,19 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/dir-not-file/lib/index.js/-/module/exports"
     }
   ],
   "Refs": [
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "global/-/console.log",
-      "Def": false,
-      "Repo": "",
       "File": "dir-not-file/lib/index.js",
       "Start": 8,
       "End": 11
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "global/-/console",
-      "Def": false,
-      "Repo": "",
       "File": "dir-not-file/lib/index.js",
       "Start": 0,
       "End": 7

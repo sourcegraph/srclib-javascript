@@ -14,55 +14,95 @@
       "name": "minimatch",
       "version": "~0.2.14"
     },
-    "Error": "error occurred while resolving 'minimatch@~0.2.14': {}"
+    "Target": {
+      "ToRepoCloneURL": "git://github.com/isaacs/minimatch.git",
+      "ToUnit": "minimatch",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "0.2.14"
+    }
   },
   {
     "Raw": {
       "name": "glob",
       "version": "~3.2.9"
     },
-    "Error": "error occurred while resolving 'glob@~3.2.9': {}"
+    "Target": {
+      "ToRepoCloneURL": "git://github.com/isaacs/node-glob.git",
+      "ToUnit": "glob",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "3.2.9"
+    }
   },
   {
     "Raw": {
       "name": "read-package-json",
       "version": "~1.1.9"
     },
-    "Error": "error occurred while resolving 'read-package-json@~1.1.9': {}"
+    "Target": {
+      "ToRepoCloneURL": "git://github.com/isaacs/read-package-json.git",
+      "ToUnit": "read-package-json",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "1.1.9"
+    }
   },
   {
     "Raw": {
       "name": "mysql",
       "version": "~2.2.0"
     },
-    "Error": "error occurred while resolving 'mysql@~2.2.0': {}"
+    "Target": {
+      "ToRepoCloneURL": "https://github.com/felixge/node-mysql",
+      "ToUnit": "mysql",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "2.2.0"
+    }
   },
   {
     "Raw": {
       "name": "pg",
       "version": "~3.0.3"
     },
-    "Error": "error occurred while resolving 'pg@~3.0.3': {}"
+    "Target": {
+      "ToRepoCloneURL": "git://github.com/brianc/node-postgres.git",
+      "ToUnit": "pg",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "3.0.3"
+    }
   },
   {
     "Raw": {
       "name": "underscore",
       "version": "~1.6.0"
     },
-    "Error": "error occurred while resolving 'underscore@~1.6.0': {}"
+    "Target": {
+      "ToRepoCloneURL": "git://github.com/jashkenas/underscore.git",
+      "ToUnit": "underscore",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "1.6.0"
+    }
   },
   {
     "Raw": {
       "name": "async",
       "version": "~0.8.0"
     },
-    "Error": "error occurred while resolving 'async@~0.8.0': {}"
+    "Target": {
+      "ToRepoCloneURL": "https://github.com/caolan/async.git",
+      "ToUnit": "async",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "0.8.0"
+    }
   },
   {
     "Raw": {
       "name": "lodash",
       "version": "~2.4.1"
     },
-    "Error": "error occurred while resolving 'lodash@~2.4.1': {}"
+    "Target": {
+      "ToRepoCloneURL": "https://github.com/lodash/lodash.git",
+      "ToUnit": "lodash",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "2.4.1"
+    }
   }
 ]

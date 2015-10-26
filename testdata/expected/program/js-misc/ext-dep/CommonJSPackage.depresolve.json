@@ -14,6 +14,11 @@
       "name": "lodash.contains",
       "version": "2.4.1"
     },
-    "Error": "error occurred while resolving 'lodash.contains@2.4.1': {}"
+    "Target": {
+      "ToRepoCloneURL": "https://github.com/lodash/lodash-cli.git",
+      "ToUnit": "lodash.contains",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "2.4.1"
+    }
   }
 ]
