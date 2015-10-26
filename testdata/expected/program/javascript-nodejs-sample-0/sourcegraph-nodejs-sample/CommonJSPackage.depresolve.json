@@ -14,13 +14,23 @@
       "name": "mocha",
       "version": "1.10.0"
     },
-    "Error": "error occurred while resolving 'mocha@1.10.0': {}"
+    "Target": {
+      "ToRepoCloneURL": "git://github.com/visionmedia/mocha.git",
+      "ToUnit": "mocha",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "1.10.0"
+    }
   },
   {
     "Raw": {
       "name": "should",
       "version": "~1.2.2"
     },
-    "Error": "error occurred while resolving 'should@~1.2.2': {}"
+    "Target": {
+      "ToRepoCloneURL": "git://github.com/visionmedia/should.js.git",
+      "ToUnit": "should",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "1.2.2"
+    }
   }
 ]
