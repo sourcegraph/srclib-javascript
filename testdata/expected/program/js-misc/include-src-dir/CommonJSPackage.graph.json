@@ -2,14 +2,12 @@
   "Defs": [
     {
       "Path": "commonjs/include-src-dir/index.js",
-      "TreePath": "-commonjs/include-src-dir/index.js",
       "Name": "include-src-dir/index",
       "Kind": "module",
       "File": "include-src-dir/index.js",
       "DefStart": 0,
       "DefEnd": 0,
       "Exported": true,
-      "Local": false,
       "Data": {
         "Kind": "commonjs-module",
         "Key": {
@@ -24,18 +22,17 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-commonjs/include-src-dir/index.js"
     },
     {
       "Path": "commonjs/include-src-dir/src/foo.js",
-      "TreePath": "-commonjs/include-src-dir/src/foo.js",
       "Name": "include-src-dir/src/foo",
       "Kind": "module",
       "File": "include-src-dir/src/foo.js",
       "DefStart": 0,
       "DefEnd": 0,
       "Exported": true,
-      "Local": false,
       "Data": {
         "Kind": "commonjs-module",
         "Key": {
@@ -50,18 +47,16 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-commonjs/include-src-dir/src/foo.js"
     },
     {
       "Path": "file/include-src-dir/index.js/-/exports",
-      "TreePath": "-file/include-src-dir/index.js/-/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
-      "Exported": false,
-      "Local": false,
       "Data": {
         "Kind": "var",
         "Key": {
@@ -71,18 +66,16 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/include-src-dir/index.js/-/exports"
     },
     {
       "Path": "file/include-src-dir/index.js/-/module/exports",
-      "TreePath": "-file/include-src-dir/index.js/-/module/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
-      "Exported": false,
-      "Local": false,
       "Data": {
         "Kind": "var",
         "Key": {
@@ -92,18 +85,16 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/include-src-dir/index.js/-/module/exports"
     },
     {
       "Path": "file/include-src-dir/src/foo.js/-/exports",
-      "TreePath": "-file/include-src-dir/src/foo.js/-/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
-      "Exported": false,
-      "Local": false,
       "Data": {
         "Kind": "var",
         "Key": {
@@ -113,18 +104,16 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/include-src-dir/src/foo.js/-/exports"
     },
     {
       "Path": "file/include-src-dir/src/foo.js/-/module/exports",
-      "TreePath": "-file/include-src-dir/src/foo.js/-/module/exports",
       "Name": "exports",
       "Kind": "var",
       "File": "",
       "DefStart": 0,
       "DefEnd": 0,
-      "Exported": false,
-      "Local": false,
       "Data": {
         "Kind": "var",
         "Key": {
@@ -134,50 +123,31 @@
         },
         "Type": "{}",
         "IsFunc": false
-      }
+      },
+      "TreePath": "-file/include-src-dir/src/foo.js/-/module/exports"
     }
   ],
   "Refs": [
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "global/-/console.log",
-      "Def": false,
-      "Repo": "",
       "File": "include-src-dir/index.js",
       "Start": 8,
       "End": 11
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "global/-/console.log",
-      "Def": false,
-      "Repo": "",
       "File": "include-src-dir/src/foo.js",
       "Start": 8,
       "End": 11
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "global/-/console",
-      "Def": false,
-      "Repo": "",
       "File": "include-src-dir/index.js",
       "Start": 0,
       "End": 7
     },
     {
-      "DefRepo": "",
-      "DefUnitType": "",
-      "DefUnit": "",
       "DefPath": "global/-/console",
-      "Def": false,
-      "Repo": "",
       "File": "include-src-dir/src/foo.js",
       "Start": 0,
       "End": 7

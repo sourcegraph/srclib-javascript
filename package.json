@@ -4,7 +4,7 @@
   "description": "JavaScript source analysis toolchain for srclib",
   "main": "index.js",
   "scripts": {
-    "test": "which src || (echo You must install src to run tests. See https://srclib.org.;echo; exit 1) && make test-deps && src test -m program"
+    "test": "make test-deps && src test -m program"
   },
   "bin": {
     "srclib-javascript": "./.bin/srclib-javascript"
