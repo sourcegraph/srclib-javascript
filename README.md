@@ -5,18 +5,14 @@ toolchain that performs JavaScript (Node.js) code analysis: type inference,
 documentation generation, jump-to-definition, dependency resolution, etc.
 
 It enables this functionality in any client application whose code analysis is
-powered by srclib, including:
-
-* [emacs-sourcegraph-mode](https://sourcegraph.com/sourcegraph/emacs-sourcegraph-mode),
-  an editor plugin for Emacs
-* [Sourcegraph.com](https://sourcegraph.com), an open-source code search engine
+powered by srclib, including [Sourcegraph](https://sourcegraph.com).
 
 Screenshots are below.
 
 ## Installation
 
 This toolchain is not a standalone program; it provides additional functionality
-to editor plugins and other applications that use [srclib](https://srclib.org).
+to applications that use [srclib](https://srclib.org).
 
 First,
 [install the `src` program (see srclib installation instructions)](https://sourcegraph.com/sourcegraph/srclib).
@@ -37,8 +33,7 @@ src toolchain list
 
 You should see this srclib-javascript toolchain in the list.
 
-Now that this toolchain is installed, any program that relies on srclib (such as
-editor plugins) will support JavaScript.
+Now that this toolchain is installed, any program that relies on srclib will support JavaScript.
 
 (TODO(sqs): add a tutorial link)
 
