@@ -234,8 +234,10 @@ parser.command("graph")
                         console.error("Graphing " + commonJSPackage.Name + " failed:", err);
                         process.exit(1);
                     }
-                    console.log(JSON.stringify(graphData, null, 2));
+
+                    console.log(graphData);
                 });
+
             }
 
             var npmCmd = null;
