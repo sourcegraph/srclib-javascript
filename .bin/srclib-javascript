@@ -229,13 +229,31 @@ parser.command("graph")
                     console.log("{}");
                     process.exit(0);
                 }
-                jsgAdapter.run(".", commonJSPackage, function(err, graphData) {
+                var args = ["--max-old-space-size=8192"];
+                args.push(path.join(__dirname, "../lib/analysis"));
+
+                commonJSPackage.Files.forEach(function(f) {
+                    args.push(path.join(dir, f));
+                });
+
+                child_process.execFile("node", args, {
+                    maxBuffer: 50000 * 1024 * 1024
+                }, function(err, stdout, stderr) {
+                    if (stderr) console.error(stderr);
                     if (err) {
                         console.error("Graphing " + commonJSPackage.Name + " failed:", err);
-                        process.exit(1);
+                        return;
                     }
-                     console.log(graphData);
+
+                    console.log(stdout);
                 });
+                // jsgAdapter.run(".", commonJSPackage, function(err, graphData) {
+                //     if (err) {
+                //         console.error("Graphing " + commonJSPackage.Name + " failed:", err);
+                //         process.exit(1);
+                //     }
+                //     console.log(graphData);
+                // });
             }
 
             var npmCmd = null;
