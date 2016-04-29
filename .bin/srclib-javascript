@@ -229,6 +229,7 @@ parser.command("graph")
                     console.log("{}");
                     process.exit(0);
                 }
+                var dir = ".";
                 var args = ["--max-old-space-size=8192"];
                 args.push(path.join(__dirname, "../lib/analysis"));
 
