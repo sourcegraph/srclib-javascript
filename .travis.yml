@@ -10,8 +10,7 @@ install:
   - go get -u -v sourcegraph.com/sourcegraph/srclib/cmd/srclib
   - mkdir -p $HOME/.srclib/sourcegraph.com/sourcegraph/
   - ln -s $TRAVIS_BUILD_DIR $HOME/.srclib/sourcegraph.com/sourcegraph/srclib-javascript
-# TODO: remove
-  - npm install tern
+  - npm install
 
 script:
   - srclib test
