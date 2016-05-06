@@ -1,37 +1,7 @@
 {
   "Defs": [
     {
-      "Path": "lib/async.js_113_116",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/async.js",
-      "DefStart": 113,
-      "DefEnd": 116,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/async.js_113_116"
-    },
-    {
-      "Path": "lib/async.js_118_125",
-      "Name": "results",
-      "Kind": "param",
-      "File": "lib/async.js",
-      "DefStart": 118,
-      "DefEnd": 125,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/async.js_118_125"
-    },
-    {
-      "Path": "lib/async.js_232_239",
+      "Path": "lib/async.js_fn__1_param_results",
       "Name": "results",
       "Kind": "param",
       "File": "lib/async.js",
@@ -46,7 +16,37 @@
       "TreePath": "lib/async.js_232_239"
     },
     {
-      "Path": "lib/async.js_28_33",
+      "Path": "lib/async.js_fn__param_err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/async.js",
+      "DefStart": 113,
+      "DefEnd": 116,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/async.js_113_116"
+    },
+    {
+      "Path": "lib/async.js_fn__param_results",
+      "Name": "results",
+      "Kind": "param",
+      "File": "lib/async.js",
+      "DefStart": 118,
+      "DefEnd": 125,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/async.js_118_125"
+    },
+    {
+      "Path": "lib/async.js_var_async",
       "Name": "async",
       "Kind": "var",
       "File": "lib/async.js",
@@ -61,7 +61,7 @@
       "TreePath": "lib/async.js_28_33"
     },
     {
-      "Path": "lib/async.js_4_6",
+      "Path": "lib/async.js_var_fs",
       "Name": "fs",
       "Kind": "var",
       "File": "lib/async.js",
@@ -76,37 +76,7 @@
       "TreePath": "lib/async.js_4_6"
     },
     {
-      "Path": "lib/fs.js_4_6",
-      "Name": "fs",
-      "Kind": "var",
-      "File": "lib/fs.js",
-      "DefStart": 4,
-      "DefEnd": 6,
-      "Data": {
-        "Type": "fs",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/fs.js_4_6"
-    },
-    {
-      "Path": "lib/fs.js_62_65",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/fs.js",
-      "DefStart": 62,
-      "DefEnd": 65,
-      "Data": {
-        "Type": "Error",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/fs.js_62_65"
-    },
-    {
-      "Path": "lib/fs.js_67_71",
+      "Path": "lib/fs.js_fn__param_data",
       "Name": "data",
       "Kind": "param",
       "File": "lib/fs.js",
@@ -121,37 +91,37 @@
       "TreePath": "lib/fs.js_67_71"
     },
     {
-      "Path": "lib/glob.js_102_107",
-      "Name": "files",
+      "Path": "lib/fs.js_fn__param_err",
+      "Name": "err",
       "Kind": "param",
-      "File": "lib/glob.js",
-      "DefStart": 102,
-      "DefEnd": 107,
+      "File": "lib/fs.js",
+      "DefStart": 62,
+      "DefEnd": 65,
       "Data": {
-        "Type": "?",
+        "Type": "Error",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/glob.js_102_107"
+      "TreePath": "lib/fs.js_62_65"
     },
     {
-      "Path": "lib/glob.js_4_8",
-      "Name": "glob",
+      "Path": "lib/fs.js_var_fs",
+      "Name": "fs",
       "Kind": "var",
-      "File": "lib/glob.js",
+      "File": "lib/fs.js",
       "DefStart": 4,
-      "DefEnd": 8,
+      "DefEnd": 6,
       "Data": {
-        "Type": "fn(pattern: string, options: ?, cb: ?) -\u003e Glob",
+        "Type": "fs",
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/glob.js_4_8"
+      "TreePath": "lib/fs.js_4_6"
     },
     {
-      "Path": "lib/glob.js_97_100",
+      "Path": "lib/glob.js_fn__param_err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/glob.js",
@@ -166,7 +136,37 @@
       "TreePath": "lib/glob.js_97_100"
     },
     {
-      "Path": "lib/http.js_164_165",
+      "Path": "lib/glob.js_fn__param_files",
+      "Name": "files",
+      "Kind": "param",
+      "File": "lib/glob.js",
+      "DefStart": 102,
+      "DefEnd": 107,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/glob.js_102_107"
+    },
+    {
+      "Path": "lib/glob.js_var_glob",
+      "Name": "glob",
+      "Kind": "var",
+      "File": "lib/glob.js",
+      "DefStart": 4,
+      "DefEnd": 8,
+      "Data": {
+        "Type": "fn(pattern: string, options: ?, cb: ?) -\u003e Glob",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/glob.js_4_8"
+    },
+    {
+      "Path": "lib/http.js_fn__1_param_e",
       "Name": "e",
       "Kind": "param",
       "File": "lib/http.js",
@@ -181,22 +181,7 @@
       "TreePath": "lib/http.js_164_165"
     },
     {
-      "Path": "lib/http.js_4_8",
-      "Name": "http",
-      "Kind": "var",
-      "File": "lib/http.js",
-      "DefStart": 4,
-      "DefEnd": 8,
-      "Data": {
-        "Type": "http",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/http.js_4_8"
-    },
-    {
-      "Path": "lib/http.js_83_86",
+      "Path": "lib/http.js_fn__param_res",
       "Name": "res",
       "Kind": "param",
       "File": "lib/http.js",
@@ -211,142 +196,22 @@
       "TreePath": "lib/http.js_83_86"
     },
     {
-      "Path": "lib/lodash.js_100_103",
-      "Name": "num",
-      "Kind": "param",
-      "File": "lib/lodash.js",
-      "DefStart": 100,
-      "DefEnd": 103,
-      "Data": {
-        "Type": "number",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/lodash.js_100_103"
-    },
-    {
-      "Path": "lib/lodash.js_163_167",
-      "Name": "list",
+      "Path": "lib/http.js_var_http",
+      "Name": "http",
       "Kind": "var",
-      "File": "lib/lodash.js",
-      "DefStart": 163,
-      "DefEnd": 167,
+      "File": "lib/http.js",
+      "DefStart": 4,
+      "DefEnd": 8,
       "Data": {
-        "Type": "[[number]]",
+        "Type": "http",
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_163_167"
+      "TreePath": "lib/http.js_4_8"
     },
     {
-      "Path": "lib/lodash.js_200_204",
-      "Name": "flat",
-      "Kind": "var",
-      "File": "lib/lodash.js",
-      "DefStart": 200,
-      "DefEnd": 204,
-      "Data": {
-        "Type": "[?]",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/lodash.js_200_204"
-    },
-    {
-      "Path": "lib/lodash.js_236_237",
-      "Name": "a",
-      "Kind": "param",
-      "File": "lib/lodash.js",
-      "DefStart": 236,
-      "DefEnd": 237,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/lodash.js_236_237"
-    },
-    {
-      "Path": "lib/lodash.js_239_240",
-      "Name": "b",
-      "Kind": "param",
-      "File": "lib/lodash.js",
-      "DefStart": 239,
-      "DefEnd": 240,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/lodash.js_239_240"
-    },
-    {
-      "Path": "lib/lodash.js_305_309",
-      "Name": "even",
-      "Kind": "var",
-      "File": "lib/lodash.js",
-      "DefStart": 305,
-      "DefEnd": 309,
-      "Data": {
-        "Type": "number",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/lodash.js_305_309"
-    },
-    {
-      "Path": "lib/lodash.js_348_351",
-      "Name": "num",
-      "Kind": "param",
-      "File": "lib/lodash.js",
-      "DefStart": 348,
-      "DefEnd": 351,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/lodash.js_348_351"
-    },
-    {
-      "Path": "lib/lodash.js_412_417",
-      "Name": "evens",
-      "Kind": "var",
-      "File": "lib/lodash.js",
-      "DefStart": 412,
-      "DefEnd": 417,
-      "Data": {
-        "Type": "[number]",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/lodash.js_412_417"
-    },
-    {
-      "Path": "lib/lodash.js_458_461",
-      "Name": "num",
-      "Kind": "param",
-      "File": "lib/lodash.js",
-      "DefStart": 458,
-      "DefEnd": 461,
-      "Data": {
-        "Type": "number",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/lodash.js_458_461"
-    },
-    {
-      "Path": "lib/lodash.js_4_5",
+      "Path": "lib/lodash.js_var__",
       "Name": "_",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -361,7 +226,127 @@
       "TreePath": "lib/lodash.js_4_5"
     },
     {
-      "Path": "lib/lodash.js_524_528",
+      "Path": "lib/lodash.js_var_even",
+      "Name": "even",
+      "Kind": "var",
+      "File": "lib/lodash.js",
+      "DefStart": 305,
+      "DefEnd": 309,
+      "Data": {
+        "Type": "number",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/lodash.js_305_309"
+    },
+    {
+      "Path": "lib/lodash.js_var_even_fn__param_num",
+      "Name": "num",
+      "Kind": "param",
+      "File": "lib/lodash.js",
+      "DefStart": 348,
+      "DefEnd": 351,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/lodash.js_348_351"
+    },
+    {
+      "Path": "lib/lodash.js_var_evens",
+      "Name": "evens",
+      "Kind": "var",
+      "File": "lib/lodash.js",
+      "DefStart": 412,
+      "DefEnd": 417,
+      "Data": {
+        "Type": "[number]",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/lodash.js_412_417"
+    },
+    {
+      "Path": "lib/lodash.js_var_evens_fn__param_num",
+      "Name": "num",
+      "Kind": "param",
+      "File": "lib/lodash.js",
+      "DefStart": 458,
+      "DefEnd": 461,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/lodash.js_458_461"
+    },
+    {
+      "Path": "lib/lodash.js_var_flat",
+      "Name": "flat",
+      "Kind": "var",
+      "File": "lib/lodash.js",
+      "DefStart": 200,
+      "DefEnd": 204,
+      "Data": {
+        "Type": "[?]",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/lodash.js_200_204"
+    },
+    {
+      "Path": "lib/lodash.js_var_flat_fn__param_a",
+      "Name": "a",
+      "Kind": "param",
+      "File": "lib/lodash.js",
+      "DefStart": 236,
+      "DefEnd": 237,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/lodash.js_236_237"
+    },
+    {
+      "Path": "lib/lodash.js_var_flat_fn__param_b",
+      "Name": "b",
+      "Kind": "param",
+      "File": "lib/lodash.js",
+      "DefStart": 239,
+      "DefEnd": 240,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/lodash.js_239_240"
+    },
+    {
+      "Path": "lib/lodash.js_var_list",
+      "Name": "list",
+      "Kind": "var",
+      "File": "lib/lodash.js",
+      "DefStart": 163,
+      "DefEnd": 167,
+      "Data": {
+        "Type": "[[number]]",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/lodash.js_163_167"
+    },
+    {
+      "Path": "lib/lodash.js_var_odds",
       "Name": "odds",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -376,7 +361,7 @@
       "TreePath": "lib/lodash.js_524_528"
     },
     {
-      "Path": "lib/lodash.js_569_572",
+      "Path": "lib/lodash.js_var_odds_fn__param_num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/lodash.js",
@@ -391,7 +376,7 @@
       "TreePath": "lib/lodash.js_569_572"
     },
     {
-      "Path": "lib/lodash.js_65_71",
+      "Path": "lib/lodash.js_var_thrice",
       "Name": "thrice",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -406,7 +391,22 @@
       "TreePath": "lib/lodash.js_65_71"
     },
     {
-      "Path": "lib/minimatch.js_4_13",
+      "Path": "lib/lodash.js_var_thrice_fn__param_num",
+      "Name": "num",
+      "Kind": "param",
+      "File": "lib/lodash.js",
+      "DefStart": 100,
+      "DefEnd": 103,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/lodash.js_100_103"
+    },
+    {
+      "Path": "lib/minimatch.js_var_minimatch",
       "Name": "minimatch",
       "Kind": "var",
       "File": "lib/minimatch.js",
@@ -421,304 +421,7 @@
       "TreePath": "lib/minimatch.js_4_13"
     },
     {
-      "Path": "lib/mysql.js_1043_1046",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 1043,
-      "DefEnd": 1046,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1043_1046"
-    },
-    {
-      "Path": "lib/mysql.js_1048_1056",
-      "Name": "response",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 1048,
-      "DefEnd": 1056,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1048_1056"
-    },
-    {
-      "Path": "lib/mysql.js_105_109",
-      "Name": "user",
-      "File": "lib/mysql.js",
-      "DefStart": 105,
-      "DefEnd": 109,
-      "Data": {
-        "Type": "string",
-        "Keyword": "",
-        "Kind": "",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_105_109"
-    },
-    {
-      "Path": "lib/mysql.js_1150_1155",
-      "Name": "query",
-      "Kind": "var",
-      "File": "lib/mysql.js",
-      "DefStart": 1150,
-      "DefEnd": 1155,
-      "Data": {
-        "Type": "string",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1150_1155"
-    },
-    {
-      "Path": "lib/mysql.js_1229_1232",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 1229,
-      "DefEnd": 1232,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1229_1232"
-    },
-    {
-      "Path": "lib/mysql.js_124_132",
-      "Name": "password",
-      "File": "lib/mysql.js",
-      "DefStart": 124,
-      "DefEnd": 132,
-      "Data": {
-        "Type": "string",
-        "Keyword": "",
-        "Kind": "",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_124_132"
-    },
-    {
-      "Path": "lib/mysql.js_1337_1343",
-      "Name": "fields",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 1337,
-      "DefEnd": 1343,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1337_1343"
-    },
-    {
-      "Path": "lib/mysql.js_1425_1428",
-      "Name": "row",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 1425,
-      "DefEnd": 1428,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1425_1428"
-    },
-    {
-      "Path": "lib/mysql.js_1708_1711",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 1708,
-      "DefEnd": 1711,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1708_1711"
-    },
-    {
-      "Path": "lib/mysql.js_1809_1812",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 1809,
-      "DefEnd": 1812,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1809_1812"
-    },
-    {
-      "Path": "lib/mysql.js_1814_1820",
-      "Name": "result",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 1814,
-      "DefEnd": 1820,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1814_1820"
-    },
-    {
-      "Path": "lib/mysql.js_1922_1925",
-      "Name": "log",
-      "Kind": "var",
-      "File": "lib/mysql.js",
-      "DefStart": 1922,
-      "DefEnd": 1925,
-      "Data": {
-        "Type": "string",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_1922_1925"
-    },
-    {
-      "Path": "lib/mysql.js_2032_2035",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 2032,
-      "DefEnd": 2035,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_2032_2035"
-    },
-    {
-      "Path": "lib/mysql.js_2037_2043",
-      "Name": "result",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 2037,
-      "DefEnd": 2043,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_2037_2043"
-    },
-    {
-      "Path": "lib/mysql.js_2179_2182",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 2179,
-      "DefEnd": 2182,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_2179_2182"
-    },
-    {
-      "Path": "lib/mysql.js_226_229",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 226,
-      "DefEnd": 229,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_226_229"
-    },
-    {
-      "Path": "lib/mysql.js_231_235",
-      "Name": "rows",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 231,
-      "DefEnd": 235,
-      "Data": {
-        "Type": "[fn(er: ?)]",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_231_235"
-    },
-    {
-      "Path": "lib/mysql.js_2361_2371",
-      "Name": "connection",
-      "Kind": "var",
-      "File": "lib/mysql.js",
-      "DefStart": 2361,
-      "DefEnd": 2371,
-      "Data": {
-        "Type": "Connection",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_2361_2371"
-    },
-    {
-      "Path": "lib/mysql.js_237_243",
-      "Name": "fields",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 237,
-      "DefEnd": 243,
-      "Data": {
-        "Type": "?",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_237_243"
-    },
-    {
-      "Path": "lib/mysql.js_2412_2416",
-      "Name": "port",
-      "File": "lib/mysql.js",
-      "DefStart": 2412,
-      "DefEnd": 2416,
-      "Data": {
-        "Type": "number",
-        "Keyword": "",
-        "Kind": "",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_2412_2416"
-    },
-    {
-      "Path": "lib/mysql.js_2472_2475",
+      "Path": "lib/mysql.js_fn__10_param_err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -733,7 +436,7 @@
       "TreePath": "lib/mysql.js_2472_2475"
     },
     {
-      "Path": "lib/mysql.js_2599_2602",
+      "Path": "lib/mysql.js_fn__11_param_err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -748,67 +451,7 @@
       "TreePath": "lib/mysql.js_2599_2602"
     },
     {
-      "Path": "lib/mysql.js_372_377",
-      "Name": "query",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 372,
-      "DefEnd": 377,
-      "Data": {
-        "Type": "string",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_372_377"
-    },
-    {
-      "Path": "lib/mysql.js_379_385",
-      "Name": "values",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 379,
-      "DefEnd": 385,
-      "Data": {
-        "Type": "Object",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_379_385"
-    },
-    {
-      "Path": "lib/mysql.js_39_49",
-      "Name": "connection",
-      "Kind": "var",
-      "File": "lib/mysql.js",
-      "DefStart": 39,
-      "DefEnd": 49,
-      "Data": {
-        "Type": "Connection",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_39_49"
-    },
-    {
-      "Path": "lib/mysql.js_463_466",
-      "Name": "txt",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 463,
-      "DefEnd": 466,
-      "Data": {
-        "Type": "string",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_463_466"
-    },
-    {
-      "Path": "lib/mysql.js_468_471",
+      "Path": "lib/mysql.js_fn__1_fn__param_key",
       "Name": "key",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -823,52 +466,52 @@
       "TreePath": "lib/mysql.js_468_471"
     },
     {
-      "Path": "lib/mysql.js_4_9",
-      "Name": "mysql",
-      "Kind": "var",
+      "Path": "lib/mysql.js_fn__1_fn__param_txt",
+      "Name": "txt",
+      "Kind": "param",
       "File": "lib/mysql.js",
-      "DefStart": 4,
-      "DefEnd": 9,
-      "Data": {
-        "Type": "{Types, createConnection, createPool, createPoolCluster, createQuery, escape, ...}",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_4_9"
-    },
-    {
-      "Path": "lib/mysql.js_649_654",
-      "Name": "title",
-      "Kind": "ast",
-      "File": "lib/mysql.js",
-      "DefStart": 649,
-      "DefEnd": 654,
+      "DefStart": 463,
+      "DefEnd": 466,
       "Data": {
         "Type": "string",
-        "Keyword": "ast",
-        "Kind": "ast",
+        "Keyword": "param",
+        "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_649_654"
+      "TreePath": "lib/mysql.js_463_466"
     },
     {
-      "Path": "lib/mysql.js_720_725",
-      "Name": "title",
-      "Kind": "ast",
+      "Path": "lib/mysql.js_fn__1_param_query",
+      "Name": "query",
+      "Kind": "param",
       "File": "lib/mysql.js",
-      "DefStart": 720,
-      "DefEnd": 725,
+      "DefStart": 372,
+      "DefEnd": 377,
       "Data": {
         "Type": "string",
-        "Keyword": "ast",
-        "Kind": "ast",
+        "Keyword": "param",
+        "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_720_725"
+      "TreePath": "lib/mysql.js_372_377"
     },
     {
-      "Path": "lib/mysql.js_745_748",
+      "Path": "lib/mysql.js_fn__1_param_values",
+      "Name": "values",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 379,
+      "DefEnd": 385,
+      "Data": {
+        "Type": "Object",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_379_385"
+    },
+    {
+      "Path": "lib/mysql.js_fn__2_param_err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -883,7 +526,7 @@
       "TreePath": "lib/mysql.js_745_748"
     },
     {
-      "Path": "lib/mysql.js_750_756",
+      "Path": "lib/mysql.js_fn__2_param_result",
       "Name": "result",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -898,21 +541,7 @@
       "TreePath": "lib/mysql.js_750_756"
     },
     {
-      "Path": "lib/mysql.js_79_83",
-      "Name": "host",
-      "File": "lib/mysql.js",
-      "DefStart": 79,
-      "DefEnd": 83,
-      "Data": {
-        "Type": "string",
-        "Keyword": "",
-        "Kind": "",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_79_83"
-    },
-    {
-      "Path": "lib/mysql.js_890_893",
+      "Path": "lib/mysql.js_fn__3_param_err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -927,7 +556,7 @@
       "TreePath": "lib/mysql.js_890_893"
     },
     {
-      "Path": "lib/mysql.js_895_901",
+      "Path": "lib/mysql.js_fn__3_param_result",
       "Name": "result",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -942,142 +571,378 @@
       "TreePath": "lib/mysql.js_895_901"
     },
     {
-      "Path": "lib/pg.js_123_126",
+      "Path": "lib/mysql.js_fn__4_param_err",
       "Name": "err",
       "Kind": "param",
-      "File": "lib/pg.js",
-      "DefStart": 123,
-      "DefEnd": 126,
+      "File": "lib/mysql.js",
+      "DefStart": 1043,
+      "DefEnd": 1046,
       "Data": {
         "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_123_126"
+      "TreePath": "lib/mysql.js_1043_1046"
     },
     {
-      "Path": "lib/pg.js_128_134",
-      "Name": "client",
+      "Path": "lib/mysql.js_fn__4_param_response",
+      "Name": "response",
       "Kind": "param",
-      "File": "lib/pg.js",
-      "DefStart": 128,
-      "DefEnd": 134,
-      "Data": {
-        "Type": "Connection",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/pg.js_128_134"
-    },
-    {
-      "Path": "lib/pg.js_136_140",
-      "Name": "done",
-      "Kind": "param",
-      "File": "lib/pg.js",
-      "DefStart": 136,
-      "DefEnd": 140,
-      "Data": {
-        "Type": "fn()",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/pg.js_136_140"
-    },
-    {
-      "Path": "lib/pg.js_285_288",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/pg.js",
-      "DefStart": 285,
-      "DefEnd": 288,
+      "File": "lib/mysql.js",
+      "DefStart": 1048,
+      "DefEnd": 1056,
       "Data": {
         "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_285_288"
+      "TreePath": "lib/mysql.js_1048_1056"
     },
     {
-      "Path": "lib/pg.js_28_37",
-      "Name": "conString",
+      "Path": "lib/mysql.js_fn__5_param_err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 1229,
+      "DefEnd": 1232,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_1229_1232"
+    },
+    {
+      "Path": "lib/mysql.js_fn__6_param_fields",
+      "Name": "fields",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 1337,
+      "DefEnd": 1343,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_1337_1343"
+    },
+    {
+      "Path": "lib/mysql.js_fn__7_param_row",
+      "Name": "row",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 1425,
+      "DefEnd": 1428,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_1425_1428"
+    },
+    {
+      "Path": "lib/mysql.js_fn__9_fn__fn__1_fn__1_param_err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 2179,
+      "DefEnd": 2182,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_2179_2182"
+    },
+    {
+      "Path": "lib/mysql.js_fn__9_fn__fn__1_param_err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 2032,
+      "DefEnd": 2035,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_2032_2035"
+    },
+    {
+      "Path": "lib/mysql.js_fn__9_fn__fn__1_param_result",
+      "Name": "result",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 2037,
+      "DefEnd": 2043,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_2037_2043"
+    },
+    {
+      "Path": "lib/mysql.js_fn__9_fn__param_err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 1809,
+      "DefEnd": 1812,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_1809_1812"
+    },
+    {
+      "Path": "lib/mysql.js_fn__9_fn__param_result",
+      "Name": "result",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 1814,
+      "DefEnd": 1820,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_1814_1820"
+    },
+    {
+      "Path": "lib/mysql.js_fn__9_fn__var_log",
+      "Name": "log",
       "Kind": "var",
-      "File": "lib/pg.js",
-      "DefStart": 28,
-      "DefEnd": 37,
+      "File": "lib/mysql.js",
+      "DefStart": 1922,
+      "DefEnd": 1925,
       "Data": {
         "Type": "string",
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_28_37"
+      "TreePath": "lib/mysql.js_1922_1925"
     },
     {
-      "Path": "lib/pg.js_290_296",
-      "Name": "result",
-      "Kind": "param",
-      "File": "lib/pg.js",
-      "DefStart": 290,
-      "DefEnd": 296,
-      "Data": {
-        "Type": "ResultSet",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/pg.js_290_296"
-    },
-    {
-      "Path": "lib/pg.js_4_6",
-      "Name": "pg",
-      "Kind": "var",
-      "File": "lib/pg.js",
-      "DefStart": 4,
-      "DefEnd": 6,
-      "Data": {
-        "Type": "PG",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/pg.js_4_6"
-    },
-    {
-      "Path": "lib/pg.js_520_526",
-      "Name": "client",
-      "Kind": "var",
-      "File": "lib/pg.js",
-      "DefStart": 520,
-      "DefEnd": 526,
-      "Data": {
-        "Type": "Connection",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/pg.js_520_526"
-    },
-    {
-      "Path": "lib/pg.js_579_582",
+      "Path": "lib/mysql.js_fn__9_param_err",
       "Name": "err",
       "Kind": "param",
-      "File": "lib/pg.js",
-      "DefStart": 579,
-      "DefEnd": 582,
+      "File": "lib/mysql.js",
+      "DefStart": 1708,
+      "DefEnd": 1711,
       "Data": {
         "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_579_582"
+      "TreePath": "lib/mysql.js_1708_1711"
     },
     {
-      "Path": "lib/pg.js_719_722",
+      "Path": "lib/mysql.js_fn__param_err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 226,
+      "DefEnd": 229,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_226_229"
+    },
+    {
+      "Path": "lib/mysql.js_fn__param_fields",
+      "Name": "fields",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 237,
+      "DefEnd": 243,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_237_243"
+    },
+    {
+      "Path": "lib/mysql.js_fn__param_rows",
+      "Name": "rows",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 231,
+      "DefEnd": 235,
+      "Data": {
+        "Type": "[fn(er: ?)]",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_231_235"
+    },
+    {
+      "Path": "lib/mysql.js_obj__obj_key_title",
+      "Name": "title",
+      "Kind": "ast",
+      "File": "lib/mysql.js",
+      "DefStart": 649,
+      "DefEnd": 654,
+      "Data": {
+        "Type": "string",
+        "Keyword": "ast",
+        "Kind": "ast",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_649_654"
+    },
+    {
+      "Path": "lib/mysql.js_obj__obj_key_title_1",
+      "Name": "title",
+      "Kind": "ast",
+      "File": "lib/mysql.js",
+      "DefStart": 720,
+      "DefEnd": 725,
+      "Data": {
+        "Type": "string",
+        "Keyword": "ast",
+        "Kind": "ast",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_720_725"
+    },
+    {
+      "Path": "lib/mysql.js_var_connection",
+      "Name": "connection",
+      "Kind": "var",
+      "File": "lib/mysql.js",
+      "DefStart": 39,
+      "DefEnd": 49,
+      "Data": {
+        "Type": "Connection",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_39_49"
+    },
+    {
+      "Path": "lib/mysql.js_var_connection_1",
+      "Name": "connection",
+      "Kind": "var",
+      "File": "lib/mysql.js",
+      "DefStart": 2361,
+      "DefEnd": 2371,
+      "Data": {
+        "Type": "Connection",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_2361_2371"
+    },
+    {
+      "Path": "lib/mysql.js_var_connection_1_obj__obj_key_port",
+      "Name": "port",
+      "File": "lib/mysql.js",
+      "DefStart": 2412,
+      "DefEnd": 2416,
+      "Data": {
+        "Type": "number",
+        "Keyword": "",
+        "Kind": "",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_2412_2416"
+    },
+    {
+      "Path": "lib/mysql.js_var_connection_obj__obj_key_host",
+      "Name": "host",
+      "File": "lib/mysql.js",
+      "DefStart": 79,
+      "DefEnd": 83,
+      "Data": {
+        "Type": "string",
+        "Keyword": "",
+        "Kind": "",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_79_83"
+    },
+    {
+      "Path": "lib/mysql.js_var_connection_obj__obj_key_password",
+      "Name": "password",
+      "File": "lib/mysql.js",
+      "DefStart": 124,
+      "DefEnd": 132,
+      "Data": {
+        "Type": "string",
+        "Keyword": "",
+        "Kind": "",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_124_132"
+    },
+    {
+      "Path": "lib/mysql.js_var_connection_obj__obj_key_user",
+      "Name": "user",
+      "File": "lib/mysql.js",
+      "DefStart": 105,
+      "DefEnd": 109,
+      "Data": {
+        "Type": "string",
+        "Keyword": "",
+        "Kind": "",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_105_109"
+    },
+    {
+      "Path": "lib/mysql.js_var_mysql",
+      "Name": "mysql",
+      "Kind": "var",
+      "File": "lib/mysql.js",
+      "DefStart": 4,
+      "DefEnd": 9,
+      "Data": {
+        "Type": "{Types, createConnection, createPool, createPoolCluster, createQuery, escape, ...}",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_4_9"
+    },
+    {
+      "Path": "lib/mysql.js_var_query",
+      "Name": "query",
+      "Kind": "var",
+      "File": "lib/mysql.js",
+      "DefStart": 1150,
+      "DefEnd": 1155,
+      "Data": {
+        "Type": "string",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js_1150_1155"
+    },
+    {
+      "Path": "lib/pg.js_fn__1_fn__param_err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -1092,7 +957,7 @@
       "TreePath": "lib/pg.js_719_722"
     },
     {
-      "Path": "lib/pg.js_724_730",
+      "Path": "lib/pg.js_fn__1_fn__param_result",
       "Name": "result",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -1107,37 +972,142 @@
       "TreePath": "lib/pg.js_724_730"
     },
     {
-      "Path": "lib/read-package-json.js_4_12",
-      "Name": "readJson",
-      "Kind": "var",
-      "File": "lib/read-package-json.js",
-      "DefStart": 4,
-      "DefEnd": 12,
-      "Data": {
-        "Type": "fn(file: string, log_: fn(err: Error|string, data: string), strict_: ?, cb_: ?)",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/read-package-json.js_4_12"
-    },
-    {
-      "Path": "lib/read-package-json.js_79_82",
+      "Path": "lib/pg.js_fn__1_param_err",
       "Name": "err",
       "Kind": "param",
-      "File": "lib/read-package-json.js",
-      "DefStart": 79,
-      "DefEnd": 82,
+      "File": "lib/pg.js",
+      "DefStart": 579,
+      "DefEnd": 582,
       "Data": {
-        "Type": "Error|string",
+        "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/read-package-json.js_79_82"
+      "TreePath": "lib/pg.js_579_582"
     },
     {
-      "Path": "lib/read-package-json.js_84_88",
+      "Path": "lib/pg.js_fn__fn__param_err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/pg.js",
+      "DefStart": 285,
+      "DefEnd": 288,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/pg.js_285_288"
+    },
+    {
+      "Path": "lib/pg.js_fn__fn__param_result",
+      "Name": "result",
+      "Kind": "param",
+      "File": "lib/pg.js",
+      "DefStart": 290,
+      "DefEnd": 296,
+      "Data": {
+        "Type": "ResultSet",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/pg.js_290_296"
+    },
+    {
+      "Path": "lib/pg.js_fn__param_client",
+      "Name": "client",
+      "Kind": "param",
+      "File": "lib/pg.js",
+      "DefStart": 128,
+      "DefEnd": 134,
+      "Data": {
+        "Type": "Connection",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/pg.js_128_134"
+    },
+    {
+      "Path": "lib/pg.js_fn__param_done",
+      "Name": "done",
+      "Kind": "param",
+      "File": "lib/pg.js",
+      "DefStart": 136,
+      "DefEnd": 140,
+      "Data": {
+        "Type": "fn()",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/pg.js_136_140"
+    },
+    {
+      "Path": "lib/pg.js_fn__param_err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/pg.js",
+      "DefStart": 123,
+      "DefEnd": 126,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/pg.js_123_126"
+    },
+    {
+      "Path": "lib/pg.js_var_client",
+      "Name": "client",
+      "Kind": "var",
+      "File": "lib/pg.js",
+      "DefStart": 520,
+      "DefEnd": 526,
+      "Data": {
+        "Type": "Connection",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/pg.js_520_526"
+    },
+    {
+      "Path": "lib/pg.js_var_conString",
+      "Name": "conString",
+      "Kind": "var",
+      "File": "lib/pg.js",
+      "DefStart": 28,
+      "DefEnd": 37,
+      "Data": {
+        "Type": "string",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/pg.js_28_37"
+    },
+    {
+      "Path": "lib/pg.js_var_pg",
+      "Name": "pg",
+      "Kind": "var",
+      "File": "lib/pg.js",
+      "DefStart": 4,
+      "DefEnd": 6,
+      "Data": {
+        "Type": "PG",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/pg.js_4_6"
+    },
+    {
+      "Path": "lib/read-package-json.js_fn__param_data",
       "Name": "data",
       "Kind": "param",
       "File": "lib/read-package-json.js",
@@ -1152,142 +1122,37 @@
       "TreePath": "lib/read-package-json.js_84_88"
     },
     {
-      "Path": "lib/underscore.js_104_107",
-      "Name": "num",
+      "Path": "lib/read-package-json.js_fn__param_err",
+      "Name": "err",
       "Kind": "param",
-      "File": "lib/underscore.js",
-      "DefStart": 104,
-      "DefEnd": 107,
+      "File": "lib/read-package-json.js",
+      "DefStart": 79,
+      "DefEnd": 82,
       "Data": {
-        "Type": "number",
+        "Type": "Error|string",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_104_107"
+      "TreePath": "lib/read-package-json.js_79_82"
     },
     {
-      "Path": "lib/underscore.js_167_171",
-      "Name": "list",
+      "Path": "lib/read-package-json.js_var_readJson",
+      "Name": "readJson",
       "Kind": "var",
-      "File": "lib/underscore.js",
-      "DefStart": 167,
-      "DefEnd": 171,
+      "File": "lib/read-package-json.js",
+      "DefStart": 4,
+      "DefEnd": 12,
       "Data": {
-        "Type": "[[number]]",
+        "Type": "fn(file: string, log_: fn(err: Error|string, data: string), strict_: ?, cb_: ?)",
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_167_171"
+      "TreePath": "lib/read-package-json.js_4_12"
     },
     {
-      "Path": "lib/underscore.js_204_208",
-      "Name": "flat",
-      "Kind": "var",
-      "File": "lib/underscore.js",
-      "DefStart": 204,
-      "DefEnd": 208,
-      "Data": {
-        "Type": "[number]",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/underscore.js_204_208"
-    },
-    {
-      "Path": "lib/underscore.js_240_241",
-      "Name": "a",
-      "Kind": "param",
-      "File": "lib/underscore.js",
-      "DefStart": 240,
-      "DefEnd": 241,
-      "Data": {
-        "Type": "_|[?]",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/underscore.js_240_241"
-    },
-    {
-      "Path": "lib/underscore.js_243_244",
-      "Name": "b",
-      "Kind": "param",
-      "File": "lib/underscore.js",
-      "DefStart": 243,
-      "DefEnd": 244,
-      "Data": {
-        "Type": "[number]",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/underscore.js_243_244"
-    },
-    {
-      "Path": "lib/underscore.js_309_313",
-      "Name": "even",
-      "Kind": "var",
-      "File": "lib/underscore.js",
-      "DefStart": 309,
-      "DefEnd": 313,
-      "Data": {
-        "Type": "number",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/underscore.js_309_313"
-    },
-    {
-      "Path": "lib/underscore.js_352_355",
-      "Name": "num",
-      "Kind": "param",
-      "File": "lib/underscore.js",
-      "DefStart": 352,
-      "DefEnd": 355,
-      "Data": {
-        "Type": "number",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/underscore.js_352_355"
-    },
-    {
-      "Path": "lib/underscore.js_416_421",
-      "Name": "evens",
-      "Kind": "var",
-      "File": "lib/underscore.js",
-      "DefStart": 416,
-      "DefEnd": 421,
-      "Data": {
-        "Type": "[number]",
-        "Keyword": "var",
-        "Kind": "var",
-        "Separator": " "
-      },
-      "TreePath": "lib/underscore.js_416_421"
-    },
-    {
-      "Path": "lib/underscore.js_462_465",
-      "Name": "num",
-      "Kind": "param",
-      "File": "lib/underscore.js",
-      "DefStart": 462,
-      "DefEnd": 465,
-      "Data": {
-        "Type": "number",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/underscore.js_462_465"
-    },
-    {
-      "Path": "lib/underscore.js_4_5",
+      "Path": "lib/underscore.js_var__",
       "Name": "_",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1302,7 +1167,127 @@
       "TreePath": "lib/underscore.js_4_5"
     },
     {
-      "Path": "lib/underscore.js_528_532",
+      "Path": "lib/underscore.js_var_even",
+      "Name": "even",
+      "Kind": "var",
+      "File": "lib/underscore.js",
+      "DefStart": 309,
+      "DefEnd": 313,
+      "Data": {
+        "Type": "number",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/underscore.js_309_313"
+    },
+    {
+      "Path": "lib/underscore.js_var_even_fn__param_num",
+      "Name": "num",
+      "Kind": "param",
+      "File": "lib/underscore.js",
+      "DefStart": 352,
+      "DefEnd": 355,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/underscore.js_352_355"
+    },
+    {
+      "Path": "lib/underscore.js_var_evens",
+      "Name": "evens",
+      "Kind": "var",
+      "File": "lib/underscore.js",
+      "DefStart": 416,
+      "DefEnd": 421,
+      "Data": {
+        "Type": "[number]",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/underscore.js_416_421"
+    },
+    {
+      "Path": "lib/underscore.js_var_evens_fn__param_num",
+      "Name": "num",
+      "Kind": "param",
+      "File": "lib/underscore.js",
+      "DefStart": 462,
+      "DefEnd": 465,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/underscore.js_462_465"
+    },
+    {
+      "Path": "lib/underscore.js_var_flat",
+      "Name": "flat",
+      "Kind": "var",
+      "File": "lib/underscore.js",
+      "DefStart": 204,
+      "DefEnd": 208,
+      "Data": {
+        "Type": "[number]",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/underscore.js_204_208"
+    },
+    {
+      "Path": "lib/underscore.js_var_flat_fn__param_a",
+      "Name": "a",
+      "Kind": "param",
+      "File": "lib/underscore.js",
+      "DefStart": 240,
+      "DefEnd": 241,
+      "Data": {
+        "Type": "_|[?]",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/underscore.js_240_241"
+    },
+    {
+      "Path": "lib/underscore.js_var_flat_fn__param_b",
+      "Name": "b",
+      "Kind": "param",
+      "File": "lib/underscore.js",
+      "DefStart": 243,
+      "DefEnd": 244,
+      "Data": {
+        "Type": "[number]",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/underscore.js_243_244"
+    },
+    {
+      "Path": "lib/underscore.js_var_list",
+      "Name": "list",
+      "Kind": "var",
+      "File": "lib/underscore.js",
+      "DefStart": 167,
+      "DefEnd": 171,
+      "Data": {
+        "Type": "[[number]]",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "lib/underscore.js_167_171"
+    },
+    {
+      "Path": "lib/underscore.js_var_odds",
       "Name": "odds",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1317,7 +1302,7 @@
       "TreePath": "lib/underscore.js_528_532"
     },
     {
-      "Path": "lib/underscore.js_573_576",
+      "Path": "lib/underscore.js_var_odds_fn__param_num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/underscore.js",
@@ -1332,7 +1317,7 @@
       "TreePath": "lib/underscore.js_573_576"
     },
     {
-      "Path": "lib/underscore.js_69_75",
+      "Path": "lib/underscore.js_var_thrice",
       "Name": "thrice",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1345,13 +1330,28 @@
         "Separator": " "
       },
       "TreePath": "lib/underscore.js_69_75"
+    },
+    {
+      "Path": "lib/underscore.js_var_thrice_fn__param_num",
+      "Name": "num",
+      "Kind": "param",
+      "File": "lib/underscore.js",
+      "DefStart": 104,
+      "DefEnd": 107,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/underscore.js_104_107"
     }
   ],
   "Refs": [
     {
       "DefRepo": "github.com/lodash/lodash",
       "DefUnit": "lodash",
-      "DefPath": "dist/lodash.js_224627_224631",
+      "DefPath": "dist/lodash.js_fn__fn_runInContext_obj_lodash_88_prop_find",
       "File": "lib/lodash.js",
       "Start": 314,
       "End": 318
@@ -1359,7 +1359,7 @@
     {
       "DefRepo": "github.com/lodash/lodash",
       "DefUnit": "lodash",
-      "DefPath": "dist/lodash.js_4136_4144",
+      "DefPath": "dist/lodash.js_fn__var_objectTypes_obj__objType_objectTypes_obj_key_number",
       "File": "lib/pg.js",
       "Start": 479,
       "End": 485
@@ -1367,7 +1367,7 @@
     {
       "DefRepo": "github.com/isaacs/node-glob",
       "DefUnit": "glob",
-      "DefPath": "glob.js_15010_15014",
+      "DefPath": "glob.js_fn__9_obj_er_prop_code",
       "File": "lib/mysql.js",
       "Start": 2497,
       "End": 2501
@@ -1375,7 +1375,7 @@
     {
       "DefRepo": "github.com/isaacs/node-glob",
       "DefUnit": "glob",
-      "DefPath": "glob.js_15010_15014",
+      "DefPath": "glob.js_fn__9_obj_er_prop_code",
       "File": "lib/mysql.js",
       "Start": 2624,
       "End": 2628
@@ -1383,7 +1383,7 @@
     {
       "DefRepo": "github.com/isaacs/node-glob",
       "DefUnit": "glob",
-      "DefPath": "glob.js_1969_1973",
+      "DefPath": "glob.js_obj_glob_1_prop_sync",
       "File": "lib/glob.js",
       "Start": 60,
       "End": 64
@@ -2015,7 +2015,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "index.js_396_412",
+      "DefPath": "index.js_obj_exports_prop_createConnection",
       "File": "lib/mysql.js",
       "Start": 2391,
       "End": 2407
@@ -2023,7 +2023,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "index.js_396_412",
+      "DefPath": "index.js_obj_exports_prop_createConnection",
       "File": "lib/mysql.js",
       "Start": 58,
       "End": 74
@@ -2031,175 +2031,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_1568_1575",
-      "File": "lib/mysql.js",
-      "Start": 160,
-      "End": 167
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_1568_1575",
-      "File": "lib/mysql.js",
-      "Start": 2455,
-      "End": 2462
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_1568_1575",
-      "File": "lib/pg.js",
-      "Start": 562,
-      "End": 569
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_3708_3724",
-      "File": "lib/mysql.js",
-      "Start": 1682,
-      "End": 1698
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_3929_3935",
-      "File": "lib/mysql.js",
-      "Start": 2163,
-      "End": 2169
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4129_4137",
-      "File": "lib/mysql.js",
-      "Start": 1856,
-      "End": 1864
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4129_4137",
-      "File": "lib/mysql.js",
-      "Start": 2083,
-      "End": 2091
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4129_4137",
-      "File": "lib/mysql.js",
-      "Start": 2226,
-      "End": 2234
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/mysql.js",
-      "Start": 1003,
-      "End": 1008
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/mysql.js",
-      "Start": 1169,
-      "End": 1174
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/mysql.js",
-      "Start": 1754,
-      "End": 1759
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/mysql.js",
-      "Start": 183,
-      "End": 188
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/mysql.js",
-      "Start": 1982,
-      "End": 1987
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/mysql.js",
-      "Start": 2572,
-      "End": 2577
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/mysql.js",
-      "Start": 606,
-      "End": 611
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/mysql.js",
-      "Start": 686,
-      "End": 691
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/mysql.js",
-      "Start": 831,
-      "End": 836
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/pg.js",
-      "Start": 235,
-      "End": 240
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4333_4338",
-      "File": "lib/pg.js",
-      "Start": 675,
-      "End": 680
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4946_4949",
-      "File": "lib/mysql.js",
-      "Start": 2699,
-      "End": 2702
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_4946_4949",
-      "File": "lib/pg.js",
-      "Start": 915,
-      "End": 918
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_498_504",
+      "DefPath": "lib/Connection.js_fn_Connection_prop_config",
       "File": "lib/mysql.js",
       "Start": 341,
       "End": 347
@@ -2207,7 +2039,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_5221_5226",
+      "DefPath": "lib/Connection.js_obj_Connection_11_prop_prototype_prop_pause",
       "File": "lib/mysql.js",
       "Start": 1520,
       "End": 1525
@@ -2215,7 +2047,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_5317_5323",
+      "DefPath": "lib/Connection.js_obj_Connection_12_prop_prototype_prop_resume",
       "File": "lib/mysql.js",
       "Start": 1580,
       "End": 1586
@@ -2223,7 +2055,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_5416_5422",
+      "DefPath": "lib/Connection.js_obj_Connection_13_prop_prototype_prop_escape",
       "File": "lib/mysql.js",
       "Start": 531,
       "End": 537
@@ -2231,100 +2063,204 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/ConnectionConfig.js_1281_1292",
+      "DefPath": "lib/Connection.js_obj_Connection_1_prop_prototype_prop_connect",
+      "File": "lib/mysql.js",
+      "Start": 160,
+      "End": 167
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_1_prop_prototype_prop_connect",
+      "File": "lib/mysql.js",
+      "Start": 2455,
+      "End": 2462
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_1_prop_prototype_prop_connect",
+      "File": "lib/pg.js",
+      "Start": 562,
+      "End": 569
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_3_prop_prototype_prop_beginTransaction",
+      "File": "lib/mysql.js",
+      "Start": 1682,
+      "End": 1698
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_4_prop_prototype_prop_commit",
+      "File": "lib/mysql.js",
+      "Start": 2163,
+      "End": 2169
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_5_prop_prototype_prop_rollback",
+      "File": "lib/mysql.js",
+      "Start": 1856,
+      "End": 1864
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_5_prop_prototype_prop_rollback",
+      "File": "lib/mysql.js",
+      "Start": 2083,
+      "End": 2091
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_5_prop_prototype_prop_rollback",
+      "File": "lib/mysql.js",
+      "Start": 2226,
+      "End": 2234
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/mysql.js",
+      "Start": 1003,
+      "End": 1008
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/mysql.js",
+      "Start": 1169,
+      "End": 1174
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/mysql.js",
+      "Start": 1754,
+      "End": 1759
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/mysql.js",
+      "Start": 183,
+      "End": 188
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/mysql.js",
+      "Start": 1982,
+      "End": 1987
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/mysql.js",
+      "Start": 2572,
+      "End": 2577
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/mysql.js",
+      "Start": 606,
+      "End": 611
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/mysql.js",
+      "Start": 686,
+      "End": 691
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/mysql.js",
+      "Start": 831,
+      "End": 836
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/pg.js",
+      "Start": 235,
+      "End": 240
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "File": "lib/pg.js",
+      "Start": 675,
+      "End": 680
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_9_prop_prototype_prop_end",
+      "File": "lib/mysql.js",
+      "Start": 2699,
+      "End": 2702
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js_obj_Connection_9_prop_prototype_prop_end",
+      "File": "lib/pg.js",
+      "Start": 915,
+      "End": 918
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/ConnectionConfig.js_fn_ConnectionConfig_prop_queryFormat",
       "File": "lib/mysql.js",
       "Start": 348,
       "End": 359
     },
     {
-      "DefPath": "lib/async.js_113_116",
-      "Def": true,
-      "File": "lib/async.js",
-      "Start": 113,
-      "End": 116
-    },
-    {
-      "DefPath": "lib/async.js_113_116",
-      "File": "lib/async.js",
-      "Start": 150,
-      "End": 153
-    },
-    {
-      "DefPath": "lib/async.js_118_125",
-      "Def": true,
-      "File": "lib/async.js",
-      "Start": 118,
-      "End": 125
-    },
-    {
-      "DefPath": "lib/async.js_118_125",
-      "File": "lib/async.js",
-      "Start": 155,
-      "End": 162
-    },
-    {
-      "DefPath": "lib/async.js_232_239",
+      "DefPath": "lib/async.js_fn__1_param_results",
       "Def": true,
       "File": "lib/async.js",
       "Start": 232,
       "End": 239
     },
     {
-      "DefPath": "lib/async.js_232_239",
+      "DefPath": "lib/async.js_fn__1_param_results",
       "File": "lib/async.js",
       "Start": 267,
       "End": 274
     },
     {
-      "DefPath": "lib/async.js_28_33",
-      "File": "lib/async.js",
-      "Start": 170,
-      "End": 175
-    },
-    {
-      "DefPath": "lib/async.js_28_33",
-      "Def": true,
-      "File": "lib/async.js",
-      "Start": 28,
-      "End": 33
-    },
-    {
-      "DefPath": "lib/async.js_28_33",
-      "File": "lib/async.js",
-      "Start": 55,
-      "End": 60
-    },
-    {
       "DefRepo": "github.com/caolan/async",
       "DefUnit": "async",
-      "DefPath": "lib/async.js_3016_3020",
+      "DefPath": "lib/async.js_fn__obj_async_11_prop_each",
       "File": "lib/lodash.js",
       "Start": 30,
       "End": 34
     },
     {
-      "DefPath": "lib/async.js_4_6",
-      "File": "lib/async.js",
-      "Start": 212,
-      "End": 214
-    },
-    {
-      "DefPath": "lib/async.js_4_6",
-      "Def": true,
-      "File": "lib/async.js",
-      "Start": 4,
-      "End": 6
-    },
-    {
-      "DefPath": "lib/async.js_4_6",
-      "File": "lib/async.js",
-      "Start": 95,
-      "End": 97
-    },
-    {
       "DefRepo": "github.com/caolan/async",
       "DefUnit": "async",
-      "DefPath": "lib/async.js_7272_7275",
+      "DefPath": "lib/async.js_fn__obj_async_20_prop_map",
       "File": "lib/async.js",
       "Start": 61,
       "End": 64
@@ -2332,7 +2268,7 @@
     {
       "DefRepo": "github.com/caolan/async",
       "DefUnit": "async",
-      "DefPath": "lib/async.js_9018_9024",
+      "DefPath": "lib/async.js_fn__obj_async_31_prop_filter",
       "File": "lib/async.js",
       "Start": 176,
       "End": 182
@@ -2340,1138 +2276,1202 @@
     {
       "DefRepo": "github.com/caolan/async",
       "DefUnit": "async",
-      "DefPath": "lib/async.js_9826_9832",
+      "DefPath": "lib/async.js_fn__obj_async_37_prop_reject",
       "File": "lib/lodash.js",
       "Start": 533,
       "End": 539
     },
     {
-      "DefPath": "lib/fs.js_4_6",
-      "File": "lib/fs.js",
-      "Start": 25,
-      "End": 27
+      "DefPath": "lib/async.js_fn__param_err",
+      "Def": true,
+      "File": "lib/async.js",
+      "Start": 113,
+      "End": 116
     },
     {
-      "DefPath": "lib/fs.js_4_6",
+      "DefPath": "lib/async.js_fn__param_err",
+      "File": "lib/async.js",
+      "Start": 150,
+      "End": 153
+    },
+    {
+      "DefPath": "lib/async.js_fn__param_results",
       "Def": true,
-      "File": "lib/fs.js",
+      "File": "lib/async.js",
+      "Start": 118,
+      "End": 125
+    },
+    {
+      "DefPath": "lib/async.js_fn__param_results",
+      "File": "lib/async.js",
+      "Start": 155,
+      "End": 162
+    },
+    {
+      "DefPath": "lib/async.js_var_async",
+      "File": "lib/async.js",
+      "Start": 170,
+      "End": 175
+    },
+    {
+      "DefPath": "lib/async.js_var_async",
+      "Def": true,
+      "File": "lib/async.js",
+      "Start": 28,
+      "End": 33
+    },
+    {
+      "DefPath": "lib/async.js_var_async",
+      "File": "lib/async.js",
+      "Start": 55,
+      "End": 60
+    },
+    {
+      "DefPath": "lib/async.js_var_fs",
+      "File": "lib/async.js",
+      "Start": 212,
+      "End": 214
+    },
+    {
+      "DefPath": "lib/async.js_var_fs",
+      "Def": true,
+      "File": "lib/async.js",
       "Start": 4,
       "End": 6
     },
     {
-      "DefPath": "lib/fs.js_62_65",
-      "File": "lib/fs.js",
-      "Start": 103,
-      "End": 106
+      "DefPath": "lib/async.js_var_fs",
+      "File": "lib/async.js",
+      "Start": 95,
+      "End": 97
     },
     {
-      "DefPath": "lib/fs.js_62_65",
-      "Def": true,
-      "File": "lib/fs.js",
-      "Start": 62,
-      "End": 65
-    },
-    {
-      "DefPath": "lib/fs.js_67_71",
+      "DefPath": "lib/fs.js_fn__param_data",
       "File": "lib/fs.js",
       "Start": 108,
       "End": 112
     },
     {
-      "DefPath": "lib/fs.js_67_71",
+      "DefPath": "lib/fs.js_fn__param_data",
       "Def": true,
       "File": "lib/fs.js",
       "Start": 67,
       "End": 71
     },
     {
-      "DefPath": "lib/glob.js_102_107",
-      "Def": true,
-      "File": "lib/glob.js",
-      "Start": 102,
-      "End": 107
+      "DefPath": "lib/fs.js_fn__param_err",
+      "File": "lib/fs.js",
+      "Start": 103,
+      "End": 106
     },
     {
-      "DefPath": "lib/glob.js_102_107",
-      "File": "lib/glob.js",
-      "Start": 139,
-      "End": 144
+      "DefPath": "lib/fs.js_fn__param_err",
+      "Def": true,
+      "File": "lib/fs.js",
+      "Start": 62,
+      "End": 65
     },
     {
-      "DefPath": "lib/glob.js_4_8",
+      "DefPath": "lib/fs.js_var_fs",
+      "File": "lib/fs.js",
+      "Start": 25,
+      "End": 27
+    },
+    {
+      "DefPath": "lib/fs.js_var_fs",
       "Def": true,
-      "File": "lib/glob.js",
+      "File": "lib/fs.js",
       "Start": 4,
-      "End": 8
+      "End": 6
     },
     {
-      "DefPath": "lib/glob.js_4_8",
-      "File": "lib/glob.js",
-      "Start": 55,
-      "End": 59
-    },
-    {
-      "DefPath": "lib/glob.js_4_8",
-      "File": "lib/glob.js",
-      "Start": 75,
-      "End": 79
-    },
-    {
-      "DefPath": "lib/glob.js_97_100",
+      "DefPath": "lib/glob.js_fn__param_err",
       "File": "lib/glob.js",
       "Start": 134,
       "End": 137
     },
     {
-      "DefPath": "lib/glob.js_97_100",
+      "DefPath": "lib/glob.js_fn__param_err",
       "Def": true,
       "File": "lib/glob.js",
       "Start": 97,
       "End": 100
     },
     {
-      "DefPath": "lib/http.js_164_165",
+      "DefPath": "lib/glob.js_fn__param_files",
+      "Def": true,
+      "File": "lib/glob.js",
+      "Start": 102,
+      "End": 107
+    },
+    {
+      "DefPath": "lib/glob.js_fn__param_files",
+      "File": "lib/glob.js",
+      "Start": 139,
+      "End": 144
+    },
+    {
+      "DefPath": "lib/glob.js_var_glob",
+      "Def": true,
+      "File": "lib/glob.js",
+      "Start": 4,
+      "End": 8
+    },
+    {
+      "DefPath": "lib/glob.js_var_glob",
+      "File": "lib/glob.js",
+      "Start": 55,
+      "End": 59
+    },
+    {
+      "DefPath": "lib/glob.js_var_glob",
+      "File": "lib/glob.js",
+      "Start": 75,
+      "End": 79
+    },
+    {
+      "DefPath": "lib/http.js_fn__1_param_e",
       "Def": true,
       "File": "lib/http.js",
       "Start": 164,
       "End": 165
     },
     {
-      "DefPath": "lib/http.js_164_165",
+      "DefPath": "lib/http.js_fn__1_param_e",
       "File": "lib/http.js",
       "Start": 199,
       "End": 200
     },
     {
-      "DefPath": "lib/http.js_4_8",
-      "File": "lib/http.js",
-      "Start": 29,
-      "End": 33
-    },
-    {
-      "DefPath": "lib/http.js_4_8",
-      "Def": true,
-      "File": "lib/http.js",
-      "Start": 4,
-      "End": 8
-    },
-    {
-      "DefPath": "lib/http.js_83_86",
+      "DefPath": "lib/http.js_fn__param_res",
       "File": "lib/http.js",
       "Start": 123,
       "End": 126
     },
     {
-      "DefPath": "lib/http.js_83_86",
+      "DefPath": "lib/http.js_fn__param_res",
       "Def": true,
       "File": "lib/http.js",
       "Start": 83,
       "End": 86
     },
     {
-      "DefRepo": "github.com/brianc/node-postgres",
-      "DefUnit": "pg",
-      "DefPath": "lib/index.js_368_374",
-      "File": "lib/pg.js",
-      "Start": 536,
-      "End": 542
+      "DefPath": "lib/http.js_var_http",
+      "File": "lib/http.js",
+      "Start": 29,
+      "End": 33
+    },
+    {
+      "DefPath": "lib/http.js_var_http",
+      "Def": true,
+      "File": "lib/http.js",
+      "Start": 4,
+      "End": 8
     },
     {
       "DefRepo": "github.com/brianc/node-postgres",
       "DefUnit": "pg",
-      "DefPath": "lib/index.js_831_838",
+      "DefPath": "lib/index.js_obj_PG_1_prop_prototype_prop_connect",
       "File": "lib/pg.js",
       "Start": 95,
       "End": 102
     },
     {
-      "DefPath": "lib/lodash.js_100_103",
-      "Def": true,
-      "File": "lib/lodash.js",
-      "Start": 100,
-      "End": 103
+      "DefRepo": "github.com/brianc/node-postgres",
+      "DefUnit": "pg",
+      "DefPath": "lib/index.js_var_PG_fn__prop_Client",
+      "File": "lib/pg.js",
+      "Start": 536,
+      "End": 542
     },
     {
-      "DefPath": "lib/lodash.js_100_103",
-      "File": "lib/lodash.js",
-      "Start": 113,
-      "End": 116
-    },
-    {
-      "DefPath": "lib/lodash.js_163_167",
-      "Def": true,
-      "File": "lib/lodash.js",
-      "Start": 163,
-      "End": 167
-    },
-    {
-      "DefPath": "lib/lodash.js_163_167",
-      "File": "lib/lodash.js",
-      "Start": 221,
-      "End": 225
-    },
-    {
-      "DefPath": "lib/lodash.js_200_204",
-      "Def": true,
-      "File": "lib/lodash.js",
-      "Start": 200,
-      "End": 204
-    },
-    {
-      "DefPath": "lib/lodash.js_200_204",
-      "File": "lib/lodash.js",
-      "Start": 293,
-      "End": 297
-    },
-    {
-      "DefPath": "lib/lodash.js_236_237",
-      "Def": true,
-      "File": "lib/lodash.js",
-      "Start": 236,
-      "End": 237
-    },
-    {
-      "DefPath": "lib/lodash.js_236_237",
-      "File": "lib/lodash.js",
-      "Start": 251,
-      "End": 252
-    },
-    {
-      "DefPath": "lib/lodash.js_239_240",
-      "Def": true,
-      "File": "lib/lodash.js",
-      "Start": 239,
-      "End": 240
-    },
-    {
-      "DefPath": "lib/lodash.js_239_240",
-      "File": "lib/lodash.js",
-      "Start": 260,
-      "End": 261
-    },
-    {
-      "DefPath": "lib/lodash.js_305_309",
-      "Def": true,
-      "File": "lib/lodash.js",
-      "Start": 305,
-      "End": 309
-    },
-    {
-      "DefPath": "lib/lodash.js_305_309",
-      "File": "lib/lodash.js",
-      "Start": 400,
-      "End": 404
-    },
-    {
-      "DefPath": "lib/lodash.js_348_351",
-      "Def": true,
-      "File": "lib/lodash.js",
-      "Start": 348,
-      "End": 351
-    },
-    {
-      "DefPath": "lib/lodash.js_348_351",
-      "File": "lib/lodash.js",
-      "Start": 361,
-      "End": 364
-    },
-    {
-      "DefPath": "lib/lodash.js_412_417",
-      "Def": true,
-      "File": "lib/lodash.js",
-      "Start": 412,
-      "End": 417
-    },
-    {
-      "DefPath": "lib/lodash.js_412_417",
-      "File": "lib/lodash.js",
-      "Start": 511,
-      "End": 516
-    },
-    {
-      "DefPath": "lib/lodash.js_458_461",
-      "Def": true,
-      "File": "lib/lodash.js",
-      "Start": 458,
-      "End": 461
-    },
-    {
-      "DefPath": "lib/lodash.js_458_461",
-      "File": "lib/lodash.js",
-      "Start": 471,
-      "End": 474
-    },
-    {
-      "DefPath": "lib/lodash.js_4_5",
+      "DefPath": "lib/lodash.js_var__",
       "File": "lib/lodash.js",
       "Start": 207,
       "End": 208
     },
     {
-      "DefPath": "lib/lodash.js_4_5",
+      "DefPath": "lib/lodash.js_var__",
       "File": "lib/lodash.js",
       "Start": 28,
       "End": 29
     },
     {
-      "DefPath": "lib/lodash.js_4_5",
+      "DefPath": "lib/lodash.js_var__",
       "File": "lib/lodash.js",
       "Start": 312,
       "End": 313
     },
     {
-      "DefPath": "lib/lodash.js_4_5",
+      "DefPath": "lib/lodash.js_var__",
       "File": "lib/lodash.js",
       "Start": 420,
       "End": 421
     },
     {
-      "DefPath": "lib/lodash.js_4_5",
+      "DefPath": "lib/lodash.js_var__",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 4,
       "End": 5
     },
     {
-      "DefPath": "lib/lodash.js_4_5",
+      "DefPath": "lib/lodash.js_var__",
       "File": "lib/lodash.js",
       "Start": 531,
       "End": 532
     },
     {
-      "DefPath": "lib/lodash.js_4_5",
+      "DefPath": "lib/lodash.js_var__",
       "File": "lib/lodash.js",
       "Start": 74,
       "End": 75
     },
     {
-      "DefPath": "lib/lodash.js_524_528",
+      "DefPath": "lib/lodash.js_var_even_fn__param_num",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 348,
+      "End": 351
+    },
+    {
+      "DefPath": "lib/lodash.js_var_even_fn__param_num",
+      "File": "lib/lodash.js",
+      "Start": 361,
+      "End": 364
+    },
+    {
+      "DefPath": "lib/lodash.js_var_even",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 305,
+      "End": 309
+    },
+    {
+      "DefPath": "lib/lodash.js_var_even",
+      "File": "lib/lodash.js",
+      "Start": 400,
+      "End": 404
+    },
+    {
+      "DefPath": "lib/lodash.js_var_evens_fn__param_num",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 458,
+      "End": 461
+    },
+    {
+      "DefPath": "lib/lodash.js_var_evens_fn__param_num",
+      "File": "lib/lodash.js",
+      "Start": 471,
+      "End": 474
+    },
+    {
+      "DefPath": "lib/lodash.js_var_evens",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 412,
+      "End": 417
+    },
+    {
+      "DefPath": "lib/lodash.js_var_evens",
+      "File": "lib/lodash.js",
+      "Start": 511,
+      "End": 516
+    },
+    {
+      "DefPath": "lib/lodash.js_var_flat_fn__param_a",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 236,
+      "End": 237
+    },
+    {
+      "DefPath": "lib/lodash.js_var_flat_fn__param_a",
+      "File": "lib/lodash.js",
+      "Start": 251,
+      "End": 252
+    },
+    {
+      "DefPath": "lib/lodash.js_var_flat_fn__param_b",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 239,
+      "End": 240
+    },
+    {
+      "DefPath": "lib/lodash.js_var_flat_fn__param_b",
+      "File": "lib/lodash.js",
+      "Start": 260,
+      "End": 261
+    },
+    {
+      "DefPath": "lib/lodash.js_var_flat",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 200,
+      "End": 204
+    },
+    {
+      "DefPath": "lib/lodash.js_var_flat",
+      "File": "lib/lodash.js",
+      "Start": 293,
+      "End": 297
+    },
+    {
+      "DefPath": "lib/lodash.js_var_list",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 163,
+      "End": 167
+    },
+    {
+      "DefPath": "lib/lodash.js_var_list",
+      "File": "lib/lodash.js",
+      "Start": 221,
+      "End": 225
+    },
+    {
+      "DefPath": "lib/lodash.js_var_odds_fn__param_num",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 569,
+      "End": 572
+    },
+    {
+      "DefPath": "lib/lodash.js_var_odds_fn__param_num",
+      "File": "lib/lodash.js",
+      "Start": 582,
+      "End": 585
+    },
+    {
+      "DefPath": "lib/lodash.js_var_odds",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 524,
       "End": 528
     },
     {
-      "DefPath": "lib/lodash.js_524_528",
+      "DefPath": "lib/lodash.js_var_odds",
       "File": "lib/lodash.js",
       "Start": 621,
       "End": 625
     },
     {
-      "DefPath": "lib/lodash.js_569_572",
+      "DefPath": "lib/lodash.js_var_thrice_fn__param_num",
       "Def": true,
       "File": "lib/lodash.js",
-      "Start": 569,
-      "End": 572
+      "Start": 100,
+      "End": 103
     },
     {
-      "DefPath": "lib/lodash.js_569_572",
+      "DefPath": "lib/lodash.js_var_thrice_fn__param_num",
       "File": "lib/lodash.js",
-      "Start": 582,
-      "End": 585
+      "Start": 113,
+      "End": 116
     },
     {
-      "DefPath": "lib/lodash.js_65_71",
+      "DefPath": "lib/lodash.js_var_thrice",
       "File": "lib/lodash.js",
       "Start": 149,
       "End": 155
     },
     {
-      "DefPath": "lib/lodash.js_65_71",
+      "DefPath": "lib/lodash.js_var_thrice",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 65,
       "End": 71
     },
     {
-      "DefPath": "lib/minimatch.js_4_13",
+      "DefPath": "lib/minimatch.js_var_minimatch",
       "Def": true,
       "File": "lib/minimatch.js",
       "Start": 4,
       "End": 13
     },
     {
-      "DefPath": "lib/minimatch.js_4_13",
+      "DefPath": "lib/minimatch.js_var_minimatch",
       "File": "lib/minimatch.js",
       "Start": 65,
       "End": 74
     },
     {
-      "DefPath": "lib/mysql.js_1043_1046",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1043,
-      "End": 1046
-    },
-    {
-      "DefPath": "lib/mysql.js_1043_1046",
-      "File": "lib/mysql.js",
-      "Start": 1066,
-      "End": 1069
-    },
-    {
-      "DefPath": "lib/mysql.js_1043_1046",
-      "File": "lib/mysql.js",
-      "Start": 1077,
-      "End": 1080
-    },
-    {
-      "DefPath": "lib/mysql.js_1048_1056",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1048,
-      "End": 1056
-    },
-    {
-      "DefPath": "lib/mysql.js_105_109",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 105,
-      "End": 109
-    },
-    {
-      "DefPath": "lib/mysql.js_1150_1155",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1150,
-      "End": 1155
-    },
-    {
-      "DefPath": "lib/mysql.js_1150_1155",
-      "File": "lib/mysql.js",
-      "Start": 1199,
-      "End": 1204
-    },
-    {
-      "DefPath": "lib/mysql.js_1229_1232",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1229,
-      "End": 1232
-    },
-    {
-      "DefPath": "lib/mysql.js_124_132",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 124,
-      "End": 132
-    },
-    {
-      "DefPath": "lib/mysql.js_1337_1343",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1337,
-      "End": 1343
-    },
-    {
-      "DefPath": "lib/mysql.js_1425_1428",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1425,
-      "End": 1428
-    },
-    {
-      "DefPath": "lib/mysql.js_1425_1428",
-      "File": "lib/mysql.js",
-      "Start": 1545,
-      "End": 1548
-    },
-    {
-      "DefPath": "lib/mysql.js_1708_1711",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1708,
-      "End": 1711
-    },
-    {
-      "DefPath": "lib/mysql.js_1708_1711",
-      "File": "lib/mysql.js",
-      "Start": 1721,
-      "End": 1724
-    },
-    {
-      "DefPath": "lib/mysql.js_1708_1711",
-      "File": "lib/mysql.js",
-      "Start": 1734,
-      "End": 1737
-    },
-    {
-      "DefPath": "lib/mysql.js_1809_1812",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1809,
-      "End": 1812
-    },
-    {
-      "DefPath": "lib/mysql.js_1809_1812",
-      "File": "lib/mysql.js",
-      "Start": 1832,
-      "End": 1835
-    },
-    {
-      "DefPath": "lib/mysql.js_1809_1812",
-      "File": "lib/mysql.js",
-      "Start": 1892,
-      "End": 1895
-    },
-    {
-      "DefPath": "lib/mysql.js_1814_1820",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1814,
-      "End": 1820
-    },
-    {
-      "DefPath": "lib/mysql.js_1814_1820",
-      "File": "lib/mysql.js",
-      "Start": 1938,
-      "End": 1944
-    },
-    {
-      "DefPath": "lib/mysql.js_1922_1925",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 1922,
-      "End": 1925
-    },
-    {
-      "DefPath": "lib/mysql.js_1922_1925",
-      "File": "lib/mysql.js",
-      "Start": 2018,
-      "End": 2021
-    },
-    {
-      "DefPath": "lib/mysql.js_2032_2035",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 2032,
-      "End": 2035
-    },
-    {
-      "DefPath": "lib/mysql.js_2032_2035",
-      "File": "lib/mysql.js",
-      "Start": 2057,
-      "End": 2060
-    },
-    {
-      "DefPath": "lib/mysql.js_2032_2035",
-      "File": "lib/mysql.js",
-      "Start": 2121,
-      "End": 2124
-    },
-    {
-      "DefPath": "lib/mysql.js_2037_2043",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 2037,
-      "End": 2043
-    },
-    {
-      "DefPath": "lib/mysql.js_2179_2182",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 2179,
-      "End": 2182
-    },
-    {
-      "DefPath": "lib/mysql.js_2179_2182",
-      "File": "lib/mysql.js",
-      "Start": 2198,
-      "End": 2201
-    },
-    {
-      "DefPath": "lib/mysql.js_2179_2182",
-      "File": "lib/mysql.js",
-      "Start": 2266,
-      "End": 2269
-    },
-    {
-      "DefPath": "lib/mysql.js_226_229",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 226,
-      "End": 229
-    },
-    {
-      "DefPath": "lib/mysql.js_226_229",
-      "File": "lib/mysql.js",
-      "Start": 253,
-      "End": 256
-    },
-    {
-      "DefPath": "lib/mysql.js_226_229",
-      "File": "lib/mysql.js",
-      "Start": 264,
-      "End": 267
-    },
-    {
-      "DefPath": "lib/mysql.js_231_235",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 231,
-      "End": 235
-    },
-    {
-      "DefPath": "lib/mysql.js_231_235",
-      "File": "lib/mysql.js",
-      "Start": 305,
-      "End": 309
-    },
-    {
-      "DefPath": "lib/mysql.js_2361_2371",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 2361,
-      "End": 2371
-    },
-    {
-      "DefPath": "lib/mysql.js_237_243",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 237,
-      "End": 243
-    },
-    {
-      "DefPath": "lib/mysql.js_2412_2416",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 2412,
-      "End": 2416
-    },
-    {
-      "DefPath": "lib/mysql.js_2472_2475",
+      "DefPath": "lib/mysql.js_fn__10_param_err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 2472,
       "End": 2475
     },
     {
-      "DefPath": "lib/mysql.js_2472_2475",
+      "DefPath": "lib/mysql.js_fn__10_param_err",
       "File": "lib/mysql.js",
       "Start": 2493,
       "End": 2496
     },
     {
-      "DefPath": "lib/mysql.js_2472_2475",
+      "DefPath": "lib/mysql.js_fn__10_param_err",
       "File": "lib/mysql.js",
       "Start": 2536,
       "End": 2539
     },
     {
-      "DefPath": "lib/mysql.js_2599_2602",
+      "DefPath": "lib/mysql.js_fn__11_param_err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 2599,
       "End": 2602
     },
     {
-      "DefPath": "lib/mysql.js_2599_2602",
+      "DefPath": "lib/mysql.js_fn__11_param_err",
       "File": "lib/mysql.js",
       "Start": 2620,
       "End": 2623
     },
     {
-      "DefPath": "lib/mysql.js_2599_2602",
+      "DefPath": "lib/mysql.js_fn__11_param_err",
       "File": "lib/mysql.js",
       "Start": 2663,
       "End": 2666
     },
     {
-      "DefPath": "lib/mysql.js_372_377",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 372,
-      "End": 377
-    },
-    {
-      "DefPath": "lib/mysql.js_372_377",
-      "File": "lib/mysql.js",
-      "Start": 411,
-      "End": 416
-    },
-    {
-      "DefPath": "lib/mysql.js_372_377",
-      "File": "lib/mysql.js",
-      "Start": 427,
-      "End": 432
-    },
-    {
-      "DefPath": "lib/mysql.js_379_385",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 379,
-      "End": 385
-    },
-    {
-      "DefPath": "lib/mysql.js_379_385",
-      "File": "lib/mysql.js",
-      "Start": 396,
-      "End": 402
-    },
-    {
-      "DefPath": "lib/mysql.js_379_385",
-      "File": "lib/mysql.js",
-      "Start": 483,
-      "End": 489
-    },
-    {
-      "DefPath": "lib/mysql.js_379_385",
-      "File": "lib/mysql.js",
-      "Start": 538,
-      "End": 544
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 1158,
-      "End": 1168
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 149,
-      "End": 159
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 1509,
-      "End": 1519
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 1569,
-      "End": 1579
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 1671,
-      "End": 1681
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 172,
-      "End": 182
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 1743,
-      "End": 1753
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 1845,
-      "End": 1855
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 1971,
-      "End": 1981
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 2072,
-      "End": 2082
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 2152,
-      "End": 2162
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 2215,
-      "End": 2225
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 2444,
-      "End": 2454
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 2561,
-      "End": 2571
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 2688,
-      "End": 2698
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 330,
-      "End": 340
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 39,
-      "End": 49
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 595,
-      "End": 605
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 675,
-      "End": 685
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 820,
-      "End": 830
-    },
-    {
-      "DefPath": "lib/mysql.js_39_49",
-      "File": "lib/mysql.js",
-      "Start": 992,
-      "End": 1002
-    },
-    {
-      "DefPath": "lib/mysql.js_463_466",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 463,
-      "End": 466
-    },
-    {
-      "DefPath": "lib/mysql.js_463_466",
-      "File": "lib/mysql.js",
-      "Start": 569,
-      "End": 572
-    },
-    {
-      "DefPath": "lib/mysql.js_468_471",
+      "DefPath": "lib/mysql.js_fn__1_fn__param_key",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 468,
       "End": 471
     },
     {
-      "DefPath": "lib/mysql.js_468_471",
+      "DefPath": "lib/mysql.js_fn__1_fn__param_key",
       "File": "lib/mysql.js",
       "Start": 505,
       "End": 508
     },
     {
-      "DefPath": "lib/mysql.js_468_471",
+      "DefPath": "lib/mysql.js_fn__1_fn__param_key",
       "File": "lib/mysql.js",
       "Start": 545,
       "End": 548
     },
     {
-      "DefPath": "lib/mysql.js_4_9",
+      "DefPath": "lib/mysql.js_fn__1_fn__param_txt",
       "Def": true,
       "File": "lib/mysql.js",
-      "Start": 4,
-      "End": 9
+      "Start": 463,
+      "End": 466
     },
     {
-      "DefPath": "lib/mysql.js_4_9",
+      "DefPath": "lib/mysql.js_fn__1_fn__param_txt",
       "File": "lib/mysql.js",
-      "Start": 52,
-      "End": 57
+      "Start": 569,
+      "End": 572
     },
     {
-      "DefPath": "lib/mysql.js_649_654",
+      "DefPath": "lib/mysql.js_fn__1_param_query",
       "Def": true,
       "File": "lib/mysql.js",
-      "Start": 649,
-      "End": 654
+      "Start": 372,
+      "End": 377
     },
     {
-      "DefPath": "lib/mysql.js_720_725",
+      "DefPath": "lib/mysql.js_fn__1_param_query",
+      "File": "lib/mysql.js",
+      "Start": 411,
+      "End": 416
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__1_param_query",
+      "File": "lib/mysql.js",
+      "Start": 427,
+      "End": 432
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__1_param_values",
       "Def": true,
       "File": "lib/mysql.js",
-      "Start": 720,
-      "End": 725
+      "Start": 379,
+      "End": 385
     },
     {
-      "DefPath": "lib/mysql.js_745_748",
+      "DefPath": "lib/mysql.js_fn__1_param_values",
+      "File": "lib/mysql.js",
+      "Start": 396,
+      "End": 402
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__1_param_values",
+      "File": "lib/mysql.js",
+      "Start": 483,
+      "End": 489
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__1_param_values",
+      "File": "lib/mysql.js",
+      "Start": 538,
+      "End": 544
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__2_param_err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 745,
       "End": 748
     },
     {
-      "DefPath": "lib/mysql.js_745_748",
+      "DefPath": "lib/mysql.js_fn__2_param_err",
       "File": "lib/mysql.js",
       "Start": 766,
       "End": 769
     },
     {
-      "DefPath": "lib/mysql.js_745_748",
+      "DefPath": "lib/mysql.js_fn__2_param_err",
       "File": "lib/mysql.js",
       "Start": 777,
       "End": 780
     },
     {
-      "DefPath": "lib/mysql.js_750_756",
+      "DefPath": "lib/mysql.js_fn__2_param_result",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 750,
       "End": 756
     },
     {
-      "DefPath": "lib/mysql.js_750_756",
+      "DefPath": "lib/mysql.js_fn__2_param_result",
       "File": "lib/mysql.js",
       "Start": 797,
       "End": 803
     },
     {
-      "DefPath": "lib/mysql.js_79_83",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 79,
-      "End": 83
-    },
-    {
-      "DefPath": "lib/mysql.js_890_893",
+      "DefPath": "lib/mysql.js_fn__3_param_err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 890,
       "End": 893
     },
     {
-      "DefPath": "lib/mysql.js_890_893",
+      "DefPath": "lib/mysql.js_fn__3_param_err",
       "File": "lib/mysql.js",
       "Start": 911,
       "End": 914
     },
     {
-      "DefPath": "lib/mysql.js_890_893",
+      "DefPath": "lib/mysql.js_fn__3_param_err",
       "File": "lib/mysql.js",
       "Start": 922,
       "End": 925
     },
     {
-      "DefPath": "lib/mysql.js_895_901",
+      "DefPath": "lib/mysql.js_fn__3_param_result",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 895,
       "End": 901
     },
     {
-      "DefPath": "lib/mysql.js_895_901",
+      "DefPath": "lib/mysql.js_fn__3_param_result",
       "File": "lib/mysql.js",
       "Start": 955,
       "End": 961
     },
     {
-      "DefPath": "lib/pg.js_123_126",
+      "DefPath": "lib/mysql.js_fn__4_param_err",
       "Def": true,
-      "File": "lib/pg.js",
-      "Start": 123,
-      "End": 126
+      "File": "lib/mysql.js",
+      "Start": 1043,
+      "End": 1046
     },
     {
-      "DefPath": "lib/pg.js_123_126",
-      "File": "lib/pg.js",
+      "DefPath": "lib/mysql.js_fn__4_param_err",
+      "File": "lib/mysql.js",
+      "Start": 1066,
+      "End": 1069
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__4_param_err",
+      "File": "lib/mysql.js",
+      "Start": 1077,
+      "End": 1080
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__4_param_response",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1048,
+      "End": 1056
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__5_param_err",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1229,
+      "End": 1232
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__6_param_fields",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1337,
+      "End": 1343
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__7_param_row",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1425,
+      "End": 1428
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__7_param_row",
+      "File": "lib/mysql.js",
+      "Start": 1545,
+      "End": 1548
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_fn__1_param_err",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 2179,
+      "End": 2182
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_fn__1_param_err",
+      "File": "lib/mysql.js",
+      "Start": 2198,
+      "End": 2201
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_fn__1_param_err",
+      "File": "lib/mysql.js",
+      "Start": 2266,
+      "End": 2269
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_param_err",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 2032,
+      "End": 2035
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_param_err",
+      "File": "lib/mysql.js",
+      "Start": 2057,
+      "End": 2060
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_param_err",
+      "File": "lib/mysql.js",
+      "Start": 2121,
+      "End": 2124
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_param_result",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 2037,
+      "End": 2043
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__param_err",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1809,
+      "End": 1812
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__param_err",
+      "File": "lib/mysql.js",
+      "Start": 1832,
+      "End": 1835
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__param_err",
+      "File": "lib/mysql.js",
+      "Start": 1892,
+      "End": 1895
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__param_result",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1814,
+      "End": 1820
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__param_result",
+      "File": "lib/mysql.js",
+      "Start": 1938,
+      "End": 1944
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__var_log",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1922,
+      "End": 1925
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_fn__var_log",
+      "File": "lib/mysql.js",
+      "Start": 2018,
+      "End": 2021
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_param_err",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1708,
+      "End": 1711
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_param_err",
+      "File": "lib/mysql.js",
+      "Start": 1721,
+      "End": 1724
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__9_param_err",
+      "File": "lib/mysql.js",
+      "Start": 1734,
+      "End": 1737
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__param_err",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 226,
+      "End": 229
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__param_err",
+      "File": "lib/mysql.js",
+      "Start": 253,
+      "End": 256
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__param_err",
+      "File": "lib/mysql.js",
+      "Start": 264,
+      "End": 267
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__param_fields",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 237,
+      "End": 243
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__param_rows",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 231,
+      "End": 235
+    },
+    {
+      "DefPath": "lib/mysql.js_fn__param_rows",
+      "File": "lib/mysql.js",
+      "Start": 305,
+      "End": 309
+    },
+    {
+      "DefPath": "lib/mysql.js_obj__obj_key_title_1",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 720,
+      "End": 725
+    },
+    {
+      "DefPath": "lib/mysql.js_obj__obj_key_title",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 649,
+      "End": 654
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection_1_obj__obj_key_port",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 2412,
+      "End": 2416
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection_1",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 2361,
+      "End": 2371
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection_obj__obj_key_host",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 79,
+      "End": 83
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection_obj__obj_key_password",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 124,
+      "End": 132
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection_obj__obj_key_user",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 105,
+      "End": 109
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 1158,
+      "End": 1168
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
       "Start": 149,
-      "End": 152
+      "End": 159
     },
     {
-      "DefPath": "lib/pg.js_123_126",
-      "File": "lib/pg.js",
-      "Start": 216,
-      "End": 219
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 1509,
+      "End": 1519
     },
     {
-      "DefPath": "lib/pg.js_128_134",
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 1569,
+      "End": 1579
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 1671,
+      "End": 1681
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 172,
+      "End": 182
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 1743,
+      "End": 1753
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 1845,
+      "End": 1855
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 1971,
+      "End": 1981
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 2072,
+      "End": 2082
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 2152,
+      "End": 2162
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 2215,
+      "End": 2225
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 2444,
+      "End": 2454
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 2561,
+      "End": 2571
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 2688,
+      "End": 2698
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 330,
+      "End": 340
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
       "Def": true,
-      "File": "lib/pg.js",
-      "Start": 128,
-      "End": 134
+      "File": "lib/mysql.js",
+      "Start": 39,
+      "End": 49
     },
     {
-      "DefPath": "lib/pg.js_128_134",
-      "File": "lib/pg.js",
-      "Start": 228,
-      "End": 234
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 595,
+      "End": 605
     },
     {
-      "DefPath": "lib/pg.js_136_140",
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 675,
+      "End": 685
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 820,
+      "End": 830
+    },
+    {
+      "DefPath": "lib/mysql.js_var_connection",
+      "File": "lib/mysql.js",
+      "Start": 992,
+      "End": 1002
+    },
+    {
+      "DefPath": "lib/mysql.js_var_mysql",
       "Def": true,
-      "File": "lib/pg.js",
-      "Start": 136,
-      "End": 140
-    },
-    {
-      "DefPath": "lib/pg.js_136_140",
-      "File": "lib/pg.js",
-      "Start": 363,
-      "End": 367
-    },
-    {
-      "DefPath": "lib/pg.js_285_288",
-      "Def": true,
-      "File": "lib/pg.js",
-      "Start": 285,
-      "End": 288
-    },
-    {
-      "DefPath": "lib/pg.js_285_288",
-      "File": "lib/pg.js",
-      "Start": 379,
-      "End": 382
-    },
-    {
-      "DefPath": "lib/pg.js_285_288",
-      "File": "lib/pg.js",
-      "Start": 436,
-      "End": 439
-    },
-    {
-      "DefPath": "lib/pg.js_28_37",
-      "File": "lib/pg.js",
-      "Start": 103,
-      "End": 112
-    },
-    {
-      "DefPath": "lib/pg.js_28_37",
-      "Def": true,
-      "File": "lib/pg.js",
-      "Start": 28,
-      "End": 37
-    },
-    {
-      "DefPath": "lib/pg.js_28_37",
-      "File": "lib/pg.js",
-      "Start": 543,
-      "End": 552
-    },
-    {
-      "DefPath": "lib/pg.js_290_296",
-      "Def": true,
-      "File": "lib/pg.js",
-      "Start": 290,
-      "End": 296
-    },
-    {
-      "DefPath": "lib/pg.js_290_296",
-      "File": "lib/pg.js",
-      "Start": 464,
-      "End": 470
-    },
-    {
-      "DefPath": "lib/pg.js_4_6",
-      "Def": true,
-      "File": "lib/pg.js",
+      "File": "lib/mysql.js",
       "Start": 4,
-      "End": 6
+      "End": 9
     },
     {
-      "DefPath": "lib/pg.js_4_6",
-      "File": "lib/pg.js",
-      "Start": 533,
-      "End": 535
+      "DefPath": "lib/mysql.js_var_mysql",
+      "File": "lib/mysql.js",
+      "Start": 52,
+      "End": 57
     },
     {
-      "DefPath": "lib/pg.js_4_6",
-      "File": "lib/pg.js",
-      "Start": 92,
-      "End": 94
-    },
-    {
-      "DefPath": "lib/pg.js_520_526",
+      "DefPath": "lib/mysql.js_var_query",
       "Def": true,
-      "File": "lib/pg.js",
-      "Start": 520,
-      "End": 526
+      "File": "lib/mysql.js",
+      "Start": 1150,
+      "End": 1155
     },
     {
-      "DefPath": "lib/pg.js_520_526",
-      "File": "lib/pg.js",
-      "Start": 555,
-      "End": 561
+      "DefPath": "lib/mysql.js_var_query",
+      "File": "lib/mysql.js",
+      "Start": 1199,
+      "End": 1204
     },
     {
-      "DefPath": "lib/pg.js_520_526",
-      "File": "lib/pg.js",
-      "Start": 668,
-      "End": 674
-    },
-    {
-      "DefPath": "lib/pg.js_520_526",
-      "File": "lib/pg.js",
-      "Start": 908,
-      "End": 914
-    },
-    {
-      "DefPath": "lib/pg.js_579_582",
-      "Def": true,
-      "File": "lib/pg.js",
-      "Start": 579,
-      "End": 582
-    },
-    {
-      "DefPath": "lib/pg.js_579_582",
-      "File": "lib/pg.js",
-      "Start": 591,
-      "End": 594
-    },
-    {
-      "DefPath": "lib/pg.js_579_582",
-      "File": "lib/pg.js",
-      "Start": 656,
-      "End": 659
-    },
-    {
-      "DefPath": "lib/pg.js_719_722",
+      "DefPath": "lib/pg.js_fn__1_fn__param_err",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 719,
       "End": 722
     },
     {
-      "DefPath": "lib/pg.js_719_722",
+      "DefPath": "lib/pg.js_fn__1_fn__param_err",
       "File": "lib/pg.js",
       "Start": 741,
       "End": 744
     },
     {
-      "DefPath": "lib/pg.js_719_722",
+      "DefPath": "lib/pg.js_fn__1_fn__param_err",
       "File": "lib/pg.js",
       "Start": 798,
       "End": 801
     },
     {
-      "DefPath": "lib/pg.js_724_730",
+      "DefPath": "lib/pg.js_fn__1_fn__param_result",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 724,
       "End": 730
     },
     {
-      "DefPath": "lib/pg.js_724_730",
+      "DefPath": "lib/pg.js_fn__1_fn__param_result",
       "File": "lib/pg.js",
       "Start": 826,
       "End": 832
     },
     {
+      "DefPath": "lib/pg.js_fn__1_param_err",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 579,
+      "End": 582
+    },
+    {
+      "DefPath": "lib/pg.js_fn__1_param_err",
+      "File": "lib/pg.js",
+      "Start": 591,
+      "End": 594
+    },
+    {
+      "DefPath": "lib/pg.js_fn__1_param_err",
+      "File": "lib/pg.js",
+      "Start": 656,
+      "End": 659
+    },
+    {
+      "DefPath": "lib/pg.js_fn__fn__param_err",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 285,
+      "End": 288
+    },
+    {
+      "DefPath": "lib/pg.js_fn__fn__param_err",
+      "File": "lib/pg.js",
+      "Start": 379,
+      "End": 382
+    },
+    {
+      "DefPath": "lib/pg.js_fn__fn__param_err",
+      "File": "lib/pg.js",
+      "Start": 436,
+      "End": 439
+    },
+    {
+      "DefPath": "lib/pg.js_fn__fn__param_result",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 290,
+      "End": 296
+    },
+    {
+      "DefPath": "lib/pg.js_fn__fn__param_result",
+      "File": "lib/pg.js",
+      "Start": 464,
+      "End": 470
+    },
+    {
+      "DefPath": "lib/pg.js_fn__param_client",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 128,
+      "End": 134
+    },
+    {
+      "DefPath": "lib/pg.js_fn__param_client",
+      "File": "lib/pg.js",
+      "Start": 228,
+      "End": 234
+    },
+    {
+      "DefPath": "lib/pg.js_fn__param_done",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 136,
+      "End": 140
+    },
+    {
+      "DefPath": "lib/pg.js_fn__param_done",
+      "File": "lib/pg.js",
+      "Start": 363,
+      "End": 367
+    },
+    {
+      "DefPath": "lib/pg.js_fn__param_err",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 123,
+      "End": 126
+    },
+    {
+      "DefPath": "lib/pg.js_fn__param_err",
+      "File": "lib/pg.js",
+      "Start": 149,
+      "End": 152
+    },
+    {
+      "DefPath": "lib/pg.js_fn__param_err",
+      "File": "lib/pg.js",
+      "Start": 216,
+      "End": 219
+    },
+    {
+      "DefPath": "lib/pg.js_var_client",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 520,
+      "End": 526
+    },
+    {
+      "DefPath": "lib/pg.js_var_client",
+      "File": "lib/pg.js",
+      "Start": 555,
+      "End": 561
+    },
+    {
+      "DefPath": "lib/pg.js_var_client",
+      "File": "lib/pg.js",
+      "Start": 668,
+      "End": 674
+    },
+    {
+      "DefPath": "lib/pg.js_var_client",
+      "File": "lib/pg.js",
+      "Start": 908,
+      "End": 914
+    },
+    {
+      "DefPath": "lib/pg.js_var_conString",
+      "File": "lib/pg.js",
+      "Start": 103,
+      "End": 112
+    },
+    {
+      "DefPath": "lib/pg.js_var_conString",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 28,
+      "End": 37
+    },
+    {
+      "DefPath": "lib/pg.js_var_conString",
+      "File": "lib/pg.js",
+      "Start": 543,
+      "End": 552
+    },
+    {
+      "DefPath": "lib/pg.js_var_pg",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 4,
+      "End": 6
+    },
+    {
+      "DefPath": "lib/pg.js_var_pg",
+      "File": "lib/pg.js",
+      "Start": 533,
+      "End": 535
+    },
+    {
+      "DefPath": "lib/pg.js_var_pg",
+      "File": "lib/pg.js",
+      "Start": 92,
+      "End": 94
+    },
+    {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/protocol/Protocol.js_2218_2223",
+      "DefPath": "lib/protocol/Protocol.js_fn__7_obj_err_prop_fatal",
       "File": "lib/mysql.js",
       "Start": 2540,
       "End": 2545
@@ -3479,7 +3479,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/protocol/Protocol.js_2218_2223",
+      "DefPath": "lib/protocol/Protocol.js_fn__7_obj_err_prop_fatal",
       "File": "lib/mysql.js",
       "Start": 2667,
       "End": 2672
@@ -3487,7 +3487,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/protocol/ResultSet.js_203_207",
+      "DefPath": "lib/protocol/ResultSet.js_fn_ResultSet_prop_rows",
       "File": "lib/pg.js",
       "Start": 471,
       "End": 475
@@ -3495,244 +3495,244 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/protocol/ResultSet.js_203_207",
+      "DefPath": "lib/protocol/ResultSet.js_fn_ResultSet_prop_rows",
       "File": "lib/pg.js",
       "Start": 833,
       "End": 837
     },
     {
-      "DefPath": "lib/read-package-json.js_4_12",
-      "Def": true,
-      "File": "lib/read-package-json.js",
-      "Start": 4,
-      "End": 12
-    },
-    {
-      "DefPath": "lib/read-package-json.js_4_12",
-      "File": "lib/read-package-json.js",
-      "Start": 45,
-      "End": 53
-    },
-    {
-      "DefPath": "lib/read-package-json.js_79_82",
-      "File": "lib/read-package-json.js",
-      "Start": 119,
-      "End": 122
-    },
-    {
-      "DefPath": "lib/read-package-json.js_79_82",
-      "Def": true,
-      "File": "lib/read-package-json.js",
-      "Start": 79,
-      "End": 82
-    },
-    {
-      "DefPath": "lib/read-package-json.js_84_88",
+      "DefPath": "lib/read-package-json.js_fn__param_data",
       "File": "lib/read-package-json.js",
       "Start": 124,
       "End": 128
     },
     {
-      "DefPath": "lib/read-package-json.js_84_88",
+      "DefPath": "lib/read-package-json.js_fn__param_data",
       "Def": true,
       "File": "lib/read-package-json.js",
       "Start": 84,
       "End": 88
     },
     {
-      "DefPath": "lib/underscore.js_104_107",
+      "DefPath": "lib/read-package-json.js_fn__param_err",
+      "File": "lib/read-package-json.js",
+      "Start": 119,
+      "End": 122
+    },
+    {
+      "DefPath": "lib/read-package-json.js_fn__param_err",
       "Def": true,
-      "File": "lib/underscore.js",
-      "Start": 104,
-      "End": 107
+      "File": "lib/read-package-json.js",
+      "Start": 79,
+      "End": 82
     },
     {
-      "DefPath": "lib/underscore.js_104_107",
-      "File": "lib/underscore.js",
-      "Start": 117,
-      "End": 120
-    },
-    {
-      "DefPath": "lib/underscore.js_167_171",
+      "DefPath": "lib/read-package-json.js_var_readJson",
       "Def": true,
-      "File": "lib/underscore.js",
-      "Start": 167,
-      "End": 171
+      "File": "lib/read-package-json.js",
+      "Start": 4,
+      "End": 12
     },
     {
-      "DefPath": "lib/underscore.js_167_171",
-      "File": "lib/underscore.js",
-      "Start": 225,
-      "End": 229
+      "DefPath": "lib/read-package-json.js_var_readJson",
+      "File": "lib/read-package-json.js",
+      "Start": 45,
+      "End": 53
     },
     {
-      "DefPath": "lib/underscore.js_204_208",
-      "Def": true,
-      "File": "lib/underscore.js",
-      "Start": 204,
-      "End": 208
-    },
-    {
-      "DefPath": "lib/underscore.js_204_208",
-      "File": "lib/underscore.js",
-      "Start": 297,
-      "End": 301
-    },
-    {
-      "DefPath": "lib/underscore.js_240_241",
-      "Def": true,
-      "File": "lib/underscore.js",
-      "Start": 240,
-      "End": 241
-    },
-    {
-      "DefPath": "lib/underscore.js_240_241",
-      "File": "lib/underscore.js",
-      "Start": 255,
-      "End": 256
-    },
-    {
-      "DefPath": "lib/underscore.js_243_244",
-      "Def": true,
-      "File": "lib/underscore.js",
-      "Start": 243,
-      "End": 244
-    },
-    {
-      "DefPath": "lib/underscore.js_243_244",
-      "File": "lib/underscore.js",
-      "Start": 264,
-      "End": 265
-    },
-    {
-      "DefPath": "lib/underscore.js_309_313",
-      "Def": true,
-      "File": "lib/underscore.js",
-      "Start": 309,
-      "End": 313
-    },
-    {
-      "DefPath": "lib/underscore.js_309_313",
-      "File": "lib/underscore.js",
-      "Start": 404,
-      "End": 408
-    },
-    {
-      "DefPath": "lib/underscore.js_352_355",
-      "Def": true,
-      "File": "lib/underscore.js",
-      "Start": 352,
-      "End": 355
-    },
-    {
-      "DefPath": "lib/underscore.js_352_355",
-      "File": "lib/underscore.js",
-      "Start": 365,
-      "End": 368
-    },
-    {
-      "DefPath": "lib/underscore.js_416_421",
-      "Def": true,
-      "File": "lib/underscore.js",
-      "Start": 416,
-      "End": 421
-    },
-    {
-      "DefPath": "lib/underscore.js_416_421",
-      "File": "lib/underscore.js",
-      "Start": 515,
-      "End": 520
-    },
-    {
-      "DefPath": "lib/underscore.js_462_465",
-      "Def": true,
-      "File": "lib/underscore.js",
-      "Start": 462,
-      "End": 465
-    },
-    {
-      "DefPath": "lib/underscore.js_462_465",
-      "File": "lib/underscore.js",
-      "Start": 475,
-      "End": 478
-    },
-    {
-      "DefPath": "lib/underscore.js_4_5",
+      "DefPath": "lib/underscore.js_var__",
       "File": "lib/underscore.js",
       "Start": 211,
       "End": 212
     },
     {
-      "DefPath": "lib/underscore.js_4_5",
+      "DefPath": "lib/underscore.js_var__",
       "File": "lib/underscore.js",
       "Start": 316,
       "End": 317
     },
     {
-      "DefPath": "lib/underscore.js_4_5",
+      "DefPath": "lib/underscore.js_var__",
       "File": "lib/underscore.js",
       "Start": 32,
       "End": 33
     },
     {
-      "DefPath": "lib/underscore.js_4_5",
+      "DefPath": "lib/underscore.js_var__",
       "File": "lib/underscore.js",
       "Start": 424,
       "End": 425
     },
     {
-      "DefPath": "lib/underscore.js_4_5",
+      "DefPath": "lib/underscore.js_var__",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 4,
       "End": 5
     },
     {
-      "DefPath": "lib/underscore.js_4_5",
+      "DefPath": "lib/underscore.js_var__",
       "File": "lib/underscore.js",
       "Start": 535,
       "End": 536
     },
     {
-      "DefPath": "lib/underscore.js_4_5",
+      "DefPath": "lib/underscore.js_var__",
       "File": "lib/underscore.js",
       "Start": 78,
       "End": 79
     },
     {
-      "DefPath": "lib/underscore.js_528_532",
+      "DefPath": "lib/underscore.js_var_even_fn__param_num",
       "Def": true,
       "File": "lib/underscore.js",
-      "Start": 528,
-      "End": 532
+      "Start": 352,
+      "End": 355
     },
     {
-      "DefPath": "lib/underscore.js_528_532",
+      "DefPath": "lib/underscore.js_var_even_fn__param_num",
       "File": "lib/underscore.js",
-      "Start": 625,
-      "End": 629
+      "Start": 365,
+      "End": 368
     },
     {
-      "DefPath": "lib/underscore.js_573_576",
+      "DefPath": "lib/underscore.js_var_even",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 309,
+      "End": 313
+    },
+    {
+      "DefPath": "lib/underscore.js_var_even",
+      "File": "lib/underscore.js",
+      "Start": 404,
+      "End": 408
+    },
+    {
+      "DefPath": "lib/underscore.js_var_evens_fn__param_num",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 462,
+      "End": 465
+    },
+    {
+      "DefPath": "lib/underscore.js_var_evens_fn__param_num",
+      "File": "lib/underscore.js",
+      "Start": 475,
+      "End": 478
+    },
+    {
+      "DefPath": "lib/underscore.js_var_evens",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 416,
+      "End": 421
+    },
+    {
+      "DefPath": "lib/underscore.js_var_evens",
+      "File": "lib/underscore.js",
+      "Start": 515,
+      "End": 520
+    },
+    {
+      "DefPath": "lib/underscore.js_var_flat_fn__param_a",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 240,
+      "End": 241
+    },
+    {
+      "DefPath": "lib/underscore.js_var_flat_fn__param_a",
+      "File": "lib/underscore.js",
+      "Start": 255,
+      "End": 256
+    },
+    {
+      "DefPath": "lib/underscore.js_var_flat_fn__param_b",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 243,
+      "End": 244
+    },
+    {
+      "DefPath": "lib/underscore.js_var_flat_fn__param_b",
+      "File": "lib/underscore.js",
+      "Start": 264,
+      "End": 265
+    },
+    {
+      "DefPath": "lib/underscore.js_var_flat",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 204,
+      "End": 208
+    },
+    {
+      "DefPath": "lib/underscore.js_var_flat",
+      "File": "lib/underscore.js",
+      "Start": 297,
+      "End": 301
+    },
+    {
+      "DefPath": "lib/underscore.js_var_list",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 167,
+      "End": 171
+    },
+    {
+      "DefPath": "lib/underscore.js_var_list",
+      "File": "lib/underscore.js",
+      "Start": 225,
+      "End": 229
+    },
+    {
+      "DefPath": "lib/underscore.js_var_odds_fn__param_num",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 573,
       "End": 576
     },
     {
-      "DefPath": "lib/underscore.js_573_576",
+      "DefPath": "lib/underscore.js_var_odds_fn__param_num",
       "File": "lib/underscore.js",
       "Start": 586,
       "End": 589
     },
     {
-      "DefPath": "lib/underscore.js_69_75",
+      "DefPath": "lib/underscore.js_var_odds",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 528,
+      "End": 532
+    },
+    {
+      "DefPath": "lib/underscore.js_var_odds",
+      "File": "lib/underscore.js",
+      "Start": 625,
+      "End": 629
+    },
+    {
+      "DefPath": "lib/underscore.js_var_thrice_fn__param_num",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 104,
+      "End": 107
+    },
+    {
+      "DefPath": "lib/underscore.js_var_thrice_fn__param_num",
+      "File": "lib/underscore.js",
+      "Start": 117,
+      "End": 120
+    },
+    {
+      "DefPath": "lib/underscore.js_var_thrice",
       "File": "lib/underscore.js",
       "Start": 153,
       "End": 159
     },
     {
-      "DefPath": "lib/underscore.js_69_75",
+      "DefPath": "lib/underscore.js_var_thrice",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 69,
@@ -3741,39 +3741,7 @@
     {
       "DefRepo": "github.com/jashkenas/underscore",
       "DefUnit": "underscore",
-      "DefPath": "underscore.js_2609_2613",
-      "File": "lib/underscore.js",
-      "Start": 34,
-      "End": 38
-    },
-    {
-      "DefRepo": "github.com/jashkenas/underscore",
-      "DefUnit": "underscore",
-      "DefPath": "underscore.js_3339_3342",
-      "File": "lib/underscore.js",
-      "Start": 80,
-      "End": 83
-    },
-    {
-      "DefRepo": "github.com/jashkenas/underscore",
-      "DefUnit": "underscore",
-      "DefPath": "underscore.js_4666_4677",
-      "File": "lib/underscore.js",
-      "Start": 213,
-      "End": 224
-    },
-    {
-      "DefRepo": "github.com/jashkenas/underscore",
-      "DefUnit": "underscore",
-      "DefPath": "underscore.js_5564_5568",
-      "File": "lib/underscore.js",
-      "Start": 318,
-      "End": 322
-    },
-    {
-      "DefRepo": "github.com/jashkenas/underscore",
-      "DefUnit": "underscore",
-      "DefPath": "underscore.js_5971_5977",
+      "DefPath": "underscore.js_fn__obj___10_prop_filter",
       "File": "lib/underscore.js",
       "Start": 426,
       "End": 432
@@ -3781,10 +3749,42 @@
     {
       "DefRepo": "github.com/jashkenas/underscore",
       "DefUnit": "underscore",
-      "DefPath": "underscore.js_6396_6402",
+      "DefPath": "underscore.js_fn__obj___12_prop_reject",
       "File": "lib/underscore.js",
       "Start": 537,
       "End": 543
+    },
+    {
+      "DefRepo": "github.com/jashkenas/underscore",
+      "DefUnit": "underscore",
+      "DefPath": "underscore.js_fn__obj___1_prop_map",
+      "File": "lib/underscore.js",
+      "Start": 80,
+      "End": 83
+    },
+    {
+      "DefRepo": "github.com/jashkenas/underscore",
+      "DefUnit": "underscore",
+      "DefPath": "underscore.js_fn__obj___6_prop_reduceRight",
+      "File": "lib/underscore.js",
+      "Start": 213,
+      "End": 224
+    },
+    {
+      "DefRepo": "github.com/jashkenas/underscore",
+      "DefUnit": "underscore",
+      "DefPath": "underscore.js_fn__obj___8_prop_find",
+      "File": "lib/underscore.js",
+      "Start": 318,
+      "End": 322
+    },
+    {
+      "DefRepo": "github.com/jashkenas/underscore",
+      "DefUnit": "underscore",
+      "DefPath": "underscore.js_fn__var_each_obj___prop_each",
+      "File": "lib/underscore.js",
+      "Start": 34,
+      "End": 38
     }
   ],
   "Docs": [

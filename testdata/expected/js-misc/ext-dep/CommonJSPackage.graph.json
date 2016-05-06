@@ -1,7 +1,7 @@
 {
   "Refs": [
     {
-      "DefPath": "ext-dep/index.js_4_19",
+      "DefPath": "ext-dep/index.js_var_lodash_contains",
       "File": "ext-dep/index.js",
       "Start": 76,
       "End": 91

@@ -1,7 +1,7 @@
 {
   "Defs": [
     {
-      "Path": "srclib-issue-67/index.js_4_5",
+      "Path": "srclib-issue-67/index.js_var_a",
       "Name": "a",
       "Kind": "var",
       "File": "srclib-issue-67/index.js",
@@ -24,13 +24,13 @@
       "End": 21
     },
     {
-      "DefPath": "srclib-issue-67/index.js_0_23",
+      "DefPath": "https://nodejs.org/api/modules.html",
       "File": "srclib-issue-67/index.js",
       "Start": 8,
       "End": 14
     },
     {
-      "DefPath": "srclib-issue-67/index.js_4_5",
+      "DefPath": "srclib-issue-67/index.js_var_a",
       "Def": true,
       "File": "srclib-issue-67/index.js",
       "Start": 4,

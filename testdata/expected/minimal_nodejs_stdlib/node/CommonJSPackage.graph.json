@@ -1,7 +1,7 @@
 {
   "Defs": [
     {
-      "Path": "lib/my_module.js_8_14",
+      "Path": "lib/my_module.js_obj_exports_prop_myFunc",
       "Name": "myFunc",
       "Kind": "property",
       "File": "lib/my_module.js",
@@ -18,13 +18,7 @@
   ],
   "Refs": [
     {
-      "DefPath": "lib/my_module.js_0_44",
-      "File": "lib/my_module.js",
-      "Start": 0,
-      "End": 7
-    },
-    {
-      "DefPath": "lib/my_module.js_8_14",
+      "DefPath": "lib/my_module.js_obj_exports_prop_myFunc",
       "Def": true,
       "File": "lib/my_module.js",
       "Start": 8,

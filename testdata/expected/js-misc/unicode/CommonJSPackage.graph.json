@@ -1,7 +1,7 @@
 {
   "Defs": [
     {
-      "Path": "unicode/index.js_9_10",
+      "Path": "unicode/index.js_var_a",
       "Name": "a",
       "Kind": "var",
       "File": "unicode/index.js",
@@ -18,7 +18,7 @@
   ],
   "Refs": [
     {
-      "DefPath": "unicode/index.js_9_10",
+      "DefPath": "unicode/index.js_var_a",
       "Def": true,
       "File": "unicode/index.js",
       "Start": 11,
