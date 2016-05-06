@@ -101,7 +101,6 @@ parser.command("scan-commonjs")
                         graph: null
                     },
                     Config: {
-                        npmInstall: !!process.env.IN_DOCKER_CONTAINER,
                         jsg: {
                             plugins: {
                                 node: {
