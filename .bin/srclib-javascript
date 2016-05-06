@@ -97,15 +97,6 @@ parser.command("scan-commonjs")
                     Ops: {
                         depresolve: null,
                         graph: null
-                    },
-                    Config: {
-                        jsg: {
-                            plugins: {
-                                node: {
-                                    coreModulesDir: process.env.NODEJS_CORE_MODULES_DIR || "$(JSG_DIR)/testdata/node_core_modules"
-                                }
-                            }
-                        }
                     }
                 }
             });
@@ -264,7 +255,7 @@ parser.command("graph")
             });
         });
     })
-    .help("graph a CommonJS package using jsg/tern");
+    .help("graph a CommonJS package using tern");
 
 parser.parse();
 
