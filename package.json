@@ -28,6 +28,8 @@
   "dependencies": {
     "npm": "^1.4.21",
     "tern": "0.18.0",
-    "acorn": "3.0.4"
+    "acorn": "3.0.4",
+    "nomnom": "1.8.1",
+    "commonjs-findpkgs": "0.0.7"
   }
 }
