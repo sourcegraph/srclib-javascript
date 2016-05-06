@@ -1,14 +1,12 @@
 #!/usr/bin/env node
 
-var parser = require("nomnom");
-var glob = require("glob");
-var findpkgs = require("commonjs-findpkgs");
-var jsgAdapter = require("../lib/jsg_adapter");
-var npm = require("npm");
-var path = require("path");
+var parser = require('nomnom');
+var glob = require('glob');
+var findpkgs = require('commonjs-findpkgs');
+var npm = require('npm');
+var path = require('path');
 var child_process = require('child_process');
-var execFile = require("child_process").execFile;
-var fs = require("fs");
+var fs = require('fs');
 
 parser.command("scan-commonjs")
     .option("repo", {
@@ -228,15 +226,25 @@ parser.command("graph")
                     console.log("{}");
                     process.exit(0);
                 }
-                jsgAdapter.run(".", commonJSPackage, function(err, graphData) {
-                    if (err) {
-                        console.error("Graphing " + commonJSPackage.Name + " failed:", err);
-                        process.exit(1);
-                    }
+                var dir = ".";
+                var args = ["--max-old-space-size=8192"];
+                args.push(path.join(__dirname, "../lib/analysis"));
 
-                    console.log(graphData);
+                commonJSPackage.Files.forEach(function(f) {
+                    args.push(path.join(dir, f));
                 });
 
+                child_process.execFile("node", args, {
+                    maxBuffer: 50000 * 1024 * 1024
+                }, function(err, stdout, stderr) {
+                    if (stderr) console.error(stderr);
+                    if (err) {
+                        console.error("Graphing " + commonJSPackage.Name + " failed:", err);
+                        return;
+                    }
+
+                    console.log(stdout);
+                });
             }
 
             var npmCmd = null;
