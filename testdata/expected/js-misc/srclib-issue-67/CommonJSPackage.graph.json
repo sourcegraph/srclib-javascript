@@ -1,107 +1,57 @@
 {
   "Defs": [
     {
-      "Path": "commonjs/srclib-issue-67/index.js",
-      "Name": "srclib-issue-67/index",
-      "Kind": "module",
-      "File": "srclib-issue-67/index.js",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": true,
-      "Data": {
-        "Kind": "commonjs-module",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "srclib-issue-67/index.js",
-          "path": ""
-        },
-        "jsgDefData": {
-          "nodejs": {
-            "moduleExports": true
-          }
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/srclib-issue-67/index.js"
-    },
-    {
-      "Path": "file/srclib-issue-67/index.js/-/a",
+      "Path": "srclib-issue-67/index.js_4_5",
       "Name": "a",
       "Kind": "var",
       "File": "srclib-issue-67/index.js",
       "DefStart": 4,
-      "DefEnd": 21,
+      "DefEnd": 5,
       "Data": {
+        "Type": "Module",
+        "Keyword": "var",
         "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "srclib-issue-67/index.js",
-          "path": "a"
-        },
-        "Type": "{}",
-        "IsFunc": false
+        "Separator": " "
       },
-      "TreePath": "-file/srclib-issue-67/index.js/-/a"
-    },
-    {
-      "Path": "file/srclib-issue-67/index.js/-/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "srclib-issue-67/index.js",
-          "path": "exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/srclib-issue-67/index.js/-/exports"
-    },
-    {
-      "Path": "file/srclib-issue-67/index.js/-/module/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "srclib-issue-67/index.js",
-          "path": "module.exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/srclib-issue-67/index.js/-/module/exports"
+      "TreePath": "srclib-issue-67/index.js_4_5"
     }
   ],
   "Refs": [
     {
-      "DefPath": "commonjs/module.js/-/module/prototype/parent",
+      "DefPath": "https://nodejs.org/api/modules.html#modules_module_parent",
       "File": "srclib-issue-67/index.js",
       "Start": 15,
       "End": 21
     },
     {
-      "DefPath": "file/srclib-issue-67/index.js/-/a",
+      "DefPath": "srclib-issue-67/index.js_0_23",
+      "File": "srclib-issue-67/index.js",
+      "Start": 8,
+      "End": 14
+    },
+    {
+      "DefPath": "srclib-issue-67/index.js_4_5",
       "Def": true,
       "File": "srclib-issue-67/index.js",
       "Start": 4,
       "End": 5
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "srclib-issue-67/index.js_15_21",
+      "Format": "",
+      "Data": "The module that required this one."
     },
     {
-      "DefPath": "file/srclib-issue-67/index.js/-/module",
-      "File": "srclib-issue-67/index.js",
-      "Start": 8,
-      "End": 14
+      "Path": "srclib-issue-67/index.js_4_5",
+      "Format": "",
+      "Data": "The module that required this one."
+    },
+    {
+      "Path": "srclib-issue-67/index.js_8_14",
+      "Format": "",
+      "Data": "Node has a simple module loading system. In Node, files and modules are in one-to-one correspondence."
     }
   ]
 }

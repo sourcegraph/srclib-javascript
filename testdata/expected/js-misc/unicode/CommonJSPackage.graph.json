@@ -1,91 +1,24 @@
 {
   "Defs": [
     {
-      "Path": "commonjs/unicode/index.js",
-      "Name": "unicode/index",
-      "Kind": "module",
-      "File": "unicode/index.js",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": true,
-      "Data": {
-        "Kind": "commonjs-module",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "unicode/index.js",
-          "path": ""
-        },
-        "jsgDefData": {
-          "nodejs": {
-            "moduleExports": true
-          }
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/unicode/index.js"
-    },
-    {
-      "Path": "file/unicode/index.js/-/a",
+      "Path": "unicode/index.js_9_10",
       "Name": "a",
       "Kind": "var",
       "File": "unicode/index.js",
       "DefStart": 11,
-      "DefEnd": 18,
+      "DefEnd": 12,
       "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "unicode/index.js",
-          "path": "a"
-        },
         "Type": "number",
-        "IsFunc": false
-      },
-      "TreePath": "-file/unicode/index.js/-/a"
-    },
-    {
-      "Path": "file/unicode/index.js/-/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
+        "Keyword": "var",
         "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "unicode/index.js",
-          "path": "exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
+        "Separator": " "
       },
-      "TreePath": "-file/unicode/index.js/-/exports"
-    },
-    {
-      "Path": "file/unicode/index.js/-/module/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "unicode/index.js",
-          "path": "module.exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/unicode/index.js/-/module/exports"
+      "TreePath": "unicode/index.js_9_10"
     }
   ],
   "Refs": [
     {
-      "DefPath": "file/unicode/index.js/-/a",
+      "DefPath": "unicode/index.js_9_10",
       "Def": true,
       "File": "unicode/index.js",
       "Start": 11,
@@ -94,7 +27,7 @@
   ],
   "Docs": [
     {
-      "Path": "file/unicode/index.js/-/a",
+      "Path": "unicode/index.js_9_10",
       "Format": "",
       "Data": "✱"
     }

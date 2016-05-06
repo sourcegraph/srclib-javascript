@@ -1,1438 +1,1582 @@
 {
   "Defs": [
     {
-      "Path": "commonjs/animal.js",
-      "Name": "animal",
-      "Kind": "module",
-      "File": "animal.js",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": true,
-      "Data": {
-        "Kind": "commonjs-module",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": ""
-        },
-        "jsgDefData": {
-          "nodejs": {
-            "moduleExports": true
-          }
-        },
-        "Type": "{Animal: fn(name: string), Dog: fn(name: string, breed: string)}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/animal.js"
-    },
-    {
-      "Path": "commonjs/animal.js/-/Animal",
-      "Name": "Animal",
-      "Kind": "func",
-      "File": "animal.js",
-      "DefStart": 752,
-      "DefEnd": 766,
-      "Exported": true,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": "Animal"
-        },
-        "Type": "fn(name: string)",
-        "IsFunc": true
-      },
-      "TreePath": "-commonjs/animal.js/-/Animal"
-    },
-    {
-      "Path": "commonjs/animal.js/-/Animal/prototype",
-      "Name": "prototype",
-      "Kind": "type",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": true,
-      "Data": {
-        "Kind": "prototype",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": "Animal.prototype"
-        },
-        "Type": "{makeNoise: fn() -\u003e string, sayHello: fn() -\u003e string}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/animal.js/-/Animal/prototype"
-    },
-    {
-      "Path": "commonjs/animal.js/-/Animal/prototype/makeNoise",
-      "Name": "makeNoise",
-      "Kind": "func",
-      "File": "animal.js",
-      "DefStart": 303,
-      "DefEnd": 363,
-      "Exported": true,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": "Animal.prototype.makeNoise"
-        },
-        "Type": "fn() -\u003e string",
-        "IsFunc": true
-      },
-      "TreePath": "-commonjs/animal.js/-/Animal/prototype/makeNoise"
-    },
-    {
-      "Path": "commonjs/animal.js/-/Animal/prototype/sayHello",
-      "Name": "sayHello",
-      "Kind": "func",
-      "File": "animal.js",
-      "DefStart": 168,
-      "DefEnd": 229,
-      "Exported": true,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": "Animal.prototype.sayHello"
-        },
-        "Type": "fn() -\u003e string",
-        "IsFunc": true
-      },
-      "TreePath": "-commonjs/animal.js/-/Animal/prototype/sayHello"
-    },
-    {
-      "Path": "commonjs/animal.js/-/Dog",
-      "Name": "Dog",
-      "Kind": "func",
-      "File": "animal.js",
-      "DefStart": 770,
-      "DefEnd": 778,
-      "Exported": true,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": "Dog"
-        },
-        "Type": "fn(name: string, breed: string)",
-        "IsFunc": true
-      },
-      "TreePath": "-commonjs/animal.js/-/Dog"
-    },
-    {
-      "Path": "commonjs/animal.js/-/Dog/prototype",
-      "Name": "prototype",
-      "Kind": "type",
-      "File": "animal.js",
-      "DefStart": 490,
-      "DefEnd": 514,
-      "Exported": true,
-      "Data": {
-        "Kind": "prototype",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": "Dog.prototype"
-        },
-        "Type": "{bark: fn() -\u003e string, name: string, sayExtendedHello: fn() -\u003e string}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/animal.js/-/Dog/prototype"
-    },
-    {
-      "Path": "commonjs/animal.js/-/Dog/prototype/bark",
-      "Name": "bark",
-      "Kind": "func",
-      "File": "animal.js",
-      "DefStart": 686,
-      "DefEnd": 728,
-      "Exported": true,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": "Dog.prototype.bark"
-        },
-        "Type": "fn() -\u003e string",
-        "IsFunc": true
-      },
-      "TreePath": "-commonjs/animal.js/-/Dog/prototype/bark"
-    },
-    {
-      "Path": "commonjs/animal.js/-/Dog/prototype/name",
+      "Path": "animal.js_104_108",
       "Name": "name",
-      "Kind": "field",
+      "Kind": "property",
       "File": "animal.js",
       "DefStart": 104,
-      "DefEnd": 115,
-      "Exported": true,
+      "DefEnd": 108,
       "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": "Dog.prototype.name"
-        },
         "Type": "string",
-        "IsFunc": false
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
       },
-      "TreePath": "-commonjs/animal.js/-/Dog/prototype/name"
+      "TreePath": "animal.js_104_108"
     },
     {
-      "Path": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
-      "Name": "sayExtendedHello",
-      "Kind": "func",
+      "Path": "animal.js_168_176",
+      "Name": "sayHello",
+      "Kind": "property",
       "File": "animal.js",
-      "DefStart": 575,
-      "DefEnd": 654,
-      "Exported": true,
+      "DefStart": 168,
+      "DefEnd": 176,
       "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "animal.js",
-          "path": "Dog.prototype.sayExtendedHello"
-        },
         "Type": "fn() -\u003e string",
-        "IsFunc": true
-      },
-      "TreePath": "-commonjs/animal.js/-/Dog/prototype/sayExtendedHello"
-    },
-    {
-      "Path": "commonjs/test/animal_test.js",
-      "Name": "test/animal_test",
-      "Kind": "module",
-      "File": "test/animal_test.js",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": true,
-      "Data": {
-        "Kind": "commonjs-module",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "test/animal_test.js",
-          "path": ""
-        },
-        "jsgDefData": {
-          "nodejs": {
-            "moduleExports": true
-          }
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/test/animal_test.js"
-    },
-    {
-      "Path": "file/animal.js/-/Animal",
-      "Name": "Animal",
-      "Kind": "func",
-      "File": "animal.js",
-      "DefStart": 73,
-      "DefEnd": 118,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "animal.js",
-          "path": "Animal"
-        },
-        "Type": "fn(name: string)",
-        "IsFunc": true
-      },
-      "TreePath": "-file/animal.js/-/Animal"
-    },
-    {
-      "Path": "file/animal.js/-/Animal/@local/name",
-      "Name": "name",
-      "Kind": "field",
-      "File": "animal.js",
-      "DefStart": 89,
-      "DefEnd": 93,
-      "Data": {
+        "Keyword": "property",
         "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "animal.js",
-          "path": "Animal.@local.name"
-        },
-        "Type": "string",
-        "IsFunc": false
+        "Separator": " "
       },
-      "TreePath": "-file/animal.js/-/Animal/@local/name"
+      "TreePath": "animal.js_168_176"
     },
     {
-      "Path": "file/animal.js/-/Dog",
+      "Path": "animal.js_303_312",
+      "Name": "makeNoise",
+      "Kind": "property",
+      "File": "animal.js",
+      "DefStart": 303,
+      "DefEnd": 312,
+      "Data": {
+        "Type": "fn() -\u003e string",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_303_312"
+    },
+    {
+      "Path": "animal.js_398_401",
       "Name": "Dog",
-      "Kind": "func",
+      "Kind": "function",
       "File": "animal.js",
-      "DefStart": 389,
-      "DefEnd": 484,
+      "DefStart": 398,
+      "DefEnd": 401,
       "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "animal.js",
-          "path": "Dog"
-        },
         "Type": "fn(name: string, breed: string)",
-        "IsFunc": true
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": " "
       },
-      "TreePath": "-file/animal.js/-/Dog"
+      "TreePath": "animal.js_398_401"
     },
     {
-      "Path": "file/animal.js/-/Dog/@local/breed",
-      "Name": "breed",
-      "Kind": "field",
-      "File": "animal.js",
-      "DefStart": 408,
-      "DefEnd": 413,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "animal.js",
-          "path": "Dog.@local.breed"
-        },
-        "Type": "string",
-        "IsFunc": false
-      },
-      "TreePath": "-file/animal.js/-/Dog/@local/breed"
-    },
-    {
-      "Path": "file/animal.js/-/Dog/@local/name",
+      "Path": "animal.js_402_406",
       "Name": "name",
-      "Kind": "field",
+      "Kind": "param",
       "File": "animal.js",
       "DefStart": 402,
       "DefEnd": 406,
       "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "animal.js",
-          "path": "Dog.@local.name"
-        },
         "Type": "string",
-        "IsFunc": false
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
       },
-      "TreePath": "-file/animal.js/-/Dog/@local/name"
+      "TreePath": "animal.js_402_406"
     },
     {
-      "Path": "file/animal.js/-/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
+      "Path": "animal.js_408_413",
+      "Name": "breed",
+      "Kind": "param",
+      "File": "animal.js",
+      "DefStart": 408,
+      "DefEnd": 413,
       "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "animal.js",
-          "path": "exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
+        "Type": "string",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
       },
-      "TreePath": "-file/animal.js/-/exports"
+      "TreePath": "animal.js_408_413"
     },
     {
-      "Path": "file/animal.js/-/module/exports",
+      "Path": "animal.js_424_428",
+      "Name": "name",
+      "Kind": "property",
+      "File": "animal.js",
+      "DefStart": 424,
+      "DefEnd": 428,
+      "Data": {
+        "Type": "string",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_424_428"
+    },
+    {
+      "Path": "animal.js_444_449",
+      "Name": "breed",
+      "Kind": "property",
+      "File": "animal.js",
+      "DefStart": 444,
+      "DefEnd": 449,
+      "Data": {
+        "Type": "string",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_444_449"
+    },
+    {
+      "Path": "animal.js_466_471",
+      "Name": "noise",
+      "Kind": "property",
+      "File": "animal.js",
+      "DefStart": 466,
+      "DefEnd": 471,
+      "Data": {
+        "Type": "string",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_466_471"
+    },
+    {
+      "Path": "animal.js_490_499",
+      "Name": "prototype",
+      "Kind": "property",
+      "File": "animal.js",
+      "DefStart": 490,
+      "DefEnd": 499,
+      "Data": {
+        "Type": "Animal",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_490_499"
+    },
+    {
+      "Path": "animal.js_575_591",
+      "Name": "sayExtendedHello",
+      "Kind": "property",
+      "File": "animal.js",
+      "DefStart": 575,
+      "DefEnd": 591,
+      "Data": {
+        "Type": "fn() -\u003e string",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_575_591"
+    },
+    {
+      "Path": "animal.js_686_690",
+      "Name": "bark",
+      "Kind": "property",
+      "File": "animal.js",
+      "DefStart": 686,
+      "DefEnd": 690,
+      "Data": {
+        "Type": "fn() -\u003e string",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_686_690"
+    },
+    {
+      "Path": "animal.js_738_745",
       "Name": "exports",
-      "Kind": "var",
+      "Kind": "property",
       "File": "animal.js",
       "DefStart": 738,
-      "DefEnd": 781,
+      "DefEnd": 745,
       "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "animal.js",
-          "path": "module.exports"
-        },
-        "Type": "{Animal: fn(name: string), Dog: fn(name: string, breed: string)}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/animal.js/-/module/exports"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
-      "Name": "a",
-      "Kind": "field",
-      "File": "test/animal_test.js",
-      "DefStart": 1068,
-      "DefEnd": 1118,
-      "Data": {
+        "Type": "module.exports",
+        "Keyword": "property",
         "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@1043.@local.a"
-        },
-        "Type": "{breed: string, name: string, noise: string}",
-        "IsFunc": false
+        "Separator": " "
       },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a"
+      "TreePath": "animal.js_738_745"
     },
     {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
+      "Path": "animal.js_752_758",
+      "Name": "Animal",
+      "Kind": "ast",
+      "File": "animal.js",
+      "DefStart": 752,
+      "DefEnd": 758,
+      "Data": {
+        "Type": "fn(name: string)",
+        "Keyword": "ast",
+        "Kind": "ast",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_752_758"
+    },
+    {
+      "Path": "animal.js_770_773",
+      "Name": "Dog",
+      "Kind": "ast",
+      "File": "animal.js",
+      "DefStart": 770,
+      "DefEnd": 773,
+      "Data": {
+        "Type": "fn(name: string, breed: string)",
+        "Keyword": "ast",
+        "Kind": "ast",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_770_773"
+    },
+    {
+      "Path": "animal.js_82_88",
+      "Name": "Animal",
+      "Kind": "function",
+      "File": "animal.js",
+      "DefStart": 82,
+      "DefEnd": 88,
+      "Data": {
+        "Type": "fn(name: string)",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_82_88"
+    },
+    {
+      "Path": "animal.js_89_93",
+      "Name": "name",
+      "Kind": "param",
+      "File": "animal.js",
+      "DefStart": 89,
+      "DefEnd": 93,
+      "Data": {
+        "Type": "string",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "animal.js_89_93"
+    },
+    {
+      "Path": "test/animal_test.js_1052_1056",
       "Name": "done",
-      "Kind": "func",
+      "Kind": "param",
       "File": "test/animal_test.js",
       "DefStart": 1052,
       "DefEnd": 1056,
       "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@1043.@local.done"
-        },
         "Type": "fn()",
-        "IsFunc": true
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
       },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done"
+      "TreePath": "test/animal_test.js_1052_1056"
     },
     {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
+      "Path": "test/animal_test.js_1068_1069",
       "Name": "a",
-      "Kind": "field",
+      "Kind": "var",
       "File": "test/animal_test.js",
-      "DefStart": 600,
-      "DefEnd": 627,
+      "DefStart": 1068,
+      "DefEnd": 1069,
       "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@575.@local.a"
-        },
-        "Type": "{breed: string, name: string, noise: string}",
-        "IsFunc": false
+        "Type": "Dog",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
       },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a"
+      "TreePath": "test/animal_test.js_1068_1069"
     },
     {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
-      "Name": "breed",
-      "Kind": "field",
-      "File": "animal.js",
-      "DefStart": 444,
-      "DefEnd": 457,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@575.@local.a.breed"
-        },
-        "Type": "string",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
-      "Name": "name",
-      "Kind": "field",
-      "File": "animal.js",
-      "DefStart": 424,
-      "DefEnd": 435,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@575.@local.a.name"
-        },
-        "Type": "string",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
-      "Name": "noise",
-      "Kind": "field",
-      "File": "animal.js",
-      "DefStart": 466,
-      "DefEnd": 481,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@575.@local.a.noise"
-        },
-        "Type": "string",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
+      "Path": "test/animal_test.js_138_142",
       "Name": "done",
-      "Kind": "func",
-      "File": "test/animal_test.js",
-      "DefStart": 584,
-      "DefEnd": 588,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@575.@local.done"
-        },
-        "Type": "fn()",
-        "IsFunc": true
-      },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
-      "Name": "a",
-      "Kind": "field",
-      "File": "test/animal_test.js",
-      "DefStart": 732,
-      "DefEnd": 782,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@707.@local.a"
-        },
-        "Type": "{breed: string, name: string, noise: string}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
-      "Name": "done",
-      "Kind": "func",
-      "File": "test/animal_test.js",
-      "DefStart": 716,
-      "DefEnd": 720,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@707.@local.done"
-        },
-        "Type": "fn()",
-        "IsFunc": true
-      },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
-      "Name": "a",
-      "Kind": "field",
-      "File": "test/animal_test.js",
-      "DefStart": 919,
-      "DefEnd": 969,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@894.@local.a"
-        },
-        "Type": "{breed: string, name: string, noise: string}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
-      "Name": "done",
-      "Kind": "func",
-      "File": "test/animal_test.js",
-      "DefStart": 903,
-      "DefEnd": 907,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@536.@local.@536.@local.@894.@local.done"
-        },
-        "Type": "fn()",
-        "IsFunc": true
-      },
-      "TreePath": "-file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
-      "Name": "a",
-      "Kind": "field",
-      "File": "test/animal_test.js",
-      "DefStart": 154,
-      "DefEnd": 184,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@87.@local.@87.@local.@129.@local.a"
-        },
-        "Type": "{name: string}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
-      "Name": "name",
-      "Kind": "field",
-      "File": "animal.js",
-      "DefStart": 104,
-      "DefEnd": 115,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@87.@local.@87.@local.@129.@local.a.name"
-        },
-        "Type": "string",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
-      "Name": "done",
-      "Kind": "func",
+      "Kind": "param",
       "File": "test/animal_test.js",
       "DefStart": 138,
       "DefEnd": 142,
       "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@87.@local.@87.@local.@129.@local.done"
-        },
         "Type": "fn()",
-        "IsFunc": true
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
       },
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done"
+      "TreePath": "test/animal_test.js_138_142"
     },
     {
-      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
+      "Path": "test/animal_test.js_154_155",
       "Name": "a",
-      "Kind": "field",
+      "Kind": "var",
       "File": "test/animal_test.js",
-      "DefStart": 280,
-      "DefEnd": 310,
+      "DefStart": 154,
+      "DefEnd": 155,
       "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@87.@local.@87.@local.@255.@local.a"
-        },
-        "Type": "{name: string}",
-        "IsFunc": false
+        "Type": "Animal",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
       },
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a"
+      "TreePath": "test/animal_test.js_154_155"
     },
     {
-      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
+      "Path": "test/animal_test.js_264_268",
       "Name": "done",
-      "Kind": "func",
+      "Kind": "param",
       "File": "test/animal_test.js",
       "DefStart": 264,
       "DefEnd": 268,
       "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@87.@local.@87.@local.@255.@local.done"
-        },
         "Type": "fn()",
-        "IsFunc": true
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
       },
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done"
+      "TreePath": "test/animal_test.js_264_268"
     },
     {
-      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
+      "Path": "test/animal_test.js_280_281",
       "Name": "a",
-      "Kind": "field",
-      "File": "test/animal_test.js",
-      "DefStart": 424,
-      "DefEnd": 454,
-      "Data": {
-        "Kind": "property",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@87.@local.@87.@local.@399.@local.a"
-        },
-        "Type": "{name: string}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
-      "Name": "done",
-      "Kind": "func",
-      "File": "test/animal_test.js",
-      "DefStart": 408,
-      "DefEnd": 412,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "@87.@local.@87.@local.@399.@local.done"
-        },
-        "Type": "fn()",
-        "IsFunc": true
-      },
-      "TreePath": "-file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/animal",
-      "Name": "animal",
       "Kind": "var",
       "File": "test/animal_test.js",
-      "DefStart": 4,
-      "DefEnd": 33,
+      "DefStart": 280,
+      "DefEnd": 281,
       "Data": {
+        "Type": "Animal",
+        "Keyword": "var",
         "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "animal"
-        },
-        "Type": "{Animal: fn(name: string), Dog: fn(name: string, breed: string)}",
-        "IsFunc": false
+        "Separator": " "
       },
-      "TreePath": "-file/test/animal_test.js/-/animal"
+      "TreePath": "test/animal_test.js_280_281"
     },
     {
-      "Path": "file/test/animal_test.js/-/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/exports"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/module/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "module.exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/test/animal_test.js/-/module/exports"
-    },
-    {
-      "Path": "file/test/animal_test.js/-/should",
+      "Path": "test/animal_test.js_39_45",
       "Name": "should",
       "Kind": "var",
       "File": "test/animal_test.js",
       "DefStart": 39,
-      "DefEnd": 65,
+      "DefEnd": 45,
       "Data": {
+        "Type": "fn(value: ?, message?: string)",
+        "Keyword": "var",
         "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "test/animal_test.js",
-          "path": "should"
-        }
+        "Separator": " "
       },
-      "TreePath": "-file/test/animal_test.js/-/should"
+      "TreePath": "test/animal_test.js_39_45"
+    },
+    {
+      "Path": "test/animal_test.js_408_412",
+      "Name": "done",
+      "Kind": "param",
+      "File": "test/animal_test.js",
+      "DefStart": 408,
+      "DefEnd": 412,
+      "Data": {
+        "Type": "fn()",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "test/animal_test.js_408_412"
+    },
+    {
+      "Path": "test/animal_test.js_424_425",
+      "Name": "a",
+      "Kind": "var",
+      "File": "test/animal_test.js",
+      "DefStart": 424,
+      "DefEnd": 425,
+      "Data": {
+        "Type": "Animal",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "test/animal_test.js_424_425"
+    },
+    {
+      "Path": "test/animal_test.js_4_10",
+      "Name": "animal",
+      "Kind": "var",
+      "File": "test/animal_test.js",
+      "DefStart": 4,
+      "DefEnd": 10,
+      "Data": {
+        "Type": "module.exports",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "test/animal_test.js_4_10"
+    },
+    {
+      "Path": "test/animal_test.js_584_588",
+      "Name": "done",
+      "Kind": "param",
+      "File": "test/animal_test.js",
+      "DefStart": 584,
+      "DefEnd": 588,
+      "Data": {
+        "Type": "fn()",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "test/animal_test.js_584_588"
+    },
+    {
+      "Path": "test/animal_test.js_600_601",
+      "Name": "a",
+      "Kind": "var",
+      "File": "test/animal_test.js",
+      "DefStart": 600,
+      "DefEnd": 601,
+      "Data": {
+        "Type": "Dog",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "test/animal_test.js_600_601"
+    },
+    {
+      "Path": "test/animal_test.js_716_720",
+      "Name": "done",
+      "Kind": "param",
+      "File": "test/animal_test.js",
+      "DefStart": 716,
+      "DefEnd": 720,
+      "Data": {
+        "Type": "fn()",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "test/animal_test.js_716_720"
+    },
+    {
+      "Path": "test/animal_test.js_732_733",
+      "Name": "a",
+      "Kind": "var",
+      "File": "test/animal_test.js",
+      "DefStart": 732,
+      "DefEnd": 733,
+      "Data": {
+        "Type": "Dog",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "test/animal_test.js_732_733"
+    },
+    {
+      "Path": "test/animal_test.js_903_907",
+      "Name": "done",
+      "Kind": "param",
+      "File": "test/animal_test.js",
+      "DefStart": 903,
+      "DefEnd": 907,
+      "Data": {
+        "Type": "fn()",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "test/animal_test.js_903_907"
+    },
+    {
+      "Path": "test/animal_test.js_919_920",
+      "Name": "a",
+      "Kind": "var",
+      "File": "test/animal_test.js",
+      "DefStart": 919,
+      "DefEnd": 920,
+      "Data": {
+        "Type": "Dog",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "test/animal_test.js_919_920"
     }
   ],
   "Refs": [
     {
-      "DefPath": "commonjs/animal.js/-/Animal/prototype/makeNoise",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 303,
-      "End": 312
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal/prototype/makeNoise",
-      "File": "test/animal_test.js",
-      "Start": 1126,
-      "End": 1135
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal/prototype/makeNoise",
-      "File": "test/animal_test.js",
-      "Start": 462,
-      "End": 471
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal/prototype/sayHello",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 168,
-      "End": 176
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal/prototype/sayHello",
-      "File": "animal.js",
-      "Start": 621,
-      "End": 629
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal/prototype/sayHello",
-      "File": "test/animal_test.js",
-      "Start": 318,
-      "End": 326
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal/prototype",
-      "File": "animal.js",
-      "Start": 158,
-      "End": 167
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal/prototype",
-      "File": "animal.js",
-      "Start": 293,
-      "End": 302
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal",
-      "File": "test/animal_test.js",
-      "Start": 169,
-      "End": 175
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal",
-      "File": "test/animal_test.js",
-      "Start": 295,
-      "End": 301
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Animal",
-      "File": "test/animal_test.js",
-      "Start": 439,
-      "End": 445
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog/prototype/bark",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 686,
-      "End": 690
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog/prototype/bark",
-      "File": "test/animal_test.js",
-      "Start": 977,
-      "End": 981
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 575,
-      "End": 591
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
-      "File": "test/animal_test.js",
-      "Start": 790,
-      "End": 806
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog/prototype",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 490,
-      "End": 499
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog/prototype",
-      "File": "animal.js",
-      "Start": 565,
-      "End": 574
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog/prototype",
-      "File": "animal.js",
-      "Start": 676,
-      "End": 685
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog",
-      "File": "test/animal_test.js",
-      "Start": 1083,
-      "End": 1086
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog",
-      "File": "test/animal_test.js",
-      "Start": 615,
-      "End": 618
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog",
-      "File": "test/animal_test.js",
-      "Start": 747,
-      "End": 750
-    },
-    {
-      "DefPath": "commonjs/animal.js/-/Dog",
-      "File": "test/animal_test.js",
-      "Start": 934,
-      "End": 937
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
-      "File": "test/animal_test.js",
-      "Start": 1145,
-      "End": 1148
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
-      "File": "test/animal_test.js",
-      "Start": 204,
-      "End": 207
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
-      "File": "test/animal_test.js",
-      "Start": 336,
-      "End": 339
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
-      "File": "test/animal_test.js",
-      "Start": 481,
-      "End": 484
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
-      "File": "test/animal_test.js",
-      "Start": 647,
-      "End": 650
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
-      "File": "test/animal_test.js",
-      "Start": 816,
-      "End": 819
-    },
-    {
-      "DefRepo": "github.com/joyent/node",
-      "DefUnit": "node",
-      "DefPath": "commonjs/lib/assert.js/-/Assertion/prototype/eql",
-      "File": "test/animal_test.js",
-      "Start": 991,
-      "End": 994
-    },
-    {
-      "DefPath": "file/animal.js/-/Animal/@local/name",
-      "File": "animal.js",
-      "Start": 111,
-      "End": 115
-    },
-    {
-      "DefPath": "file/animal.js/-/Animal/@local/name",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 89,
-      "End": 93
-    },
-    {
-      "DefPath": "file/animal.js/-/Animal",
-      "File": "animal.js",
-      "Start": 151,
-      "End": 157
-    },
-    {
-      "DefPath": "file/animal.js/-/Animal",
-      "File": "animal.js",
-      "Start": 286,
-      "End": 292
-    },
-    {
-      "DefPath": "file/animal.js/-/Animal",
-      "File": "animal.js",
-      "Start": 506,
-      "End": 512
-    },
-    {
-      "DefPath": "file/animal.js/-/Animal",
-      "File": "animal.js",
-      "Start": 760,
-      "End": 766
-    },
-    {
-      "DefPath": "file/animal.js/-/Animal",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 82,
-      "End": 88
-    },
-    {
-      "DefPath": "file/animal.js/-/Dog/@local/breed",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 408,
-      "End": 413
-    },
-    {
-      "DefPath": "file/animal.js/-/Dog/@local/breed",
-      "File": "animal.js",
-      "Start": 452,
-      "End": 457
-    },
-    {
-      "DefPath": "file/animal.js/-/Dog/@local/name",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 402,
-      "End": 406
-    },
-    {
-      "DefPath": "file/animal.js/-/Dog/@local/name",
-      "File": "animal.js",
-      "Start": 431,
-      "End": 435
-    },
-    {
-      "DefPath": "file/animal.js/-/Dog",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 398,
-      "End": 401
-    },
-    {
-      "DefPath": "file/animal.js/-/Dog",
-      "File": "animal.js",
-      "Start": 486,
-      "End": 489
-    },
-    {
-      "DefPath": "file/animal.js/-/Dog",
-      "File": "animal.js",
-      "Start": 561,
-      "End": 564
-    },
-    {
-      "DefPath": "file/animal.js/-/Dog",
-      "File": "animal.js",
-      "Start": 672,
-      "End": 675
-    },
-    {
-      "DefPath": "file/animal.js/-/Dog",
-      "File": "animal.js",
-      "Start": 775,
-      "End": 778
-    },
-    {
-      "DefPath": "file/animal.js/-/module/exports",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 738,
-      "End": 745
-    },
-    {
-      "DefPath": "file/animal.js/-/module",
+      "DefPath": "animal.js_0_783",
       "File": "animal.js",
       "Start": 731,
       "End": 737
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
-      "Def": true,
-      "File": "test/animal_test.js",
-      "Start": 1068,
-      "End": 1069
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/a",
-      "File": "test/animal_test.js",
-      "Start": 1124,
-      "End": 1125
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
-      "Def": true,
-      "File": "test/animal_test.js",
-      "Start": 1052,
-      "End": 1056
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@1043/@local/done",
-      "File": "test/animal_test.js",
-      "Start": 1163,
-      "End": 1167
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 444,
-      "End": 449
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/breed",
-      "File": "animal.js",
-      "Start": 646,
-      "End": 651
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 424,
-      "End": 428
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/name",
-      "File": "test/animal_test.js",
-      "Start": 635,
-      "End": 639
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
-      "File": "animal.js",
-      "Start": 342,
-      "End": 347
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
-      "Def": true,
-      "File": "animal.js",
-      "Start": 466,
-      "End": 471
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a/noise",
-      "File": "animal.js",
-      "Start": 720,
-      "End": 725
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
-      "Def": true,
-      "File": "test/animal_test.js",
-      "Start": 600,
-      "End": 601
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/a",
-      "File": "test/animal_test.js",
-      "Start": 633,
-      "End": 634
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
-      "Def": true,
-      "File": "test/animal_test.js",
-      "Start": 584,
-      "End": 588
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@575/@local/done",
-      "File": "test/animal_test.js",
-      "Start": 665,
-      "End": 669
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
-      "Def": true,
-      "File": "test/animal_test.js",
-      "Start": 732,
-      "End": 733
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/a",
-      "File": "test/animal_test.js",
-      "Start": 788,
-      "End": 789
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
-      "Def": true,
-      "File": "test/animal_test.js",
-      "Start": 716,
-      "End": 720
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@707/@local/done",
-      "File": "test/animal_test.js",
-      "Start": 866,
-      "End": 870
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
-      "Def": true,
-      "File": "test/animal_test.js",
-      "Start": 919,
-      "End": 920
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/a",
-      "File": "test/animal_test.js",
-      "Start": 975,
-      "End": 976
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
-      "File": "test/animal_test.js",
-      "Start": 1009,
-      "End": 1013
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@536/@local/@536/@local/@894/@local/done",
-      "Def": true,
-      "File": "test/animal_test.js",
-      "Start": 903,
-      "End": 907
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
+      "DefPath": "animal.js_104_108",
       "Def": true,
       "File": "animal.js",
       "Start": 104,
       "End": 108
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
+      "DefPath": "animal.js_104_108",
       "File": "animal.js",
       "Start": 222,
       "End": 226
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a/name",
+      "DefPath": "animal.js_104_108",
       "File": "test/animal_test.js",
       "Start": 192,
       "End": 196
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
+      "DefPath": "animal.js_168_176",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 168,
+      "End": 176
+    },
+    {
+      "DefPath": "animal.js_168_176",
+      "File": "animal.js",
+      "Start": 621,
+      "End": 629
+    },
+    {
+      "DefPath": "animal.js_168_176",
+      "File": "test/animal_test.js",
+      "Start": 318,
+      "End": 326
+    },
+    {
+      "DefPath": "animal.js_303_312",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 303,
+      "End": 312
+    },
+    {
+      "DefPath": "animal.js_303_312",
+      "File": "test/animal_test.js",
+      "Start": 1126,
+      "End": 1135
+    },
+    {
+      "DefPath": "animal.js_303_312",
+      "File": "test/animal_test.js",
+      "Start": 462,
+      "End": 471
+    },
+    {
+      "DefPath": "animal.js_398_401",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 398,
+      "End": 401
+    },
+    {
+      "DefPath": "animal.js_398_401",
+      "File": "animal.js",
+      "Start": 486,
+      "End": 489
+    },
+    {
+      "DefPath": "animal.js_398_401",
+      "File": "animal.js",
+      "Start": 561,
+      "End": 564
+    },
+    {
+      "DefPath": "animal.js_398_401",
+      "File": "animal.js",
+      "Start": 672,
+      "End": 675
+    },
+    {
+      "DefPath": "animal.js_398_401",
+      "File": "animal.js",
+      "Start": 775,
+      "End": 778
+    },
+    {
+      "DefPath": "animal.js_402_406",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 402,
+      "End": 406
+    },
+    {
+      "DefPath": "animal.js_402_406",
+      "File": "animal.js",
+      "Start": 431,
+      "End": 435
+    },
+    {
+      "DefPath": "animal.js_408_413",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 408,
+      "End": 413
+    },
+    {
+      "DefPath": "animal.js_408_413",
+      "File": "animal.js",
+      "Start": 452,
+      "End": 457
+    },
+    {
+      "DefPath": "animal.js_424_428",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 424,
+      "End": 428
+    },
+    {
+      "DefPath": "animal.js_424_428",
+      "File": "test/animal_test.js",
+      "Start": 635,
+      "End": 639
+    },
+    {
+      "DefPath": "animal.js_444_449",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 444,
+      "End": 449
+    },
+    {
+      "DefPath": "animal.js_444_449",
+      "File": "animal.js",
+      "Start": 646,
+      "End": 651
+    },
+    {
+      "DefPath": "animal.js_466_471",
+      "File": "animal.js",
+      "Start": 342,
+      "End": 347
+    },
+    {
+      "DefPath": "animal.js_466_471",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 466,
+      "End": 471
+    },
+    {
+      "DefPath": "animal.js_466_471",
+      "File": "animal.js",
+      "Start": 720,
+      "End": 725
+    },
+    {
+      "DefPath": "animal.js_490_499",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 490,
+      "End": 499
+    },
+    {
+      "DefPath": "animal.js_490_499",
+      "File": "animal.js",
+      "Start": 565,
+      "End": 574
+    },
+    {
+      "DefPath": "animal.js_490_499",
+      "File": "animal.js",
+      "Start": 676,
+      "End": 685
+    },
+    {
+      "DefPath": "animal.js_575_591",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 575,
+      "End": 591
+    },
+    {
+      "DefPath": "animal.js_575_591",
+      "File": "test/animal_test.js",
+      "Start": 790,
+      "End": 806
+    },
+    {
+      "DefPath": "animal.js_686_690",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 686,
+      "End": 690
+    },
+    {
+      "DefPath": "animal.js_686_690",
+      "File": "test/animal_test.js",
+      "Start": 977,
+      "End": 981
+    },
+    {
+      "DefPath": "animal.js_738_745",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 738,
+      "End": 745
+    },
+    {
+      "DefPath": "animal.js_752_758",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 752,
+      "End": 758
+    },
+    {
+      "DefPath": "animal.js_752_758",
+      "File": "test/animal_test.js",
+      "Start": 169,
+      "End": 175
+    },
+    {
+      "DefPath": "animal.js_752_758",
+      "File": "test/animal_test.js",
+      "Start": 295,
+      "End": 301
+    },
+    {
+      "DefPath": "animal.js_752_758",
+      "File": "test/animal_test.js",
+      "Start": 439,
+      "End": 445
+    },
+    {
+      "DefPath": "animal.js_770_773",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 770,
+      "End": 773
+    },
+    {
+      "DefPath": "animal.js_770_773",
+      "File": "test/animal_test.js",
+      "Start": 1083,
+      "End": 1086
+    },
+    {
+      "DefPath": "animal.js_770_773",
+      "File": "test/animal_test.js",
+      "Start": 615,
+      "End": 618
+    },
+    {
+      "DefPath": "animal.js_770_773",
+      "File": "test/animal_test.js",
+      "Start": 747,
+      "End": 750
+    },
+    {
+      "DefPath": "animal.js_770_773",
+      "File": "test/animal_test.js",
+      "Start": 934,
+      "End": 937
+    },
+    {
+      "DefPath": "animal.js_82_88",
+      "File": "animal.js",
+      "Start": 151,
+      "End": 157
+    },
+    {
+      "DefPath": "animal.js_82_88",
+      "File": "animal.js",
+      "Start": 286,
+      "End": 292
+    },
+    {
+      "DefPath": "animal.js_82_88",
+      "File": "animal.js",
+      "Start": 506,
+      "End": 512
+    },
+    {
+      "DefPath": "animal.js_82_88",
+      "File": "animal.js",
+      "Start": 760,
+      "End": 766
+    },
+    {
+      "DefPath": "animal.js_82_88",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 82,
+      "End": 88
+    },
+    {
+      "DefPath": "animal.js_89_93",
+      "File": "animal.js",
+      "Start": 111,
+      "End": 115
+    },
+    {
+      "DefPath": "animal.js_89_93",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 89,
+      "End": 93
+    },
+    {
+      "DefPath": "https://nodejs.org/api/globals.html#globals_require",
+      "File": "test/animal_test.js",
+      "Start": 13,
+      "End": 20
+    },
+    {
+      "DefPath": "https://nodejs.org/api/globals.html#globals_require",
+      "File": "test/animal_test.js",
+      "Start": 48,
+      "End": 55
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_1387_1395",
+      "File": "test/animal_test.js",
+      "Start": 1138,
+      "End": 1144
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_1387_1395",
+      "File": "test/animal_test.js",
+      "Start": 197,
+      "End": 203
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_1387_1395",
+      "File": "test/animal_test.js",
+      "Start": 329,
+      "End": 335
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_1387_1395",
+      "File": "test/animal_test.js",
+      "Start": 474,
+      "End": 480
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_1387_1395",
+      "File": "test/animal_test.js",
+      "Start": 640,
+      "End": 646
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_1387_1395",
+      "File": "test/animal_test.js",
+      "Start": 809,
+      "End": 815
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_1387_1395",
+      "File": "test/animal_test.js",
+      "Start": 984,
+      "End": 990
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_4918_4921",
+      "File": "test/animal_test.js",
+      "Start": 1145,
+      "End": 1148
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_4918_4921",
+      "File": "test/animal_test.js",
+      "Start": 204,
+      "End": 207
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_4918_4921",
+      "File": "test/animal_test.js",
+      "Start": 336,
+      "End": 339
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_4918_4921",
+      "File": "test/animal_test.js",
+      "Start": 481,
+      "End": 484
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_4918_4921",
+      "File": "test/animal_test.js",
+      "Start": 647,
+      "End": 650
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_4918_4921",
+      "File": "test/animal_test.js",
+      "Start": 816,
+      "End": 819
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js_4918_4921",
+      "File": "test/animal_test.js",
+      "Start": 991,
+      "End": 994
+    },
+    {
+      "DefPath": "test/animal_test.js_1052_1056",
       "Def": true,
       "File": "test/animal_test.js",
-      "Start": 154,
-      "End": 155
+      "Start": 1052,
+      "End": 1056
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/a",
+      "DefPath": "test/animal_test.js_1052_1056",
       "File": "test/animal_test.js",
-      "Start": 190,
-      "End": 191
+      "Start": 1163,
+      "End": 1167
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
+      "DefPath": "test/animal_test.js_1068_1069",
+      "Def": true,
+      "File": "test/animal_test.js",
+      "Start": 1068,
+      "End": 1069
+    },
+    {
+      "DefPath": "test/animal_test.js_1068_1069",
+      "File": "test/animal_test.js",
+      "Start": 1124,
+      "End": 1125
+    },
+    {
+      "DefPath": "test/animal_test.js_138_142",
       "Def": true,
       "File": "test/animal_test.js",
       "Start": 138,
       "End": 142
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@129/@local/done",
+      "DefPath": "test/animal_test.js_138_142",
       "File": "test/animal_test.js",
       "Start": 222,
       "End": 226
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
+      "DefPath": "test/animal_test.js_154_155",
       "Def": true,
       "File": "test/animal_test.js",
-      "Start": 280,
-      "End": 281
+      "Start": 154,
+      "End": 155
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/a",
+      "DefPath": "test/animal_test.js_154_155",
       "File": "test/animal_test.js",
-      "Start": 316,
-      "End": 317
+      "Start": 190,
+      "End": 191
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
+      "DefPath": "test/animal_test.js_264_268",
       "Def": true,
       "File": "test/animal_test.js",
       "Start": 264,
       "End": 268
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@255/@local/done",
+      "DefPath": "test/animal_test.js_264_268",
       "File": "test/animal_test.js",
       "Start": 365,
       "End": 369
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
+      "DefPath": "test/animal_test.js_280_281",
       "Def": true,
       "File": "test/animal_test.js",
-      "Start": 424,
-      "End": 425
+      "Start": 280,
+      "End": 281
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/a",
+      "DefPath": "test/animal_test.js_280_281",
       "File": "test/animal_test.js",
-      "Start": 460,
-      "End": 461
+      "Start": 316,
+      "End": 317
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
+      "DefPath": "test/animal_test.js_39_45",
+      "Def": true,
+      "File": "test/animal_test.js",
+      "Start": 39,
+      "End": 45
+    },
+    {
+      "DefPath": "test/animal_test.js_408_412",
       "Def": true,
       "File": "test/animal_test.js",
       "Start": 408,
       "End": 412
     },
     {
-      "DefPath": "file/test/animal_test.js/-/@87/@local/@87/@local/@399/@local/done",
+      "DefPath": "test/animal_test.js_408_412",
       "File": "test/animal_test.js",
       "Start": 501,
       "End": 505
     },
     {
-      "DefPath": "file/test/animal_test.js/-/animal",
+      "DefPath": "test/animal_test.js_424_425",
+      "Def": true,
+      "File": "test/animal_test.js",
+      "Start": 424,
+      "End": 425
+    },
+    {
+      "DefPath": "test/animal_test.js_424_425",
+      "File": "test/animal_test.js",
+      "Start": 460,
+      "End": 461
+    },
+    {
+      "DefPath": "test/animal_test.js_4_10",
       "File": "test/animal_test.js",
       "Start": 1076,
       "End": 1082
     },
     {
-      "DefPath": "file/test/animal_test.js/-/animal",
+      "DefPath": "test/animal_test.js_4_10",
       "File": "test/animal_test.js",
       "Start": 162,
       "End": 168
     },
     {
-      "DefPath": "file/test/animal_test.js/-/animal",
+      "DefPath": "test/animal_test.js_4_10",
       "File": "test/animal_test.js",
       "Start": 288,
       "End": 294
     },
     {
-      "DefPath": "file/test/animal_test.js/-/animal",
+      "DefPath": "test/animal_test.js_4_10",
       "Def": true,
       "File": "test/animal_test.js",
       "Start": 4,
       "End": 10
     },
     {
-      "DefPath": "file/test/animal_test.js/-/animal",
+      "DefPath": "test/animal_test.js_4_10",
       "File": "test/animal_test.js",
       "Start": 432,
       "End": 438
     },
     {
-      "DefPath": "file/test/animal_test.js/-/animal",
+      "DefPath": "test/animal_test.js_4_10",
       "File": "test/animal_test.js",
       "Start": 608,
       "End": 614
     },
     {
-      "DefPath": "file/test/animal_test.js/-/animal",
+      "DefPath": "test/animal_test.js_4_10",
       "File": "test/animal_test.js",
       "Start": 740,
       "End": 746
     },
     {
-      "DefPath": "file/test/animal_test.js/-/animal",
+      "DefPath": "test/animal_test.js_4_10",
       "File": "test/animal_test.js",
       "Start": 927,
       "End": 933
     },
     {
-      "DefPath": "file/test/animal_test.js/-/require",
-      "File": "test/animal_test.js",
-      "Start": 13,
-      "End": 20
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/require",
-      "File": "test/animal_test.js",
-      "Start": 48,
-      "End": 55
-    },
-    {
-      "DefPath": "file/test/animal_test.js/-/should",
+      "DefPath": "test/animal_test.js_584_588",
       "Def": true,
       "File": "test/animal_test.js",
-      "Start": 39,
-      "End": 45
+      "Start": 584,
+      "End": 588
+    },
+    {
+      "DefPath": "test/animal_test.js_584_588",
+      "File": "test/animal_test.js",
+      "Start": 665,
+      "End": 669
+    },
+    {
+      "DefPath": "test/animal_test.js_600_601",
+      "Def": true,
+      "File": "test/animal_test.js",
+      "Start": 600,
+      "End": 601
+    },
+    {
+      "DefPath": "test/animal_test.js_600_601",
+      "File": "test/animal_test.js",
+      "Start": 633,
+      "End": 634
+    },
+    {
+      "DefPath": "test/animal_test.js_716_720",
+      "Def": true,
+      "File": "test/animal_test.js",
+      "Start": 716,
+      "End": 720
+    },
+    {
+      "DefPath": "test/animal_test.js_716_720",
+      "File": "test/animal_test.js",
+      "Start": 866,
+      "End": 870
+    },
+    {
+      "DefPath": "test/animal_test.js_732_733",
+      "Def": true,
+      "File": "test/animal_test.js",
+      "Start": 732,
+      "End": 733
+    },
+    {
+      "DefPath": "test/animal_test.js_732_733",
+      "File": "test/animal_test.js",
+      "Start": 788,
+      "End": 789
+    },
+    {
+      "DefPath": "test/animal_test.js_903_907",
+      "File": "test/animal_test.js",
+      "Start": 1009,
+      "End": 1013
+    },
+    {
+      "DefPath": "test/animal_test.js_903_907",
+      "Def": true,
+      "File": "test/animal_test.js",
+      "Start": 903,
+      "End": 907
+    },
+    {
+      "DefPath": "test/animal_test.js_919_920",
+      "Def": true,
+      "File": "test/animal_test.js",
+      "Start": 919,
+      "End": 920
+    },
+    {
+      "DefPath": "test/animal_test.js_919_920",
+      "File": "test/animal_test.js",
+      "Start": 975,
+      "End": 976
     }
   ],
   "Docs": [
     {
-      "Path": "commonjs/animal.js/-/Animal/prototype/makeNoise",
+      "Path": "animal.js_104_108",
       "Format": "",
-      "Data": "makeNoise emits the animal's characteristic noise."
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "commonjs/animal.js/-/Animal/prototype/sayHello",
+      "Path": "animal.js_111_115",
       "Format": "",
-      "Data": "sayHello greets the caller."
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "commonjs/animal.js/-/Dog/prototype/bark",
-      "Format": "",
-      "Data": "bark barks."
-    },
-    {
-      "Path": "commonjs/animal.js/-/Dog/prototype/sayExtendedHello",
-      "Format": "",
-      "Data": "sayExtendedHello gives a doggy greeting."
-    },
-    {
-      "Path": "file/animal.js/-/Animal",
+      "Path": "animal.js_151_157",
       "Format": "",
       "Data": "An Animal is a friendly creature that can say hello and make a noise."
     },
     {
-      "Path": "file/animal.js/-/Dog",
+      "Path": "animal.js_168_176",
+      "Format": "",
+      "Data": "sayHello greets the caller."
+    },
+    {
+      "Path": "animal.js_222_226",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_286_292",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "animal.js_303_312",
+      "Format": "",
+      "Data": "makeNoise emits the animal's characteristic noise."
+    },
+    {
+      "Path": "animal.js_342_347",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_398_401",
       "Format": "",
       "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "animal.js_402_406",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_408_413",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_424_428",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_431_435",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_444_449",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_452_457",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_466_471",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_486_489",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "animal.js_490_499",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "animal.js_506_512",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "animal.js_561_564",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "animal.js_565_574",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "animal.js_575_591",
+      "Format": "",
+      "Data": "sayExtendedHello gives a doggy greeting."
+    },
+    {
+      "Path": "animal.js_621_629",
+      "Format": "",
+      "Data": "sayHello greets the caller."
+    },
+    {
+      "Path": "animal.js_646_651",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_672_675",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "animal.js_676_685",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "animal.js_686_690",
+      "Format": "",
+      "Data": "bark barks."
+    },
+    {
+      "Path": "animal.js_720_725",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "animal.js_731_737",
+      "Format": "",
+      "Data": "Node has a simple module loading system. In Node, files and modules are in one-to-one correspondence."
+    },
+    {
+      "Path": "animal.js_752_758",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "animal.js_760_766",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "animal.js_770_773",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "animal.js_775_778",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "animal.js_82_88",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "animal.js_89_93",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "test/animal_test.js_1068_1069",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_1083_1086",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_1124_1125",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_1126_1135",
+      "Format": "",
+      "Data": "makeNoise emits the animal's characteristic noise."
+    },
+    {
+      "Path": "test/animal_test.js_1138_1144",
+      "Format": "",
+      "Data": "Expose api via `Object#should`.\n\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_1145_1148",
+      "Format": "",
+      "Data": "Assert equal.\n\n@param {Mixed} val\n@param {String} description\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_13_20",
+      "Format": "",
+      "Data": "To require modules."
+    },
+    {
+      "Path": "test/animal_test.js_154_155",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "test/animal_test.js_169_175",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "test/animal_test.js_190_191",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "test/animal_test.js_192_196",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "test/animal_test.js_197_203",
+      "Format": "",
+      "Data": "Expose api via `Object#should`.\n\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_204_207",
+      "Format": "",
+      "Data": "Assert equal.\n\n@param {Mixed} val\n@param {String} description\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_280_281",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "test/animal_test.js_295_301",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "test/animal_test.js_316_317",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "test/animal_test.js_318_326",
+      "Format": "",
+      "Data": "sayHello greets the caller."
+    },
+    {
+      "Path": "test/animal_test.js_329_335",
+      "Format": "",
+      "Data": "Expose api via `Object#should`.\n\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_336_339",
+      "Format": "",
+      "Data": "Assert equal.\n\n@param {Mixed} val\n@param {String} description\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_39_45",
+      "Format": "",
+      "Data": "The assert module provides a simple set of assertion tests that can be used to test invariants. The module is intended for internal use by Node.js, but can be used in application code via require('assert'). However, assert is not a testing framework, and is not intended to be used as a general purpose assertion library."
+    },
+    {
+      "Path": "test/animal_test.js_424_425",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "test/animal_test.js_439_445",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "test/animal_test.js_460_461",
+      "Format": "",
+      "Data": "An Animal is a friendly creature that can say hello and make a noise."
+    },
+    {
+      "Path": "test/animal_test.js_462_471",
+      "Format": "",
+      "Data": "makeNoise emits the animal's characteristic noise."
+    },
+    {
+      "Path": "test/animal_test.js_474_480",
+      "Format": "",
+      "Data": "Expose api via `Object#should`.\n\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_481_484",
+      "Format": "",
+      "Data": "Assert equal.\n\n@param {Mixed} val\n@param {String} description\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_48_55",
+      "Format": "",
+      "Data": "To require modules."
+    },
+    {
+      "Path": "test/animal_test.js_600_601",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_615_618",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_633_634",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_635_639",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "test/animal_test.js_640_646",
+      "Format": "",
+      "Data": "Expose api via `Object#should`.\n\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_647_650",
+      "Format": "",
+      "Data": "Assert equal.\n\n@param {Mixed} val\n@param {String} description\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_732_733",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_747_750",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_788_789",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_790_806",
+      "Format": "",
+      "Data": "sayExtendedHello gives a doggy greeting."
+    },
+    {
+      "Path": "test/animal_test.js_809_815",
+      "Format": "",
+      "Data": "Expose api via `Object#should`.\n\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_816_819",
+      "Format": "",
+      "Data": "Assert equal.\n\n@param {Mixed} val\n@param {String} description\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_919_920",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_934_937",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_975_976",
+      "Format": "",
+      "Data": "A Dog is an animal."
+    },
+    {
+      "Path": "test/animal_test.js_977_981",
+      "Format": "",
+      "Data": "bark barks."
+    },
+    {
+      "Path": "test/animal_test.js_984_990",
+      "Format": "",
+      "Data": "Expose api via `Object#should`.\n\n@api public"
+    },
+    {
+      "Path": "test/animal_test.js_991_994",
+      "Format": "",
+      "Data": "Assert equal.\n\n@param {Mixed} val\n@param {String} description\n@api public"
     }
   ]
 }

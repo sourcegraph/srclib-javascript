@@ -1,119 +1,45 @@
 {
-  "Defs": [
-    {
-      "Path": "commonjs/ext-dep/index.js",
-      "Name": "ext-dep/index",
-      "Kind": "module",
-      "File": "ext-dep/index.js",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": true,
-      "Data": {
-        "Kind": "commonjs-module",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "ext-dep/index.js",
-          "path": ""
-        },
-        "jsgDefData": {
-          "nodejs": {
-            "moduleExports": true
-          }
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/ext-dep/index.js"
-    },
-    {
-      "Path": "file/ext-dep/index.js/-/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "ext-dep/index.js",
-          "path": "exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/ext-dep/index.js/-/exports"
-    },
-    {
-      "Path": "file/ext-dep/index.js/-/lodash_contains",
-      "Name": "lodash_contains",
-      "Kind": "func",
-      "File": "ext-dep/index.js",
-      "DefStart": 4,
-      "DefEnd": 48,
-      "Data": {
-        "Kind": "func",
-        "Key": {
-          "namespace": "file",
-          "module": "ext-dep/index.js",
-          "path": "lodash_contains"
-        },
-        "Type": "fn([number], number)",
-        "IsFunc": true
-      },
-      "TreePath": "-file/ext-dep/index.js/-/lodash_contains"
-    },
-    {
-      "Path": "file/ext-dep/index.js/-/module/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "ext-dep/index.js",
-          "path": "module.exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/ext-dep/index.js/-/module/exports"
-    }
-  ],
   "Refs": [
     {
-      "DefPath": "file/ext-dep/index.js/-/lodash_contains",
-      "Def": true,
-      "File": "ext-dep/index.js",
-      "Start": 4,
-      "End": 19
-    },
-    {
-      "DefPath": "file/ext-dep/index.js/-/lodash_contains",
+      "DefPath": "ext-dep/index.js_4_19",
       "File": "ext-dep/index.js",
       "Start": 76,
       "End": 91
     },
     {
-      "DefPath": "file/ext-dep/index.js/-/require",
+      "DefPath": "https://nodejs.org/api/globals.html#globals_console",
+      "File": "ext-dep/index.js",
+      "Start": 51,
+      "End": 58
+    },
+    {
+      "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "ext-dep/index.js",
       "Start": 22,
       "End": 29
     },
     {
-      "DefPath": "global/-/console.log",
+      "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "ext-dep/index.js",
       "Start": 59,
       "End": 62
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "ext-dep/index.js_22_29",
+      "Format": "",
+      "Data": "To require modules."
     },
     {
-      "DefPath": "global/-/console",
-      "File": "ext-dep/index.js",
-      "Start": 51,
-      "End": 58
+      "Path": "ext-dep/index.js_51_58",
+      "Format": "",
+      "Data": "Used to print to stdout and stderr."
+    },
+    {
+      "Path": "ext-dep/index.js_59_62",
+      "Format": "",
+      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
     }
   ]
 }

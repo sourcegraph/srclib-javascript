@@ -1,156 +1,50 @@
 {
-  "Defs": [
-    {
-      "Path": "commonjs/include-src-dir/index.js",
-      "Name": "include-src-dir/index",
-      "Kind": "module",
-      "File": "include-src-dir/index.js",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": true,
-      "Data": {
-        "Kind": "commonjs-module",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "include-src-dir/index.js",
-          "path": ""
-        },
-        "jsgDefData": {
-          "nodejs": {
-            "moduleExports": true
-          }
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/include-src-dir/index.js"
-    },
-    {
-      "Path": "commonjs/include-src-dir/src/foo.js",
-      "Name": "include-src-dir/src/foo",
-      "Kind": "module",
-      "File": "include-src-dir/src/foo.js",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": true,
-      "Data": {
-        "Kind": "commonjs-module",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "include-src-dir/src/foo.js",
-          "path": ""
-        },
-        "jsgDefData": {
-          "nodejs": {
-            "moduleExports": true
-          }
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/include-src-dir/src/foo.js"
-    },
-    {
-      "Path": "file/include-src-dir/index.js/-/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "include-src-dir/index.js",
-          "path": "exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/include-src-dir/index.js/-/exports"
-    },
-    {
-      "Path": "file/include-src-dir/index.js/-/module/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "include-src-dir/index.js",
-          "path": "module.exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/include-src-dir/index.js/-/module/exports"
-    },
-    {
-      "Path": "file/include-src-dir/src/foo.js/-/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "include-src-dir/src/foo.js",
-          "path": "exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/include-src-dir/src/foo.js/-/exports"
-    },
-    {
-      "Path": "file/include-src-dir/src/foo.js/-/module/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "include-src-dir/src/foo.js",
-          "path": "module.exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/include-src-dir/src/foo.js/-/module/exports"
-    }
-  ],
   "Refs": [
     {
-      "DefPath": "global/-/console.log",
-      "File": "include-src-dir/index.js",
-      "Start": 8,
-      "End": 11
-    },
-    {
-      "DefPath": "global/-/console.log",
-      "File": "include-src-dir/src/foo.js",
-      "Start": 8,
-      "End": 11
-    },
-    {
-      "DefPath": "global/-/console",
+      "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "include-src-dir/index.js",
       "Start": 0,
       "End": 7
     },
     {
-      "DefPath": "global/-/console",
+      "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "include-src-dir/src/foo.js",
       "Start": 0,
       "End": 7
+    },
+    {
+      "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
+      "File": "include-src-dir/index.js",
+      "Start": 8,
+      "End": 11
+    },
+    {
+      "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
+      "File": "include-src-dir/src/foo.js",
+      "Start": 8,
+      "End": 11
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "include-src-dir/index.js_0_7",
+      "Format": "",
+      "Data": "Used to print to stdout and stderr."
+    },
+    {
+      "Path": "include-src-dir/index.js_8_11",
+      "Format": "",
+      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
+    },
+    {
+      "Path": "include-src-dir/src/foo.js_0_7",
+      "Format": "",
+      "Data": "Used to print to stdout and stderr."
+    },
+    {
+      "Path": "include-src-dir/src/foo.js_8_11",
+      "Format": "",
+      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
     }
   ]
 }

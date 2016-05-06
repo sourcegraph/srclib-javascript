@@ -1,81 +1,28 @@
 {
-  "Defs": [
-    {
-      "Path": "commonjs/dir-not-file/lib/index.js",
-      "Name": "dir-not-file/lib/index",
-      "Kind": "module",
-      "File": "dir-not-file/lib/index.js",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Exported": true,
-      "Data": {
-        "Kind": "commonjs-module",
-        "Key": {
-          "namespace": "commonjs",
-          "module": "dir-not-file/lib/index.js",
-          "path": ""
-        },
-        "jsgDefData": {
-          "nodejs": {
-            "moduleExports": true
-          }
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-commonjs/dir-not-file/lib/index.js"
-    },
-    {
-      "Path": "file/dir-not-file/lib/index.js/-/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "dir-not-file/lib/index.js",
-          "path": "exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/dir-not-file/lib/index.js/-/exports"
-    },
-    {
-      "Path": "file/dir-not-file/lib/index.js/-/module/exports",
-      "Name": "exports",
-      "Kind": "var",
-      "File": "",
-      "DefStart": 0,
-      "DefEnd": 0,
-      "Data": {
-        "Kind": "var",
-        "Key": {
-          "namespace": "file",
-          "module": "dir-not-file/lib/index.js",
-          "path": "module.exports"
-        },
-        "Type": "{}",
-        "IsFunc": false
-      },
-      "TreePath": "-file/dir-not-file/lib/index.js/-/module/exports"
-    }
-  ],
   "Refs": [
     {
-      "DefPath": "global/-/console.log",
-      "File": "dir-not-file/lib/index.js",
-      "Start": 8,
-      "End": 11
-    },
-    {
-      "DefPath": "global/-/console",
+      "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "dir-not-file/lib/index.js",
       "Start": 0,
       "End": 7
+    },
+    {
+      "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
+      "File": "dir-not-file/lib/index.js",
+      "Start": 8,
+      "End": 11
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "dir-not-file/lib/index.js_0_7",
+      "Format": "",
+      "Data": "Used to print to stdout and stderr."
+    },
+    {
+      "Path": "dir-not-file/lib/index.js_8_11",
+      "Format": "",
+      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
     }
   ]
 }
