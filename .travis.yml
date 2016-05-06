@@ -4,6 +4,9 @@ node_js:
   - "5"
 
 install:
+  - mkdir $HOME/gocode
+  - export GOPATH=$HOME/gocode	
+  - export PATH=$PATH:$HOME/gocode/bin
   - go get -u -v sourcegraph.com/sourcegraph/srclib/cmd/srclib
   - mkdir -p $HOME/.srclib/sourcegraph.com/sourcegraph/
   - ln -s $TRAVIS_BUILD_DIR $HOME/.srclib/sourcegraph.com/sourcegraph/srclib-javascript
