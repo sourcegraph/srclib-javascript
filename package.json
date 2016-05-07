@@ -20,7 +20,7 @@
     "analysis"
   ],
   "author": "Quinn Slack <sqs@sourcegraph.com>",
-  "license": "BSD",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/sourcegraph/srclib-javascript/issues"
   },
@@ -31,5 +31,6 @@
     "acorn": "3.0.4",
     "nomnom": "1.8.1",
     "commonjs-findpkgs": "0.0.7"
-  }
+  },
+  "devDependencies": {}
 }
