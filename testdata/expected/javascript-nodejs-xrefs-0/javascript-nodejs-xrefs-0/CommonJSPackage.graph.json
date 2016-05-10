@@ -1,7 +1,7 @@
 {
   "Defs": [
     {
-      "Path": "lib/async.js_fn__1_param_results",
+      "Path": "lib/async.js/fn/1/param/results",
       "Name": "results",
       "Kind": "param",
       "File": "lib/async.js",
@@ -13,10 +13,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/async.js_232_239"
+      "TreePath": "lib/async.js/fn/1/param/results"
     },
     {
-      "Path": "lib/async.js_fn__param_err",
+      "Path": "lib/async.js/fn/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/async.js",
@@ -28,10 +28,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/async.js_113_116"
+      "TreePath": "lib/async.js/fn/param/err"
     },
     {
-      "Path": "lib/async.js_fn__param_results",
+      "Path": "lib/async.js/fn/param/results",
       "Name": "results",
       "Kind": "param",
       "File": "lib/async.js",
@@ -43,10 +43,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/async.js_118_125"
+      "TreePath": "lib/async.js/fn/param/results"
     },
     {
-      "Path": "lib/async.js_var_async",
+      "Path": "lib/async.js/var/async",
       "Name": "async",
       "Kind": "var",
       "File": "lib/async.js",
@@ -58,10 +58,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/async.js_28_33"
+      "TreePath": "lib/async.js/var/async"
     },
     {
-      "Path": "lib/async.js_var_fs",
+      "Path": "lib/async.js/var/fs",
       "Name": "fs",
       "Kind": "var",
       "File": "lib/async.js",
@@ -73,10 +73,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/async.js_4_6"
+      "TreePath": "lib/async.js/var/fs"
     },
     {
-      "Path": "lib/fs.js_fn__param_data",
+      "Path": "lib/fs.js/fn/param/data",
       "Name": "data",
       "Kind": "param",
       "File": "lib/fs.js",
@@ -88,10 +88,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/fs.js_67_71"
+      "TreePath": "lib/fs.js/fn/param/data"
     },
     {
-      "Path": "lib/fs.js_fn__param_err",
+      "Path": "lib/fs.js/fn/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/fs.js",
@@ -103,10 +103,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/fs.js_62_65"
+      "TreePath": "lib/fs.js/fn/param/err"
     },
     {
-      "Path": "lib/fs.js_var_fs",
+      "Path": "lib/fs.js/var/fs",
       "Name": "fs",
       "Kind": "var",
       "File": "lib/fs.js",
@@ -118,10 +118,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/fs.js_4_6"
+      "TreePath": "lib/fs.js/var/fs"
     },
     {
-      "Path": "lib/glob.js_fn__param_err",
+      "Path": "lib/glob.js/fn/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/glob.js",
@@ -133,10 +133,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/glob.js_97_100"
+      "TreePath": "lib/glob.js/fn/param/err"
     },
     {
-      "Path": "lib/glob.js_fn__param_files",
+      "Path": "lib/glob.js/fn/param/files",
       "Name": "files",
       "Kind": "param",
       "File": "lib/glob.js",
@@ -148,10 +148,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/glob.js_102_107"
+      "TreePath": "lib/glob.js/fn/param/files"
     },
     {
-      "Path": "lib/glob.js_var_glob",
+      "Path": "lib/glob.js/var/glob",
       "Name": "glob",
       "Kind": "var",
       "File": "lib/glob.js",
@@ -163,10 +163,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/glob.js_4_8"
+      "TreePath": "lib/glob.js/var/glob"
     },
     {
-      "Path": "lib/http.js_fn__1_param_e",
+      "Path": "lib/http.js/fn/1/param/e",
       "Name": "e",
       "Kind": "param",
       "File": "lib/http.js",
@@ -178,10 +178,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/http.js_164_165"
+      "TreePath": "lib/http.js/fn/1/param/e"
     },
     {
-      "Path": "lib/http.js_fn__param_res",
+      "Path": "lib/http.js/fn/param/res",
       "Name": "res",
       "Kind": "param",
       "File": "lib/http.js",
@@ -193,10 +193,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/http.js_83_86"
+      "TreePath": "lib/http.js/fn/param/res"
     },
     {
-      "Path": "lib/http.js_var_http",
+      "Path": "lib/http.js/var/http",
       "Name": "http",
       "Kind": "var",
       "File": "lib/http.js",
@@ -208,10 +208,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/http.js_4_8"
+      "TreePath": "lib/http.js/var/http"
     },
     {
-      "Path": "lib/lodash.js_var__",
+      "Path": "lib/lodash.js/var/_",
       "Name": "_",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -223,10 +223,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_4_5"
+      "TreePath": "lib/lodash.js/var/_"
     },
     {
-      "Path": "lib/lodash.js_var_even",
+      "Path": "lib/lodash.js/var/even",
       "Name": "even",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -238,10 +238,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_305_309"
+      "TreePath": "lib/lodash.js/var/even"
     },
     {
-      "Path": "lib/lodash.js_var_even_fn__param_num",
+      "Path": "lib/lodash.js/var/even/fn/param/num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/lodash.js",
@@ -253,10 +253,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_348_351"
+      "TreePath": "lib/lodash.js/var/even/fn/param/num"
     },
     {
-      "Path": "lib/lodash.js_var_evens",
+      "Path": "lib/lodash.js/var/evens",
       "Name": "evens",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -268,10 +268,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_412_417"
+      "TreePath": "lib/lodash.js/var/evens"
     },
     {
-      "Path": "lib/lodash.js_var_evens_fn__param_num",
+      "Path": "lib/lodash.js/var/evens/fn/param/num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/lodash.js",
@@ -283,10 +283,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_458_461"
+      "TreePath": "lib/lodash.js/var/evens/fn/param/num"
     },
     {
-      "Path": "lib/lodash.js_var_flat",
+      "Path": "lib/lodash.js/var/flat",
       "Name": "flat",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -298,10 +298,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_200_204"
+      "TreePath": "lib/lodash.js/var/flat"
     },
     {
-      "Path": "lib/lodash.js_var_flat_fn__param_a",
+      "Path": "lib/lodash.js/var/flat/fn/param/a",
       "Name": "a",
       "Kind": "param",
       "File": "lib/lodash.js",
@@ -313,10 +313,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_236_237"
+      "TreePath": "lib/lodash.js/var/flat/fn/param/a"
     },
     {
-      "Path": "lib/lodash.js_var_flat_fn__param_b",
+      "Path": "lib/lodash.js/var/flat/fn/param/b",
       "Name": "b",
       "Kind": "param",
       "File": "lib/lodash.js",
@@ -328,10 +328,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_239_240"
+      "TreePath": "lib/lodash.js/var/flat/fn/param/b"
     },
     {
-      "Path": "lib/lodash.js_var_list",
+      "Path": "lib/lodash.js/var/list",
       "Name": "list",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -343,10 +343,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_163_167"
+      "TreePath": "lib/lodash.js/var/list"
     },
     {
-      "Path": "lib/lodash.js_var_odds",
+      "Path": "lib/lodash.js/var/odds",
       "Name": "odds",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -358,10 +358,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_524_528"
+      "TreePath": "lib/lodash.js/var/odds"
     },
     {
-      "Path": "lib/lodash.js_var_odds_fn__param_num",
+      "Path": "lib/lodash.js/var/odds/fn/param/num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/lodash.js",
@@ -373,10 +373,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_569_572"
+      "TreePath": "lib/lodash.js/var/odds/fn/param/num"
     },
     {
-      "Path": "lib/lodash.js_var_thrice",
+      "Path": "lib/lodash.js/var/thrice",
       "Name": "thrice",
       "Kind": "var",
       "File": "lib/lodash.js",
@@ -388,10 +388,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_65_71"
+      "TreePath": "lib/lodash.js/var/thrice"
     },
     {
-      "Path": "lib/lodash.js_var_thrice_fn__param_num",
+      "Path": "lib/lodash.js/var/thrice/fn/param/num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/lodash.js",
@@ -403,10 +403,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/lodash.js_100_103"
+      "TreePath": "lib/lodash.js/var/thrice/fn/param/num"
     },
     {
-      "Path": "lib/minimatch.js_var_minimatch",
+      "Path": "lib/minimatch.js/var/minimatch",
       "Name": "minimatch",
       "Kind": "var",
       "File": "lib/minimatch.js",
@@ -418,40 +418,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/minimatch.js_4_13"
+      "TreePath": "lib/minimatch.js/var/minimatch"
     },
     {
-      "Path": "lib/mysql.js_fn__10_param_err",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 2472,
-      "DefEnd": 2475,
-      "Data": {
-        "Type": "Error",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_2472_2475"
-    },
-    {
-      "Path": "lib/mysql.js_fn__11_param_err",
-      "Name": "err",
-      "Kind": "param",
-      "File": "lib/mysql.js",
-      "DefStart": 2599,
-      "DefEnd": 2602,
-      "Data": {
-        "Type": "Error",
-        "Keyword": "param",
-        "Kind": "param",
-        "Separator": " "
-      },
-      "TreePath": "lib/mysql.js_2599_2602"
-    },
-    {
-      "Path": "lib/mysql.js_fn__1_fn__param_key",
+      "Path": "lib/mysql.js/fn/1/fn/param/key",
       "Name": "key",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -463,10 +433,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_468_471"
+      "TreePath": "lib/mysql.js/fn/1/fn/param/key"
     },
     {
-      "Path": "lib/mysql.js_fn__1_fn__param_txt",
+      "Path": "lib/mysql.js/fn/1/fn/param/txt",
       "Name": "txt",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -478,10 +448,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_463_466"
+      "TreePath": "lib/mysql.js/fn/1/fn/param/txt"
     },
     {
-      "Path": "lib/mysql.js_fn__1_param_query",
+      "Path": "lib/mysql.js/fn/1/param/query",
       "Name": "query",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -493,10 +463,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_372_377"
+      "TreePath": "lib/mysql.js/fn/1/param/query"
     },
     {
-      "Path": "lib/mysql.js_fn__1_param_values",
+      "Path": "lib/mysql.js/fn/1/param/values",
       "Name": "values",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -508,10 +478,40 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_379_385"
+      "TreePath": "lib/mysql.js/fn/1/param/values"
     },
     {
-      "Path": "lib/mysql.js_fn__2_param_err",
+      "Path": "lib/mysql.js/fn/10/param/err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 2472,
+      "DefEnd": 2475,
+      "Data": {
+        "Type": "Error",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js/fn/10/param/err"
+    },
+    {
+      "Path": "lib/mysql.js/fn/11/param/err",
+      "Name": "err",
+      "Kind": "param",
+      "File": "lib/mysql.js",
+      "DefStart": 2599,
+      "DefEnd": 2602,
+      "Data": {
+        "Type": "Error",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      },
+      "TreePath": "lib/mysql.js/fn/11/param/err"
+    },
+    {
+      "Path": "lib/mysql.js/fn/2/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -523,10 +523,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_745_748"
+      "TreePath": "lib/mysql.js/fn/2/param/err"
     },
     {
-      "Path": "lib/mysql.js_fn__2_param_result",
+      "Path": "lib/mysql.js/fn/2/param/result",
       "Name": "result",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -538,10 +538,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_750_756"
+      "TreePath": "lib/mysql.js/fn/2/param/result"
     },
     {
-      "Path": "lib/mysql.js_fn__3_param_err",
+      "Path": "lib/mysql.js/fn/3/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -553,10 +553,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_890_893"
+      "TreePath": "lib/mysql.js/fn/3/param/err"
     },
     {
-      "Path": "lib/mysql.js_fn__3_param_result",
+      "Path": "lib/mysql.js/fn/3/param/result",
       "Name": "result",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -568,10 +568,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_895_901"
+      "TreePath": "lib/mysql.js/fn/3/param/result"
     },
     {
-      "Path": "lib/mysql.js_fn__4_param_err",
+      "Path": "lib/mysql.js/fn/4/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -583,10 +583,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1043_1046"
+      "TreePath": "lib/mysql.js/fn/4/param/err"
     },
     {
-      "Path": "lib/mysql.js_fn__4_param_response",
+      "Path": "lib/mysql.js/fn/4/param/response",
       "Name": "response",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -598,10 +598,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1048_1056"
+      "TreePath": "lib/mysql.js/fn/4/param/response"
     },
     {
-      "Path": "lib/mysql.js_fn__5_param_err",
+      "Path": "lib/mysql.js/fn/5/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -613,10 +613,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1229_1232"
+      "TreePath": "lib/mysql.js/fn/5/param/err"
     },
     {
-      "Path": "lib/mysql.js_fn__6_param_fields",
+      "Path": "lib/mysql.js/fn/6/param/fields",
       "Name": "fields",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -628,10 +628,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1337_1343"
+      "TreePath": "lib/mysql.js/fn/6/param/fields"
     },
     {
-      "Path": "lib/mysql.js_fn__7_param_row",
+      "Path": "lib/mysql.js/fn/7/param/row",
       "Name": "row",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -643,10 +643,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1425_1428"
+      "TreePath": "lib/mysql.js/fn/7/param/row"
     },
     {
-      "Path": "lib/mysql.js_fn__9_fn__fn__1_fn__1_param_err",
+      "Path": "lib/mysql.js/fn/9/fn/fn/1/fn/1/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -658,10 +658,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_2179_2182"
+      "TreePath": "lib/mysql.js/fn/9/fn/fn/1/fn/1/param/err"
     },
     {
-      "Path": "lib/mysql.js_fn__9_fn__fn__1_param_err",
+      "Path": "lib/mysql.js/fn/9/fn/fn/1/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -673,10 +673,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_2032_2035"
+      "TreePath": "lib/mysql.js/fn/9/fn/fn/1/param/err"
     },
     {
-      "Path": "lib/mysql.js_fn__9_fn__fn__1_param_result",
+      "Path": "lib/mysql.js/fn/9/fn/fn/1/param/result",
       "Name": "result",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -688,10 +688,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_2037_2043"
+      "TreePath": "lib/mysql.js/fn/9/fn/fn/1/param/result"
     },
     {
-      "Path": "lib/mysql.js_fn__9_fn__param_err",
+      "Path": "lib/mysql.js/fn/9/fn/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -703,10 +703,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1809_1812"
+      "TreePath": "lib/mysql.js/fn/9/fn/param/err"
     },
     {
-      "Path": "lib/mysql.js_fn__9_fn__param_result",
+      "Path": "lib/mysql.js/fn/9/fn/param/result",
       "Name": "result",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -718,10 +718,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1814_1820"
+      "TreePath": "lib/mysql.js/fn/9/fn/param/result"
     },
     {
-      "Path": "lib/mysql.js_fn__9_fn__var_log",
+      "Path": "lib/mysql.js/fn/9/fn/var/log",
       "Name": "log",
       "Kind": "var",
       "File": "lib/mysql.js",
@@ -733,10 +733,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1922_1925"
+      "TreePath": "lib/mysql.js/fn/9/fn/var/log"
     },
     {
-      "Path": "lib/mysql.js_fn__9_param_err",
+      "Path": "lib/mysql.js/fn/9/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -748,10 +748,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1708_1711"
+      "TreePath": "lib/mysql.js/fn/9/param/err"
     },
     {
-      "Path": "lib/mysql.js_fn__param_err",
+      "Path": "lib/mysql.js/fn/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -763,10 +763,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_226_229"
+      "TreePath": "lib/mysql.js/fn/param/err"
     },
     {
-      "Path": "lib/mysql.js_fn__param_fields",
+      "Path": "lib/mysql.js/fn/param/fields",
       "Name": "fields",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -778,10 +778,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_237_243"
+      "TreePath": "lib/mysql.js/fn/param/fields"
     },
     {
-      "Path": "lib/mysql.js_fn__param_rows",
+      "Path": "lib/mysql.js/fn/param/rows",
       "Name": "rows",
       "Kind": "param",
       "File": "lib/mysql.js",
@@ -793,10 +793,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_231_235"
+      "TreePath": "lib/mysql.js/fn/param/rows"
     },
     {
-      "Path": "lib/mysql.js_obj__obj_key_title",
+      "Path": "lib/mysql.js/obj/obj_key/title",
       "Name": "title",
       "Kind": "ast",
       "File": "lib/mysql.js",
@@ -808,10 +808,10 @@
         "Kind": "ast",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_649_654"
+      "TreePath": "lib/mysql.js/obj/obj_key/title"
     },
     {
-      "Path": "lib/mysql.js_obj__obj_key_title_1",
+      "Path": "lib/mysql.js/obj/obj_key/title/1",
       "Name": "title",
       "Kind": "ast",
       "File": "lib/mysql.js",
@@ -823,10 +823,10 @@
         "Kind": "ast",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_720_725"
+      "TreePath": "lib/mysql.js/obj/obj_key/title/1"
     },
     {
-      "Path": "lib/mysql.js_var_connection",
+      "Path": "lib/mysql.js/var/connection",
       "Name": "connection",
       "Kind": "var",
       "File": "lib/mysql.js",
@@ -838,10 +838,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_39_49"
+      "TreePath": "lib/mysql.js/var/connection"
     },
     {
-      "Path": "lib/mysql.js_var_connection_1",
+      "Path": "lib/mysql.js/var/connection/1",
       "Name": "connection",
       "Kind": "var",
       "File": "lib/mysql.js",
@@ -853,10 +853,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_2361_2371"
+      "TreePath": "lib/mysql.js/var/connection/1"
     },
     {
-      "Path": "lib/mysql.js_var_connection_1_obj__obj_key_port",
+      "Path": "lib/mysql.js/var/connection/1/obj/obj_key/port",
       "Name": "port",
       "File": "lib/mysql.js",
       "DefStart": 2412,
@@ -867,10 +867,10 @@
         "Kind": "",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_2412_2416"
+      "TreePath": "lib/mysql.js/var/connection/1/obj/obj_key/port"
     },
     {
-      "Path": "lib/mysql.js_var_connection_obj__obj_key_host",
+      "Path": "lib/mysql.js/var/connection/obj/obj_key/host",
       "Name": "host",
       "File": "lib/mysql.js",
       "DefStart": 79,
@@ -881,10 +881,10 @@
         "Kind": "",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_79_83"
+      "TreePath": "lib/mysql.js/var/connection/obj/obj_key/host"
     },
     {
-      "Path": "lib/mysql.js_var_connection_obj__obj_key_password",
+      "Path": "lib/mysql.js/var/connection/obj/obj_key/password",
       "Name": "password",
       "File": "lib/mysql.js",
       "DefStart": 124,
@@ -895,10 +895,10 @@
         "Kind": "",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_124_132"
+      "TreePath": "lib/mysql.js/var/connection/obj/obj_key/password"
     },
     {
-      "Path": "lib/mysql.js_var_connection_obj__obj_key_user",
+      "Path": "lib/mysql.js/var/connection/obj/obj_key/user",
       "Name": "user",
       "File": "lib/mysql.js",
       "DefStart": 105,
@@ -909,10 +909,10 @@
         "Kind": "",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_105_109"
+      "TreePath": "lib/mysql.js/var/connection/obj/obj_key/user"
     },
     {
-      "Path": "lib/mysql.js_var_mysql",
+      "Path": "lib/mysql.js/var/mysql",
       "Name": "mysql",
       "Kind": "var",
       "File": "lib/mysql.js",
@@ -924,10 +924,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_4_9"
+      "TreePath": "lib/mysql.js/var/mysql"
     },
     {
-      "Path": "lib/mysql.js_var_query",
+      "Path": "lib/mysql.js/var/query",
       "Name": "query",
       "Kind": "var",
       "File": "lib/mysql.js",
@@ -939,10 +939,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/mysql.js_1150_1155"
+      "TreePath": "lib/mysql.js/var/query"
     },
     {
-      "Path": "lib/pg.js_fn__1_fn__param_err",
+      "Path": "lib/pg.js/fn/1/fn/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -954,10 +954,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_719_722"
+      "TreePath": "lib/pg.js/fn/1/fn/param/err"
     },
     {
-      "Path": "lib/pg.js_fn__1_fn__param_result",
+      "Path": "lib/pg.js/fn/1/fn/param/result",
       "Name": "result",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -969,10 +969,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_724_730"
+      "TreePath": "lib/pg.js/fn/1/fn/param/result"
     },
     {
-      "Path": "lib/pg.js_fn__1_param_err",
+      "Path": "lib/pg.js/fn/1/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -984,10 +984,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_579_582"
+      "TreePath": "lib/pg.js/fn/1/param/err"
     },
     {
-      "Path": "lib/pg.js_fn__fn__param_err",
+      "Path": "lib/pg.js/fn/fn/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -999,10 +999,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_285_288"
+      "TreePath": "lib/pg.js/fn/fn/param/err"
     },
     {
-      "Path": "lib/pg.js_fn__fn__param_result",
+      "Path": "lib/pg.js/fn/fn/param/result",
       "Name": "result",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -1014,10 +1014,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_290_296"
+      "TreePath": "lib/pg.js/fn/fn/param/result"
     },
     {
-      "Path": "lib/pg.js_fn__param_client",
+      "Path": "lib/pg.js/fn/param/client",
       "Name": "client",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -1029,10 +1029,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_128_134"
+      "TreePath": "lib/pg.js/fn/param/client"
     },
     {
-      "Path": "lib/pg.js_fn__param_done",
+      "Path": "lib/pg.js/fn/param/done",
       "Name": "done",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -1044,10 +1044,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_136_140"
+      "TreePath": "lib/pg.js/fn/param/done"
     },
     {
-      "Path": "lib/pg.js_fn__param_err",
+      "Path": "lib/pg.js/fn/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/pg.js",
@@ -1059,10 +1059,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_123_126"
+      "TreePath": "lib/pg.js/fn/param/err"
     },
     {
-      "Path": "lib/pg.js_var_client",
+      "Path": "lib/pg.js/var/client",
       "Name": "client",
       "Kind": "var",
       "File": "lib/pg.js",
@@ -1074,10 +1074,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_520_526"
+      "TreePath": "lib/pg.js/var/client"
     },
     {
-      "Path": "lib/pg.js_var_conString",
+      "Path": "lib/pg.js/var/conString",
       "Name": "conString",
       "Kind": "var",
       "File": "lib/pg.js",
@@ -1089,10 +1089,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_28_37"
+      "TreePath": "lib/pg.js/var/conString"
     },
     {
-      "Path": "lib/pg.js_var_pg",
+      "Path": "lib/pg.js/var/pg",
       "Name": "pg",
       "Kind": "var",
       "File": "lib/pg.js",
@@ -1104,10 +1104,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/pg.js_4_6"
+      "TreePath": "lib/pg.js/var/pg"
     },
     {
-      "Path": "lib/read-package-json.js_fn__param_data",
+      "Path": "lib/read-package-json.js/fn/param/data",
       "Name": "data",
       "Kind": "param",
       "File": "lib/read-package-json.js",
@@ -1119,10 +1119,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/read-package-json.js_84_88"
+      "TreePath": "lib/read-package-json.js/fn/param/data"
     },
     {
-      "Path": "lib/read-package-json.js_fn__param_err",
+      "Path": "lib/read-package-json.js/fn/param/err",
       "Name": "err",
       "Kind": "param",
       "File": "lib/read-package-json.js",
@@ -1134,10 +1134,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/read-package-json.js_79_82"
+      "TreePath": "lib/read-package-json.js/fn/param/err"
     },
     {
-      "Path": "lib/read-package-json.js_var_readJson",
+      "Path": "lib/read-package-json.js/var/readJson",
       "Name": "readJson",
       "Kind": "var",
       "File": "lib/read-package-json.js",
@@ -1149,10 +1149,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/read-package-json.js_4_12"
+      "TreePath": "lib/read-package-json.js/var/readJson"
     },
     {
-      "Path": "lib/underscore.js_var__",
+      "Path": "lib/underscore.js/var/_",
       "Name": "_",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1164,10 +1164,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_4_5"
+      "TreePath": "lib/underscore.js/var/_"
     },
     {
-      "Path": "lib/underscore.js_var_even",
+      "Path": "lib/underscore.js/var/even",
       "Name": "even",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1179,10 +1179,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_309_313"
+      "TreePath": "lib/underscore.js/var/even"
     },
     {
-      "Path": "lib/underscore.js_var_even_fn__param_num",
+      "Path": "lib/underscore.js/var/even/fn/param/num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/underscore.js",
@@ -1194,10 +1194,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_352_355"
+      "TreePath": "lib/underscore.js/var/even/fn/param/num"
     },
     {
-      "Path": "lib/underscore.js_var_evens",
+      "Path": "lib/underscore.js/var/evens",
       "Name": "evens",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1209,10 +1209,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_416_421"
+      "TreePath": "lib/underscore.js/var/evens"
     },
     {
-      "Path": "lib/underscore.js_var_evens_fn__param_num",
+      "Path": "lib/underscore.js/var/evens/fn/param/num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/underscore.js",
@@ -1224,10 +1224,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_462_465"
+      "TreePath": "lib/underscore.js/var/evens/fn/param/num"
     },
     {
-      "Path": "lib/underscore.js_var_flat",
+      "Path": "lib/underscore.js/var/flat",
       "Name": "flat",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1239,10 +1239,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_204_208"
+      "TreePath": "lib/underscore.js/var/flat"
     },
     {
-      "Path": "lib/underscore.js_var_flat_fn__param_a",
+      "Path": "lib/underscore.js/var/flat/fn/param/a",
       "Name": "a",
       "Kind": "param",
       "File": "lib/underscore.js",
@@ -1254,10 +1254,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_240_241"
+      "TreePath": "lib/underscore.js/var/flat/fn/param/a"
     },
     {
-      "Path": "lib/underscore.js_var_flat_fn__param_b",
+      "Path": "lib/underscore.js/var/flat/fn/param/b",
       "Name": "b",
       "Kind": "param",
       "File": "lib/underscore.js",
@@ -1269,10 +1269,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_243_244"
+      "TreePath": "lib/underscore.js/var/flat/fn/param/b"
     },
     {
-      "Path": "lib/underscore.js_var_list",
+      "Path": "lib/underscore.js/var/list",
       "Name": "list",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1284,10 +1284,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_167_171"
+      "TreePath": "lib/underscore.js/var/list"
     },
     {
-      "Path": "lib/underscore.js_var_odds",
+      "Path": "lib/underscore.js/var/odds",
       "Name": "odds",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1299,10 +1299,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_528_532"
+      "TreePath": "lib/underscore.js/var/odds"
     },
     {
-      "Path": "lib/underscore.js_var_odds_fn__param_num",
+      "Path": "lib/underscore.js/var/odds/fn/param/num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/underscore.js",
@@ -1314,10 +1314,10 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_573_576"
+      "TreePath": "lib/underscore.js/var/odds/fn/param/num"
     },
     {
-      "Path": "lib/underscore.js_var_thrice",
+      "Path": "lib/underscore.js/var/thrice",
       "Name": "thrice",
       "Kind": "var",
       "File": "lib/underscore.js",
@@ -1329,10 +1329,10 @@
         "Kind": "var",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_69_75"
+      "TreePath": "lib/underscore.js/var/thrice"
     },
     {
-      "Path": "lib/underscore.js_var_thrice_fn__param_num",
+      "Path": "lib/underscore.js/var/thrice/fn/param/num",
       "Name": "num",
       "Kind": "param",
       "File": "lib/underscore.js",
@@ -1344,14 +1344,14 @@
         "Kind": "param",
         "Separator": " "
       },
-      "TreePath": "lib/underscore.js_104_107"
+      "TreePath": "lib/underscore.js/var/thrice/fn/param/num"
     }
   ],
   "Refs": [
     {
       "DefRepo": "github.com/lodash/lodash",
       "DefUnit": "lodash",
-      "DefPath": "dist/lodash.js_fn__fn_runInContext_obj_lodash_88_prop_find",
+      "DefPath": "dist/lodash.js/fn/fn/runInContext/obj/lodash/88/prop/find",
       "File": "lib/lodash.js",
       "Start": 314,
       "End": 318
@@ -1359,7 +1359,7 @@
     {
       "DefRepo": "github.com/lodash/lodash",
       "DefUnit": "lodash",
-      "DefPath": "dist/lodash.js_fn__var_objectTypes_obj__objType_objectTypes_obj_key_number",
+      "DefPath": "dist/lodash.js/fn/var/objectTypes/obj/objType/objectTypes/obj_key/number",
       "File": "lib/pg.js",
       "Start": 479,
       "End": 485
@@ -1367,7 +1367,7 @@
     {
       "DefRepo": "github.com/isaacs/node-glob",
       "DefUnit": "glob",
-      "DefPath": "glob.js_fn__9_obj_er_prop_code",
+      "DefPath": "glob.js/fn/9/obj/er/prop/code",
       "File": "lib/mysql.js",
       "Start": 2497,
       "End": 2501
@@ -1375,7 +1375,7 @@
     {
       "DefRepo": "github.com/isaacs/node-glob",
       "DefUnit": "glob",
-      "DefPath": "glob.js_fn__9_obj_er_prop_code",
+      "DefPath": "glob.js/fn/9/obj/er/prop/code",
       "File": "lib/mysql.js",
       "Start": 2624,
       "End": 2628
@@ -1383,7 +1383,7 @@
     {
       "DefRepo": "github.com/isaacs/node-glob",
       "DefUnit": "glob",
-      "DefPath": "glob.js_obj_glob_1_prop_sync",
+      "DefPath": "glob.js/obj/glob/1/prop/sync",
       "File": "lib/glob.js",
       "Start": 60,
       "End": 64
@@ -2015,7 +2015,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "index.js_obj_exports_prop_createConnection",
+      "DefPath": "index.js/obj/exports/prop/createConnection",
       "File": "lib/mysql.js",
       "Start": 2391,
       "End": 2407
@@ -2023,7 +2023,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "index.js_obj_exports_prop_createConnection",
+      "DefPath": "index.js/obj/exports/prop/createConnection",
       "File": "lib/mysql.js",
       "Start": 58,
       "End": 74
@@ -2031,7 +2031,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_fn_Connection_prop_config",
+      "DefPath": "lib/Connection.js/fn/Connection/prop/config",
       "File": "lib/mysql.js",
       "Start": 341,
       "End": 347
@@ -2039,31 +2039,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_11_prop_prototype_prop_pause",
-      "File": "lib/mysql.js",
-      "Start": 1520,
-      "End": 1525
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_12_prop_prototype_prop_resume",
-      "File": "lib/mysql.js",
-      "Start": 1580,
-      "End": 1586
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_13_prop_prototype_prop_escape",
-      "File": "lib/mysql.js",
-      "Start": 531,
-      "End": 537
-    },
-    {
-      "DefRepo": "github.com/felixge/node-mysql",
-      "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_1_prop_prototype_prop_connect",
+      "DefPath": "lib/Connection.js/obj/Connection/1/prop/prototype/prop/connect",
       "File": "lib/mysql.js",
       "Start": 160,
       "End": 167
@@ -2071,7 +2047,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_1_prop_prototype_prop_connect",
+      "DefPath": "lib/Connection.js/obj/Connection/1/prop/prototype/prop/connect",
       "File": "lib/mysql.js",
       "Start": 2455,
       "End": 2462
@@ -2079,7 +2055,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_1_prop_prototype_prop_connect",
+      "DefPath": "lib/Connection.js/obj/Connection/1/prop/prototype/prop/connect",
       "File": "lib/pg.js",
       "Start": 562,
       "End": 569
@@ -2087,7 +2063,31 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_3_prop_prototype_prop_beginTransaction",
+      "DefPath": "lib/Connection.js/obj/Connection/11/prop/prototype/prop/pause",
+      "File": "lib/mysql.js",
+      "Start": 1520,
+      "End": 1525
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js/obj/Connection/12/prop/prototype/prop/resume",
+      "File": "lib/mysql.js",
+      "Start": 1580,
+      "End": 1586
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js/obj/Connection/13/prop/prototype/prop/escape",
+      "File": "lib/mysql.js",
+      "Start": 531,
+      "End": 537
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "lib/Connection.js/obj/Connection/3/prop/prototype/prop/beginTransaction",
       "File": "lib/mysql.js",
       "Start": 1682,
       "End": 1698
@@ -2095,7 +2095,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_4_prop_prototype_prop_commit",
+      "DefPath": "lib/Connection.js/obj/Connection/4/prop/prototype/prop/commit",
       "File": "lib/mysql.js",
       "Start": 2163,
       "End": 2169
@@ -2103,7 +2103,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_5_prop_prototype_prop_rollback",
+      "DefPath": "lib/Connection.js/obj/Connection/5/prop/prototype/prop/rollback",
       "File": "lib/mysql.js",
       "Start": 1856,
       "End": 1864
@@ -2111,7 +2111,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_5_prop_prototype_prop_rollback",
+      "DefPath": "lib/Connection.js/obj/Connection/5/prop/prototype/prop/rollback",
       "File": "lib/mysql.js",
       "Start": 2083,
       "End": 2091
@@ -2119,7 +2119,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_5_prop_prototype_prop_rollback",
+      "DefPath": "lib/Connection.js/obj/Connection/5/prop/prototype/prop/rollback",
       "File": "lib/mysql.js",
       "Start": 2226,
       "End": 2234
@@ -2127,7 +2127,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/mysql.js",
       "Start": 1003,
       "End": 1008
@@ -2135,7 +2135,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/mysql.js",
       "Start": 1169,
       "End": 1174
@@ -2143,7 +2143,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/mysql.js",
       "Start": 1754,
       "End": 1759
@@ -2151,7 +2151,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/mysql.js",
       "Start": 183,
       "End": 188
@@ -2159,7 +2159,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/mysql.js",
       "Start": 1982,
       "End": 1987
@@ -2167,7 +2167,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/mysql.js",
       "Start": 2572,
       "End": 2577
@@ -2175,7 +2175,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/mysql.js",
       "Start": 606,
       "End": 611
@@ -2183,7 +2183,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/mysql.js",
       "Start": 686,
       "End": 691
@@ -2191,7 +2191,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/mysql.js",
       "Start": 831,
       "End": 836
@@ -2199,7 +2199,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/pg.js",
       "Start": 235,
       "End": 240
@@ -2207,7 +2207,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_6_prop_prototype_prop_query",
+      "DefPath": "lib/Connection.js/obj/Connection/6/prop/prototype/prop/query",
       "File": "lib/pg.js",
       "Start": 675,
       "End": 680
@@ -2215,7 +2215,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_9_prop_prototype_prop_end",
+      "DefPath": "lib/Connection.js/obj/Connection/9/prop/prototype/prop/end",
       "File": "lib/mysql.js",
       "Start": 2699,
       "End": 2702
@@ -2223,7 +2223,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/Connection.js_obj_Connection_9_prop_prototype_prop_end",
+      "DefPath": "lib/Connection.js/obj/Connection/9/prop/prototype/prop/end",
       "File": "lib/pg.js",
       "Start": 915,
       "End": 918
@@ -2231,20 +2231,20 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/ConnectionConfig.js_fn_ConnectionConfig_prop_queryFormat",
+      "DefPath": "lib/ConnectionConfig.js/fn/ConnectionConfig/prop/queryFormat",
       "File": "lib/mysql.js",
       "Start": 348,
       "End": 359
     },
     {
-      "DefPath": "lib/async.js_fn__1_param_results",
+      "DefPath": "lib/async.js/fn/1/param/results",
       "Def": true,
       "File": "lib/async.js",
       "Start": 232,
       "End": 239
     },
     {
-      "DefPath": "lib/async.js_fn__1_param_results",
+      "DefPath": "lib/async.js/fn/1/param/results",
       "File": "lib/async.js",
       "Start": 267,
       "End": 274
@@ -2252,7 +2252,7 @@
     {
       "DefRepo": "github.com/caolan/async",
       "DefUnit": "async",
-      "DefPath": "lib/async.js_fn__obj_async_11_prop_each",
+      "DefPath": "lib/async.js/fn/obj/async/11/prop/each",
       "File": "lib/lodash.js",
       "Start": 30,
       "End": 34
@@ -2260,7 +2260,7 @@
     {
       "DefRepo": "github.com/caolan/async",
       "DefUnit": "async",
-      "DefPath": "lib/async.js_fn__obj_async_20_prop_map",
+      "DefPath": "lib/async.js/fn/obj/async/20/prop/map",
       "File": "lib/async.js",
       "Start": 61,
       "End": 64
@@ -2268,7 +2268,7 @@
     {
       "DefRepo": "github.com/caolan/async",
       "DefUnit": "async",
-      "DefPath": "lib/async.js_fn__obj_async_31_prop_filter",
+      "DefPath": "lib/async.js/fn/obj/async/31/prop/filter",
       "File": "lib/async.js",
       "Start": 176,
       "End": 182
@@ -2276,193 +2276,193 @@
     {
       "DefRepo": "github.com/caolan/async",
       "DefUnit": "async",
-      "DefPath": "lib/async.js_fn__obj_async_37_prop_reject",
+      "DefPath": "lib/async.js/fn/obj/async/37/prop/reject",
       "File": "lib/lodash.js",
       "Start": 533,
       "End": 539
     },
     {
-      "DefPath": "lib/async.js_fn__param_err",
+      "DefPath": "lib/async.js/fn/param/err",
       "Def": true,
       "File": "lib/async.js",
       "Start": 113,
       "End": 116
     },
     {
-      "DefPath": "lib/async.js_fn__param_err",
+      "DefPath": "lib/async.js/fn/param/err",
       "File": "lib/async.js",
       "Start": 150,
       "End": 153
     },
     {
-      "DefPath": "lib/async.js_fn__param_results",
+      "DefPath": "lib/async.js/fn/param/results",
       "Def": true,
       "File": "lib/async.js",
       "Start": 118,
       "End": 125
     },
     {
-      "DefPath": "lib/async.js_fn__param_results",
+      "DefPath": "lib/async.js/fn/param/results",
       "File": "lib/async.js",
       "Start": 155,
       "End": 162
     },
     {
-      "DefPath": "lib/async.js_var_async",
+      "DefPath": "lib/async.js/var/async",
       "File": "lib/async.js",
       "Start": 170,
       "End": 175
     },
     {
-      "DefPath": "lib/async.js_var_async",
+      "DefPath": "lib/async.js/var/async",
       "Def": true,
       "File": "lib/async.js",
       "Start": 28,
       "End": 33
     },
     {
-      "DefPath": "lib/async.js_var_async",
+      "DefPath": "lib/async.js/var/async",
       "File": "lib/async.js",
       "Start": 55,
       "End": 60
     },
     {
-      "DefPath": "lib/async.js_var_fs",
+      "DefPath": "lib/async.js/var/fs",
       "File": "lib/async.js",
       "Start": 212,
       "End": 214
     },
     {
-      "DefPath": "lib/async.js_var_fs",
+      "DefPath": "lib/async.js/var/fs",
       "Def": true,
       "File": "lib/async.js",
       "Start": 4,
       "End": 6
     },
     {
-      "DefPath": "lib/async.js_var_fs",
+      "DefPath": "lib/async.js/var/fs",
       "File": "lib/async.js",
       "Start": 95,
       "End": 97
     },
     {
-      "DefPath": "lib/fs.js_fn__param_data",
+      "DefPath": "lib/fs.js/fn/param/data",
       "File": "lib/fs.js",
       "Start": 108,
       "End": 112
     },
     {
-      "DefPath": "lib/fs.js_fn__param_data",
+      "DefPath": "lib/fs.js/fn/param/data",
       "Def": true,
       "File": "lib/fs.js",
       "Start": 67,
       "End": 71
     },
     {
-      "DefPath": "lib/fs.js_fn__param_err",
+      "DefPath": "lib/fs.js/fn/param/err",
       "File": "lib/fs.js",
       "Start": 103,
       "End": 106
     },
     {
-      "DefPath": "lib/fs.js_fn__param_err",
+      "DefPath": "lib/fs.js/fn/param/err",
       "Def": true,
       "File": "lib/fs.js",
       "Start": 62,
       "End": 65
     },
     {
-      "DefPath": "lib/fs.js_var_fs",
+      "DefPath": "lib/fs.js/var/fs",
       "File": "lib/fs.js",
       "Start": 25,
       "End": 27
     },
     {
-      "DefPath": "lib/fs.js_var_fs",
+      "DefPath": "lib/fs.js/var/fs",
       "Def": true,
       "File": "lib/fs.js",
       "Start": 4,
       "End": 6
     },
     {
-      "DefPath": "lib/glob.js_fn__param_err",
+      "DefPath": "lib/glob.js/fn/param/err",
       "File": "lib/glob.js",
       "Start": 134,
       "End": 137
     },
     {
-      "DefPath": "lib/glob.js_fn__param_err",
+      "DefPath": "lib/glob.js/fn/param/err",
       "Def": true,
       "File": "lib/glob.js",
       "Start": 97,
       "End": 100
     },
     {
-      "DefPath": "lib/glob.js_fn__param_files",
+      "DefPath": "lib/glob.js/fn/param/files",
       "Def": true,
       "File": "lib/glob.js",
       "Start": 102,
       "End": 107
     },
     {
-      "DefPath": "lib/glob.js_fn__param_files",
+      "DefPath": "lib/glob.js/fn/param/files",
       "File": "lib/glob.js",
       "Start": 139,
       "End": 144
     },
     {
-      "DefPath": "lib/glob.js_var_glob",
+      "DefPath": "lib/glob.js/var/glob",
       "Def": true,
       "File": "lib/glob.js",
       "Start": 4,
       "End": 8
     },
     {
-      "DefPath": "lib/glob.js_var_glob",
+      "DefPath": "lib/glob.js/var/glob",
       "File": "lib/glob.js",
       "Start": 55,
       "End": 59
     },
     {
-      "DefPath": "lib/glob.js_var_glob",
+      "DefPath": "lib/glob.js/var/glob",
       "File": "lib/glob.js",
       "Start": 75,
       "End": 79
     },
     {
-      "DefPath": "lib/http.js_fn__1_param_e",
+      "DefPath": "lib/http.js/fn/1/param/e",
       "Def": true,
       "File": "lib/http.js",
       "Start": 164,
       "End": 165
     },
     {
-      "DefPath": "lib/http.js_fn__1_param_e",
+      "DefPath": "lib/http.js/fn/1/param/e",
       "File": "lib/http.js",
       "Start": 199,
       "End": 200
     },
     {
-      "DefPath": "lib/http.js_fn__param_res",
+      "DefPath": "lib/http.js/fn/param/res",
       "File": "lib/http.js",
       "Start": 123,
       "End": 126
     },
     {
-      "DefPath": "lib/http.js_fn__param_res",
+      "DefPath": "lib/http.js/fn/param/res",
       "Def": true,
       "File": "lib/http.js",
       "Start": 83,
       "End": 86
     },
     {
-      "DefPath": "lib/http.js_var_http",
+      "DefPath": "lib/http.js/var/http",
       "File": "lib/http.js",
       "Start": 29,
       "End": 33
     },
     {
-      "DefPath": "lib/http.js_var_http",
+      "DefPath": "lib/http.js/var/http",
       "Def": true,
       "File": "lib/http.js",
       "Start": 4,
@@ -2471,7 +2471,7 @@
     {
       "DefRepo": "github.com/brianc/node-postgres",
       "DefUnit": "pg",
-      "DefPath": "lib/index.js_obj_PG_1_prop_prototype_prop_connect",
+      "DefPath": "lib/index.js/obj/PG/1/prop/prototype/prop/connect",
       "File": "lib/pg.js",
       "Start": 95,
       "End": 102
@@ -2479,991 +2479,991 @@
     {
       "DefRepo": "github.com/brianc/node-postgres",
       "DefUnit": "pg",
-      "DefPath": "lib/index.js_var_PG_fn__prop_Client",
+      "DefPath": "lib/index.js/var/PG/fn/prop/Client",
       "File": "lib/pg.js",
       "Start": 536,
       "End": 542
     },
     {
-      "DefPath": "lib/lodash.js_var__",
+      "DefPath": "lib/lodash.js/var/_",
       "File": "lib/lodash.js",
       "Start": 207,
       "End": 208
     },
     {
-      "DefPath": "lib/lodash.js_var__",
+      "DefPath": "lib/lodash.js/var/_",
       "File": "lib/lodash.js",
       "Start": 28,
       "End": 29
     },
     {
-      "DefPath": "lib/lodash.js_var__",
+      "DefPath": "lib/lodash.js/var/_",
       "File": "lib/lodash.js",
       "Start": 312,
       "End": 313
     },
     {
-      "DefPath": "lib/lodash.js_var__",
+      "DefPath": "lib/lodash.js/var/_",
       "File": "lib/lodash.js",
       "Start": 420,
       "End": 421
     },
     {
-      "DefPath": "lib/lodash.js_var__",
+      "DefPath": "lib/lodash.js/var/_",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 4,
       "End": 5
     },
     {
-      "DefPath": "lib/lodash.js_var__",
+      "DefPath": "lib/lodash.js/var/_",
       "File": "lib/lodash.js",
       "Start": 531,
       "End": 532
     },
     {
-      "DefPath": "lib/lodash.js_var__",
+      "DefPath": "lib/lodash.js/var/_",
       "File": "lib/lodash.js",
       "Start": 74,
       "End": 75
     },
     {
-      "DefPath": "lib/lodash.js_var_even_fn__param_num",
+      "DefPath": "lib/lodash.js/var/even/fn/param/num",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 348,
       "End": 351
     },
     {
-      "DefPath": "lib/lodash.js_var_even_fn__param_num",
+      "DefPath": "lib/lodash.js/var/even/fn/param/num",
       "File": "lib/lodash.js",
       "Start": 361,
       "End": 364
     },
     {
-      "DefPath": "lib/lodash.js_var_even",
+      "DefPath": "lib/lodash.js/var/even",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 305,
       "End": 309
     },
     {
-      "DefPath": "lib/lodash.js_var_even",
+      "DefPath": "lib/lodash.js/var/even",
       "File": "lib/lodash.js",
       "Start": 400,
       "End": 404
     },
     {
-      "DefPath": "lib/lodash.js_var_evens_fn__param_num",
+      "DefPath": "lib/lodash.js/var/evens/fn/param/num",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 458,
       "End": 461
     },
     {
-      "DefPath": "lib/lodash.js_var_evens_fn__param_num",
+      "DefPath": "lib/lodash.js/var/evens/fn/param/num",
       "File": "lib/lodash.js",
       "Start": 471,
       "End": 474
     },
     {
-      "DefPath": "lib/lodash.js_var_evens",
+      "DefPath": "lib/lodash.js/var/evens",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 412,
       "End": 417
     },
     {
-      "DefPath": "lib/lodash.js_var_evens",
+      "DefPath": "lib/lodash.js/var/evens",
       "File": "lib/lodash.js",
       "Start": 511,
       "End": 516
     },
     {
-      "DefPath": "lib/lodash.js_var_flat_fn__param_a",
+      "DefPath": "lib/lodash.js/var/flat/fn/param/a",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 236,
       "End": 237
     },
     {
-      "DefPath": "lib/lodash.js_var_flat_fn__param_a",
+      "DefPath": "lib/lodash.js/var/flat/fn/param/a",
       "File": "lib/lodash.js",
       "Start": 251,
       "End": 252
     },
     {
-      "DefPath": "lib/lodash.js_var_flat_fn__param_b",
+      "DefPath": "lib/lodash.js/var/flat/fn/param/b",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 239,
       "End": 240
     },
     {
-      "DefPath": "lib/lodash.js_var_flat_fn__param_b",
+      "DefPath": "lib/lodash.js/var/flat/fn/param/b",
       "File": "lib/lodash.js",
       "Start": 260,
       "End": 261
     },
     {
-      "DefPath": "lib/lodash.js_var_flat",
+      "DefPath": "lib/lodash.js/var/flat",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 200,
       "End": 204
     },
     {
-      "DefPath": "lib/lodash.js_var_flat",
+      "DefPath": "lib/lodash.js/var/flat",
       "File": "lib/lodash.js",
       "Start": 293,
       "End": 297
     },
     {
-      "DefPath": "lib/lodash.js_var_list",
+      "DefPath": "lib/lodash.js/var/list",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 163,
       "End": 167
     },
     {
-      "DefPath": "lib/lodash.js_var_list",
+      "DefPath": "lib/lodash.js/var/list",
       "File": "lib/lodash.js",
       "Start": 221,
       "End": 225
     },
     {
-      "DefPath": "lib/lodash.js_var_odds_fn__param_num",
+      "DefPath": "lib/lodash.js/var/odds/fn/param/num",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 569,
       "End": 572
     },
     {
-      "DefPath": "lib/lodash.js_var_odds_fn__param_num",
+      "DefPath": "lib/lodash.js/var/odds/fn/param/num",
       "File": "lib/lodash.js",
       "Start": 582,
       "End": 585
     },
     {
-      "DefPath": "lib/lodash.js_var_odds",
+      "DefPath": "lib/lodash.js/var/odds",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 524,
       "End": 528
     },
     {
-      "DefPath": "lib/lodash.js_var_odds",
+      "DefPath": "lib/lodash.js/var/odds",
       "File": "lib/lodash.js",
       "Start": 621,
       "End": 625
     },
     {
-      "DefPath": "lib/lodash.js_var_thrice_fn__param_num",
+      "DefPath": "lib/lodash.js/var/thrice/fn/param/num",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 100,
       "End": 103
     },
     {
-      "DefPath": "lib/lodash.js_var_thrice_fn__param_num",
+      "DefPath": "lib/lodash.js/var/thrice/fn/param/num",
       "File": "lib/lodash.js",
       "Start": 113,
       "End": 116
     },
     {
-      "DefPath": "lib/lodash.js_var_thrice",
+      "DefPath": "lib/lodash.js/var/thrice",
       "File": "lib/lodash.js",
       "Start": 149,
       "End": 155
     },
     {
-      "DefPath": "lib/lodash.js_var_thrice",
+      "DefPath": "lib/lodash.js/var/thrice",
       "Def": true,
       "File": "lib/lodash.js",
       "Start": 65,
       "End": 71
     },
     {
-      "DefPath": "lib/minimatch.js_var_minimatch",
+      "DefPath": "lib/minimatch.js/var/minimatch",
       "Def": true,
       "File": "lib/minimatch.js",
       "Start": 4,
       "End": 13
     },
     {
-      "DefPath": "lib/minimatch.js_var_minimatch",
+      "DefPath": "lib/minimatch.js/var/minimatch",
       "File": "lib/minimatch.js",
       "Start": 65,
       "End": 74
     },
     {
-      "DefPath": "lib/mysql.js_fn__10_param_err",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 2472,
-      "End": 2475
-    },
-    {
-      "DefPath": "lib/mysql.js_fn__10_param_err",
-      "File": "lib/mysql.js",
-      "Start": 2493,
-      "End": 2496
-    },
-    {
-      "DefPath": "lib/mysql.js_fn__10_param_err",
-      "File": "lib/mysql.js",
-      "Start": 2536,
-      "End": 2539
-    },
-    {
-      "DefPath": "lib/mysql.js_fn__11_param_err",
-      "Def": true,
-      "File": "lib/mysql.js",
-      "Start": 2599,
-      "End": 2602
-    },
-    {
-      "DefPath": "lib/mysql.js_fn__11_param_err",
-      "File": "lib/mysql.js",
-      "Start": 2620,
-      "End": 2623
-    },
-    {
-      "DefPath": "lib/mysql.js_fn__11_param_err",
-      "File": "lib/mysql.js",
-      "Start": 2663,
-      "End": 2666
-    },
-    {
-      "DefPath": "lib/mysql.js_fn__1_fn__param_key",
+      "DefPath": "lib/mysql.js/fn/1/fn/param/key",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 468,
       "End": 471
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_fn__param_key",
+      "DefPath": "lib/mysql.js/fn/1/fn/param/key",
       "File": "lib/mysql.js",
       "Start": 505,
       "End": 508
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_fn__param_key",
+      "DefPath": "lib/mysql.js/fn/1/fn/param/key",
       "File": "lib/mysql.js",
       "Start": 545,
       "End": 548
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_fn__param_txt",
+      "DefPath": "lib/mysql.js/fn/1/fn/param/txt",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 463,
       "End": 466
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_fn__param_txt",
+      "DefPath": "lib/mysql.js/fn/1/fn/param/txt",
       "File": "lib/mysql.js",
       "Start": 569,
       "End": 572
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_param_query",
+      "DefPath": "lib/mysql.js/fn/1/param/query",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 372,
       "End": 377
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_param_query",
+      "DefPath": "lib/mysql.js/fn/1/param/query",
       "File": "lib/mysql.js",
       "Start": 411,
       "End": 416
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_param_query",
+      "DefPath": "lib/mysql.js/fn/1/param/query",
       "File": "lib/mysql.js",
       "Start": 427,
       "End": 432
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_param_values",
+      "DefPath": "lib/mysql.js/fn/1/param/values",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 379,
       "End": 385
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_param_values",
+      "DefPath": "lib/mysql.js/fn/1/param/values",
       "File": "lib/mysql.js",
       "Start": 396,
       "End": 402
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_param_values",
+      "DefPath": "lib/mysql.js/fn/1/param/values",
       "File": "lib/mysql.js",
       "Start": 483,
       "End": 489
     },
     {
-      "DefPath": "lib/mysql.js_fn__1_param_values",
+      "DefPath": "lib/mysql.js/fn/1/param/values",
       "File": "lib/mysql.js",
       "Start": 538,
       "End": 544
     },
     {
-      "DefPath": "lib/mysql.js_fn__2_param_err",
+      "DefPath": "lib/mysql.js/fn/10/param/err",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 2472,
+      "End": 2475
+    },
+    {
+      "DefPath": "lib/mysql.js/fn/10/param/err",
+      "File": "lib/mysql.js",
+      "Start": 2493,
+      "End": 2496
+    },
+    {
+      "DefPath": "lib/mysql.js/fn/10/param/err",
+      "File": "lib/mysql.js",
+      "Start": 2536,
+      "End": 2539
+    },
+    {
+      "DefPath": "lib/mysql.js/fn/11/param/err",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 2599,
+      "End": 2602
+    },
+    {
+      "DefPath": "lib/mysql.js/fn/11/param/err",
+      "File": "lib/mysql.js",
+      "Start": 2620,
+      "End": 2623
+    },
+    {
+      "DefPath": "lib/mysql.js/fn/11/param/err",
+      "File": "lib/mysql.js",
+      "Start": 2663,
+      "End": 2666
+    },
+    {
+      "DefPath": "lib/mysql.js/fn/2/param/err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 745,
       "End": 748
     },
     {
-      "DefPath": "lib/mysql.js_fn__2_param_err",
+      "DefPath": "lib/mysql.js/fn/2/param/err",
       "File": "lib/mysql.js",
       "Start": 766,
       "End": 769
     },
     {
-      "DefPath": "lib/mysql.js_fn__2_param_err",
+      "DefPath": "lib/mysql.js/fn/2/param/err",
       "File": "lib/mysql.js",
       "Start": 777,
       "End": 780
     },
     {
-      "DefPath": "lib/mysql.js_fn__2_param_result",
+      "DefPath": "lib/mysql.js/fn/2/param/result",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 750,
       "End": 756
     },
     {
-      "DefPath": "lib/mysql.js_fn__2_param_result",
+      "DefPath": "lib/mysql.js/fn/2/param/result",
       "File": "lib/mysql.js",
       "Start": 797,
       "End": 803
     },
     {
-      "DefPath": "lib/mysql.js_fn__3_param_err",
+      "DefPath": "lib/mysql.js/fn/3/param/err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 890,
       "End": 893
     },
     {
-      "DefPath": "lib/mysql.js_fn__3_param_err",
+      "DefPath": "lib/mysql.js/fn/3/param/err",
       "File": "lib/mysql.js",
       "Start": 911,
       "End": 914
     },
     {
-      "DefPath": "lib/mysql.js_fn__3_param_err",
+      "DefPath": "lib/mysql.js/fn/3/param/err",
       "File": "lib/mysql.js",
       "Start": 922,
       "End": 925
     },
     {
-      "DefPath": "lib/mysql.js_fn__3_param_result",
+      "DefPath": "lib/mysql.js/fn/3/param/result",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 895,
       "End": 901
     },
     {
-      "DefPath": "lib/mysql.js_fn__3_param_result",
+      "DefPath": "lib/mysql.js/fn/3/param/result",
       "File": "lib/mysql.js",
       "Start": 955,
       "End": 961
     },
     {
-      "DefPath": "lib/mysql.js_fn__4_param_err",
+      "DefPath": "lib/mysql.js/fn/4/param/err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1043,
       "End": 1046
     },
     {
-      "DefPath": "lib/mysql.js_fn__4_param_err",
+      "DefPath": "lib/mysql.js/fn/4/param/err",
       "File": "lib/mysql.js",
       "Start": 1066,
       "End": 1069
     },
     {
-      "DefPath": "lib/mysql.js_fn__4_param_err",
+      "DefPath": "lib/mysql.js/fn/4/param/err",
       "File": "lib/mysql.js",
       "Start": 1077,
       "End": 1080
     },
     {
-      "DefPath": "lib/mysql.js_fn__4_param_response",
+      "DefPath": "lib/mysql.js/fn/4/param/response",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1048,
       "End": 1056
     },
     {
-      "DefPath": "lib/mysql.js_fn__5_param_err",
+      "DefPath": "lib/mysql.js/fn/5/param/err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1229,
       "End": 1232
     },
     {
-      "DefPath": "lib/mysql.js_fn__6_param_fields",
+      "DefPath": "lib/mysql.js/fn/6/param/fields",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1337,
       "End": 1343
     },
     {
-      "DefPath": "lib/mysql.js_fn__7_param_row",
+      "DefPath": "lib/mysql.js/fn/7/param/row",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1425,
       "End": 1428
     },
     {
-      "DefPath": "lib/mysql.js_fn__7_param_row",
+      "DefPath": "lib/mysql.js/fn/7/param/row",
       "File": "lib/mysql.js",
       "Start": 1545,
       "End": 1548
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_fn__1_param_err",
+      "DefPath": "lib/mysql.js/fn/9/fn/fn/1/fn/1/param/err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 2179,
       "End": 2182
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_fn__1_param_err",
+      "DefPath": "lib/mysql.js/fn/9/fn/fn/1/fn/1/param/err",
       "File": "lib/mysql.js",
       "Start": 2198,
       "End": 2201
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_fn__1_param_err",
+      "DefPath": "lib/mysql.js/fn/9/fn/fn/1/fn/1/param/err",
       "File": "lib/mysql.js",
       "Start": 2266,
       "End": 2269
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_param_err",
+      "DefPath": "lib/mysql.js/fn/9/fn/fn/1/param/err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 2032,
       "End": 2035
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_param_err",
+      "DefPath": "lib/mysql.js/fn/9/fn/fn/1/param/err",
       "File": "lib/mysql.js",
       "Start": 2057,
       "End": 2060
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_param_err",
+      "DefPath": "lib/mysql.js/fn/9/fn/fn/1/param/err",
       "File": "lib/mysql.js",
       "Start": 2121,
       "End": 2124
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__fn__1_param_result",
+      "DefPath": "lib/mysql.js/fn/9/fn/fn/1/param/result",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 2037,
       "End": 2043
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__param_err",
+      "DefPath": "lib/mysql.js/fn/9/fn/param/err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1809,
       "End": 1812
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__param_err",
+      "DefPath": "lib/mysql.js/fn/9/fn/param/err",
       "File": "lib/mysql.js",
       "Start": 1832,
       "End": 1835
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__param_err",
+      "DefPath": "lib/mysql.js/fn/9/fn/param/err",
       "File": "lib/mysql.js",
       "Start": 1892,
       "End": 1895
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__param_result",
+      "DefPath": "lib/mysql.js/fn/9/fn/param/result",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1814,
       "End": 1820
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__param_result",
+      "DefPath": "lib/mysql.js/fn/9/fn/param/result",
       "File": "lib/mysql.js",
       "Start": 1938,
       "End": 1944
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__var_log",
+      "DefPath": "lib/mysql.js/fn/9/fn/var/log",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1922,
       "End": 1925
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_fn__var_log",
+      "DefPath": "lib/mysql.js/fn/9/fn/var/log",
       "File": "lib/mysql.js",
       "Start": 2018,
       "End": 2021
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_param_err",
+      "DefPath": "lib/mysql.js/fn/9/param/err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1708,
       "End": 1711
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_param_err",
+      "DefPath": "lib/mysql.js/fn/9/param/err",
       "File": "lib/mysql.js",
       "Start": 1721,
       "End": 1724
     },
     {
-      "DefPath": "lib/mysql.js_fn__9_param_err",
+      "DefPath": "lib/mysql.js/fn/9/param/err",
       "File": "lib/mysql.js",
       "Start": 1734,
       "End": 1737
     },
     {
-      "DefPath": "lib/mysql.js_fn__param_err",
+      "DefPath": "lib/mysql.js/fn/param/err",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 226,
       "End": 229
     },
     {
-      "DefPath": "lib/mysql.js_fn__param_err",
+      "DefPath": "lib/mysql.js/fn/param/err",
       "File": "lib/mysql.js",
       "Start": 253,
       "End": 256
     },
     {
-      "DefPath": "lib/mysql.js_fn__param_err",
+      "DefPath": "lib/mysql.js/fn/param/err",
       "File": "lib/mysql.js",
       "Start": 264,
       "End": 267
     },
     {
-      "DefPath": "lib/mysql.js_fn__param_fields",
+      "DefPath": "lib/mysql.js/fn/param/fields",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 237,
       "End": 243
     },
     {
-      "DefPath": "lib/mysql.js_fn__param_rows",
+      "DefPath": "lib/mysql.js/fn/param/rows",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 231,
       "End": 235
     },
     {
-      "DefPath": "lib/mysql.js_fn__param_rows",
+      "DefPath": "lib/mysql.js/fn/param/rows",
       "File": "lib/mysql.js",
       "Start": 305,
       "End": 309
     },
     {
-      "DefPath": "lib/mysql.js_obj__obj_key_title_1",
+      "DefPath": "lib/mysql.js/obj/obj_key/title/1",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 720,
       "End": 725
     },
     {
-      "DefPath": "lib/mysql.js_obj__obj_key_title",
+      "DefPath": "lib/mysql.js/obj/obj_key/title",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 649,
       "End": 654
     },
     {
-      "DefPath": "lib/mysql.js_var_connection_1_obj__obj_key_port",
+      "DefPath": "lib/mysql.js/var/connection/1/obj/obj_key/port",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 2412,
       "End": 2416
     },
     {
-      "DefPath": "lib/mysql.js_var_connection_1",
+      "DefPath": "lib/mysql.js/var/connection/1",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 2361,
       "End": 2371
     },
     {
-      "DefPath": "lib/mysql.js_var_connection_obj__obj_key_host",
+      "DefPath": "lib/mysql.js/var/connection/obj/obj_key/host",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 79,
       "End": 83
     },
     {
-      "DefPath": "lib/mysql.js_var_connection_obj__obj_key_password",
+      "DefPath": "lib/mysql.js/var/connection/obj/obj_key/password",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 124,
       "End": 132
     },
     {
-      "DefPath": "lib/mysql.js_var_connection_obj__obj_key_user",
+      "DefPath": "lib/mysql.js/var/connection/obj/obj_key/user",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 105,
       "End": 109
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 1158,
       "End": 1168
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 149,
       "End": 159
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 1509,
       "End": 1519
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 1569,
       "End": 1579
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 1671,
       "End": 1681
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 172,
       "End": 182
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 1743,
       "End": 1753
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 1845,
       "End": 1855
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 1971,
       "End": 1981
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 2072,
       "End": 2082
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 2152,
       "End": 2162
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 2215,
       "End": 2225
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 2444,
       "End": 2454
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 2561,
       "End": 2571
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 2688,
       "End": 2698
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 330,
       "End": 340
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 39,
       "End": 49
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 595,
       "End": 605
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 675,
       "End": 685
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 820,
       "End": 830
     },
     {
-      "DefPath": "lib/mysql.js_var_connection",
+      "DefPath": "lib/mysql.js/var/connection",
       "File": "lib/mysql.js",
       "Start": 992,
       "End": 1002
     },
     {
-      "DefPath": "lib/mysql.js_var_mysql",
+      "DefPath": "lib/mysql.js/var/mysql",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 4,
       "End": 9
     },
     {
-      "DefPath": "lib/mysql.js_var_mysql",
+      "DefPath": "lib/mysql.js/var/mysql",
       "File": "lib/mysql.js",
       "Start": 52,
       "End": 57
     },
     {
-      "DefPath": "lib/mysql.js_var_query",
+      "DefPath": "lib/mysql.js/var/query",
       "Def": true,
       "File": "lib/mysql.js",
       "Start": 1150,
       "End": 1155
     },
     {
-      "DefPath": "lib/mysql.js_var_query",
+      "DefPath": "lib/mysql.js/var/query",
       "File": "lib/mysql.js",
       "Start": 1199,
       "End": 1204
     },
     {
-      "DefPath": "lib/pg.js_fn__1_fn__param_err",
+      "DefPath": "lib/pg.js/fn/1/fn/param/err",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 719,
       "End": 722
     },
     {
-      "DefPath": "lib/pg.js_fn__1_fn__param_err",
+      "DefPath": "lib/pg.js/fn/1/fn/param/err",
       "File": "lib/pg.js",
       "Start": 741,
       "End": 744
     },
     {
-      "DefPath": "lib/pg.js_fn__1_fn__param_err",
+      "DefPath": "lib/pg.js/fn/1/fn/param/err",
       "File": "lib/pg.js",
       "Start": 798,
       "End": 801
     },
     {
-      "DefPath": "lib/pg.js_fn__1_fn__param_result",
+      "DefPath": "lib/pg.js/fn/1/fn/param/result",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 724,
       "End": 730
     },
     {
-      "DefPath": "lib/pg.js_fn__1_fn__param_result",
+      "DefPath": "lib/pg.js/fn/1/fn/param/result",
       "File": "lib/pg.js",
       "Start": 826,
       "End": 832
     },
     {
-      "DefPath": "lib/pg.js_fn__1_param_err",
+      "DefPath": "lib/pg.js/fn/1/param/err",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 579,
       "End": 582
     },
     {
-      "DefPath": "lib/pg.js_fn__1_param_err",
+      "DefPath": "lib/pg.js/fn/1/param/err",
       "File": "lib/pg.js",
       "Start": 591,
       "End": 594
     },
     {
-      "DefPath": "lib/pg.js_fn__1_param_err",
+      "DefPath": "lib/pg.js/fn/1/param/err",
       "File": "lib/pg.js",
       "Start": 656,
       "End": 659
     },
     {
-      "DefPath": "lib/pg.js_fn__fn__param_err",
+      "DefPath": "lib/pg.js/fn/fn/param/err",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 285,
       "End": 288
     },
     {
-      "DefPath": "lib/pg.js_fn__fn__param_err",
+      "DefPath": "lib/pg.js/fn/fn/param/err",
       "File": "lib/pg.js",
       "Start": 379,
       "End": 382
     },
     {
-      "DefPath": "lib/pg.js_fn__fn__param_err",
+      "DefPath": "lib/pg.js/fn/fn/param/err",
       "File": "lib/pg.js",
       "Start": 436,
       "End": 439
     },
     {
-      "DefPath": "lib/pg.js_fn__fn__param_result",
+      "DefPath": "lib/pg.js/fn/fn/param/result",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 290,
       "End": 296
     },
     {
-      "DefPath": "lib/pg.js_fn__fn__param_result",
+      "DefPath": "lib/pg.js/fn/fn/param/result",
       "File": "lib/pg.js",
       "Start": 464,
       "End": 470
     },
     {
-      "DefPath": "lib/pg.js_fn__param_client",
+      "DefPath": "lib/pg.js/fn/param/client",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 128,
       "End": 134
     },
     {
-      "DefPath": "lib/pg.js_fn__param_client",
+      "DefPath": "lib/pg.js/fn/param/client",
       "File": "lib/pg.js",
       "Start": 228,
       "End": 234
     },
     {
-      "DefPath": "lib/pg.js_fn__param_done",
+      "DefPath": "lib/pg.js/fn/param/done",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 136,
       "End": 140
     },
     {
-      "DefPath": "lib/pg.js_fn__param_done",
+      "DefPath": "lib/pg.js/fn/param/done",
       "File": "lib/pg.js",
       "Start": 363,
       "End": 367
     },
     {
-      "DefPath": "lib/pg.js_fn__param_err",
+      "DefPath": "lib/pg.js/fn/param/err",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 123,
       "End": 126
     },
     {
-      "DefPath": "lib/pg.js_fn__param_err",
+      "DefPath": "lib/pg.js/fn/param/err",
       "File": "lib/pg.js",
       "Start": 149,
       "End": 152
     },
     {
-      "DefPath": "lib/pg.js_fn__param_err",
+      "DefPath": "lib/pg.js/fn/param/err",
       "File": "lib/pg.js",
       "Start": 216,
       "End": 219
     },
     {
-      "DefPath": "lib/pg.js_var_client",
+      "DefPath": "lib/pg.js/var/client",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 520,
       "End": 526
     },
     {
-      "DefPath": "lib/pg.js_var_client",
+      "DefPath": "lib/pg.js/var/client",
       "File": "lib/pg.js",
       "Start": 555,
       "End": 561
     },
     {
-      "DefPath": "lib/pg.js_var_client",
+      "DefPath": "lib/pg.js/var/client",
       "File": "lib/pg.js",
       "Start": 668,
       "End": 674
     },
     {
-      "DefPath": "lib/pg.js_var_client",
+      "DefPath": "lib/pg.js/var/client",
       "File": "lib/pg.js",
       "Start": 908,
       "End": 914
     },
     {
-      "DefPath": "lib/pg.js_var_conString",
+      "DefPath": "lib/pg.js/var/conString",
       "File": "lib/pg.js",
       "Start": 103,
       "End": 112
     },
     {
-      "DefPath": "lib/pg.js_var_conString",
+      "DefPath": "lib/pg.js/var/conString",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 28,
       "End": 37
     },
     {
-      "DefPath": "lib/pg.js_var_conString",
+      "DefPath": "lib/pg.js/var/conString",
       "File": "lib/pg.js",
       "Start": 543,
       "End": 552
     },
     {
-      "DefPath": "lib/pg.js_var_pg",
+      "DefPath": "lib/pg.js/var/pg",
       "Def": true,
       "File": "lib/pg.js",
       "Start": 4,
       "End": 6
     },
     {
-      "DefPath": "lib/pg.js_var_pg",
+      "DefPath": "lib/pg.js/var/pg",
       "File": "lib/pg.js",
       "Start": 533,
       "End": 535
     },
     {
-      "DefPath": "lib/pg.js_var_pg",
+      "DefPath": "lib/pg.js/var/pg",
       "File": "lib/pg.js",
       "Start": 92,
       "End": 94
@@ -3471,7 +3471,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/protocol/Protocol.js_fn__7_obj_err_prop_fatal",
+      "DefPath": "lib/protocol/Protocol.js/fn/7/obj/err/prop/fatal",
       "File": "lib/mysql.js",
       "Start": 2540,
       "End": 2545
@@ -3479,7 +3479,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/protocol/Protocol.js_fn__7_obj_err_prop_fatal",
+      "DefPath": "lib/protocol/Protocol.js/fn/7/obj/err/prop/fatal",
       "File": "lib/mysql.js",
       "Start": 2667,
       "End": 2672
@@ -3487,7 +3487,7 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/protocol/ResultSet.js_fn_ResultSet_prop_rows",
+      "DefPath": "lib/protocol/ResultSet.js/fn/ResultSet/prop/rows",
       "File": "lib/pg.js",
       "Start": 471,
       "End": 475
@@ -3495,244 +3495,244 @@
     {
       "DefRepo": "github.com/felixge/node-mysql",
       "DefUnit": "mysql",
-      "DefPath": "lib/protocol/ResultSet.js_fn_ResultSet_prop_rows",
+      "DefPath": "lib/protocol/ResultSet.js/fn/ResultSet/prop/rows",
       "File": "lib/pg.js",
       "Start": 833,
       "End": 837
     },
     {
-      "DefPath": "lib/read-package-json.js_fn__param_data",
+      "DefPath": "lib/read-package-json.js/fn/param/data",
       "File": "lib/read-package-json.js",
       "Start": 124,
       "End": 128
     },
     {
-      "DefPath": "lib/read-package-json.js_fn__param_data",
+      "DefPath": "lib/read-package-json.js/fn/param/data",
       "Def": true,
       "File": "lib/read-package-json.js",
       "Start": 84,
       "End": 88
     },
     {
-      "DefPath": "lib/read-package-json.js_fn__param_err",
+      "DefPath": "lib/read-package-json.js/fn/param/err",
       "File": "lib/read-package-json.js",
       "Start": 119,
       "End": 122
     },
     {
-      "DefPath": "lib/read-package-json.js_fn__param_err",
+      "DefPath": "lib/read-package-json.js/fn/param/err",
       "Def": true,
       "File": "lib/read-package-json.js",
       "Start": 79,
       "End": 82
     },
     {
-      "DefPath": "lib/read-package-json.js_var_readJson",
+      "DefPath": "lib/read-package-json.js/var/readJson",
       "Def": true,
       "File": "lib/read-package-json.js",
       "Start": 4,
       "End": 12
     },
     {
-      "DefPath": "lib/read-package-json.js_var_readJson",
+      "DefPath": "lib/read-package-json.js/var/readJson",
       "File": "lib/read-package-json.js",
       "Start": 45,
       "End": 53
     },
     {
-      "DefPath": "lib/underscore.js_var__",
+      "DefPath": "lib/underscore.js/var/_",
       "File": "lib/underscore.js",
       "Start": 211,
       "End": 212
     },
     {
-      "DefPath": "lib/underscore.js_var__",
+      "DefPath": "lib/underscore.js/var/_",
       "File": "lib/underscore.js",
       "Start": 316,
       "End": 317
     },
     {
-      "DefPath": "lib/underscore.js_var__",
+      "DefPath": "lib/underscore.js/var/_",
       "File": "lib/underscore.js",
       "Start": 32,
       "End": 33
     },
     {
-      "DefPath": "lib/underscore.js_var__",
+      "DefPath": "lib/underscore.js/var/_",
       "File": "lib/underscore.js",
       "Start": 424,
       "End": 425
     },
     {
-      "DefPath": "lib/underscore.js_var__",
+      "DefPath": "lib/underscore.js/var/_",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 4,
       "End": 5
     },
     {
-      "DefPath": "lib/underscore.js_var__",
+      "DefPath": "lib/underscore.js/var/_",
       "File": "lib/underscore.js",
       "Start": 535,
       "End": 536
     },
     {
-      "DefPath": "lib/underscore.js_var__",
+      "DefPath": "lib/underscore.js/var/_",
       "File": "lib/underscore.js",
       "Start": 78,
       "End": 79
     },
     {
-      "DefPath": "lib/underscore.js_var_even_fn__param_num",
+      "DefPath": "lib/underscore.js/var/even/fn/param/num",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 352,
       "End": 355
     },
     {
-      "DefPath": "lib/underscore.js_var_even_fn__param_num",
+      "DefPath": "lib/underscore.js/var/even/fn/param/num",
       "File": "lib/underscore.js",
       "Start": 365,
       "End": 368
     },
     {
-      "DefPath": "lib/underscore.js_var_even",
+      "DefPath": "lib/underscore.js/var/even",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 309,
       "End": 313
     },
     {
-      "DefPath": "lib/underscore.js_var_even",
+      "DefPath": "lib/underscore.js/var/even",
       "File": "lib/underscore.js",
       "Start": 404,
       "End": 408
     },
     {
-      "DefPath": "lib/underscore.js_var_evens_fn__param_num",
+      "DefPath": "lib/underscore.js/var/evens/fn/param/num",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 462,
       "End": 465
     },
     {
-      "DefPath": "lib/underscore.js_var_evens_fn__param_num",
+      "DefPath": "lib/underscore.js/var/evens/fn/param/num",
       "File": "lib/underscore.js",
       "Start": 475,
       "End": 478
     },
     {
-      "DefPath": "lib/underscore.js_var_evens",
+      "DefPath": "lib/underscore.js/var/evens",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 416,
       "End": 421
     },
     {
-      "DefPath": "lib/underscore.js_var_evens",
+      "DefPath": "lib/underscore.js/var/evens",
       "File": "lib/underscore.js",
       "Start": 515,
       "End": 520
     },
     {
-      "DefPath": "lib/underscore.js_var_flat_fn__param_a",
+      "DefPath": "lib/underscore.js/var/flat/fn/param/a",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 240,
       "End": 241
     },
     {
-      "DefPath": "lib/underscore.js_var_flat_fn__param_a",
+      "DefPath": "lib/underscore.js/var/flat/fn/param/a",
       "File": "lib/underscore.js",
       "Start": 255,
       "End": 256
     },
     {
-      "DefPath": "lib/underscore.js_var_flat_fn__param_b",
+      "DefPath": "lib/underscore.js/var/flat/fn/param/b",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 243,
       "End": 244
     },
     {
-      "DefPath": "lib/underscore.js_var_flat_fn__param_b",
+      "DefPath": "lib/underscore.js/var/flat/fn/param/b",
       "File": "lib/underscore.js",
       "Start": 264,
       "End": 265
     },
     {
-      "DefPath": "lib/underscore.js_var_flat",
+      "DefPath": "lib/underscore.js/var/flat",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 204,
       "End": 208
     },
     {
-      "DefPath": "lib/underscore.js_var_flat",
+      "DefPath": "lib/underscore.js/var/flat",
       "File": "lib/underscore.js",
       "Start": 297,
       "End": 301
     },
     {
-      "DefPath": "lib/underscore.js_var_list",
+      "DefPath": "lib/underscore.js/var/list",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 167,
       "End": 171
     },
     {
-      "DefPath": "lib/underscore.js_var_list",
+      "DefPath": "lib/underscore.js/var/list",
       "File": "lib/underscore.js",
       "Start": 225,
       "End": 229
     },
     {
-      "DefPath": "lib/underscore.js_var_odds_fn__param_num",
+      "DefPath": "lib/underscore.js/var/odds/fn/param/num",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 573,
       "End": 576
     },
     {
-      "DefPath": "lib/underscore.js_var_odds_fn__param_num",
+      "DefPath": "lib/underscore.js/var/odds/fn/param/num",
       "File": "lib/underscore.js",
       "Start": 586,
       "End": 589
     },
     {
-      "DefPath": "lib/underscore.js_var_odds",
+      "DefPath": "lib/underscore.js/var/odds",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 528,
       "End": 532
     },
     {
-      "DefPath": "lib/underscore.js_var_odds",
+      "DefPath": "lib/underscore.js/var/odds",
       "File": "lib/underscore.js",
       "Start": 625,
       "End": 629
     },
     {
-      "DefPath": "lib/underscore.js_var_thrice_fn__param_num",
+      "DefPath": "lib/underscore.js/var/thrice/fn/param/num",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 104,
       "End": 107
     },
     {
-      "DefPath": "lib/underscore.js_var_thrice_fn__param_num",
+      "DefPath": "lib/underscore.js/var/thrice/fn/param/num",
       "File": "lib/underscore.js",
       "Start": 117,
       "End": 120
     },
     {
-      "DefPath": "lib/underscore.js_var_thrice",
+      "DefPath": "lib/underscore.js/var/thrice",
       "File": "lib/underscore.js",
       "Start": 153,
       "End": 159
     },
     {
-      "DefPath": "lib/underscore.js_var_thrice",
+      "DefPath": "lib/underscore.js/var/thrice",
       "Def": true,
       "File": "lib/underscore.js",
       "Start": 69,
@@ -3741,23 +3741,7 @@
     {
       "DefRepo": "github.com/jashkenas/underscore",
       "DefUnit": "underscore",
-      "DefPath": "underscore.js_fn__obj___10_prop_filter",
-      "File": "lib/underscore.js",
-      "Start": 426,
-      "End": 432
-    },
-    {
-      "DefRepo": "github.com/jashkenas/underscore",
-      "DefUnit": "underscore",
-      "DefPath": "underscore.js_fn__obj___12_prop_reject",
-      "File": "lib/underscore.js",
-      "Start": 537,
-      "End": 543
-    },
-    {
-      "DefRepo": "github.com/jashkenas/underscore",
-      "DefUnit": "underscore",
-      "DefPath": "underscore.js_fn__obj___1_prop_map",
+      "DefPath": "underscore.js/fn/obj/_/1/prop/map",
       "File": "lib/underscore.js",
       "Start": 80,
       "End": 83
@@ -3765,7 +3749,23 @@
     {
       "DefRepo": "github.com/jashkenas/underscore",
       "DefUnit": "underscore",
-      "DefPath": "underscore.js_fn__obj___6_prop_reduceRight",
+      "DefPath": "underscore.js/fn/obj/_/10/prop/filter",
+      "File": "lib/underscore.js",
+      "Start": 426,
+      "End": 432
+    },
+    {
+      "DefRepo": "github.com/jashkenas/underscore",
+      "DefUnit": "underscore",
+      "DefPath": "underscore.js/fn/obj/_/12/prop/reject",
+      "File": "lib/underscore.js",
+      "Start": 537,
+      "End": 543
+    },
+    {
+      "DefRepo": "github.com/jashkenas/underscore",
+      "DefUnit": "underscore",
+      "DefPath": "underscore.js/fn/obj/_/6/prop/reduceRight",
       "File": "lib/underscore.js",
       "Start": 213,
       "End": 224
@@ -3773,7 +3773,7 @@
     {
       "DefRepo": "github.com/jashkenas/underscore",
       "DefUnit": "underscore",
-      "DefPath": "underscore.js_fn__obj___8_prop_find",
+      "DefPath": "underscore.js/fn/obj/_/8/prop/find",
       "File": "lib/underscore.js",
       "Start": 318,
       "End": 322
@@ -3781,7 +3781,7 @@
     {
       "DefRepo": "github.com/jashkenas/underscore",
       "DefUnit": "underscore",
-      "DefPath": "underscore.js_fn__var_each_obj___prop_each",
+      "DefPath": "underscore.js/fn/var/each/obj/_/prop/each",
       "File": "lib/underscore.js",
       "Start": 34,
       "End": 38
@@ -3789,924 +3789,154 @@
   ],
   "Docs": [
     {
-      "Path": "index.js_0_7",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "index.js_8_13",
-      "Format": "",
-      "Data": "Same as console.log but prints to stderr."
-    },
-    {
-      "Path": "lib/async.js_130_137",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/async.js_138_141",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/async.js_176_182",
-      "Format": "",
-      "Data": "select alias"
-    },
-    {
-      "Path": "lib/async.js_212_214",
+      "Path": "lib/async.js/var/fs",
       "Format": "",
       "Data": "File I/O is provided by simple wrappers around standard POSIX functions. To use this module do require('fs').\nAll the methods have asynchronous and synchronous forms."
     },
     {
-      "Path": "lib/async.js_215_221",
-      "Format": "",
-      "Data": "Test whether or not the given path exists by checking with the file system. Then call the callback argument with either true or false."
-    },
-    {
-      "Path": "lib/async.js_244_251",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/async.js_252_255",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/async.js_36_43",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/async.js_4_6",
-      "Format": "",
-      "Data": "File I/O is provided by simple wrappers around standard POSIX functions. To use this module do require('fs').\nAll the methods have asynchronous and synchronous forms."
-    },
-    {
-      "Path": "lib/async.js_61_64",
-      "Format": "",
-      "Data": "select alias"
-    },
-    {
-      "Path": "lib/async.js_95_97",
-      "Format": "",
-      "Data": "File I/O is provided by simple wrappers around standard POSIX functions. To use this module do require('fs').\nAll the methods have asynchronous and synchronous forms."
-    },
-    {
-      "Path": "lib/async.js_98_102",
-      "Format": "",
-      "Data": "Asynchronous stat(2). The callback gets two arguments (err, stats) where stats is a fs.Stats object."
-    },
-    {
-      "Path": "lib/async.js_9_16",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/fs.js_103_106",
-      "Format": "",
-      "Data": "Creates an error object."
-    },
-    {
-      "Path": "lib/fs.js_108_112",
+      "Path": "lib/fs.js/fn/param/data",
       "Format": "",
       "Data": "The Buffer class is a global type for dealing with binary data directly. It can be constructed in a variety of ways."
     },
     {
-      "Path": "lib/fs.js_25_27",
+      "Path": "lib/fs.js/fn/param/err",
+      "Format": "",
+      "Data": "Creates an error object."
+    },
+    {
+      "Path": "lib/fs.js/var/fs",
       "Format": "",
       "Data": "File I/O is provided by simple wrappers around standard POSIX functions. To use this module do require('fs').\nAll the methods have asynchronous and synchronous forms."
     },
     {
-      "Path": "lib/fs.js_28_36",
-      "Format": "",
-      "Data": "Asynchronously reads the entire contents of a file."
-    },
-    {
-      "Path": "lib/fs.js_4_6",
-      "Format": "",
-      "Data": "File I/O is provided by simple wrappers around standard POSIX functions. To use this module do require('fs').\nAll the methods have asynchronous and synchronous forms."
-    },
-    {
-      "Path": "lib/fs.js_62_65",
+      "Path": "lib/http.js/fn/1/param/e",
       "Format": "",
       "Data": "Creates an error object."
     },
     {
-      "Path": "lib/fs.js_67_71",
-      "Format": "",
-      "Data": "The Buffer class is a global type for dealing with binary data directly. It can be constructed in a variety of ways."
-    },
-    {
-      "Path": "lib/fs.js_77_84",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/fs.js_85_90",
-      "Format": "",
-      "Data": "Same as console.log but prints to stderr."
-    },
-    {
-      "Path": "lib/fs.js_9_16",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/glob.js_113_120",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/glob.js_11_18",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/glob.js_121_124",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/glob.js_29_36",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/glob.js_37_40",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/glob.js_60_64",
-      "Format": "",
-      "Data": "we have implemented the _read method, and done the other things\nthat Readable wants before the first _read call, so unset the\nsync guard flag."
-    },
-    {
-      "Path": "lib/http.js_100_103",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/http.js_11_18",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/http.js_123_126",
+      "Path": "lib/http.js/fn/param/res",
       "Format": "",
       "Data": "An IncomingMessage object is created by http.Server or http.ClientRequest and passed as the first argument to the 'request' and 'response' event respectively. It may be used to access response status, headers and data."
     },
     {
-      "Path": "lib/http.js_127_137",
-      "Format": "",
-      "Data": "Only valid for response obtained from http.ClientRequest."
-    },
-    {
-      "Path": "lib/http.js_143_145",
-      "Format": "",
-      "Data": "Adds a listener to the end of the listeners array for the specified event."
-    },
-    {
-      "Path": "lib/http.js_164_165",
-      "Format": "",
-      "Data": "Creates an error object."
-    },
-    {
-      "Path": "lib/http.js_171_178",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/http.js_179_182",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/http.js_199_200",
-      "Format": "",
-      "Data": "Creates an error object."
-    },
-    {
-      "Path": "lib/http.js_201_208",
-      "Format": "",
-      "Data": "A human-readable description of the error."
-    },
-    {
-      "Path": "lib/http.js_29_33",
+      "Path": "lib/http.js/var/http",
       "Format": "",
       "Data": "The HTTP interfaces in Node are designed to support many features of the protocol which have been traditionally difficult to use. In particular, large, possibly chunk-encoded, messages. The interface is careful to never buffer entire requests or responses--the user is able to stream data."
     },
     {
-      "Path": "lib/http.js_34_37",
-      "Format": "",
-      "Data": "Since most requests are GET requests without bodies, Node provides this convenience method. The only difference between this method and http.request() is that it sets the method to GET and calls req.end() automatically."
-    },
-    {
-      "Path": "lib/http.js_4_8",
-      "Format": "",
-      "Data": "The HTTP interfaces in Node are designed to support many features of the protocol which have been traditionally difficult to use. In particular, large, possibly chunk-encoded, messages. The interface is careful to never buffer entire requests or responses--the user is able to stream data."
-    },
-    {
-      "Path": "lib/http.js_83_86",
-      "Format": "",
-      "Data": "An IncomingMessage object is created by http.Server or http.ClientRequest and passed as the first argument to the 'request' and 'response' event respectively. It may be used to access response status, headers and data."
-    },
-    {
-      "Path": "lib/http.js_92_99",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/lodash.js_100_103",
+      "Path": "lib/lodash.js/var/even",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
-      "Path": "lib/lodash.js_113_116",
+      "Path": "lib/lodash.js/var/evens/fn/param/num",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
-      "Path": "lib/lodash.js_126_133",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/lodash.js_134_137",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/lodash.js_209_220",
-      "Format": "",
-      "Data": "Apply a function simultaneously against two values of the array (from right-to-left) as to reduce it to a single value."
-    },
-    {
-      "Path": "lib/lodash.js_253_259",
-      "Format": "",
-      "Data": "Returns a new array comprised of this array joined with other array(s) and/or value(s)."
-    },
-    {
-      "Path": "lib/lodash.js_272_279",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/lodash.js_280_283",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/lodash.js_305_309",
+      "Path": "lib/lodash.js/var/thrice/fn/param/num",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
-      "Path": "lib/lodash.js_314_318",
-      "Format": "",
-      "Data": "Iterates over elements of a collection, returning the first element that\nthe callback returns truey for. The callback is bound to `thisArg` and\ninvoked with three arguments; (value, index|key, collection).\n\nIf a property name is provided for `callback` the created \"_.pluck\" style\ncallback will return the property value of the given element.\n\nIf an object is provided for `callback` the created \"_.where\" style callback\nwill return `true` for elements that have the properties of the given object,\nelse `false`.\n\n@static\n@memberOf _\n@alias detect, findWhere\n@category Collections\n@param {Array|Object|string} collection The collection to iterate over.\n@param {Function|Object|string} [callback=identity] The function called\n per iteration. If a property name or object is provided it will be used\n to create a \"_.pluck\" or \"_.where\" style callback, respectively.\n@param {*} [thisArg] The `this` binding of `callback`.\n@returns {*} Returns the found element, else `undefined`.\n@example\n\nvar characters = [\n  { 'name': 'barney',  'age': 36, 'blocked': false },\n  { 'name': 'fred',    'age': 40, 'blocked': true },\n  { 'name': 'pebbles', 'age': 1,  'blocked': false }\n];\n\n_.find(characters, function(chr) {\n  return chr.age \u003c 40;\n});\n// =\u003e { 'name': 'barney', 'age': 36, 'blocked': false }\n\n// using \"_.where\" callback shorthand\n_.find(characters, { 'age': 1 });\n// =\u003e  { 'name': 'pebbles', 'age': 1, 'blocked': false }\n\n// using \"_.pluck\" callback shorthand\n_.find(characters, 'blocked');\n// =\u003e { 'name': 'fred', 'age': 40, 'blocked': true }"
-    },
-    {
-      "Path": "lib/lodash.js_379_386",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/lodash.js_387_390",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/lodash.js_400_404",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "lib/lodash.js_422_428",
-      "Format": "",
-      "Data": "Creates a new array with all elements that pass the test implemented by the provided function."
-    },
-    {
-      "Path": "lib/lodash.js_458_461",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "lib/lodash.js_46_53",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/lodash.js_471_474",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "lib/lodash.js_489_496",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/lodash.js_497_500",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/lodash.js_533_539",
-      "Format": "",
-      "Data": "select alias"
-    },
-    {
-      "Path": "lib/lodash.js_54_57",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/lodash.js_600_607",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/lodash.js_608_611",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/lodash.js_76_79",
-      "Format": "",
-      "Data": "Creates a new array with the results of calling a provided function on every element in this array."
-    },
-    {
-      "Path": "lib/lodash.js_8_15",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/minimatch.js_16_23",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/minimatch.js_39_46",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/minimatch.js_47_50",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/mysql.js_105_109",
+      "Path": "lib/mysql.js/fn/1/fn/param/txt",
       "Format": "",
       "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "lib/mysql.js_1085_1092",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/mysql.js_1093_1096",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/mysql.js_1150_1155",
+      "Path": "lib/mysql.js/fn/1/param/query",
       "Format": "",
       "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "lib/mysql.js_1199_1204",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_124_132",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_1315_1317",
-      "Format": "",
-      "Data": "Adds a listener to the end of the listeners array for the specified event."
-    },
-    {
-      "Path": "lib/mysql.js_1403_1405",
-      "Format": "",
-      "Data": "Adds a listener to the end of the listeners array for the specified event."
-    },
-    {
-      "Path": "lib/mysql.js_1606_1608",
-      "Format": "",
-      "Data": "Adds a listener to the end of the listeners array for the specified event."
-    },
-    {
-      "Path": "lib/mysql.js_17_24",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/mysql.js_1922_1925",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_2018_2021",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_2303_2310",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/mysql.js_2311_2314",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/mysql.js_2374_2381",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/mysql.js_2412_2416",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "lib/mysql.js_2472_2475",
+      "Path": "lib/mysql.js/fn/10/param/err",
       "Format": "",
       "Data": "Creates an error object."
     },
     {
-      "Path": "lib/mysql.js_2481_2488",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/mysql.js_2489_2492",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/mysql.js_2493_2496",
+      "Path": "lib/mysql.js/fn/11/param/err",
       "Format": "",
       "Data": "Creates an error object."
     },
     {
-      "Path": "lib/mysql.js_2497_2501",
+      "Path": "lib/mysql.js/fn/9/fn/var/log",
       "Format": "",
       "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "lib/mysql.js_2524_2531",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/mysql.js_2532_2535",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/mysql.js_2536_2539",
-      "Format": "",
-      "Data": "Creates an error object."
-    },
-    {
-      "Path": "lib/mysql.js_2540_2545",
-      "Format": "",
-      "Data": "The Boolean object is an object wrapper for a boolean value."
-    },
-    {
-      "Path": "lib/mysql.js_2599_2602",
-      "Format": "",
-      "Data": "Creates an error object."
-    },
-    {
-      "Path": "lib/mysql.js_2608_2615",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/mysql.js_2616_2619",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/mysql.js_2620_2623",
-      "Format": "",
-      "Data": "Creates an error object."
-    },
-    {
-      "Path": "lib/mysql.js_2624_2628",
+      "Path": "lib/mysql.js/obj/obj_key/title",
       "Format": "",
       "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "lib/mysql.js_2651_2658",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/mysql.js_2659_2662",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/mysql.js_2663_2666",
-      "Format": "",
-      "Data": "Creates an error object."
-    },
-    {
-      "Path": "lib/mysql.js_2667_2672",
-      "Format": "",
-      "Data": "The Boolean object is an object wrapper for a boolean value."
-    },
-    {
-      "Path": "lib/mysql.js_272_279",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/mysql.js_280_283",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/mysql.js_372_377",
+      "Path": "lib/mysql.js/obj/obj_key/title/1",
       "Format": "",
       "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "lib/mysql.js_411_416",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_427_432",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_433_440",
-      "Format": "",
-      "Data": "Returns a new string with some or all matches of a pattern replaced by a replacement.  The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match."
-    },
-    {
-      "Path": "lib/mysql.js_463_466",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_490_504",
-      "Format": "",
-      "Data": "Returns a boolean indicating whether the object has the specified property."
-    },
-    {
-      "Path": "lib/mysql.js_569_572",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_578_582",
-      "Format": "",
-      "Data": "Creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function was called."
-    },
-    {
-      "Path": "lib/mysql.js_649_654",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_720_725",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_785_792",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/mysql.js_793_796",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/mysql.js_79_83",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/mysql.js_930_937",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/mysql.js_938_941",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/pg.js_103_112",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/pg.js_167_174",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/pg.js_175_180",
-      "Format": "",
-      "Data": "Same as console.log but prints to stderr."
-    },
-    {
-      "Path": "lib/pg.js_28_37",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/pg.js_399_406",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/pg.js_407_412",
-      "Format": "",
-      "Data": "Same as console.log but prints to stderr."
-    },
-    {
-      "Path": "lib/pg.js_452_459",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/pg.js_460_463",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/pg.js_479_485",
-      "Format": "",
-      "Data": "The Boolean object is an object wrapper for a boolean value."
-    },
-    {
-      "Path": "lib/pg.js_543_552",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/pg.js_609_616",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/pg.js_617_622",
-      "Format": "",
-      "Data": "Same as console.log but prints to stderr."
-    },
-    {
-      "Path": "lib/pg.js_761_768",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/pg.js_769_774",
-      "Format": "",
-      "Data": "Same as console.log but prints to stderr."
-    },
-    {
-      "Path": "lib/pg.js_814_821",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/pg.js_822_825",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/pg.js_9_16",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/read-package-json.js_102_105",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/read-package-json.js_124_128",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/read-package-json.js_15_22",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "lib/read-package-json.js_84_88",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/read-package-json.js_94_101",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/underscore.js_104_107",
+      "Path": "lib/mysql.js/var/connection/1/obj/obj_key/port",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
-      "Path": "lib/underscore.js_117_120",
+      "Path": "lib/mysql.js/var/connection/obj/obj_key/host",
       "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "lib/underscore.js_130_137",
+      "Path": "lib/mysql.js/var/connection/obj/obj_key/password",
       "Format": "",
-      "Data": "Used to print to stdout and stderr."
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "lib/underscore.js_138_141",
+      "Path": "lib/mysql.js/var/connection/obj/obj_key/user",
       "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
-      "Path": "lib/underscore.js_211_212",
+      "Path": "lib/mysql.js/var/query",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "lib/pg.js/var/conString",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "lib/read-package-json.js/fn/param/data",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "lib/underscore.js/var/_",
       "Format": "",
       "Data": "Create a safe reference to the Underscore object for use below."
     },
     {
-      "Path": "lib/underscore.js_213_224",
-      "Format": "",
-      "Data": "The right-associative version of reduce, also known as `foldr`.\nDelegates to **ECMAScript 5**'s native `reduceRight` if available."
-    },
-    {
-      "Path": "lib/underscore.js_257_263",
-      "Format": "",
-      "Data": "Returns a new array comprised of this array joined with other array(s) and/or value(s)."
-    },
-    {
-      "Path": "lib/underscore.js_276_283",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/underscore.js_284_287",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/underscore.js_309_313",
+      "Path": "lib/underscore.js/var/even",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
-      "Path": "lib/underscore.js_316_317",
-      "Format": "",
-      "Data": "Create a safe reference to the Underscore object for use below."
-    },
-    {
-      "Path": "lib/underscore.js_318_322",
-      "Format": "",
-      "Data": "Return the first value which passes a truth test. Aliased as `detect`."
-    },
-    {
-      "Path": "lib/underscore.js_32_33",
-      "Format": "",
-      "Data": "Create a safe reference to the Underscore object for use below."
-    },
-    {
-      "Path": "lib/underscore.js_34_38",
-      "Format": "",
-      "Data": "The cornerstone, an `each` implementation, aka `forEach`.\nHandles objects with the built-in `forEach`, arrays, and raw objects.\nDelegates to **ECMAScript 5**'s native `forEach` if available."
-    },
-    {
-      "Path": "lib/underscore.js_352_355",
+      "Path": "lib/underscore.js/var/even/fn/param/num",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
-      "Path": "lib/underscore.js_365_368",
+      "Path": "lib/underscore.js/var/evens/fn/param/num",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
-      "Path": "lib/underscore.js_383_390",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/underscore.js_391_394",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/underscore.js_404_408",
+      "Path": "lib/underscore.js/var/odds/fn/param/num",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
-      "Path": "lib/underscore.js_424_425",
-      "Format": "",
-      "Data": "Create a safe reference to the Underscore object for use below."
-    },
-    {
-      "Path": "lib/underscore.js_426_432",
-      "Format": "",
-      "Data": "Return all the elements that pass a truth test.\nDelegates to **ECMAScript 5**'s native `filter` if available.\nAliased as `select`."
-    },
-    {
-      "Path": "lib/underscore.js_462_465",
+      "Path": "lib/underscore.js/var/thrice/fn/param/num",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "lib/underscore.js_475_478",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "lib/underscore.js_493_500",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/underscore.js_4_5",
-      "Format": "",
-      "Data": "Create a safe reference to the Underscore object for use below."
-    },
-    {
-      "Path": "lib/underscore.js_501_504",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/underscore.js_50_57",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/underscore.js_535_536",
-      "Format": "",
-      "Data": "Create a safe reference to the Underscore object for use below."
-    },
-    {
-      "Path": "lib/underscore.js_537_543",
-      "Format": "",
-      "Data": "Return all the elements for which a truth test fails."
-    },
-    {
-      "Path": "lib/underscore.js_573_576",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "lib/underscore.js_586_589",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "lib/underscore.js_58_61",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/underscore.js_604_611",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "lib/underscore.js_612_615",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
-    },
-    {
-      "Path": "lib/underscore.js_78_79",
-      "Format": "",
-      "Data": "Create a safe reference to the Underscore object for use below."
-    },
-    {
-      "Path": "lib/underscore.js_80_83",
-      "Format": "",
-      "Data": "Return the results of applying the iterator to each element.\nDelegates to **ECMAScript 5**'s native `map` if available."
-    },
-    {
-      "Path": "lib/underscore.js_8_15",
-      "Format": "",
-      "Data": "To require modules."
     }
   ]
 }

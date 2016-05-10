@@ -1,7 +1,7 @@
 {
   "Defs": [
     {
-      "Path": "lib/my_module.js_obj_exports_prop_myFunc",
+      "Path": "lib/my_module.js/obj/exports/prop/myFunc",
       "Name": "myFunc",
       "Kind": "property",
       "File": "lib/my_module.js",
@@ -13,12 +13,12 @@
         "Kind": "property",
         "Separator": " "
       },
-      "TreePath": "lib/my_module.js_8_14"
+      "TreePath": "lib/my_module.js/obj/exports/prop/myFunc"
     }
   ],
   "Refs": [
     {
-      "DefPath": "lib/my_module.js_obj_exports_prop_myFunc",
+      "DefPath": "lib/my_module.js/obj/exports/prop/myFunc",
       "Def": true,
       "File": "lib/my_module.js",
       "Start": 8,
