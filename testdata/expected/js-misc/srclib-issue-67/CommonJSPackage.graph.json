@@ -1,7 +1,7 @@
 {
   "Defs": [
     {
-      "Path": "srclib-issue-67/index.js_var_a",
+      "Path": "srclib-issue-67/index.js/var/a",
       "Name": "a",
       "Kind": "var",
       "File": "srclib-issue-67/index.js",
@@ -12,8 +12,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "srclib-issue-67/index.js_4_5"
+      }
     }
   ],
   "Refs": [
@@ -30,7 +29,7 @@
       "End": 14
     },
     {
-      "DefPath": "srclib-issue-67/index.js_var_a",
+      "DefPath": "srclib-issue-67/index.js/var/a",
       "Def": true,
       "File": "srclib-issue-67/index.js",
       "Start": 4,
@@ -39,19 +38,9 @@
   ],
   "Docs": [
     {
-      "Path": "srclib-issue-67/index.js_15_21",
+      "Path": "srclib-issue-67/index.js/var/a",
       "Format": "",
       "Data": "The module that required this one."
-    },
-    {
-      "Path": "srclib-issue-67/index.js_4_5",
-      "Format": "",
-      "Data": "The module that required this one."
-    },
-    {
-      "Path": "srclib-issue-67/index.js_8_14",
-      "Format": "",
-      "Data": "Node has a simple module loading system. In Node, files and modules are in one-to-one correspondence."
     }
   ]
 }

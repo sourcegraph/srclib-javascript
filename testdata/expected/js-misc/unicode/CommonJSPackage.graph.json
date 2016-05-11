@@ -1,7 +1,7 @@
 {
   "Defs": [
     {
-      "Path": "unicode/index.js_var_a",
+      "Path": "unicode/index.js/var/a",
       "Name": "a",
       "Kind": "var",
       "File": "unicode/index.js",
@@ -12,13 +12,12 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "unicode/index.js_9_10"
+      }
     }
   ],
   "Refs": [
     {
-      "DefPath": "unicode/index.js_var_a",
+      "DefPath": "unicode/index.js/var/a",
       "Def": true,
       "File": "unicode/index.js",
       "Start": 11,
@@ -27,7 +26,7 @@
   ],
   "Docs": [
     {
-      "Path": "unicode/index.js_9_10",
+      "Path": "unicode/index.js/var/a",
       "Format": "",
       "Data": "✱"
     }

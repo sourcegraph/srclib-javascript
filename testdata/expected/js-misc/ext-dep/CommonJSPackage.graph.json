@@ -1,7 +1,7 @@
 {
   "Refs": [
     {
-      "DefPath": "ext-dep/index.js_var_lodash_contains",
+      "DefPath": "ext-dep/index.js/var/lodash_contains",
       "File": "ext-dep/index.js",
       "Start": 76,
       "End": 91
@@ -23,23 +23,6 @@
       "File": "ext-dep/index.js",
       "Start": 59,
       "End": 62
-    }
-  ],
-  "Docs": [
-    {
-      "Path": "ext-dep/index.js_22_29",
-      "Format": "",
-      "Data": "To require modules."
-    },
-    {
-      "Path": "ext-dep/index.js_51_58",
-      "Format": "",
-      "Data": "Used to print to stdout and stderr."
-    },
-    {
-      "Path": "ext-dep/index.js_59_62",
-      "Format": "",
-      "Data": "Prints to stdout with newline. This function can take multiple arguments in a printf()-like way."
     }
   ]
 }
