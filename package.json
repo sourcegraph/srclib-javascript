@@ -2,7 +2,6 @@
   "name": "srclib-javascript",
   "version": "0.0.1",
   "description": "JavaScript source analysis toolchain for srclib",
-  "main": "index.js",
   "scripts": {
     "test": "make test-deps && src test -m program"
   },
