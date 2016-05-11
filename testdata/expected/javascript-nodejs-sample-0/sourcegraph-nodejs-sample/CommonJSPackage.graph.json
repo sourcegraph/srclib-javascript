@@ -12,8 +12,7 @@
         "Keyword": "function",
         "Kind": "function",
         "Separator": " "
-      },
-      "TreePath": "animal.js/fn/Animal"
+      }
     },
     {
       "Path": "animal.js/fn/Animal/param/name",
@@ -27,8 +26,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "animal.js/fn/Animal/param/name"
+      }
     },
     {
       "Path": "animal.js/fn/Animal/prop/name",
@@ -42,8 +40,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/fn/Animal/prop/name"
+      }
     },
     {
       "Path": "animal.js/fn/Dog",
@@ -57,8 +54,7 @@
         "Keyword": "function",
         "Kind": "function",
         "Separator": " "
-      },
-      "TreePath": "animal.js/fn/Dog"
+      }
     },
     {
       "Path": "animal.js/fn/Dog/param/breed",
@@ -72,8 +68,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "animal.js/fn/Dog/param/breed"
+      }
     },
     {
       "Path": "animal.js/fn/Dog/param/name",
@@ -87,8 +82,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "animal.js/fn/Dog/param/name"
+      }
     },
     {
       "Path": "animal.js/fn/Dog/prop/breed",
@@ -102,8 +96,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/fn/Dog/prop/breed"
+      }
     },
     {
       "Path": "animal.js/fn/Dog/prop/name",
@@ -117,8 +110,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/fn/Dog/prop/name"
+      }
     },
     {
       "Path": "animal.js/fn/Dog/prop/noise",
@@ -132,8 +124,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/fn/Dog/prop/noise"
+      }
     },
     {
       "Path": "animal.js/obj/Animal/1/prop/prototype/prop/makeNoise",
@@ -147,8 +138,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/obj/Animal/1/prop/prototype/prop/makeNoise"
+      }
     },
     {
       "Path": "animal.js/obj/Animal/prop/prototype/prop/sayHello",
@@ -162,8 +152,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/obj/Animal/prop/prototype/prop/sayHello"
+      }
     },
     {
       "Path": "animal.js/obj/Dog/1/prop/prototype/prop/sayExtendedHello",
@@ -177,8 +166,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/obj/Dog/1/prop/prototype/prop/sayExtendedHello"
+      }
     },
     {
       "Path": "animal.js/obj/Dog/2/prop/prototype/prop/bark",
@@ -192,8 +180,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/obj/Dog/2/prop/prototype/prop/bark"
+      }
     },
     {
       "Path": "animal.js/obj/Dog/prop/prototype",
@@ -207,8 +194,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/obj/Dog/prop/prototype"
+      }
     },
     {
       "Path": "animal.js/obj/module/prop/exports",
@@ -222,8 +208,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "animal.js/obj/module/prop/exports"
+      }
     },
     {
       "Path": "animal.js/obj/objType/module.exports/obj_key/Animal",
@@ -237,8 +222,7 @@
         "Keyword": "ast",
         "Kind": "ast",
         "Separator": " "
-      },
-      "TreePath": "animal.js/obj/objType/module.exports/obj_key/Animal"
+      }
     },
     {
       "Path": "animal.js/obj/objType/module.exports/obj_key/Dog",
@@ -252,8 +236,7 @@
         "Keyword": "ast",
         "Kind": "ast",
         "Separator": " "
-      },
-      "TreePath": "animal.js/obj/objType/module.exports/obj_key/Dog"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/1/fn/1/param/done",
@@ -267,8 +250,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/1/fn/1/param/done"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/1/fn/1/var/a",
@@ -282,8 +264,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/1/fn/1/var/a"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/1/fn/2/param/done",
@@ -297,8 +278,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/1/fn/2/param/done"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/1/fn/2/var/a",
@@ -312,8 +292,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/1/fn/2/var/a"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/1/fn/3/param/done",
@@ -327,8 +306,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/1/fn/3/param/done"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/1/fn/3/var/a",
@@ -342,8 +320,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/1/fn/3/var/a"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/1/fn/param/done",
@@ -357,8 +334,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/1/fn/param/done"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/1/fn/var/a",
@@ -372,8 +348,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/1/fn/var/a"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/fn/1/param/done",
@@ -387,8 +362,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/fn/1/param/done"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/fn/1/var/a",
@@ -402,8 +376,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/fn/1/var/a"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/fn/2/param/done",
@@ -417,8 +390,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/fn/2/param/done"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/fn/2/var/a",
@@ -432,8 +404,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/fn/2/var/a"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/fn/param/done",
@@ -447,8 +418,7 @@
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/fn/param/done"
+      }
     },
     {
       "Path": "test/animal_test.js/fn/fn/var/a",
@@ -462,8 +432,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/fn/fn/var/a"
+      }
     },
     {
       "Path": "test/animal_test.js/var/animal",
@@ -477,8 +446,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/var/animal"
+      }
     },
     {
       "Path": "test/animal_test.js/var/should",
@@ -492,8 +460,7 @@
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
-      },
-      "TreePath": "test/animal_test.js/var/should"
+      }
     }
   ],
   "Refs": [

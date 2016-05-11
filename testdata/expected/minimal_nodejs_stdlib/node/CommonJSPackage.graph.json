@@ -12,8 +12,7 @@
         "Keyword": "property",
         "Kind": "property",
         "Separator": " "
-      },
-      "TreePath": "lib/my_module.js/obj/exports/prop/myFunc"
+      }
     }
   ],
   "Refs": [
