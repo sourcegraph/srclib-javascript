@@ -8,6 +8,8 @@ var path = require('path');
 var child_process = require('child_process');
 var fs = require('fs');
 
+var util = require('../lib/util.js');
+
 parser.command("scan-commonjs")
     .option("repo", {
         help: "repository URI"
@@ -85,7 +87,7 @@ parser.command("scan-commonjs")
 
                 files = arrayUnique(pkg.libFiles.concat(pkg.testFiles).filter(function(f) {
                     return fs.statSync(f).isFile();
-                }));
+                }).map(util.normalizePath));
 
                 return {
                     Name: pkg.package.name,
