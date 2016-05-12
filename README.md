@@ -15,20 +15,18 @@ This toolchain is not a standalone program; it provides additional functionality
 to applications that use [srclib](https://srclib.org).
 
 First,
-[install the `src` program (see srclib installation instructions)](https://sourcegraph.com/sourcegraph/srclib).
+[install the `srclib` program (see srclib installation instructions)](https://sourcegraph.com/sourcegraph/srclib).
 
 Then run:
 
 ```
-git clone https://github.com/sourcegraph/srclib-javascript.git
-cd srclib-javascript
-src toolchain add sourcegraph.com/sourcegraph/srclib-javascript
+srclib toolchain install javascript
 ```
 
 To verify that installation succeeded, run:
 
 ```
-src toolchain list
+srclib toolchain list
 ```
 
 You should see this srclib-javascript toolchain in the list.
@@ -78,24 +76,15 @@ adapted for other use cases. It also has several limitations.
 
 ## Tests
 
-Testing this toolchain requires that you have installed `src` from
+Testing this toolchain requires that you have installed `srclib` from
 [srclib](https://sourcegraph.com/sourcegraph/srclib) and that you have this
 toolchain set up. See srclib documentation for more information.
 
 To test this toolchain's output against the expected output, run:
 
 ```
-# build the Docker container to run the tests in isolation
-src toolchain build sourcegraph.com/sourcegraph/srclib-javascript
-
-# run the tests
-src test
+srclib test
 ```
-
-By default, that command runs tests in an isolated Docker container. To run the
-tests on your local machine, run `src test -m program`. See the srclib
-documentation for more information about the differences between these two
-execution methods.
 
 ## Contributing
 
