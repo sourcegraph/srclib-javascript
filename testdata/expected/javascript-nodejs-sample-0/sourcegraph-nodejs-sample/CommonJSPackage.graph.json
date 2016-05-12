@@ -776,18 +776,24 @@
       "End": 937
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "test/animal_test.js",
       "Start": 13,
       "End": 20
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "test/animal_test.js",
       "Start": 48,
       "End": 55
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/modules.html",
       "File": "animal.js",
       "Start": 731,

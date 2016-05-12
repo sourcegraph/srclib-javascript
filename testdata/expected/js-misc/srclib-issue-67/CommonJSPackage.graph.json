@@ -17,12 +17,16 @@
   ],
   "Refs": [
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/modules.html#modules_module_parent",
       "File": "srclib-issue-67/index.js",
       "Start": 15,
       "End": 21
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/modules.html",
       "File": "srclib-issue-67/index.js",
       "Start": 8,
