@@ -1299,624 +1299,832 @@
       "End": 64
     },
     {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
       "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/ReduceRight",
       "File": "lib/lodash.js",
       "Start": 209,
       "End": 220
     },
     {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
       "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/concat",
       "File": "lib/lodash.js",
       "Start": 253,
       "End": 259
     },
     {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
       "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/concat",
       "File": "lib/underscore.js",
       "Start": 257,
       "End": 263
     },
     {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
       "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/filter",
       "File": "lib/lodash.js",
       "Start": 422,
       "End": 428
     },
     {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
       "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/map",
       "File": "lib/lodash.js",
       "Start": 76,
       "End": 79
     },
     {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
       "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Error/message",
       "File": "lib/http.js",
       "Start": 201,
       "End": 208
     },
     {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
       "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/bind",
       "File": "lib/mysql.js",
       "Start": 578,
       "End": 582
     },
     {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
       "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/hasOwnProperty",
       "File": "lib/mysql.js",
       "Start": 490,
       "End": 504
     },
     {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
       "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String/replace",
       "File": "lib/mysql.js",
       "Start": 433,
       "End": 440
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/events.html#events_emitter_on_event_listener",
       "File": "lib/http.js",
       "Start": 143,
       "End": 145
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/events.html#events_emitter_on_event_listener",
       "File": "lib/mysql.js",
       "Start": 1315,
       "End": 1317
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/events.html#events_emitter_on_event_listener",
       "File": "lib/mysql.js",
       "Start": 1403,
       "End": 1405
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/events.html#events_emitter_on_event_listener",
       "File": "lib/mysql.js",
       "Start": 1606,
       "End": 1608
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/fs.html#fs_fs_exists_path_callback",
       "File": "lib/async.js",
       "Start": 215,
       "End": 221
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback",
       "File": "lib/fs.js",
       "Start": 28,
       "End": 36
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/fs.html#fs_fs_stat_path_callback",
       "File": "lib/async.js",
       "Start": 98,
       "End": 102
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "index.js",
       "Start": 0,
       "End": 7
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/async.js",
       "Start": 130,
       "End": 137
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/async.js",
       "Start": 244,
       "End": 251
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/fs.js",
       "Start": 77,
       "End": 84
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/glob.js",
       "Start": 113,
       "End": 120
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/glob.js",
       "Start": 29,
       "End": 36
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/http.js",
       "Start": 171,
       "End": 178
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/http.js",
       "Start": 92,
       "End": 99
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/lodash.js",
       "Start": 126,
       "End": 133
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/lodash.js",
       "Start": 272,
       "End": 279
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/lodash.js",
       "Start": 379,
       "End": 386
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/lodash.js",
       "Start": 46,
       "End": 53
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/lodash.js",
       "Start": 489,
       "End": 496
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/lodash.js",
       "Start": 600,
       "End": 607
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/minimatch.js",
       "Start": 39,
       "End": 46
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/mysql.js",
       "Start": 1085,
       "End": 1092
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/mysql.js",
       "Start": 2303,
       "End": 2310
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/mysql.js",
       "Start": 2481,
       "End": 2488
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/mysql.js",
       "Start": 2524,
       "End": 2531
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/mysql.js",
       "Start": 2608,
       "End": 2615
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/mysql.js",
       "Start": 2651,
       "End": 2658
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/mysql.js",
       "Start": 272,
       "End": 279
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/mysql.js",
       "Start": 785,
       "End": 792
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/mysql.js",
       "Start": 930,
       "End": 937
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/pg.js",
       "Start": 167,
       "End": 174
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/pg.js",
       "Start": 399,
       "End": 406
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/pg.js",
       "Start": 452,
       "End": 459
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/pg.js",
       "Start": 609,
       "End": 616
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/pg.js",
       "Start": 761,
       "End": 768
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/pg.js",
       "Start": 814,
       "End": 821
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/read-package-json.js",
       "Start": 94,
       "End": 101
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/underscore.js",
       "Start": 130,
       "End": 137
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/underscore.js",
       "Start": 276,
       "End": 283
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/underscore.js",
       "Start": 383,
       "End": 390
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/underscore.js",
       "Start": 493,
       "End": 500
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/underscore.js",
       "Start": 50,
       "End": 57
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "lib/underscore.js",
       "Start": 604,
       "End": 611
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/async.js",
       "Start": 36,
       "End": 43
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/async.js",
       "Start": 9,
       "End": 16
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/fs.js",
       "Start": 9,
       "End": 16
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/glob.js",
       "Start": 11,
       "End": 18
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/http.js",
       "Start": 11,
       "End": 18
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/lodash.js",
       "Start": 8,
       "End": 15
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/minimatch.js",
       "Start": 16,
       "End": 23
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/mysql.js",
       "Start": 17,
       "End": 24
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/mysql.js",
       "Start": 2374,
       "End": 2381
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/pg.js",
       "Start": 9,
       "End": 16
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/read-package-json.js",
       "Start": 15,
       "End": 22
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "lib/underscore.js",
       "Start": 8,
       "End": 15
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/http.html#http_http_get_options_callback",
       "File": "lib/http.js",
       "Start": 34,
       "End": 37
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/http.html#http_message_statuscode",
       "File": "lib/http.js",
       "Start": 127,
       "End": 137
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_error_data",
       "File": "index.js",
       "Start": 8,
       "End": 13
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_error_data",
       "File": "lib/fs.js",
       "Start": 85,
       "End": 90
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_error_data",
       "File": "lib/pg.js",
       "Start": 175,
       "End": 180
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_error_data",
       "File": "lib/pg.js",
       "Start": 407,
       "End": 412
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_error_data",
       "File": "lib/pg.js",
       "Start": 617,
       "End": 622
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_error_data",
       "File": "lib/pg.js",
       "Start": 769,
       "End": 774
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/async.js",
       "Start": 138,
       "End": 141
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/async.js",
       "Start": 252,
       "End": 255
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/glob.js",
       "Start": 121,
       "End": 124
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/glob.js",
       "Start": 37,
       "End": 40
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/http.js",
       "Start": 100,
       "End": 103
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/http.js",
       "Start": 179,
       "End": 182
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/lodash.js",
       "Start": 134,
       "End": 137
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/lodash.js",
       "Start": 280,
       "End": 283
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/lodash.js",
       "Start": 387,
       "End": 390
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/lodash.js",
       "Start": 497,
       "End": 500
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/lodash.js",
       "Start": 54,
       "End": 57
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/lodash.js",
       "Start": 608,
       "End": 611
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/minimatch.js",
       "Start": 47,
       "End": 50
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/mysql.js",
       "Start": 1093,
       "End": 1096
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/mysql.js",
       "Start": 2311,
       "End": 2314
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/mysql.js",
       "Start": 2489,
       "End": 2492
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/mysql.js",
       "Start": 2532,
       "End": 2535
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/mysql.js",
       "Start": 2616,
       "End": 2619
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/mysql.js",
       "Start": 2659,
       "End": 2662
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/mysql.js",
       "Start": 280,
       "End": 283
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/mysql.js",
       "Start": 793,
       "End": 796
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/mysql.js",
       "Start": 938,
       "End": 941
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/pg.js",
       "Start": 460,
       "End": 463
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/pg.js",
       "Start": 822,
       "End": 825
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/read-package-json.js",
       "Start": 102,
       "End": 105
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/underscore.js",
       "Start": 138,
       "End": 141
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/underscore.js",
       "Start": 284,
       "End": 287
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/underscore.js",
       "Start": 391,
       "End": 394
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/underscore.js",
       "Start": 501,
       "End": 504
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/underscore.js",
       "Start": 58,
       "End": 61
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "lib/underscore.js",
       "Start": 612,

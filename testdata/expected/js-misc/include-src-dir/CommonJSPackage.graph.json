@@ -1,24 +1,32 @@
 {
   "Refs": [
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "include-src-dir/index.js",
       "Start": 0,
       "End": 7
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "include-src-dir/src/foo.js",
       "Start": 0,
       "End": 7
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "include-src-dir/index.js",
       "Start": 8,
       "End": 11
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "include-src-dir/src/foo.js",
       "Start": 8,

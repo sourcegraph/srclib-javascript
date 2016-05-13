@@ -7,18 +7,24 @@
       "End": 91
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "ext-dep/index.js",
       "Start": 51,
       "End": 58
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_require",
       "File": "ext-dep/index.js",
       "Start": 22,
       "End": 29
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "ext-dep/index.js",
       "Start": 59,

@@ -1,12 +1,16 @@
 {
   "Refs": [
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "dir-not-file/lib/index.js",
       "Start": 0,
       "End": 7
     },
     {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
       "File": "dir-not-file/lib/index.js",
       "Start": 8,
