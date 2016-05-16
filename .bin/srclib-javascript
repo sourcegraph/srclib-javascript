@@ -39,13 +39,6 @@ parser.command("scan-commonjs")
                 return pathComps.indexOf("node_modules") == -1 && pathComps.indexOf("test") == -1 && pathComps.indexOf("templates") == -1 && pathComps.indexOf("bower_components") == -1;
             });
 
-            // filter out undesirable source files (minified files) from
-            // packages
-            pkgs.forEach(function(pkg) {
-                pkg.libFiles = pkg.libFiles.filter(function(f) {
-                    return !/\.min\.js$/.test(f);
-                });
-            });
 
             // automatically include files in the src dir (not just
             // lib). this is somewhat common for client-side libs even
@@ -63,6 +56,14 @@ parser.command("scan-commonjs")
                     var files = glob.sync(path.join(pkg.dir, path.dirname(pkg.package.main), '**/*.js'));
                     if (files) pkg.libFiles.push.apply(pkg.libFiles, files);
                 }
+            });
+
+            // filter out undesirable source files (minified files) from
+            // packages
+            pkgs.forEach(function(pkg) {
+                pkg.libFiles = pkg.libFiles.filter(function(f) {
+                    return !/\.min\.js$/.test(f);
+                });
             });
 
             // convert from commonjs-findpkgs format to source unit
