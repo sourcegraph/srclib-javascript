@@ -65,6 +65,9 @@ parser.command("scan-commonjs")
                 }
             });
 
+            // tracking package names to avoid duplicates
+            var names = {};
+
             // convert from commonjs-findpkgs format to source unit
             var srcunits = pkgs.map(function(pkg) {
                 // collect all deps
@@ -89,8 +92,18 @@ parser.command("scan-commonjs")
                     return fs.statSync(f).isFile();
                 }).map(util.normalizePath));
 
+                // ensure that source unit name is unique
+                // first trying package's name, then package directory.
+                // when package is marked private, using dir as a name
+                var name = pkg.package.private ? pkg.dir : pkg.package.name || pkg.dir;
+                if (names[name]) {
+                    name = pkg.dir;
+                } else {
+                    names[name] = 1;
+                }
+
                 return {
-                    Name: pkg.package.name,
+                    Name: name,
                     Type: "CommonJSPackage",
                     Dir: pkg.dir,
                     Files: files,
