@@ -107,7 +107,7 @@ parser.command("scan-commonjs")
                 return {
                     Name: name,
                     Type: "CommonJSPackage",
-                    Dir: pkg.dir,
+                    Dir: util.normalizePath(pkg.dir),
                     Files: files,
                     Dependencies: allDeps,
                     Data: pkg.package,
