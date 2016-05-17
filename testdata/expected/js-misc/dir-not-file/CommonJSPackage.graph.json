@@ -3,18 +3,18 @@
     {
       "DefRepo": "nodejs.org",
       "DefUnitType": "URL",
-      "DefPath": "https://nodejs.org/api/globals.html#globals_console",
+      "DefPath": "https://nodejs.org/api/console.html#console_console_log_data",
       "File": "dir-not-file/lib/index.js",
-      "Start": 0,
-      "End": 7
+      "Start": 8,
+      "End": 11
     },
     {
       "DefRepo": "nodejs.org",
       "DefUnitType": "URL",
-      "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
+      "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "dir-not-file/lib/index.js",
-      "Start": 8,
-      "End": 11
+      "Start": 0,
+      "End": 7
     }
   ]
 }
