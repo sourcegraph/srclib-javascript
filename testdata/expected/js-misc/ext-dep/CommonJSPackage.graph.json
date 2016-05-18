@@ -1,10 +1,41 @@
 {
+  "Defs": [
+    {
+      "Path": "ext-dep/index.js/var/lodash_contains",
+      "Name": "lodash_contains",
+      "Kind": "var",
+      "File": "ext-dep/index.js",
+      "DefStart": 4,
+      "DefEnd": 19,
+      "Data": {
+        "Type": "fn(collection: ?, target: number, fromIndex?: number) -\u003e bool",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    }
+  ],
   "Refs": [
+    {
+      "DefPath": "ext-dep/index.js/var/lodash_contains",
+      "Def": true,
+      "File": "ext-dep/index.js",
+      "Start": 4,
+      "End": 19
+    },
     {
       "DefPath": "ext-dep/index.js/var/lodash_contains",
       "File": "ext-dep/index.js",
       "Start": 76,
       "End": 91
+    },
+    {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://nodejs.org/api/console.html#console_console_log_data",
+      "File": "ext-dep/index.js",
+      "Start": 59,
+      "End": 62
     },
     {
       "DefRepo": "nodejs.org",
@@ -21,14 +52,13 @@
       "File": "ext-dep/index.js",
       "Start": 22,
       "End": 29
-    },
+    }
+  ],
+  "Docs": [
     {
-      "DefRepo": "nodejs.org",
-      "DefUnitType": "URL",
-      "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
-      "File": "ext-dep/index.js",
-      "Start": 59,
-      "End": 62
+      "Path": "ext-dep/index.js/var/lodash_contains",
+      "Format": "",
+      "Data": "Checks if a given value is present in a collection using strict equality\nfor comparisons, i.e. `===`. If `fromIndex` is negative, it is used as the\noffset from the end of the collection.\n\n@static\n@memberOf _\n@alias include\n@category Collections\n@param {Array|Object|string} collection The collection to iterate over.\n@param {*} target The value to check for.\n@param {number} [fromIndex=0] The index to search from.\n@returns {boolean} Returns `true` if the `target` element is found, else `false`.\n@example\n\n_.contains([1, 2, 3], 1);\n// =\u003e true\n\n_.contains([1, 2, 3], 1, 2);\n// =\u003e false\n\n_.contains({ 'name': 'fred', 'age': 40 }, 'fred');\n// =\u003e true\n\n_.contains('pebbles', 'eb');\n// =\u003e true"
     }
   ]
 }

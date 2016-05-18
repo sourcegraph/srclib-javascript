@@ -1,0 +1,24 @@
+[
+  {
+    "Raw": {
+      "name": "node",
+      "version": ""
+    },
+    "Target": {
+      "ToRepoCloneURL": "https://github.com/joyent/node.git",
+      "ToUnitType": "CommonJSPackage"
+    }
+  },
+  {
+    "Raw": {
+      "name": "lodash",
+      "version": "^4.3.0"
+    },
+    "Target": {
+      "ToRepoCloneURL": "git+https://github.com/lodash/lodash.git",
+      "ToUnit": "lodash",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "4.3.0"
+    }
+  }
+]

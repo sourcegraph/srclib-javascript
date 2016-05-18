@@ -8,6 +8,7 @@ var path = require('path');
 var child_process = require('child_process');
 var fs = require('fs');
 
+var logger = require('../lib/logger.js');
 var util = require('../lib/util.js');
 
 parser.command("scan-commonjs")
@@ -106,7 +107,7 @@ parser.command("scan-commonjs")
                 return {
                     Name: name,
                     Type: "CommonJSPackage",
-                    Dir: pkg.dir,
+                    Dir: util.normalizePath(pkg.dir),
                     Files: files,
                     Dependencies: allDeps,
                     Data: pkg.package,
@@ -260,13 +261,17 @@ parser.command("graph")
             } else {
                 npmCmd = "npm";
             }
-            child_process.execFile(npmCmd, ["install"], (err, stdout, stderr) => {
+            logger.info("Installing packages for", commonJSPackage.Name, "..");
+            child_process.execFile(npmCmd, ["install"], {cwd: commonJSPackage.Dir}, (err, stdout, stderr) => {
                 if (err) {
-                    console.error("!!!! An error occured while instaling packages", err);
+                    logger.warn("Error(s) occurred while installing packages for", commonJSPackage.Name, ". Exit code was", err.code);
+                    logger.warn("Stdout output");
+                    logger.warn(stdout);
+                    logger.warn("Stderr output");
+                    logger.warn(stderr);
+                } else {
+                    logger.info("Packages are installed for", commonJSPackage.Name);
                 }
-                console.error("npm install stdout", stdout);
-                console.error("npm install stderr", stderr);
-                console.error("npm packages are installed");
                 graph();
             });
         });

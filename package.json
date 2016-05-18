@@ -25,12 +25,13 @@
   },
   "homepage": "https://github.com/sourcegraph/srclib-javascript",
   "dependencies": {
-    "npm": "3.8.9",
-    "tern": "0.18.0",
-    "acorn": "3.0.4",
-    "nomnom": "1.8.1",
-    "glob": "4.0.6",
+    "acorn": "3.1.0",
+    "collections": "^3.0.0",
     "commonjs-findpkgs": "0.0.7",
+    "glob": "4.0.6",
+    "nomnom": "1.8.1",
+    "npm": "3.8.9",
+    "tern": "ternjs/tern",
     "winston": "2.2.0"
   },
   "devDependencies": {}
