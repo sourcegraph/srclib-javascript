@@ -8,8 +8,8 @@
       "DefStart": 4,
       "DefEnd": 19,
       "Data": {
-        "Type": "fn(collection: ?, target: number, fromIndex?: number) -\u003e bool",
-        "Keyword": "var",
+        "Type": "(collection,  target,  fromIndex?) -\u003e bool",
+        "Keyword": "function",
         "Kind": "var",
         "Separator": " "
       }
