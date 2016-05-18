@@ -8,7 +8,7 @@
       "DefStart": 82,
       "DefEnd": 88,
       "Data": {
-        "Type": "fn(name: string)",
+        "Type": "(name)",
         "Keyword": "function",
         "Kind": "function",
         "Separator": " "
@@ -50,7 +50,7 @@
       "DefStart": 398,
       "DefEnd": 401,
       "Data": {
-        "Type": "fn(name: string, breed: string)",
+        "Type": "(name, breed)",
         "Keyword": "function",
         "Kind": "function",
         "Separator": " "
@@ -134,8 +134,8 @@
       "DefStart": 303,
       "DefEnd": 312,
       "Data": {
-        "Type": "fn() -\u003e string",
-        "Keyword": "property",
+        "Type": "() -\u003e string",
+        "Keyword": "function",
         "Kind": "property",
         "Separator": " "
       }
@@ -148,8 +148,8 @@
       "DefStart": 168,
       "DefEnd": 176,
       "Data": {
-        "Type": "fn() -\u003e string",
-        "Keyword": "property",
+        "Type": "() -\u003e string",
+        "Keyword": "function",
         "Kind": "property",
         "Separator": " "
       }
@@ -162,8 +162,8 @@
       "DefStart": 575,
       "DefEnd": 591,
       "Data": {
-        "Type": "fn() -\u003e string",
-        "Keyword": "property",
+        "Type": "() -\u003e string",
+        "Keyword": "function",
         "Kind": "property",
         "Separator": " "
       }
@@ -176,8 +176,8 @@
       "DefStart": 686,
       "DefEnd": 690,
       "Data": {
-        "Type": "fn() -\u003e string",
-        "Keyword": "property",
+        "Type": "() -\u003e string",
+        "Keyword": "function",
         "Kind": "property",
         "Separator": " "
       }
@@ -218,8 +218,8 @@
       "DefStart": 752,
       "DefEnd": 758,
       "Data": {
-        "Type": "fn(name: string)",
-        "Keyword": "ast",
+        "Type": "(name)",
+        "Keyword": "function",
         "Kind": "ast",
         "Separator": " "
       }
@@ -232,8 +232,8 @@
       "DefStart": 770,
       "DefEnd": 773,
       "Data": {
-        "Type": "fn(name: string, breed: string)",
-        "Keyword": "ast",
+        "Type": "(name,  breed)",
+        "Keyword": "function",
         "Kind": "ast",
         "Separator": " "
       }
@@ -246,8 +246,8 @@
       "DefStart": 716,
       "DefEnd": 720,
       "Data": {
-        "Type": "fn()",
-        "Keyword": "param",
+        "Type": "()",
+        "Keyword": "function",
         "Kind": "param",
         "Separator": " "
       }
@@ -274,8 +274,8 @@
       "DefStart": 903,
       "DefEnd": 907,
       "Data": {
-        "Type": "fn()",
-        "Keyword": "param",
+        "Type": "()",
+        "Keyword": "function",
         "Kind": "param",
         "Separator": " "
       }
@@ -302,8 +302,8 @@
       "DefStart": 1052,
       "DefEnd": 1056,
       "Data": {
-        "Type": "fn()",
-        "Keyword": "param",
+        "Type": "()",
+        "Keyword": "function",
         "Kind": "param",
         "Separator": " "
       }
@@ -330,8 +330,8 @@
       "DefStart": 584,
       "DefEnd": 588,
       "Data": {
-        "Type": "fn()",
-        "Keyword": "param",
+        "Type": "()",
+        "Keyword": "function",
         "Kind": "param",
         "Separator": " "
       }
@@ -358,8 +358,8 @@
       "DefStart": 264,
       "DefEnd": 268,
       "Data": {
-        "Type": "fn()",
-        "Keyword": "param",
+        "Type": "()",
+        "Keyword": "function",
         "Kind": "param",
         "Separator": " "
       }
@@ -386,8 +386,8 @@
       "DefStart": 408,
       "DefEnd": 412,
       "Data": {
-        "Type": "fn()",
-        "Keyword": "param",
+        "Type": "()",
+        "Keyword": "function",
         "Kind": "param",
         "Separator": " "
       }
@@ -414,8 +414,8 @@
       "DefStart": 138,
       "DefEnd": 142,
       "Data": {
-        "Type": "fn()",
-        "Keyword": "param",
+        "Type": "()",
+        "Keyword": "function",
         "Kind": "param",
         "Separator": " "
       }
@@ -456,8 +456,8 @@
       "DefStart": 39,
       "DefEnd": 45,
       "Data": {
-        "Type": "fn(value: ?, message?: string)",
-        "Keyword": "var",
+        "Type": "(value,  message?)",
+        "Keyword": "function",
         "Kind": "var",
         "Separator": " "
       }

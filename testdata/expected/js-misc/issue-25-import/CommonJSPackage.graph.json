@@ -1,0 +1,115 @@
+{
+  "Defs": [
+    {
+      "Path": "issue-25-import/index.js/fn/fn/param/callArgs",
+      "Name": "callArgs",
+      "Kind": "param",
+      "File": "issue-25-import/index.js",
+      "DefStart": 114,
+      "DefEnd": 122,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "issue-25-import/index.js/fn/param/args",
+      "Name": "args",
+      "Kind": "param",
+      "File": "issue-25-import/index.js",
+      "DefStart": 81,
+      "DefEnd": 85,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "issue-25-import/index.js/fn/param/fn",
+      "Name": "fn",
+      "Kind": "param",
+      "File": "issue-25-import/index.js",
+      "DefStart": 77,
+      "DefEnd": 79,
+      "Data": {
+        "Type": "Function",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    }
+  ],
+  "Refs": [
+    {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/concat",
+      "File": "issue-25-import/index.js",
+      "Start": 161,
+      "End": 167
+    },
+    {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/apply",
+      "File": "issue-25-import/index.js",
+      "Start": 144,
+      "End": 149
+    },
+    {
+      "DefPath": "issue-25-import/index.js/fn/fn/param/callArgs",
+      "Def": true,
+      "File": "issue-25-import/index.js",
+      "Start": 114,
+      "End": 122
+    },
+    {
+      "DefPath": "issue-25-import/index.js/fn/fn/param/callArgs",
+      "File": "issue-25-import/index.js",
+      "Start": 168,
+      "End": 176
+    },
+    {
+      "DefPath": "issue-25-import/index.js/fn/param/args",
+      "File": "issue-25-import/index.js",
+      "Start": 156,
+      "End": 160
+    },
+    {
+      "DefPath": "issue-25-import/index.js/fn/param/args",
+      "Def": true,
+      "File": "issue-25-import/index.js",
+      "Start": 81,
+      "End": 85
+    },
+    {
+      "DefPath": "issue-25-import/index.js/fn/param/fn",
+      "File": "issue-25-import/index.js",
+      "Start": 141,
+      "End": 143
+    },
+    {
+      "DefPath": "issue-25-import/index.js/fn/param/fn",
+      "Def": true,
+      "File": "issue-25-import/index.js",
+      "Start": 77,
+      "End": 79
+    },
+    {
+      "DefPath": "issue-25-import/index.js/import/[object Object]",
+      "File": "issue-25-import/index.js",
+      "Start": 100,
+      "End": 104
+    },
+    {
+      "DefPath": "issue-25-import/index.js/import/[object Object]",
+      "File": "issue-25-import/index.js",
+      "Start": 63,
+      "End": 67
+    }
+  ]
+}

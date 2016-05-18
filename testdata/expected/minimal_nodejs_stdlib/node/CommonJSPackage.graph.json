@@ -8,8 +8,8 @@
       "DefStart": 8,
       "DefEnd": 14,
       "Data": {
-        "Type": "fn() -\u003e number",
-        "Keyword": "property",
+        "Type": "() -\u003e number",
+        "Keyword": "function",
         "Kind": "property",
         "Separator": " "
       }
