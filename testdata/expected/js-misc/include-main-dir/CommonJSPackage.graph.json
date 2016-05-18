@@ -3,6 +3,22 @@
     {
       "DefRepo": "nodejs.org",
       "DefUnitType": "URL",
+      "DefPath": "https://nodejs.org/api/console.html#console_console_log_data",
+      "File": "include-main-dir/foodir/also_included.js",
+      "Start": 8,
+      "End": 11
+    },
+    {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://nodejs.org/api/console.html#console_console_log_data",
+      "File": "include-main-dir/foodir/asdf.js",
+      "Start": 8,
+      "End": 11
+    },
+    {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "include-main-dir/foodir/also_included.js",
       "Start": 0,
@@ -15,22 +31,6 @@
       "File": "include-main-dir/foodir/asdf.js",
       "Start": 0,
       "End": 7
-    },
-    {
-      "DefRepo": "nodejs.org",
-      "DefUnitType": "URL",
-      "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
-      "File": "include-main-dir/foodir/also_included.js",
-      "Start": 8,
-      "End": 11
-    },
-    {
-      "DefRepo": "nodejs.org",
-      "DefUnitType": "URL",
-      "DefPath": "https://nodejs.org/api/stdio.html#stdio_console_log_data",
-      "File": "include-main-dir/foodir/asdf.js",
-      "Start": 8,
-      "End": 11
     }
   ]
 }
