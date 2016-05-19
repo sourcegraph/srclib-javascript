@@ -22,7 +22,7 @@ parser.command("scan-commonjs")
         // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
         findpkgs(".", ["node_modules"], function(err, pkgs) {
             if (err) {
-                console.error("Scanning failed:", err);
+                logger.error("An error occurred while searching for packages", err);
                 process.exit(1);
             }
 
@@ -156,7 +156,7 @@ parser.command("depresolve")
                 var spec = dep.name + (dep.version ? "@" + dep.version : "");
                 npm.load(function(err, npm) {
                     if (err) {
-                        console.error("npm.load failed: ", err);
+                        logger.error("An error occurred while loading NPM package", spec, err);
                         process.exit(1)
                     }
 
@@ -245,9 +245,11 @@ parser.command("graph")
                 child_process.execFile("node", args, {
                     maxBuffer: 50000 * 1024 * 1024
                 }, function(err, stdout, stderr) {
-                    if (stderr) console.error(stderr);
+                    if (stderr) {
+                        logger.error(stderr);
+                    }
                     if (err) {
-                        console.error("Graphing " + commonJSPackage.Name + " failed:", err);
+                        logger.error("An error occurred while indexing", commonJSPackage.Name, err);
                         return;
                     }
 
