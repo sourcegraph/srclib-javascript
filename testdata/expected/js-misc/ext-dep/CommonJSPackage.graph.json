@@ -8,7 +8,7 @@
       "DefStart": 4,
       "DefEnd": 19,
       "Data": {
-        "Type": "(collection,  target,  fromIndex?) -\u003e bool",
+        "Type": "(collection,  target,  fromIndex?) ",
         "Keyword": "function",
         "Kind": "var",
         "Separator": " "

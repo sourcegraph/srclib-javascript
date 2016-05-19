@@ -134,7 +134,7 @@
       "DefStart": 303,
       "DefEnd": 312,
       "Data": {
-        "Type": "() -\u003e string",
+        "Type": "() ",
         "Keyword": "function",
         "Kind": "property",
         "Separator": " "
@@ -148,7 +148,7 @@
       "DefStart": 168,
       "DefEnd": 176,
       "Data": {
-        "Type": "() -\u003e string",
+        "Type": "() ",
         "Keyword": "function",
         "Kind": "property",
         "Separator": " "
@@ -162,7 +162,7 @@
       "DefStart": 575,
       "DefEnd": 591,
       "Data": {
-        "Type": "() -\u003e string",
+        "Type": "() ",
         "Keyword": "function",
         "Kind": "property",
         "Separator": " "
@@ -176,7 +176,7 @@
       "DefStart": 686,
       "DefEnd": 690,
       "Data": {
-        "Type": "() -\u003e string",
+        "Type": "() ",
         "Keyword": "function",
         "Kind": "property",
         "Separator": " "
@@ -213,28 +213,28 @@
     {
       "Path": "animal.js/obj/objType/module.exports/obj_key/Animal",
       "Name": "Animal",
-      "Kind": "ast",
+      "Kind": "object property",
       "File": "animal.js",
       "DefStart": 752,
       "DefEnd": 758,
       "Data": {
         "Type": "(name)",
         "Keyword": "function",
-        "Kind": "ast",
+        "Kind": "object property",
         "Separator": " "
       }
     },
     {
       "Path": "animal.js/obj/objType/module.exports/obj_key/Dog",
       "Name": "Dog",
-      "Kind": "ast",
+      "Kind": "object property",
       "File": "animal.js",
       "DefStart": 770,
       "DefEnd": 773,
       "Data": {
         "Type": "(name,  breed)",
         "Keyword": "function",
-        "Kind": "ast",
+        "Kind": "object property",
         "Separator": " "
       }
     },

@@ -8,7 +8,7 @@
       "DefStart": 8,
       "DefEnd": 14,
       "Data": {
-        "Type": "() -\u003e number",
+        "Type": "() ",
         "Keyword": "function",
         "Kind": "property",
         "Separator": " "
