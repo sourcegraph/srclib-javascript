@@ -100,13 +100,13 @@
       "End": 79
     },
     {
-      "DefPath": "issue-25-import/index.js/import/[object Object]",
+      "DefPath": "issue-25-import/index.js/import/rest",
       "File": "issue-25-import/index.js",
       "Start": 100,
       "End": 104
     },
     {
-      "DefPath": "issue-25-import/index.js/import/[object Object]",
+      "DefPath": "issue-25-import/index.js/import/rest",
       "File": "issue-25-import/index.js",
       "Start": 63,
       "End": 67
