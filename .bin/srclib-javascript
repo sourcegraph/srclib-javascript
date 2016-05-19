@@ -246,7 +246,7 @@ parser.command("graph")
                     maxBuffer: 50000 * 1024 * 1024
                 }, function(err, stdout, stderr) {
                     if (stderr) {
-                        logger.error(stderr);
+                        console.error(stderr);
                     }
                     if (err) {
                         logger.error("An error occurred while indexing", commonJSPackage.Name, err);
