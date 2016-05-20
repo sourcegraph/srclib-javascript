@@ -148,10 +148,10 @@
       "DefStart": 4,
       "DefEnd": 8,
       "Data": {
-        "Type": "fn(pattern: string, options: ?, cb: ?) -\u003e Glob",
-        "Keyword": "var",
+        "Type": "(pattern,  options,  cb) ",
+        "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -204,10 +204,10 @@
       "DefStart": 4,
       "DefEnd": 5,
       "Data": {
-        "Type": "fn(value: lodashWrapper) -\u003e lodashWrapper|Function",
-        "Keyword": "var",
+        "Type": "(value) |Function",
+        "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -386,10 +386,10 @@
       "DefStart": 4,
       "DefEnd": 13,
       "Data": {
-        "Type": "fn(p: string, pattern: string, options: options) -\u003e bool",
-        "Keyword": "var",
+        "Type": "(p,  pattern,  options) ",
+        "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -736,7 +736,7 @@
       "DefStart": 231,
       "DefEnd": 235,
       "Data": {
-        "Type": "[fn(er: ?)]",
+        "Type": "[(er)]",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
@@ -745,28 +745,28 @@
     {
       "Path": "lib/mysql.js/obj/obj_key/title",
       "Name": "title",
-      "Kind": "ast",
+      "Kind": "object property",
       "File": "lib/mysql.js",
       "DefStart": 649,
       "DefEnd": 654,
       "Data": {
         "Type": "string",
-        "Keyword": "ast",
-        "Kind": "ast",
+        "Keyword": "object property",
+        "Kind": "object property",
         "Separator": " "
       }
     },
     {
       "Path": "lib/mysql.js/obj/obj_key/title/1",
       "Name": "title",
-      "Kind": "ast",
+      "Kind": "object property",
       "File": "lib/mysql.js",
       "DefStart": 720,
       "DefEnd": 725,
       "Data": {
         "Type": "string",
-        "Keyword": "ast",
-        "Kind": "ast",
+        "Keyword": "object property",
+        "Kind": "object property",
         "Separator": " "
       }
     },
@@ -801,52 +801,56 @@
     {
       "Path": "lib/mysql.js/var/connection/1/obj/obj_key/port",
       "Name": "port",
+      "Kind": "object property",
       "File": "lib/mysql.js",
       "DefStart": 2412,
       "DefEnd": 2416,
       "Data": {
         "Type": "number",
-        "Keyword": "",
-        "Kind": "",
+        "Keyword": "object property",
+        "Kind": "object property",
         "Separator": " "
       }
     },
     {
       "Path": "lib/mysql.js/var/connection/obj/obj_key/host",
       "Name": "host",
+      "Kind": "object property",
       "File": "lib/mysql.js",
       "DefStart": 79,
       "DefEnd": 83,
       "Data": {
         "Type": "string",
-        "Keyword": "",
-        "Kind": "",
+        "Keyword": "object property",
+        "Kind": "object property",
         "Separator": " "
       }
     },
     {
       "Path": "lib/mysql.js/var/connection/obj/obj_key/password",
       "Name": "password",
+      "Kind": "object property",
       "File": "lib/mysql.js",
       "DefStart": 124,
       "DefEnd": 132,
       "Data": {
         "Type": "string",
-        "Keyword": "",
-        "Kind": "",
+        "Keyword": "object property",
+        "Kind": "object property",
         "Separator": " "
       }
     },
     {
       "Path": "lib/mysql.js/var/connection/obj/obj_key/user",
       "Name": "user",
+      "Kind": "object property",
       "File": "lib/mysql.js",
       "DefStart": 105,
       "DefEnd": 109,
       "Data": {
         "Type": "string",
-        "Keyword": "",
-        "Kind": "",
+        "Keyword": "object property",
+        "Kind": "object property",
         "Separator": " "
       }
     },
@@ -858,7 +862,7 @@
       "DefStart": 4,
       "DefEnd": 9,
       "Data": {
-        "Type": "{Types, createConnection, createPool, createPoolCluster, createQuery, escape, ...}",
+        "Type": "Object",
         "Keyword": "var",
         "Kind": "var",
         "Separator": " "
@@ -970,10 +974,10 @@
       "DefStart": 136,
       "DefEnd": 140,
       "Data": {
-        "Type": "fn()",
-        "Keyword": "param",
+        "Type": "()",
+        "Keyword": "function",
         "Kind": "param",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -1068,10 +1072,10 @@
       "DefStart": 4,
       "DefEnd": 12,
       "Data": {
-        "Type": "fn(file: string, log_: fn(err: string|Error, data: string), strict_: ?, cb_: ?)",
-        "Keyword": "var",
+        "Type": "(file,  log_,  strict_,  cb_)",
+        "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -1082,10 +1086,10 @@
       "DefStart": 4,
       "DefEnd": 5,
       "Data": {
-        "Type": "fn(obj: bool|string) -\u003e _",
-        "Keyword": "var",
+        "Type": "(obj) ",
+        "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
