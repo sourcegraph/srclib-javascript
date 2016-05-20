@@ -151,7 +151,7 @@
         "Type": "(pattern,  options,  cb) ",
         "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -207,7 +207,7 @@
         "Type": "(value) |Function",
         "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -389,7 +389,7 @@
         "Type": "(p,  pattern,  options) ",
         "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -977,7 +977,7 @@
         "Type": "()",
         "Keyword": "function",
         "Kind": "param",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -1075,7 +1075,7 @@
         "Type": "(file,  log_,  strict_,  cb_)",
         "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -1089,7 +1089,7 @@
         "Type": "(obj) ",
         "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {

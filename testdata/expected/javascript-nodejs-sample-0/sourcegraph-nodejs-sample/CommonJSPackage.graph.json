@@ -11,7 +11,7 @@
         "Type": "(name)",
         "Keyword": "function",
         "Kind": "function",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -53,7 +53,7 @@
         "Type": "(name, breed)",
         "Keyword": "function",
         "Kind": "function",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -137,7 +137,7 @@
         "Type": "() ",
         "Keyword": "function",
         "Kind": "property",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -151,7 +151,7 @@
         "Type": "() ",
         "Keyword": "function",
         "Kind": "property",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -165,7 +165,7 @@
         "Type": "() ",
         "Keyword": "function",
         "Kind": "property",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -179,7 +179,7 @@
         "Type": "() ",
         "Keyword": "function",
         "Kind": "property",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -221,7 +221,7 @@
         "Type": "(name)",
         "Keyword": "function",
         "Kind": "object property",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -235,7 +235,7 @@
         "Type": "(name,  breed)",
         "Keyword": "function",
         "Kind": "object property",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -249,7 +249,7 @@
         "Type": "()",
         "Keyword": "function",
         "Kind": "param",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -277,7 +277,7 @@
         "Type": "()",
         "Keyword": "function",
         "Kind": "param",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -305,7 +305,7 @@
         "Type": "()",
         "Keyword": "function",
         "Kind": "param",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -333,7 +333,7 @@
         "Type": "()",
         "Keyword": "function",
         "Kind": "param",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -361,7 +361,7 @@
         "Type": "()",
         "Keyword": "function",
         "Kind": "param",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -389,7 +389,7 @@
         "Type": "()",
         "Keyword": "function",
         "Kind": "param",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -417,7 +417,7 @@
         "Type": "()",
         "Keyword": "function",
         "Kind": "param",
-        "Separator": " "
+        "Separator": ""
       }
     },
     {
@@ -459,7 +459,7 @@
         "Type": "(value,  message?)",
         "Keyword": "function",
         "Kind": "var",
-        "Separator": " "
+        "Separator": ""
       }
     }
   ],
