@@ -8,10 +8,10 @@
       "DefStart": 8,
       "DefEnd": 14,
       "Data": {
-        "Type": "fn() -\u003e number",
-        "Keyword": "property",
+        "Type": "() ",
+        "Keyword": "function",
         "Kind": "property",
-        "Separator": " "
+        "Separator": ""
       }
     }
   ],
