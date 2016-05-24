@@ -41,6 +41,20 @@
         "Kind": "param",
         "Separator": " "
       }
+    },
+    {
+      "Path": "module/issue-25-import/index.js",
+      "Name": "issue-25-import/index.js",
+      "Kind": "module",
+      "File": "issue-25-import/index.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
     }
   ],
   "Refs": [
@@ -110,6 +124,13 @@
       "File": "issue-25-import/index.js",
       "Start": 63,
       "End": 67
+    },
+    {
+      "DefPath": "module/issue-25-import/index.js",
+      "Def": true,
+      "File": "issue-25-import/index.js",
+      "Start": 0,
+      "End": 0
     }
   ]
 }

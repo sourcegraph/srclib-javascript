@@ -1,4 +1,20 @@
 {
+  "Defs": [
+    {
+      "Path": "module/no-version-provided/index.js",
+      "Name": "no-version-provided/index.js",
+      "Kind": "module",
+      "File": "no-version-provided/index.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    }
+  ],
   "Refs": [
     {
       "DefRepo": "nodejs.org",
@@ -15,6 +31,13 @@
       "File": "no-version-provided/index.js",
       "Start": 0,
       "End": 7
+    },
+    {
+      "DefPath": "module/no-version-provided/index.js",
+      "Def": true,
+      "File": "no-version-provided/index.js",
+      "Start": 0,
+      "End": 0
     }
   ]
 }

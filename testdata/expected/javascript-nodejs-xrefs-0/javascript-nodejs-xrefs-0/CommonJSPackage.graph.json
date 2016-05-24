@@ -1259,6 +1259,160 @@
         "Kind": "param",
         "Separator": " "
       }
+    },
+    {
+      "Path": "module/index.js",
+      "Name": "index.js",
+      "Kind": "module",
+      "File": "index.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/async.js",
+      "Name": "lib/async.js",
+      "Kind": "module",
+      "File": "lib/async.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/fs.js",
+      "Name": "lib/fs.js",
+      "Kind": "module",
+      "File": "lib/fs.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/glob.js",
+      "Name": "lib/glob.js",
+      "Kind": "module",
+      "File": "lib/glob.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/http.js",
+      "Name": "lib/http.js",
+      "Kind": "module",
+      "File": "lib/http.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/lodash.js",
+      "Name": "lib/lodash.js",
+      "Kind": "module",
+      "File": "lib/lodash.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/minimatch.js",
+      "Name": "lib/minimatch.js",
+      "Kind": "module",
+      "File": "lib/minimatch.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/mysql.js",
+      "Name": "lib/mysql.js",
+      "Kind": "module",
+      "File": "lib/mysql.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/pg.js",
+      "Name": "lib/pg.js",
+      "Kind": "module",
+      "File": "lib/pg.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/read-package-json.js",
+      "Name": "lib/read-package-json.js",
+      "Kind": "module",
+      "File": "lib/read-package-json.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/lib/underscore.js",
+      "Name": "lib/underscore.js",
+      "Kind": "module",
+      "File": "lib/underscore.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
     }
   ],
   "Refs": [
@@ -1729,6 +1883,22 @@
     {
       "DefRepo": "nodejs.org",
       "DefUnitType": "URL",
+      "DefPath": "https://nodejs.org/api/fs.html",
+      "File": "lib/async.js",
+      "Start": 17,
+      "End": 21
+    },
+    {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://nodejs.org/api/fs.html",
+      "File": "lib/fs.js",
+      "Start": 17,
+      "End": 21
+    },
+    {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
       "DefPath": "https://nodejs.org/api/globals.html#globals_console",
       "File": "index.js",
       "Start": 0,
@@ -2133,6 +2303,14 @@
       "File": "lib/http.js",
       "Start": 127,
       "End": 137
+    },
+    {
+      "DefRepo": "nodejs.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://nodejs.org/api/http.html",
+      "File": "lib/http.js",
+      "Start": 19,
+      "End": 25
     },
     {
       "DefRepo": "github.com/felixge/node-mysql",
@@ -3859,6 +4037,155 @@
       "File": "lib/underscore.js",
       "Start": 69,
       "End": 75
+    },
+    {
+      "DefRepo": "github.com/lodash/lodash",
+      "DefUnit": "lodash",
+      "DefPath": "module/dist/lodash.js",
+      "File": "lib/lodash.js",
+      "Start": 16,
+      "End": 24
+    },
+    {
+      "DefRepo": "github.com/isaacs/node-glob",
+      "DefUnit": "glob",
+      "DefPath": "module/glob.js",
+      "File": "lib/glob.js",
+      "Start": 19,
+      "End": 25
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "module/index.js",
+      "File": "lib/mysql.js",
+      "Start": 2382,
+      "End": 2389
+    },
+    {
+      "DefRepo": "github.com/felixge/node-mysql",
+      "DefUnit": "mysql",
+      "DefPath": "module/index.js",
+      "File": "lib/mysql.js",
+      "Start": 25,
+      "End": 32
+    },
+    {
+      "DefPath": "module/index.js",
+      "Def": true,
+      "File": "index.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefRepo": "github.com/caolan/async",
+      "DefUnit": "async",
+      "DefPath": "module/lib/async.js",
+      "File": "lib/async.js",
+      "Start": 44,
+      "End": 51
+    },
+    {
+      "DefPath": "module/lib/async.js",
+      "Def": true,
+      "File": "lib/async.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/lib/fs.js",
+      "Def": true,
+      "File": "lib/fs.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/lib/glob.js",
+      "Def": true,
+      "File": "lib/glob.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/lib/http.js",
+      "Def": true,
+      "File": "lib/http.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefRepo": "github.com/brianc/node-postgres",
+      "DefUnit": "pg",
+      "DefPath": "module/lib/index.js",
+      "File": "lib/pg.js",
+      "Start": 17,
+      "End": 21
+    },
+    {
+      "DefPath": "module/lib/lodash.js",
+      "Def": true,
+      "File": "lib/lodash.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/lib/minimatch.js",
+      "Def": true,
+      "File": "lib/minimatch.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/lib/mysql.js",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/lib/pg.js",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/lib/read-package-json.js",
+      "Def": true,
+      "File": "lib/read-package-json.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/lib/underscore.js",
+      "Def": true,
+      "File": "lib/underscore.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefRepo": "github.com/isaacs/minimatch",
+      "DefUnit": "minimatch",
+      "DefPath": "module/minimatch.js",
+      "File": "lib/minimatch.js",
+      "Start": 24,
+      "End": 35
+    },
+    {
+      "DefRepo": "github.com/isaacs/read-package-json",
+      "DefUnit": "read-package-json",
+      "DefPath": "module/read-json.js",
+      "File": "lib/read-package-json.js",
+      "Start": 23,
+      "End": 42
+    },
+    {
+      "DefRepo": "github.com/jashkenas/underscore",
+      "DefUnit": "underscore",
+      "DefPath": "module/underscore.js",
+      "File": "lib/underscore.js",
+      "Start": 16,
+      "End": 28
     },
     {
       "DefRepo": "github.com/jashkenas/underscore",

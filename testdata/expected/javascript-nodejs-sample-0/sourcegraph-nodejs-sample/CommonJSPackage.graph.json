@@ -239,6 +239,34 @@
       }
     },
     {
+      "Path": "module/animal.js",
+      "Name": "animal.js",
+      "Kind": "module",
+      "File": "animal.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/test/animal_test.js",
+      "Name": "test/animal_test.js",
+      "Kind": "module",
+      "File": "test/animal_test.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
       "Path": "test/animal_test.js/fn/1/fn/1/param/done",
       "Name": "done",
       "Kind": "param",
@@ -910,6 +938,34 @@
       "File": "test/animal_test.js",
       "Start": 197,
       "End": 203
+    },
+    {
+      "DefPath": "module/animal.js",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/animal.js",
+      "File": "test/animal_test.js",
+      "Start": 21,
+      "End": 32
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "module/lib/should.js",
+      "File": "test/animal_test.js",
+      "Start": 56,
+      "End": 64
+    },
+    {
+      "DefPath": "module/test/animal_test.js",
+      "Def": true,
+      "File": "test/animal_test.js",
+      "Start": 0,
+      "End": 0
     },
     {
       "DefPath": "test/animal_test.js/fn/1/fn/1/param/done",
