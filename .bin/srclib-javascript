@@ -20,108 +20,95 @@ parser.command("scan-commonjs")
     })
     .callback(function(opts) {
         // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
-        findpkgs(".", ["node_modules"], function(err, pkgs) {
-            if (err) {
-                logger.error("An error occurred while searching for packages", err);
-                process.exit(1);
+    findpkgs(".", ["node_modules"], function(err, pkgs) {
+        if (err) {
+            logger.error("An error occurred while searching for packages", err);
+            process.exit(1);
+        }
+
+        // omit package.json files that have syntax errors
+        pkgs = pkgs.filter(function(pkg) {
+            return !pkg.error;
+        });
+
+        // filter out undesirable packages (packages whose paths contain
+        // "node_modules", "test", etc.)
+        pkgs = pkgs.filter(function(pkg) {
+            // TODO(sqs): we probably want to process things in node_modules for
+            // local code, so remove this filter.
+            var pathComps = pkg.dir.split("/");
+            return pathComps.indexOf("node_modules") == -1 && pathComps.indexOf("templates") == -1 && pathComps.indexOf("bower_components") == -1;
+        });
+
+
+        pkgs.forEach(function(pkg) {
+            var allFiles = glob.sync(path.join(pkg.dir, '**/*.js'));
+            allFiles = allFiles.filter(function(f) {
+                return (f.indexOf("node_modules") == -1);
+            });
+            allFiles = allFiles.filter(function(f) {
+                return !/\.min\.js$/.test(f);
+            });
+
+            pkg.files = allFiles;
+        });
+
+        // tracking package names to avoid duplicates
+        var names = {};
+
+        // convert from commonjs-findpkgs format to source unit
+        var srcunits = pkgs.map(function(pkg) {
+            // collect all deps
+            //console.error("PKG = ", pkg);
+            var allDeps = [{
+                name: "node",
+                "version": ""
+            }];
+
+            function collectDeps(deps) {
+                if (deps) Object.keys(deps).forEach(function(name) {
+                    allDeps.push({
+                        name: name,
+                        version: deps[name]
+                    });
+                });
             }
 
-            // omit package.json files that have syntax errors
-            pkgs = pkgs.filter(function(pkg) {
-                return !pkg.error;
-            });
+            collectDeps(pkg.package.dependencies);
+            collectDeps(pkg.package.devDependencies);
 
-            // filter out undesirable packages (packages whose paths contain
-            // "node_modules", "test", etc.)
-            pkgs = pkgs.filter(function(pkg) {
-                // TODO(sqs): we probably want to process things in node_modules for
-                // local code, so remove this filter.
-                var pathComps = pkg.dir.split("/");
-                return pathComps.indexOf("node_modules") == -1 && pathComps.indexOf("test") == -1 && pathComps.indexOf("templates") == -1 && pathComps.indexOf("bower_components") == -1;
-            });
+            files = arrayUnique(pkg.files.filter(function(f) {
+                return fs.statSync(f).isFile();
+            }).map(util.normalizePath));
 
+            // ensure that source unit name is unique
+            // first trying package's name, then package directory.
+            // when package is marked private, using dir as a name
+            var name = pkg.package.private ? pkg.dir : pkg.package.name || pkg.dir;
+            if (names[name]) {
+                name = pkg.dir;
+            } else {
+                names[name] = 1;
+            }
 
-            // automatically include files in the src dir (not just
-            // lib). this is somewhat common for client-side libs even
-            // though it is technically in violation of the commonjs spec.
-            // TODO(sqs): add this functionality (as an option?) to commonjs-findpkgs?
-            pkgs.forEach(function(pkg) {
-                var srcFiles = glob.sync(path.join(pkg.dir, 'src/**/*.js'));
-                if (srcFiles) pkg.libFiles.push.apply(pkg.libFiles, srcFiles);
-            });
-
-            // automatically include files in the dir containing the main file (if it's a subdir)
-            // TODO(sqs): add this functionality (as an option?) to commonjs-findpkgs?
-            pkgs.forEach(function(pkg) {
-                if (pkg.package.main && pkg.package.main.indexOf('/') != -1) {
-                    var files = glob.sync(path.join(pkg.dir, path.dirname(pkg.package.main), '**/*.js'));
-                    if (files) pkg.libFiles.push.apply(pkg.libFiles, files);
+            return {
+                Name: name,
+                Type: "CommonJSPackage",
+                Dir: util.normalizePath(pkg.dir),
+                Files: files,
+                Dependencies: allDeps,
+                Data: pkg.package,
+                Ops: {
+                    depresolve: null,
+                    graph: null
                 }
-            });
-
-            // filter out undesirable source files (minified files) from
-            // packages
-            pkgs.forEach(function(pkg) {
-                pkg.libFiles = pkg.libFiles.filter(function(f) {
-                    return !/\.min\.js$/.test(f);
-                });
-            });
-
-            // tracking package names to avoid duplicates
-            var names = {};
-
-            // convert from commonjs-findpkgs format to source unit
-            var srcunits = pkgs.map(function(pkg) {
-                // collect all deps
-                var allDeps = [{
-                    name: "node",
-                    "version": ""
-                }];
-
-                function collectDeps(deps) {
-                    if (deps) Object.keys(deps).forEach(function(name) {
-                        allDeps.push({
-                            name: name,
-                            version: deps[name]
-                        });
-                    });
-                }
-
-                collectDeps(pkg.package.dependencies);
-                collectDeps(pkg.package.devDependencies);
-
-                files = arrayUnique(pkg.libFiles.concat(pkg.testFiles).filter(function(f) {
-                    return fs.statSync(f).isFile();
-                }).map(util.normalizePath));
-
-                // ensure that source unit name is unique
-                // first trying package's name, then package directory.
-                // when package is marked private, using dir as a name
-                var name = pkg.package.private ? pkg.dir : pkg.package.name || pkg.dir;
-                if (names[name]) {
-                    name = pkg.dir;
-                } else {
-                    names[name] = 1;
-                }
-
-                return {
-                    Name: name,
-                    Type: "CommonJSPackage",
-                    Dir: util.normalizePath(pkg.dir),
-                    Files: files,
-                    Dependencies: allDeps,
-                    Data: pkg.package,
-                    Ops: {
-                        depresolve: null,
-                        graph: null
-                    }
-                }
-            });
-
-            console.log(JSON.stringify(srcunits, null, 2));
+            }
         });
-    })
-    .help("scan for CommonJS packages");
+
+        console.log(JSON.stringify(srcunits, null, 2));
+    });
+})
+.help("scan for CommonJS packages");
 
 parser.command("depresolve")
     .callback(function(opts) {
