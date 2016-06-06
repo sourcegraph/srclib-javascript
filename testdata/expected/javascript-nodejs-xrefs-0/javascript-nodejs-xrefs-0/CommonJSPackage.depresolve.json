@@ -1,109 +1,108 @@
 [
   {
     "Raw": {
-      "Name": "node"
+      "name": "node",
+      "version": ""
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
-      "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToRepoCloneURL": "https://github.com/joyent/node.git",
+      "ToUnitType": "CommonJSPackage"
     }
   },
   {
     "Raw": {
-      "Version": "~0.2.14",
-      "Name": "minimatch"
+      "name": "minimatch",
+      "version": "~0.2.14"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "git://github.com/isaacs/minimatch.git",
+      "ToUnit": "minimatch",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "0.2.14"
     }
   },
   {
     "Raw": {
-      "Version": "~3.2.9",
-      "Name": "glob"
+      "name": "glob",
+      "version": "~3.2.9"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "git://github.com/isaacs/node-glob.git",
+      "ToUnit": "glob",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "3.2.9"
     }
   },
   {
     "Raw": {
-      "Version": "~1.1.9",
-      "Name": "read-package-json"
+      "name": "read-package-json",
+      "version": "~1.1.9"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "git://github.com/isaacs/read-package-json.git",
+      "ToUnit": "read-package-json",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "1.1.9"
     }
   },
   {
     "Raw": {
-      "Version": "~2.2.0",
-      "Name": "mysql"
+      "name": "mysql",
+      "version": "~2.2.0"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "https://github.com/felixge/node-mysql",
+      "ToUnit": "mysql",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "2.2.0"
     }
   },
   {
     "Raw": {
-      "Version": "~3.0.3",
-      "Name": "pg"
+      "name": "pg",
+      "version": "~3.0.3"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "git://github.com/brianc/node-postgres.git",
+      "ToUnit": "pg",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "3.0.3"
     }
   },
   {
     "Raw": {
-      "Version": "~1.6.0",
-      "Name": "underscore"
+      "name": "underscore",
+      "version": "~1.6.0"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "git://github.com/jashkenas/underscore.git",
+      "ToUnit": "underscore",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "1.6.0"
     }
   },
   {
     "Raw": {
-      "Version": "~0.8.0",
-      "Name": "async"
+      "name": "async",
+      "version": "~0.8.0"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "https://github.com/caolan/async.git",
+      "ToUnit": "async",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "0.8.0"
     }
   },
   {
     "Raw": {
-      "Version": "~2.4.1",
-      "Name": "lodash"
+      "name": "lodash",
+      "version": "~2.4.1"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "https://github.com/lodash/lodash.git",
+      "ToUnit": "lodash",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "2.4.1"
     }
   }
 ]

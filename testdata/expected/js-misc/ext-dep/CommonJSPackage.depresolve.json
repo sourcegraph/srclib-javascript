@@ -1,25 +1,24 @@
 [
   {
     "Raw": {
-      "Name": "node"
+      "name": "node",
+      "version": ""
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
-      "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToRepoCloneURL": "https://github.com/joyent/node.git",
+      "ToUnitType": "CommonJSPackage"
     }
   },
   {
     "Raw": {
-      "Version": "2.4.1",
-      "Name": "lodash.contains"
+      "name": "lodash.contains",
+      "version": "2.4.1"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "https://github.com/lodash/lodash-cli.git",
+      "ToUnit": "lodash.contains",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "2.4.1"
     }
   }
 ]

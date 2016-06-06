@@ -107,7 +107,6 @@ parser.command("scan-commonjs")
                     	}
                     }),
                     Data: pkg.package
-                }
             }
         });
 

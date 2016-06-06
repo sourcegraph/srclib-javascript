@@ -1,37 +1,36 @@
 [
   {
     "Raw": {
-      "Name": "node"
+      "name": "node",
+      "version": ""
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
-      "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToRepoCloneURL": "https://github.com/joyent/node.git",
+      "ToUnitType": "CommonJSPackage"
     }
   },
   {
     "Raw": {
-      "Version": "1.10.0",
-      "Name": "mocha"
+      "name": "mocha",
+      "version": "1.10.0"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "git://github.com/visionmedia/mocha.git",
+      "ToUnit": "mocha",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "1.10.0"
     }
   },
   {
     "Raw": {
-      "Version": "~1.2.2",
-      "Name": "should"
+      "name": "should",
+      "version": "~1.2.2"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
-      "ToUnit": "undefined",
+      "ToRepoCloneURL": "git://github.com/visionmedia/should.js.git",
+      "ToUnit": "should",
       "ToUnitType": "CommonJSPackage",
-      "ToVersionString": "0.1.0"
+      "ToVersionString": "1.2.2"
     }
   }
 ]
