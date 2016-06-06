@@ -32,7 +32,9 @@ parser.command("scan-commonjs")
         });
 
         // filter out undesirable packages (packages whose paths contain
-        // "node_modules", "test", etc.)
+        // "node_modules", "templates", "bower_components".)
+        // AC: I've deleted test from this list, there are some projects with such structure
+        //probably other components can be deleted as well - TODO: check after full repo's test
         pkgs = pkgs.filter(function(pkg) {
             // TODO(sqs): we probably want to process things in node_modules for
             // local code, so remove this filter.
@@ -59,7 +61,6 @@ parser.command("scan-commonjs")
         // convert from commonjs-findpkgs format to source unit
         var srcunits = pkgs.map(function(pkg) {
             // collect all deps
-            //console.error("PKG = ", pkg);
             var allDeps = [{
                 name: "node",
                 "version": ""
