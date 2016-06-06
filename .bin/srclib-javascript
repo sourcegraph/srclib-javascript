@@ -91,16 +91,22 @@ parser.command("scan-commonjs")
                 names[name] = 1;
             }
 
-            return {
-                Name: name,
-                Type: "CommonJSPackage",
-                Dir: util.normalizePath(pkg.dir),
-                Files: files,
-                Dependencies: allDeps,
-                Data: pkg.package,
-                Ops: {
-                    depresolve: null,
-                    graph: null
+                var data = pkg.package;
+                data.Deps = allDeps;
+
+                return {
+                    Name: name,
+                    Type: "CommonJSPackage",
+                    Dir: util.normalizePath(pkg.dir),
+                    Files: files,
+                    Dependencies: allDeps.map(function(dep) {
+                    	return {
+                    		Name: dep.name,
+                    		Type: "CommonJSPackage",
+                    		Version: dep.version
+                    	}
+                    }),
+                    Data: pkg.package
                 }
             }
         });
@@ -127,7 +133,8 @@ parser.command("depresolve")
             var inputJSON = inputChunks.join("");
             var commonJSPackage = JSON.parse(inputJSON);
 
-            var remaining = commonJSPackage.Dependencies ? commonJSPackage.Dependencies.length : 0;
+            var deps = (commonJSPackage.Data || {}).Deps || [];
+            var remaining = deps.length;
             var resolutions = [];
 
             if (remaining == 0) {
@@ -135,8 +142,7 @@ parser.command("depresolve")
                 return;
             }
 
-            commonJSPackage.Dependencies.forEach(function(dep) {
-                var i = commonJSPackage.Dependencies.indexOf(dep);
+            deps.forEach(function(dep, i) {
                 resolutions[i] = {
                     Raw: dep
                 };
