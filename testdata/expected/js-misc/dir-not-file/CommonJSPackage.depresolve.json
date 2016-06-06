@@ -1,12 +1,13 @@
 [
   {
     "Raw": {
-      "name": "node",
-      "version": ""
+      "Name": "node"
     },
     "Target": {
-      "ToRepoCloneURL": "https://github.com/joyent/node.git",
-      "ToUnitType": "CommonJSPackage"
+      "ToRepoCloneURL": "https://github.com/Gozala/undefined.js",
+      "ToUnit": "undefined",
+      "ToUnitType": "CommonJSPackage",
+      "ToVersionString": "0.1.0"
     }
   }
 ]
