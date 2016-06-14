@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/sourcegraph/srclib-javascript",
   "dependencies": {
-    "acorn": "alexsaveliev/acorn",
+    "acorn": "3.2.0",
     "collections": "^3.0.0",
     "commonjs-findpkgs": "0.0.7",
     "glob": "4.0.6",
@@ -33,7 +33,8 @@
     "npm": "3.8.9",
     "tern": "ternjs/tern",
     "winston": "2.2.0",
-    "xregexp": "3.1.1"
+    "xregexp": "3.1.1",
+    "acorn-jsx": "3.0.1"
   },
   "devDependencies": {}
 }
