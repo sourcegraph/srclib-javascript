@@ -1,6 +1,20 @@
 {
   "Defs": [
     {
+      "Path": "module/srclib-issue-67/index.js",
+      "Name": "srclib-issue-67/index.js",
+      "Kind": "module",
+      "File": "srclib-issue-67/index.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
       "Path": "srclib-issue-67/index.js/var/a",
       "Name": "a",
       "Kind": "var",
@@ -31,6 +45,13 @@
       "File": "srclib-issue-67/index.js",
       "Start": 8,
       "End": 14
+    },
+    {
+      "DefPath": "module/srclib-issue-67/index.js",
+      "Def": true,
+      "File": "srclib-issue-67/index.js",
+      "Start": 0,
+      "End": 0
     },
     {
       "DefPath": "srclib-issue-67/index.js/var/a",

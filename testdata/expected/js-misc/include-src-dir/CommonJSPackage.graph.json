@@ -1,4 +1,34 @@
 {
+  "Defs": [
+    {
+      "Path": "module/include-src-dir/index.js",
+      "Name": "include-src-dir/index.js",
+      "Kind": "module",
+      "File": "include-src-dir/index.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/include-src-dir/src/foo.js",
+      "Name": "include-src-dir/src/foo.js",
+      "Kind": "module",
+      "File": "include-src-dir/src/foo.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    }
+  ],
   "Refs": [
     {
       "DefRepo": "nodejs.org",
@@ -31,6 +61,20 @@
       "File": "include-src-dir/src/foo.js",
       "Start": 0,
       "End": 7
+    },
+    {
+      "DefPath": "module/include-src-dir/index.js",
+      "Def": true,
+      "File": "include-src-dir/index.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/include-src-dir/src/foo.js",
+      "Def": true,
+      "File": "include-src-dir/src/foo.js",
+      "Start": 0,
+      "End": 0
     }
   ]
 }

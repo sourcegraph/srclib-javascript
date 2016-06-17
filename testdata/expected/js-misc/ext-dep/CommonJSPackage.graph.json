@@ -13,6 +13,20 @@
         "Kind": "var",
         "Separator": ""
       }
+    },
+    {
+      "Path": "module/ext-dep/index.js",
+      "Name": "ext-dep/index.js",
+      "Kind": "module",
+      "File": "ext-dep/index.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
     }
   ],
   "Refs": [
@@ -52,6 +66,21 @@
       "File": "ext-dep/index.js",
       "Start": 22,
       "End": 29
+    },
+    {
+      "DefPath": "module/ext-dep/index.js",
+      "Def": true,
+      "File": "ext-dep/index.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefRepo": "github.com/lodash/lodash-cli",
+      "DefUnit": "lodash.contains",
+      "DefPath": "module/index.js",
+      "File": "ext-dep/index.js",
+      "Start": 30,
+      "End": 47
     }
   ],
   "Docs": [
