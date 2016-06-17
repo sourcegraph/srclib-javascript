@@ -1,1 +1,27 @@
-{}
+{
+  "Defs": [
+    {
+      "Path": "module/no-files/not_listed.js",
+      "Name": "no-files/not_listed.js",
+      "Kind": "module",
+      "File": "no-files/not_listed.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    }
+  ],
+  "Refs": [
+    {
+      "DefPath": "module/no-files/not_listed.js",
+      "Def": true,
+      "File": "no-files/not_listed.js",
+      "Start": 0,
+      "End": 0
+    }
+  ]
+}
