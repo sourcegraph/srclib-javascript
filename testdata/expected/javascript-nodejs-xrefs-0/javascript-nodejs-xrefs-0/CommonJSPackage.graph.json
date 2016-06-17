@@ -1419,6 +1419,22 @@
     {
       "DefRepo": "github.com/lodash/lodash",
       "DefUnit": "lodash",
+      "DefPath": "dist/lodash.js/fn/fn/runInContext/obj/lodash/53/prop/reject",
+      "File": "lib/lodash.js",
+      "Start": 533,
+      "End": 539
+    },
+    {
+      "DefRepo": "github.com/lodash/lodash",
+      "DefUnit": "lodash",
+      "DefPath": "dist/lodash.js/fn/fn/runInContext/obj/lodash/74/prop/each",
+      "File": "lib/lodash.js",
+      "Start": 30,
+      "End": 34
+    },
+    {
+      "DefRepo": "github.com/lodash/lodash",
+      "DefUnit": "lodash",
       "DefPath": "dist/lodash.js/fn/fn/runInContext/obj/lodash/88/prop/find",
       "File": "lib/lodash.js",
       "Start": 314,
@@ -2552,14 +2568,6 @@
     {
       "DefRepo": "github.com/caolan/async",
       "DefUnit": "async",
-      "DefPath": "lib/async.js/fn/obj/async/11/prop/each",
-      "File": "lib/lodash.js",
-      "Start": 30,
-      "End": 34
-    },
-    {
-      "DefRepo": "github.com/caolan/async",
-      "DefUnit": "async",
       "DefPath": "lib/async.js/fn/obj/async/20/prop/map",
       "File": "lib/async.js",
       "Start": 61,
@@ -2572,14 +2580,6 @@
       "File": "lib/async.js",
       "Start": 176,
       "End": 182
-    },
-    {
-      "DefRepo": "github.com/caolan/async",
-      "DefUnit": "async",
-      "DefPath": "lib/async.js/fn/obj/async/37/prop/reject",
-      "File": "lib/lodash.js",
-      "Start": 533,
-      "End": 539
     },
     {
       "DefPath": "lib/async.js/fn/param/err",
