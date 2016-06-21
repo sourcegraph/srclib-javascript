@@ -13,6 +13,20 @@
         "Kind": "property",
         "Separator": ""
       }
+    },
+    {
+      "Path": "module/lib/my_module.js",
+      "Name": "lib/my_module.js",
+      "Kind": "module",
+      "File": "lib/my_module.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
     }
   ],
   "Refs": [
@@ -22,6 +36,13 @@
       "File": "lib/my_module.js",
       "Start": 8,
       "End": 14
+    },
+    {
+      "DefPath": "module/lib/my_module.js",
+      "Def": true,
+      "File": "lib/my_module.js",
+      "Start": 0,
+      "End": 0
     }
   ]
 }

@@ -1,6 +1,20 @@
 {
   "Defs": [
     {
+      "Path": "module/unicode/index.js",
+      "Name": "unicode/index.js",
+      "Kind": "module",
+      "File": "unicode/index.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
       "Path": "unicode/index.js/var/a",
       "Name": "a",
       "Kind": "var",
@@ -16,6 +30,13 @@
     }
   ],
   "Refs": [
+    {
+      "DefPath": "module/unicode/index.js",
+      "Def": true,
+      "File": "unicode/index.js",
+      "Start": 0,
+      "End": 0
+    },
     {
       "DefPath": "unicode/index.js/var/a",
       "Def": true,

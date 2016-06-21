@@ -1,4 +1,20 @@
 {
+  "Defs": [
+    {
+      "Path": "module/dir-not-file/lib/index.js",
+      "Name": "dir-not-file/lib/index.js",
+      "Kind": "module",
+      "File": "dir-not-file/lib/index.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    }
+  ],
   "Refs": [
     {
       "DefRepo": "nodejs.org",
@@ -15,6 +31,13 @@
       "File": "dir-not-file/lib/index.js",
       "Start": 0,
       "End": 7
+    },
+    {
+      "DefPath": "module/dir-not-file/lib/index.js",
+      "Def": true,
+      "File": "dir-not-file/lib/index.js",
+      "Start": 0,
+      "End": 0
     }
   ]
 }
