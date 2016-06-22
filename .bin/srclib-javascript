@@ -31,6 +31,25 @@ parser.command("scan-commonjs")
             return !pkg.error;
         });
 
+        if (!pkgs.length) {
+            // no packages were found, let's scan for files
+            var files = glob.sync('./**/*.js').filter(function(f) {
+                return !/\.min\.js$/.test(f);
+            }).map(function(f) {
+                return util.normalizePath(path.relative(".", f));
+            });
+
+            console.log(JSON.stringify([{
+                Name: ".",
+                Type: "CommonJSPackage",
+                Dir: ".",
+                Files: files,
+                Dependencies: [],
+                Data: {}
+            }], null, 2));
+            return;
+        }
+
         // filter out undesirable packages (packages whose paths contain
         // "node_modules", "templates", "bower_components".)
         // AC: I've deleted test from this list, there are some projects with such structure
