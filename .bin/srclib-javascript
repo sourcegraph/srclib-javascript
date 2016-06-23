@@ -264,18 +264,23 @@ parser.command("graph")
                 npmCmd = "npm";
             }
             logger.info("Installing packages for", commonJSPackage.Name, "..");
-            child_process.execFile(npmCmd, ["install"], {cwd: commonJSPackage.Dir}, function(err, stdout, stderr) {
-                if (err) {
-                    logger.warn("Error(s) occurred while installing packages for", commonJSPackage.Name, ". Exit code was", err.code);
-                    logger.warn("Stdout output");
-                    logger.warn(stdout);
-                    logger.warn("Stderr output");
-                    logger.warn(stderr);
-                } else {
-                    logger.info("Packages are installed for", commonJSPackage.Name);
-                }
-                graph();
-            });
+            child_process.execFile(npmCmd,
+                ["install", "--no-optional"],
+                {cwd: commonJSPackage.Dir},
+                function (err, stdout, stderr) {
+                    if (err) {
+                        logger.warn("Error(s) occurred while installing packages for",
+                            commonJSPackage.Name,
+                            ". Exit code was", err.code);
+                        logger.warn("Stdout output");
+                        logger.warn(stdout);
+                        logger.warn("Stderr output");
+                        logger.warn(stderr);
+                    } else {
+                        logger.info("Packages are installed for", commonJSPackage.Name);
+                    }
+                    graph();
+                });
         });
     })
     .help("graph a CommonJS package using tern");
