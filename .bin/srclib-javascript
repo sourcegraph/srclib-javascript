@@ -33,9 +33,7 @@ parser.command("scan-commonjs")
 
         if (!pkgs.length) {
             // no packages were found, let's scan for files
-            var files = glob.sync('./**/*.js').filter(function(f) {
-                return !/\.min\.js$/.test(f);
-            }).map(function(f) {
+            var files = collectFiles(".", false).map(function(f) {
                 return util.normalizePath(path.relative(".", f));
             });
 
@@ -63,15 +61,7 @@ parser.command("scan-commonjs")
 
 
         pkgs.forEach(function(pkg) {
-            var allFiles = glob.sync(path.join(pkg.dir, '**/*.js'));
-            allFiles = allFiles.filter(function(f) {
-                return (f.indexOf("node_modules") == -1);
-            });
-            allFiles = allFiles.filter(function(f) {
-                return !/\.min\.js$/.test(f);
-            });
-
-            pkg.files = allFiles;
+            pkg.files = collectFiles(pkg.dir, true);
         });
 
         // tracking package names to avoid duplicates
@@ -300,3 +290,26 @@ var arrayUnique = function(a) {
         return p;
     }, []);
 };
+
+/**
+ *
+ * @param {string} dir directory to search in
+ * @param {boolean} checkForNodeModules true if we should exclude files that contains "node_modules" path component
+ * @return {string[]} list of files found
+ */
+function collectFiles(dir, checkForNodeModules) {
+    // include all js, jsx
+    var files = glob.sync(path.join(dir, '**/*.js?(x)')).filter(function(f) {
+        // exclude minified versions
+        return !/\.min\.jsx?$/.test(f);
+    }).map(function(f) {
+        return util.normalizePath(f);
+    });
+    if (checkForNodeModules) {
+        // optionally exclude node_modules
+        files = files.filter(function(f) {
+            return !/(^|\/)node_modules\//.test(f);
+        })
+    });
+    return files;
+}
