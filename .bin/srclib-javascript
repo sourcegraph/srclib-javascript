@@ -18,7 +18,7 @@ parser.command("scan-commonjs")
     .option("subdir", {
         help: "subdirectory in repository"
     })
-    .callback(function(opts) {
+    .callback(function() {
         // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
     findpkgs(".", ["node_modules"], function(err, pkgs) {
         if (err) {
@@ -126,9 +126,8 @@ parser.command("scan-commonjs")
 .help("scan for CommonJS packages");
 
 parser.command("depresolve")
-    .callback(function(opts) {
+    .callback(function() {
         var stdin = process.stdin,
-            stdout = process.stdout,
             inputChunks = [];
 
         stdin.resume();
@@ -215,9 +214,8 @@ var hardcodedRepoURLs = {
 };
 
 parser.command("graph")
-    .callback(function(opts) {
+    .callback(function() {
         var stdin = process.stdin,
-            stdout = process.stdout,
             inputChunks = [];
 
         stdin.resume();
@@ -266,7 +264,7 @@ parser.command("graph")
                 npmCmd = "npm";
             }
             logger.info("Installing packages for", commonJSPackage.Name, "..");
-            child_process.execFile(npmCmd, ["install"], {cwd: commonJSPackage.Dir}, (err, stdout, stderr) => {
+            child_process.execFile(npmCmd, ["install"], {cwd: commonJSPackage.Dir}, function(err, stdout, stderr) {
                 if (err) {
                     logger.warn("Error(s) occurred while installing packages for", commonJSPackage.Name, ". Exit code was", err.code);
                     logger.warn("Stdout output");
@@ -309,7 +307,7 @@ function collectFiles(dir, checkForNodeModules) {
         // optionally exclude node_modules
         files = files.filter(function(f) {
             return !/(^|\/)node_modules\//.test(f);
-        })
-    });
+        });
+    }
     return files;
 }
