@@ -36,7 +36,7 @@
       "DefStart": 77,
       "DefEnd": 79,
       "Data": {
-        "Type": "Function",
+        "Type": "Proxy_handler",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
@@ -65,14 +65,6 @@
       "File": "issue-25-import/index.js",
       "Start": 161,
       "End": 167
-    },
-    {
-      "DefRepo": "developer.mozilla.org",
-      "DefUnitType": "URL",
-      "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/apply",
-      "File": "issue-25-import/index.js",
-      "Start": 144,
-      "End": 149
     },
     {
       "DefPath": "issue-25-import/index.js/fn/fn/param/callArgs",
@@ -131,6 +123,13 @@
       "File": "issue-25-import/index.js",
       "Start": 0,
       "End": 0
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "issue-25-import/index.js/fn/param/fn",
+      "Format": "",
+      "Data": "The proxy's handler object is a placeholder object which contains traps for proxies."
     }
   ]
 }
