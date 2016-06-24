@@ -308,11 +308,11 @@ function collectFiles(dir, excludes) {
     }).map(function(f) {
         return util.normalizePath(f);
     });
-    if (excludes) {
+    if (excludes && excludes.length) {
         // optionally exclude node_modules
         files = files.filter(function(f) {
-            excludes.forEach(function(exclude) {
-                return !exclude.test(f);
+            return !excludes.some(function(exclude) {
+                return exclude.test(f);
             });
         });
     }
