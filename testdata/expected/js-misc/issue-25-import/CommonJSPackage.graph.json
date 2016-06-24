@@ -123,6 +123,22 @@
       "File": "issue-25-import/index.js",
       "Start": 0,
       "End": 0
+    },
+    {
+      "DefRepo": "github.com/lodash/lodash",
+      "DefUnit": "lodash",
+      "DefPath": "module/rest.js",
+      "File": "issue-25-import/index.js",
+      "Start": 32,
+      "End": 45
+    },
+    {
+      "DefRepo": "github.com/lodash/lodash",
+      "DefUnit": "lodash",
+      "DefPath": "rest.js/fn/rest",
+      "File": "issue-25-import/index.js",
+      "Start": 22,
+      "End": 26
     }
   ],
   "Docs": [
