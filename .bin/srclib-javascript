@@ -20,20 +20,32 @@ parser.command("scan-commonjs")
     })
     .callback(function() {
         // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
-    findpkgs(".", ["node_modules"], function(err, pkgs) {
+    findpkgs(".", null, function(err, pkgs) {
         if (err) {
             logger.error("An error occurred while searching for packages", err);
             process.exit(1);
         }
 
         // omit package.json files that have syntax errors
+        // filter out undesirable packages (packages whose paths contain
+        // "node_modules", "templates", "bower_components".)
+        // AC: I've deleted test from this list, there are some projects with such structure
+        //probably other components can be deleted as well - TODO: check after full repo's test
         pkgs = pkgs.filter(function(pkg) {
-            return !pkg.error;
+            if (pkg.error) {
+                return false;
+            }
+            // TODO(sqs): we probably want to process things in node_modules for
+            // local code, so remove this filter.
+            var pathComps = pkg.dir.split("/");
+            return pathComps.indexOf("node_modules") == -1 &&
+                pathComps.indexOf("templates") == -1 &&
+                pathComps.indexOf("bower_components") == -1;
         });
 
         if (!pkgs.length) {
             // no packages were found, let's scan for files
-            var files = collectFiles(".", false).map(function(f) {
+            var files = collectFiles(".", [/(^|\/)bower_components\//]).map(function(f) {
                 return util.normalizePath(path.relative(".", f));
             });
 
@@ -48,20 +60,8 @@ parser.command("scan-commonjs")
             return;
         }
 
-        // filter out undesirable packages (packages whose paths contain
-        // "node_modules", "templates", "bower_components".)
-        // AC: I've deleted test from this list, there are some projects with such structure
-        //probably other components can be deleted as well - TODO: check after full repo's test
-        pkgs = pkgs.filter(function(pkg) {
-            // TODO(sqs): we probably want to process things in node_modules for
-            // local code, so remove this filter.
-            var pathComps = pkg.dir.split("/");
-            return pathComps.indexOf("node_modules") == -1 && pathComps.indexOf("templates") == -1 && pathComps.indexOf("bower_components") == -1;
-        });
-
-
         pkgs.forEach(function(pkg) {
-            pkg.files = collectFiles(pkg.dir, true);
+            pkg.files = collectFiles(pkg.dir, [/(^|\/)node_modules\//, /(^|\/)bower_components\//]);
         });
 
         // tracking package names to avoid duplicates
@@ -297,10 +297,10 @@ var arrayUnique = function(a) {
 /**
  *
  * @param {string} dir directory to search in
- * @param {boolean} checkForNodeModules true if we should exclude files that contains "node_modules" path component
+ * @param {regexp[]} excludes list of regexps to exclude
  * @return {string[]} list of files found
  */
-function collectFiles(dir, checkForNodeModules) {
+function collectFiles(dir, excludes) {
     // include all js, jsx
     var files = glob.sync(path.join(dir, '**/*.js?(x)')).filter(function(f) {
         // exclude minified versions
@@ -308,10 +308,12 @@ function collectFiles(dir, checkForNodeModules) {
     }).map(function(f) {
         return util.normalizePath(f);
     });
-    if (checkForNodeModules) {
+    if (excludes) {
         // optionally exclude node_modules
         files = files.filter(function(f) {
-            return !/(^|\/)node_modules\//.test(f);
+            excludes.forEach(function(exclude) {
+                return !exclude.test(f);
+            });
         });
     }
     return files;
