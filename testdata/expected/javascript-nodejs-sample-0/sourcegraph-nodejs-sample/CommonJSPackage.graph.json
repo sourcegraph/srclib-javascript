@@ -127,6 +127,20 @@
       }
     },
     {
+      "Path": "animal.js/obj/Animal/1/prop/prototype",
+      "Name": "prototype",
+      "Kind": "property",
+      "File": "animal.js",
+      "DefStart": 293,
+      "DefEnd": 302,
+      "Data": {
+        "Type": "Animal.prototype",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      }
+    },
+    {
       "Path": "animal.js/obj/Animal/1/prop/prototype/prop/makeNoise",
       "Name": "makeNoise",
       "Kind": "property",
@@ -138,6 +152,20 @@
         "Keyword": "function",
         "Kind": "property",
         "Separator": ""
+      }
+    },
+    {
+      "Path": "animal.js/obj/Animal/prop/prototype",
+      "Name": "prototype",
+      "Kind": "property",
+      "File": "animal.js",
+      "DefStart": 158,
+      "DefEnd": 167,
+      "Data": {
+        "Type": "Animal.prototype",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
       }
     },
     {
@@ -677,6 +705,13 @@
       "End": 471
     },
     {
+      "DefPath": "animal.js/obj/Animal/1/prop/prototype",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 293,
+      "End": 302
+    },
+    {
       "DefPath": "animal.js/obj/Animal/prop/prototype/prop/sayHello",
       "Def": true,
       "File": "animal.js",
@@ -694,6 +729,13 @@
       "File": "test/animal_test.js",
       "Start": 318,
       "End": 326
+    },
+    {
+      "DefPath": "animal.js/obj/Animal/prop/prototype",
+      "Def": true,
+      "File": "animal.js",
+      "Start": 158,
+      "End": 167
     },
     {
       "DefPath": "animal.js/obj/Dog/1/prop/prototype/prop/sayExtendedHello",
