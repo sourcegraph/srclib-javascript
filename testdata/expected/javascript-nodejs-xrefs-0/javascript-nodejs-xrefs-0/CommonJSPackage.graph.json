@@ -477,6 +477,20 @@
       }
     },
     {
+      "Path": "lib/mysql.js/fn/2/obj/result/prop/insertId",
+      "Name": "insertId",
+      "Kind": "property",
+      "File": "lib/mysql.js",
+      "DefStart": 804,
+      "DefEnd": 812,
+      "Data": {
+        "Type": "?",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      }
+    },
+    {
       "Path": "lib/mysql.js/fn/2/param/err",
       "Name": "err",
       "Kind": "param",
@@ -505,6 +519,20 @@
       }
     },
     {
+      "Path": "lib/mysql.js/fn/3/obj/result/prop/affectedRows",
+      "Name": "affectedRows",
+      "Kind": "property",
+      "File": "lib/mysql.js",
+      "DefStart": 962,
+      "DefEnd": 974,
+      "Data": {
+        "Type": "?",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      }
+    },
+    {
       "Path": "lib/mysql.js/fn/3/param/err",
       "Name": "err",
       "Kind": "param",
@@ -529,6 +557,34 @@
         "Type": "?",
         "Keyword": "param",
         "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "lib/mysql.js/fn/4/obj/result",
+      "Name": "result",
+      "Kind": "object instance",
+      "File": "lib/mysql.js",
+      "DefStart": 1110,
+      "DefEnd": 1116,
+      "Data": {
+        "Type": "?",
+        "Keyword": "object instance",
+        "Kind": "object instance",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "lib/mysql.js/fn/4/obj/result/prop/changedRows",
+      "Name": "changedRows",
+      "Kind": "property",
+      "File": "lib/mysql.js",
+      "DefStart": 1117,
+      "DefEnd": 1128,
+      "Data": {
+        "Type": "?",
+        "Keyword": "property",
+        "Kind": "property",
         "Separator": " "
       }
     },
@@ -687,6 +743,20 @@
       }
     },
     {
+      "Path": "lib/mysql.js/fn/9/fn/var/log/obj/result/prop/insertId",
+      "Name": "insertId",
+      "Kind": "property",
+      "File": "lib/mysql.js",
+      "DefStart": 1945,
+      "DefEnd": 1953,
+      "Data": {
+        "Type": "?",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      }
+    },
+    {
       "Path": "lib/mysql.js/fn/9/param/err",
       "Name": "err",
       "Kind": "param",
@@ -697,6 +767,20 @@
         "Type": "?",
         "Keyword": "param",
         "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "lib/mysql.js/fn/obj/rows/prop/solution",
+      "Name": "solution",
+      "Kind": "property",
+      "File": "lib/mysql.js",
+      "DefStart": 313,
+      "DefEnd": 321,
+      "Data": {
+        "Type": "?",
+        "Keyword": "property",
+        "Kind": "property",
         "Separator": " "
       }
     },
@@ -767,6 +851,20 @@
         "Type": "string",
         "Keyword": "object property",
         "Kind": "object property",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "lib/mysql.js/obj/query/prop/on",
+      "Name": "on",
+      "Kind": "property",
+      "File": "lib/mysql.js",
+      "DefStart": 1208,
+      "DefEnd": 1210,
+      "Data": {
+        "Type": "?",
+        "Keyword": "property",
+        "Kind": "property",
         "Separator": " "
       }
     },
@@ -879,6 +977,20 @@
         "Type": "string",
         "Keyword": "var",
         "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "lib/pg.js/fn/1/fn/obj/result/prop/rows/prop/theTime",
+      "Name": "theTime",
+      "Kind": "property",
+      "File": "lib/pg.js",
+      "DefStart": 841,
+      "DefEnd": 848,
+      "Data": {
+        "Type": "?",
+        "Keyword": "property",
+        "Kind": "property",
         "Separator": " "
       }
     },
@@ -1419,26 +1531,10 @@
     {
       "DefRepo": "github.com/lodash/lodash",
       "DefUnit": "lodash",
-      "DefPath": "dist/lodash.js/fn/fn/runInContext/obj/lodash/53/prop/reject",
-      "File": "lib/lodash.js",
-      "Start": 533,
-      "End": 539
-    },
-    {
-      "DefRepo": "github.com/lodash/lodash",
-      "DefUnit": "lodash",
       "DefPath": "dist/lodash.js/fn/fn/runInContext/obj/lodash/74/prop/each",
       "File": "lib/lodash.js",
       "Start": 30,
       "End": 34
-    },
-    {
-      "DefRepo": "github.com/lodash/lodash",
-      "DefUnit": "lodash",
-      "DefPath": "dist/lodash.js/fn/fn/runInContext/obj/lodash/88/prop/find",
-      "File": "lib/lodash.js",
-      "Start": 314,
-      "End": 318
     },
     {
       "DefRepo": "github.com/lodash/lodash",
@@ -1543,6 +1639,22 @@
       "File": "lib/mysql.js",
       "Start": 433,
       "End": 440
+    },
+    {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
+      "File": "lib/lodash.js",
+      "Start": 314,
+      "End": 318
+    },
+    {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject",
+      "File": "lib/lodash.js",
+      "Start": 533,
+      "End": 539
     },
     {
       "DefRepo": "nodejs.org",
@@ -3111,6 +3223,13 @@
       "End": 2666
     },
     {
+      "DefPath": "lib/mysql.js/fn/2/obj/result/prop/insertId",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 804,
+      "End": 812
+    },
+    {
       "DefPath": "lib/mysql.js/fn/2/param/err",
       "Def": true,
       "File": "lib/mysql.js",
@@ -3143,6 +3262,13 @@
       "End": 803
     },
     {
+      "DefPath": "lib/mysql.js/fn/3/obj/result/prop/affectedRows",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 962,
+      "End": 974
+    },
+    {
       "DefPath": "lib/mysql.js/fn/3/param/err",
       "Def": true,
       "File": "lib/mysql.js",
@@ -3173,6 +3299,20 @@
       "File": "lib/mysql.js",
       "Start": 955,
       "End": 961
+    },
+    {
+      "DefPath": "lib/mysql.js/fn/4/obj/result/prop/changedRows",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1117,
+      "End": 1128
+    },
+    {
+      "DefPath": "lib/mysql.js/fn/4/obj/result",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1110,
+      "End": 1116
     },
     {
       "DefPath": "lib/mysql.js/fn/4/param/err",
@@ -3305,6 +3445,13 @@
       "End": 1944
     },
     {
+      "DefPath": "lib/mysql.js/fn/9/fn/var/log/obj/result/prop/insertId",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1945,
+      "End": 1953
+    },
+    {
       "DefPath": "lib/mysql.js/fn/9/fn/var/log",
       "Def": true,
       "File": "lib/mysql.js",
@@ -3335,6 +3482,13 @@
       "File": "lib/mysql.js",
       "Start": 1734,
       "End": 1737
+    },
+    {
+      "DefPath": "lib/mysql.js/fn/obj/rows/prop/solution",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 313,
+      "End": 321
     },
     {
       "DefPath": "lib/mysql.js/fn/param/err",
@@ -3388,6 +3542,13 @@
       "File": "lib/mysql.js",
       "Start": 649,
       "End": 654
+    },
+    {
+      "DefPath": "lib/mysql.js/obj/query/prop/on",
+      "Def": true,
+      "File": "lib/mysql.js",
+      "Start": 1208,
+      "End": 1210
     },
     {
       "DefPath": "lib/mysql.js/var/connection/1/obj/obj_key/port",
@@ -3576,6 +3737,13 @@
       "File": "lib/mysql.js",
       "Start": 1199,
       "End": 1204
+    },
+    {
+      "DefPath": "lib/pg.js/fn/1/fn/obj/result/prop/rows/prop/theTime",
+      "Def": true,
+      "File": "lib/pg.js",
+      "Start": 841,
+      "End": 848
     },
     {
       "DefPath": "lib/pg.js/fn/1/fn/param/err",

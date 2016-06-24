@@ -18,41 +18,50 @@ parser.command("scan-commonjs")
     .option("subdir", {
         help: "subdirectory in repository"
     })
-    .callback(function(opts) {
+    .callback(function() {
         // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
-    findpkgs(".", ["node_modules"], function(err, pkgs) {
+    findpkgs(".", null, function(err, pkgs) {
         if (err) {
             logger.error("An error occurred while searching for packages", err);
             process.exit(1);
         }
 
         // omit package.json files that have syntax errors
-        pkgs = pkgs.filter(function(pkg) {
-            return !pkg.error;
-        });
-
         // filter out undesirable packages (packages whose paths contain
         // "node_modules", "templates", "bower_components".)
         // AC: I've deleted test from this list, there are some projects with such structure
         //probably other components can be deleted as well - TODO: check after full repo's test
         pkgs = pkgs.filter(function(pkg) {
+            if (pkg.error) {
+                return false;
+            }
             // TODO(sqs): we probably want to process things in node_modules for
             // local code, so remove this filter.
             var pathComps = pkg.dir.split("/");
-            return pathComps.indexOf("node_modules") == -1 && pathComps.indexOf("templates") == -1 && pathComps.indexOf("bower_components") == -1;
+            return pathComps.indexOf("node_modules") == -1 &&
+                pathComps.indexOf("templates") == -1 &&
+                pathComps.indexOf("bower_components") == -1;
         });
 
+        if (!pkgs.length) {
+            // no packages were found, let's scan for files
+            var files = collectFiles(".", [/(^|\/)bower_components\//]).map(function(f) {
+                return util.normalizePath(path.relative(".", f));
+            });
+
+            console.log(JSON.stringify([{
+                Name: ".",
+                Type: "CommonJSPackage",
+                Dir: ".",
+                Files: files,
+                Dependencies: [],
+                Data: {}
+            }], null, 2));
+            return;
+        }
 
         pkgs.forEach(function(pkg) {
-            var allFiles = glob.sync(path.join(pkg.dir, '**/*.js'));
-            allFiles = allFiles.filter(function(f) {
-                return (f.indexOf("node_modules") == -1);
-            });
-            allFiles = allFiles.filter(function(f) {
-                return !/\.min\.js$/.test(f);
-            });
-
-            pkg.files = allFiles;
+            pkg.files = collectFiles(pkg.dir, [/(^|\/)node_modules\//, /(^|\/)bower_components\//]);
         });
 
         // tracking package names to avoid duplicates
@@ -117,9 +126,8 @@ parser.command("scan-commonjs")
 .help("scan for CommonJS packages");
 
 parser.command("depresolve")
-    .callback(function(opts) {
+    .callback(function() {
         var stdin = process.stdin,
-            stdout = process.stdout,
             inputChunks = [];
 
         stdin.resume();
@@ -206,9 +214,8 @@ var hardcodedRepoURLs = {
 };
 
 parser.command("graph")
-    .callback(function(opts) {
+    .callback(function() {
         var stdin = process.stdin,
-            stdout = process.stdout,
             inputChunks = [];
 
         stdin.resume();
@@ -257,18 +264,23 @@ parser.command("graph")
                 npmCmd = "npm";
             }
             logger.info("Installing packages for", commonJSPackage.Name, "..");
-            child_process.execFile(npmCmd, ["install"], {cwd: commonJSPackage.Dir}, (err, stdout, stderr) => {
-                if (err) {
-                    logger.warn("Error(s) occurred while installing packages for", commonJSPackage.Name, ". Exit code was", err.code);
-                    logger.warn("Stdout output");
-                    logger.warn(stdout);
-                    logger.warn("Stderr output");
-                    logger.warn(stderr);
-                } else {
-                    logger.info("Packages are installed for", commonJSPackage.Name);
-                }
-                graph();
-            });
+            child_process.execFile(npmCmd,
+                ["install", "--no-optional"],
+                {cwd: commonJSPackage.Dir},
+                function (err, stdout, stderr) {
+                    if (err) {
+                        logger.warn("Error(s) occurred while installing packages for",
+                            commonJSPackage.Name,
+                            ". Exit code was", err.code);
+                        logger.warn("Stdout output");
+                        logger.warn(stdout);
+                        logger.warn("Stderr output");
+                        logger.warn(stderr);
+                    } else {
+                        logger.info("Packages are installed for", commonJSPackage.Name);
+                    }
+                    graph();
+                });
         });
     })
     .help("graph a CommonJS package using tern");
@@ -281,3 +293,28 @@ var arrayUnique = function(a) {
         return p;
     }, []);
 };
+
+/**
+ *
+ * @param {string} dir directory to search in
+ * @param {regexp[]} excludes list of regexps to exclude
+ * @return {string[]} list of files found
+ */
+function collectFiles(dir, excludes) {
+    // include all js, jsx
+    var files = glob.sync(path.join(dir, '**/*.js?(x)')).filter(function(f) {
+        // exclude minified versions
+        return !/\.min\.jsx?$/.test(f);
+    }).map(function(f) {
+        return util.normalizePath(f);
+    });
+    if (excludes && excludes.length) {
+        // optionally exclude node_modules
+        files = files.filter(function(f) {
+            return !excludes.some(function(exclude) {
+                return exclude.test(f);
+            });
+        });
+    }
+    return files;
+}

@@ -1,0 +1,2009 @@
+{
+  "Defs": [
+    {
+      "Path": "/obj/obj_key/a",
+      "Name": "a",
+      "Kind": "object property",
+      "File": "destructuring-assignment.js",
+      "DefStart": 66,
+      "DefEnd": 67,
+      "Data": {
+        "Type": "number",
+        "Keyword": "object property",
+        "Kind": "object property",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "/obj/obj_key/b",
+      "Name": "b",
+      "Kind": "object property",
+      "File": "destructuring-assignment.js",
+      "DefStart": 71,
+      "DefEnd": 72,
+      "Data": {
+        "Type": "number",
+        "Keyword": "object property",
+        "Kind": "object property",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "arrowfunctions.js/class/lexicalthis",
+      "Name": "lexicalthis",
+      "Kind": "class",
+      "File": "arrowfunctions.js",
+      "DefStart": 122,
+      "DefEnd": 133,
+      "Data": {
+        "Type": "()",
+        "Keyword": "function",
+        "Kind": "class",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "arrowfunctions.js/class/lexicalthis/prop/c",
+      "Name": "c",
+      "Kind": "property",
+      "File": "arrowfunctions.js",
+      "DefStart": 169,
+      "DefEnd": 170,
+      "Data": {
+        "Type": "number",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "arrowfunctions.js/fn/1/param/v",
+      "Name": "v",
+      "Kind": "param",
+      "File": "arrowfunctions.js",
+      "DefStart": 79,
+      "DefEnd": 80,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "arrowfunctions.js/fn/param/i",
+      "Name": "i",
+      "Kind": "param",
+      "File": "arrowfunctions.js",
+      "DefStart": 32,
+      "DefEnd": 33,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "arrowfunctions.js/fn/param/v",
+      "Name": "v",
+      "Kind": "param",
+      "File": "arrowfunctions.js",
+      "DefStart": 29,
+      "DefEnd": 30,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "classes.js/class",
+      "Name": "class",
+      "Kind": "class",
+      "File": "classes.js",
+      "DefStart": 709,
+      "DefEnd": 714,
+      "Data": {
+        "Type": "class",
+        "Keyword": "class",
+        "Kind": "class",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "classes.js/class/A",
+      "Name": "A",
+      "Kind": "class",
+      "File": "classes.js",
+      "DefStart": 6,
+      "DefEnd": 7,
+      "Data": {
+        "Type": "(name)",
+        "Keyword": "function",
+        "Kind": "class",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "classes.js/class/A/fn/+name",
+      "Name": "name",
+      "Kind": "set",
+      "File": "classes.js",
+      "DefStart": 165,
+      "DefEnd": 169,
+      "Data": {
+        "Type": "",
+        "Keyword": "set",
+        "Kind": "set",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "classes.js/class/A/fn/+name/param/name",
+      "Name": "name",
+      "Kind": "param",
+      "File": "classes.js",
+      "DefStart": 170,
+      "DefEnd": 174,
+      "Data": {
+        "Type": "string",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "classes.js/class/A/fn/-name",
+      "Name": "name",
+      "Kind": "get",
+      "File": "classes.js",
+      "DefStart": 115,
+      "DefEnd": 119,
+      "Data": {
+        "Type": "?",
+        "Keyword": "get",
+        "Kind": "get",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "classes.js/class/A/fn/constructor/param/name",
+      "Name": "name",
+      "Kind": "param",
+      "File": "classes.js",
+      "DefStart": 44,
+      "DefEnd": 48,
+      "Data": {
+        "Type": "string",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "classes.js/class/A/fn/method",
+      "Name": "method",
+      "Kind": "function",
+      "File": "classes.js",
+      "DefStart": 294,
+      "DefEnd": 300,
+      "Data": {
+        "Type": "",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "classes.js/class/A/fn/rename",
+      "Name": "rename",
+      "Kind": "function",
+      "File": "classes.js",
+      "DefStart": 203,
+      "DefEnd": 209,
+      "Data": {
+        "Type": "",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "classes.js/class/A/prop/_name",
+      "Name": "_name",
+      "Kind": "property",
+      "File": "classes.js",
+      "DefStart": 77,
+      "DefEnd": 82,
+      "Data": {
+        "Type": "?",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "classes.js/class/B",
+      "Name": "B",
+      "Kind": "class",
+      "File": "classes.js",
+      "DefStart": 332,
+      "DefEnd": 333,
+      "Data": {
+        "Type": "(name)",
+        "Keyword": "function",
+        "Kind": "class",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "classes.js/class/B/fn/constructor/param/name",
+      "Name": "name",
+      "Kind": "param",
+      "File": "classes.js",
+      "DefStart": 363,
+      "DefEnd": 367,
+      "Data": {
+        "Type": "string",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "classes.js/class/B/fn/foo",
+      "Name": "foo",
+      "Kind": "function",
+      "File": "classes.js",
+      "DefStart": 425,
+      "DefEnd": 428,
+      "Data": {
+        "Type": "",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "classes.js/class/prop/y",
+      "Name": "y",
+      "Kind": "property",
+      "File": "classes.js",
+      "DefStart": 743,
+      "DefEnd": 744,
+      "Data": {
+        "Type": "number",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "classes.js/var/AGirlHasNoName",
+      "Name": "AGirlHasNoName",
+      "Kind": "var",
+      "File": "classes.js",
+      "DefStart": 579,
+      "DefEnd": 593,
+      "Data": {
+        "Type": "()",
+        "Keyword": "function",
+        "Kind": "var",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "classes.js/var/AGirlHasNoName/class",
+      "Name": "class",
+      "Kind": "class",
+      "File": "classes.js",
+      "DefStart": 596,
+      "DefEnd": 601,
+      "Data": {
+        "Type": "class",
+        "Keyword": "class",
+        "Kind": "class",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "classes.js/var/AGirlHasNoName/class/prop/x",
+      "Name": "x",
+      "Kind": "property",
+      "File": "classes.js",
+      "DefStart": 632,
+      "DefEnd": 633,
+      "Data": {
+        "Type": "number",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "classes.js/var/arya",
+      "Name": "arya",
+      "Kind": "var",
+      "File": "classes.js",
+      "DefStart": 652,
+      "DefEnd": 656,
+      "Data": {
+        "Type": "AGirlHasNoName",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "destructuring-assignment.js/var/a",
+      "Name": "a",
+      "Kind": "var",
+      "File": "destructuring-assignment.js",
+      "DefStart": 57,
+      "DefEnd": 58,
+      "Data": {
+        "Type": "number",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "destructuring-assignment.js/var/b",
+      "Name": "b",
+      "Kind": "var",
+      "File": "destructuring-assignment.js",
+      "DefStart": 60,
+      "DefEnd": 61,
+      "Data": {
+        "Type": "number",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "destructuring-assignment.js/var/foo",
+      "Name": "foo",
+      "Kind": "var",
+      "File": "destructuring-assignment.js",
+      "DefStart": 4,
+      "DefEnd": 7,
+      "Data": {
+        "Type": "[number]",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "destructuring-assignment.js/var/one",
+      "Name": "one",
+      "Kind": "var",
+      "File": "destructuring-assignment.js",
+      "DefStart": 27,
+      "DefEnd": 30,
+      "Data": {
+        "Type": "number",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "destructuring-assignment.js/var/three",
+      "Name": "three",
+      "Kind": "var",
+      "File": "destructuring-assignment.js",
+      "DefStart": 37,
+      "DefEnd": 42,
+      "Data": {
+        "Type": "number",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "destructuring-assignment.js/var/two",
+      "Name": "two",
+      "Kind": "var",
+      "File": "destructuring-assignment.js",
+      "DefStart": 32,
+      "DefEnd": 35,
+      "Data": {
+        "Type": "number",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/arrowfunctions.js",
+      "Name": "arrowfunctions.js",
+      "Kind": "module",
+      "File": "arrowfunctions.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/classes.js",
+      "Name": "classes.js",
+      "Kind": "module",
+      "File": "classes.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/destructuring-assignment.js",
+      "Name": "destructuring-assignment.js",
+      "Kind": "module",
+      "File": "destructuring-assignment.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/objectproperties.js",
+      "Name": "objectproperties.js",
+      "Kind": "module",
+      "File": "objectproperties.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/parameters.js",
+      "Name": "parameters.js",
+      "Kind": "module",
+      "File": "parameters.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "module/variables.js",
+      "Name": "variables.js",
+      "Kind": "module",
+      "File": "variables.js",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Data": {
+        "Type": "module",
+        "Keyword": "module",
+        "Kind": "module",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/fn/quux",
+      "Name": "quux",
+      "Kind": "function",
+      "File": "objectproperties.js",
+      "DefStart": 9,
+      "DefEnd": 13,
+      "Data": {
+        "Type": "()",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1",
+      "Name": "obj1",
+      "Kind": "var",
+      "File": "objectproperties.js",
+      "DefStart": 62,
+      "DefEnd": 66,
+      "Data": {
+        "Type": "obj1",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar",
+      "Name": "bar",
+      "Kind": "function",
+      "File": "objectproperties.js",
+      "DefStart": 102,
+      "DefEnd": 105,
+      "Data": {
+        "Type": "",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar/fn/param/x",
+      "Name": "x",
+      "Kind": "param",
+      "File": "objectproperties.js",
+      "DefStart": 107,
+      "DefEnd": 108,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar/fn/param/y",
+      "Name": "y",
+      "Kind": "param",
+      "File": "objectproperties.js",
+      "DefStart": 110,
+      "DefEnd": 111,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo",
+      "Name": "foo",
+      "Kind": "function",
+      "File": "objectproperties.js",
+      "DefStart": 76,
+      "DefEnd": 79,
+      "Data": {
+        "Type": "",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo/fn/param/a",
+      "Name": "a",
+      "Kind": "param",
+      "File": "objectproperties.js",
+      "DefStart": 81,
+      "DefEnd": 82,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo/fn/param/b",
+      "Name": "b",
+      "Kind": "param",
+      "File": "objectproperties.js",
+      "DefStart": 84,
+      "DefEnd": 85,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux",
+      "Name": "quux",
+      "Kind": "function",
+      "File": "objectproperties.js",
+      "DefStart": 129,
+      "DefEnd": 133,
+      "Data": {
+        "Type": "",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux/fn/param/x",
+      "Name": "x",
+      "Kind": "param",
+      "File": "objectproperties.js",
+      "DefStart": 135,
+      "DefEnd": 136,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux/fn/param/y",
+      "Name": "y",
+      "Kind": "param",
+      "File": "objectproperties.js",
+      "DefStart": 138,
+      "DefEnd": 139,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj2",
+      "Name": "obj2",
+      "Kind": "var",
+      "File": "objectproperties.js",
+      "DefStart": 241,
+      "DefEnd": 245,
+      "Data": {
+        "Type": "obj2",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj2/obj/objType/obj2/obj_key/foo",
+      "Name": "foo",
+      "Kind": "object property",
+      "File": "objectproperties.js",
+      "DefStart": 255,
+      "DefEnd": 258,
+      "Data": {
+        "Type": "string",
+        "Keyword": "object property",
+        "Kind": "object property",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj3",
+      "Name": "obj3",
+      "Kind": "var",
+      "File": "objectproperties.js",
+      "DefStart": 378,
+      "DefEnd": 382,
+      "Data": {
+        "Type": "obj3",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propX/obj_val/propX",
+      "Name": "propX",
+      "Kind": "object value",
+      "File": "objectproperties.js",
+      "DefStart": 387,
+      "DefEnd": 392,
+      "Data": {
+        "Type": "string",
+        "Keyword": "object value",
+        "Kind": "object value",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propY/obj_val/propY",
+      "Name": "propY",
+      "Kind": "object value",
+      "File": "objectproperties.js",
+      "DefStart": 394,
+      "DefEnd": 399,
+      "Data": {
+        "Type": "string",
+        "Keyword": "object value",
+        "Kind": "object value",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/propX",
+      "Name": "propX",
+      "Kind": "var",
+      "File": "objectproperties.js",
+      "DefStart": 317,
+      "DefEnd": 322,
+      "Data": {
+        "Type": "string",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "objectproperties.js/var/propY",
+      "Name": "propY",
+      "Kind": "var",
+      "File": "objectproperties.js",
+      "DefStart": 335,
+      "DefEnd": 340,
+      "Data": {
+        "Type": "string",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "parameters.js/fn/defaultparam",
+      "Name": "defaultparam",
+      "Kind": "function",
+      "File": "parameters.js",
+      "DefStart": 185,
+      "DefEnd": 197,
+      "Data": {
+        "Type": "(x)",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "parameters.js/fn/defaultparam/param/x",
+      "Name": "x",
+      "Kind": "param",
+      "File": "parameters.js",
+      "DefStart": 198,
+      "DefEnd": 199,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "parameters.js/fn/defaultparameval",
+      "Name": "defaultparameval",
+      "Kind": "function",
+      "File": "parameters.js",
+      "DefStart": 361,
+      "DefEnd": 377,
+      "Data": {
+        "Type": "(x)",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "parameters.js/fn/defaultparameval/param/x",
+      "Name": "x",
+      "Kind": "param",
+      "File": "parameters.js",
+      "DefStart": 378,
+      "DefEnd": 379,
+      "Data": {
+        "Type": "number",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "parameters.js/fn/paramvalue",
+      "Name": "paramvalue",
+      "Kind": "function",
+      "File": "parameters.js",
+      "DefStart": 275,
+      "DefEnd": 285,
+      "Data": {
+        "Type": "()",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "parameters.js/fn/rest",
+      "Name": "rest",
+      "Kind": "function",
+      "File": "parameters.js",
+      "DefStart": 118,
+      "DefEnd": 122,
+      "Data": {
+        "Type": "(x, y, a)",
+        "Keyword": "function",
+        "Kind": "function",
+        "Separator": ""
+      }
+    },
+    {
+      "Path": "parameters.js/fn/rest/param/a",
+      "Name": "a",
+      "Kind": "param",
+      "File": "parameters.js",
+      "DefStart": 133,
+      "DefEnd": 134,
+      "Data": {
+        "Type": "[?]",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "parameters.js/fn/rest/param/x",
+      "Name": "x",
+      "Kind": "param",
+      "File": "parameters.js",
+      "DefStart": 124,
+      "DefEnd": 125,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "parameters.js/fn/rest/param/y",
+      "Name": "y",
+      "Kind": "param",
+      "File": "parameters.js",
+      "DefStart": 127,
+      "DefEnd": 128,
+      "Data": {
+        "Type": "?",
+        "Keyword": "param",
+        "Kind": "param",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "parameters.js/var/other",
+      "Name": "other",
+      "Kind": "var",
+      "File": "parameters.js",
+      "DefStart": 60,
+      "DefEnd": 65,
+      "Data": {
+        "Type": "[number]",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "parameters.js/var/params",
+      "Name": "params",
+      "Kind": "var",
+      "File": "parameters.js",
+      "DefStart": 4,
+      "DefEnd": 10,
+      "Data": {
+        "Type": "[string, bool, number]",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "variables.js/var/varConst",
+      "Name": "varConst",
+      "Kind": "const",
+      "File": "variables.js",
+      "DefStart": 33,
+      "DefEnd": 41,
+      "Data": {
+        "Type": "number",
+        "Keyword": "const",
+        "Kind": "const",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "variables.js/var/varLet",
+      "Name": "varLet",
+      "Kind": "let",
+      "File": "variables.js",
+      "DefStart": 92,
+      "DefEnd": 98,
+      "Data": {
+        "Type": "number",
+        "Keyword": "let",
+        "Kind": "let",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "variables.js/var/varVar",
+      "Name": "varVar",
+      "Kind": "var",
+      "File": "variables.js",
+      "DefStart": 60,
+      "DefEnd": 66,
+      "Data": {
+        "Type": "number",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      }
+    }
+  ],
+  "Refs": [
+    {
+      "DefPath": "/obj/obj_key/a",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 66,
+      "End": 67
+    },
+    {
+      "DefPath": "/obj/obj_key/b",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 71,
+      "End": 72
+    },
+    {
+      "DefPath": "arrowfunctions.js/class/lexicalthis/prop/c",
+      "Def": true,
+      "File": "arrowfunctions.js",
+      "Start": 169,
+      "End": 170
+    },
+    {
+      "DefPath": "arrowfunctions.js/class/lexicalthis/prop/c",
+      "File": "arrowfunctions.js",
+      "Start": 221,
+      "End": 222
+    },
+    {
+      "DefPath": "arrowfunctions.js/class/lexicalthis",
+      "Def": true,
+      "File": "arrowfunctions.js",
+      "Start": 122,
+      "End": 133
+    },
+    {
+      "DefPath": "arrowfunctions.js/class/lexicalthis",
+      "File": "arrowfunctions.js",
+      "Start": 140,
+      "End": 151
+    },
+    {
+      "DefPath": "arrowfunctions.js/class/lexicalthis",
+      "File": "arrowfunctions.js",
+      "Start": 164,
+      "End": 168
+    },
+    {
+      "DefPath": "arrowfunctions.js/class/lexicalthis",
+      "File": "arrowfunctions.js",
+      "Start": 216,
+      "End": 220
+    },
+    {
+      "DefPath": "arrowfunctions.js/fn/1/param/v",
+      "Def": true,
+      "File": "arrowfunctions.js",
+      "Start": 79,
+      "End": 80
+    },
+    {
+      "DefPath": "arrowfunctions.js/fn/1/param/v",
+      "File": "arrowfunctions.js",
+      "Start": 90,
+      "End": 91
+    },
+    {
+      "DefPath": "arrowfunctions.js/fn/param/i",
+      "Def": true,
+      "File": "arrowfunctions.js",
+      "Start": 32,
+      "End": 33
+    },
+    {
+      "DefPath": "arrowfunctions.js/fn/param/i",
+      "File": "arrowfunctions.js",
+      "Start": 42,
+      "End": 43
+    },
+    {
+      "DefPath": "arrowfunctions.js/fn/param/v",
+      "Def": true,
+      "File": "arrowfunctions.js",
+      "Start": 29,
+      "End": 30
+    },
+    {
+      "DefPath": "arrowfunctions.js/fn/param/v",
+      "File": "arrowfunctions.js",
+      "Start": 38,
+      "End": 39
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/+name/param/name",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 170,
+      "End": 174
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/+name/param/name",
+      "File": "classes.js",
+      "Start": 191,
+      "End": 195
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/+name",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 165,
+      "End": 169
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/+name",
+      "File": "classes.js",
+      "Start": 242,
+      "End": 246
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/-name",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 115,
+      "End": 119
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/-name",
+      "File": "classes.js",
+      "Start": 254,
+      "End": 258
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/constructor/param/name",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 44,
+      "End": 48
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/constructor/param/name",
+      "File": "classes.js",
+      "Start": 85,
+      "End": 89
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/method",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 294,
+      "End": 300
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/method",
+      "File": "classes.js",
+      "Start": 537,
+      "End": 543
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/rename",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 203,
+      "End": 209
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/rename",
+      "File": "classes.js",
+      "Start": 459,
+      "End": 465
+    },
+    {
+      "DefPath": "classes.js/class/A/fn/rename",
+      "File": "classes.js",
+      "Start": 497,
+      "End": 503
+    },
+    {
+      "DefPath": "classes.js/class/A/prop/_name",
+      "File": "classes.js",
+      "Start": 136,
+      "End": 141
+    },
+    {
+      "DefPath": "classes.js/class/A/prop/_name",
+      "File": "classes.js",
+      "Start": 183,
+      "End": 188
+    },
+    {
+      "DefPath": "classes.js/class/A/prop/_name",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 77,
+      "End": 82
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 131,
+      "End": 135
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 178,
+      "End": 182
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 237,
+      "End": 241
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 249,
+      "End": 253
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 32,
+      "End": 43
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 342,
+      "End": 343
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 404,
+      "End": 409
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 491,
+      "End": 496
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 535,
+      "End": 536
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 6,
+      "End": 7
+    },
+    {
+      "DefPath": "classes.js/class/A",
+      "File": "classes.js",
+      "Start": 72,
+      "End": 76
+    },
+    {
+      "DefPath": "classes.js/class/B/fn/constructor/param/name",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 363,
+      "End": 367
+    },
+    {
+      "DefPath": "classes.js/class/B/fn/constructor/param/name",
+      "File": "classes.js",
+      "Start": 410,
+      "End": 414
+    },
+    {
+      "DefPath": "classes.js/class/B/fn/foo",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 425,
+      "End": 428
+    },
+    {
+      "DefPath": "classes.js/class/B",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 332,
+      "End": 333
+    },
+    {
+      "DefPath": "classes.js/class/B",
+      "File": "classes.js",
+      "Start": 350,
+      "End": 361
+    },
+    {
+      "DefPath": "classes.js/class/B",
+      "File": "classes.js",
+      "Start": 454,
+      "End": 458
+    },
+    {
+      "DefPath": "classes.js/class/prop/y",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 743,
+      "End": 744
+    },
+    {
+      "DefPath": "classes.js/class",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 709,
+      "End": 714
+    },
+    {
+      "DefPath": "classes.js/class",
+      "File": "classes.js",
+      "Start": 719,
+      "End": 730
+    },
+    {
+      "DefPath": "classes.js/class",
+      "File": "classes.js",
+      "Start": 738,
+      "End": 742
+    },
+    {
+      "DefPath": "classes.js/var/AGirlHasNoName/class/prop/x",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 632,
+      "End": 633
+    },
+    {
+      "DefPath": "classes.js/var/AGirlHasNoName/class",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 596,
+      "End": 601
+    },
+    {
+      "DefPath": "classes.js/var/AGirlHasNoName/class",
+      "File": "classes.js",
+      "Start": 608,
+      "End": 619
+    },
+    {
+      "DefPath": "classes.js/var/AGirlHasNoName/class",
+      "File": "classes.js",
+      "Start": 627,
+      "End": 631
+    },
+    {
+      "DefPath": "classes.js/var/AGirlHasNoName",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 579,
+      "End": 593
+    },
+    {
+      "DefPath": "classes.js/var/AGirlHasNoName",
+      "File": "classes.js",
+      "Start": 663,
+      "End": 677
+    },
+    {
+      "DefPath": "classes.js/var/arya",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 652,
+      "End": 656
+    },
+    {
+      "DefPath": "destructuring-assignment.js/var/a",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 57,
+      "End": 58
+    },
+    {
+      "DefPath": "destructuring-assignment.js/var/b",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 60,
+      "End": 61
+    },
+    {
+      "DefPath": "destructuring-assignment.js/var/foo",
+      "File": "destructuring-assignment.js",
+      "Start": 46,
+      "End": 49
+    },
+    {
+      "DefPath": "destructuring-assignment.js/var/foo",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 4,
+      "End": 7
+    },
+    {
+      "DefPath": "destructuring-assignment.js/var/one",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 27,
+      "End": 30
+    },
+    {
+      "DefPath": "destructuring-assignment.js/var/three",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 37,
+      "End": 42
+    },
+    {
+      "DefPath": "destructuring-assignment.js/var/two",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 32,
+      "End": 35
+    },
+    {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/forEach",
+      "File": "arrowfunctions.js",
+      "Start": 71,
+      "End": 78
+    },
+    {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/length",
+      "File": "parameters.js",
+      "Start": 142,
+      "End": 148
+    },
+    {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/map",
+      "File": "arrowfunctions.js",
+      "Start": 24,
+      "End": 27
+    },
+    {
+      "DefRepo": "developer.mozilla.org",
+      "DefUnitType": "URL",
+      "DefPath": "https://developer.mozilla.org/en/docs/DOM/window.setInterval",
+      "File": "arrowfunctions.js",
+      "Start": 184,
+      "End": 195
+    },
+    {
+      "DefPath": "module/arrowfunctions.js",
+      "Def": true,
+      "File": "arrowfunctions.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/classes.js",
+      "Def": true,
+      "File": "classes.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/destructuring-assignment.js",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/objectproperties.js",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/parameters.js",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "module/variables.js",
+      "Def": true,
+      "File": "variables.js",
+      "Start": 0,
+      "End": 0
+    },
+    {
+      "DefPath": "objectproperties.js/fn/quux",
+      "File": "objectproperties.js",
+      "Start": 282,
+      "End": 286
+    },
+    {
+      "DefPath": "objectproperties.js/fn/quux",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 9,
+      "End": 13
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar/fn/param/x",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 107,
+      "End": 108
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar/fn/param/y",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 110,
+      "End": 111
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 102,
+      "End": 105
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar",
+      "File": "objectproperties.js",
+      "Start": 177,
+      "End": 180
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo/fn/param/a",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 81,
+      "End": 82
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo/fn/param/b",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 84,
+      "End": 85
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo",
+      "File": "objectproperties.js",
+      "Start": 160,
+      "End": 163
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 76,
+      "End": 79
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux/fn/param/x",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 135,
+      "End": 136
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux/fn/param/y",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 138,
+      "End": 139
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 129,
+      "End": 133
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux",
+      "File": "objectproperties.js",
+      "Start": 194,
+      "End": 198
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1",
+      "File": "objectproperties.js",
+      "Start": 155,
+      "End": 159
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1",
+      "File": "objectproperties.js",
+      "Start": 172,
+      "End": 176
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1",
+      "File": "objectproperties.js",
+      "Start": 189,
+      "End": 193
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj1",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 62,
+      "End": 66
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj2/obj/objType/obj2/obj_key/foo",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 255,
+      "End": 258
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj2/obj/objType/obj2/obj_key/foo",
+      "File": "objectproperties.js",
+      "Start": 305,
+      "End": 308
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj2",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 241,
+      "End": 245
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj2",
+      "File": "objectproperties.js",
+      "Start": 300,
+      "End": 304
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propX/obj_val/propX",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 387,
+      "End": 392
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propX/obj_val/propX",
+      "File": "objectproperties.js",
+      "Start": 409,
+      "End": 414
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propY/obj_val/propY",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 394,
+      "End": 399
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propY/obj_val/propY",
+      "File": "objectproperties.js",
+      "Start": 430,
+      "End": 435
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj3",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 378,
+      "End": 382
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj3",
+      "File": "objectproperties.js",
+      "Start": 404,
+      "End": 408
+    },
+    {
+      "DefPath": "objectproperties.js/var/obj3",
+      "File": "objectproperties.js",
+      "Start": 425,
+      "End": 429
+    },
+    {
+      "DefPath": "objectproperties.js/var/propX",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 317,
+      "End": 322
+    },
+    {
+      "DefPath": "objectproperties.js/var/propX",
+      "File": "objectproperties.js",
+      "Start": 417,
+      "End": 422
+    },
+    {
+      "DefPath": "objectproperties.js/var/propY",
+      "Def": true,
+      "File": "objectproperties.js",
+      "Start": 335,
+      "End": 340
+    },
+    {
+      "DefPath": "objectproperties.js/var/propY",
+      "File": "objectproperties.js",
+      "Start": 438,
+      "End": 443
+    },
+    {
+      "DefPath": "parameters.js/fn/defaultparam/param/x",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 198,
+      "End": 199
+    },
+    {
+      "DefPath": "parameters.js/fn/defaultparam/param/x",
+      "File": "parameters.js",
+      "Start": 216,
+      "End": 217
+    },
+    {
+      "DefPath": "parameters.js/fn/defaultparameval/param/x",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 378,
+      "End": 379
+    },
+    {
+      "DefPath": "parameters.js/fn/defaultparameval/param/x",
+      "File": "parameters.js",
+      "Start": 407,
+      "End": 408
+    },
+    {
+      "DefPath": "parameters.js/fn/defaultparameval",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 361,
+      "End": 377
+    },
+    {
+      "DefPath": "parameters.js/fn/defaultparam",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 185,
+      "End": 197
+    },
+    {
+      "DefPath": "parameters.js/fn/paramvalue",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 275,
+      "End": 285
+    },
+    {
+      "DefPath": "parameters.js/fn/paramvalue",
+      "File": "parameters.js",
+      "Start": 382,
+      "End": 392
+    },
+    {
+      "DefPath": "parameters.js/fn/rest/param/a",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 133,
+      "End": 134
+    },
+    {
+      "DefPath": "parameters.js/fn/rest/param/a",
+      "File": "parameters.js",
+      "Start": 140,
+      "End": 141
+    },
+    {
+      "DefPath": "parameters.js/fn/rest/param/x",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 124,
+      "End": 125
+    },
+    {
+      "DefPath": "parameters.js/fn/rest/param/y",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 127,
+      "End": 128
+    },
+    {
+      "DefPath": "parameters.js/fn/rest",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 118,
+      "End": 122
+    },
+    {
+      "DefPath": "parameters.js/var/other",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 60,
+      "End": 65
+    },
+    {
+      "DefPath": "parameters.js/var/params",
+      "Def": true,
+      "File": "parameters.js",
+      "Start": 4,
+      "End": 10
+    },
+    {
+      "DefPath": "parameters.js/var/params",
+      "File": "parameters.js",
+      "Start": 79,
+      "End": 85
+    },
+    {
+      "DefPath": "variables.js/var/varConst",
+      "Def": true,
+      "File": "variables.js",
+      "Start": 33,
+      "End": 41
+    },
+    {
+      "DefPath": "variables.js/var/varConst",
+      "File": "variables.js",
+      "Start": 69,
+      "End": 77
+    },
+    {
+      "DefPath": "variables.js/var/varLet",
+      "Def": true,
+      "File": "variables.js",
+      "Start": 92,
+      "End": 98
+    },
+    {
+      "DefPath": "variables.js/var/varVar",
+      "Def": true,
+      "File": "variables.js",
+      "Start": 60,
+      "End": 66
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "/obj/obj_key/a",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "/obj/obj_key/b",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "arrowfunctions.js/class/lexicalthis/prop/c",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "arrowfunctions.js/fn/param/i",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "classes.js/class/A/fn/+name/param/name",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "classes.js/class/A/fn/constructor/param/name",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "classes.js/class/A/prop/_name",
+      "Format": "",
+      "Data": "properties"
+    },
+    {
+      "Path": "classes.js/class/B/fn/constructor/param/name",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "classes.js/class/prop/y",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "classes.js/var/AGirlHasNoName",
+      "Format": "",
+      "Data": "class without a name"
+    },
+    {
+      "Path": "classes.js/var/AGirlHasNoName/class/prop/x",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "classes.js/var/arya",
+      "Format": "",
+      "Data": "class without a name"
+    },
+    {
+      "Path": "destructuring-assignment.js/var/a",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "destructuring-assignment.js/var/b",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "destructuring-assignment.js/var/one",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "destructuring-assignment.js/var/three",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "destructuring-assignment.js/var/two",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "objectproperties.js/var/obj1",
+      "Format": "",
+      "Data": "method properties"
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar/fn/param/x",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar/fn/param/y",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo/fn/param/a",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo/fn/param/b",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux/fn/param/x",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux/fn/param/y",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "objectproperties.js/var/obj2",
+      "Format": "",
+      "Data": "computed property names"
+    },
+    {
+      "Path": "objectproperties.js/var/obj2/obj/objType/obj2/obj_key/foo",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "objectproperties.js/var/obj3",
+      "Format": "",
+      "Data": "property shorthand"
+    },
+    {
+      "Path": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propX/obj_val/propX",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propY/obj_val/propY",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "objectproperties.js/var/propX",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "objectproperties.js/var/propY",
+      "Format": "",
+      "Data": "The String global object is a constructor for strings, or a sequence of characters."
+    },
+    {
+      "Path": "parameters.js/fn/defaultparam",
+      "Format": "",
+      "Data": "default parameter"
+    },
+    {
+      "Path": "parameters.js/fn/defaultparam/param/x",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "parameters.js/fn/defaultparameval",
+      "Format": "",
+      "Data": "default parameter call-time evaluation"
+    },
+    {
+      "Path": "parameters.js/fn/defaultparameval/param/x",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "parameters.js/fn/paramvalue",
+      "Format": "",
+      "Data": "value provider for default parameter"
+    },
+    {
+      "Path": "parameters.js/fn/rest",
+      "Format": "",
+      "Data": "rest parameter"
+    },
+    {
+      "Path": "parameters.js/var/other",
+      "Format": "",
+      "Data": "spread operator"
+    },
+    {
+      "Path": "variables.js/var/varConst",
+      "Format": "",
+      "Data": "const"
+    },
+    {
+      "Path": "variables.js/var/varLet",
+      "Format": "",
+      "Data": "let"
+    },
+    {
+      "Path": "variables.js/var/varVar",
+      "Format": "",
+      "Data": "var"
+    }
+  ]
+}

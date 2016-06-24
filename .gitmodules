@@ -10,3 +10,6 @@
 [submodule "testdata/case/js-misc"]
 	path = testdata/case/js-misc
 	url = https://github.com/sgtest/js-misc.git
+[submodule "testdata/case/javascript-es6-tests"]
+	path = testdata/case/javascript-es6-tests
+	url = https://github.com/sgtest/javascript-es6-tests.git
