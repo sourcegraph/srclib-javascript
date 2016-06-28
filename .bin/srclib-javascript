@@ -12,12 +12,6 @@ var logger = require('../lib/logger.js');
 var util = require('../lib/util.js');
 
 parser.command("scan-commonjs")
-    .option("repo", {
-        help: "repository URI"
-    })
-    .option("subdir", {
-        help: "subdirectory in repository"
-    })
     .callback(function() {
         // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
     findpkgs(".", null, function(err, pkgs) {
@@ -214,7 +208,12 @@ var hardcodedRepoURLs = {
 };
 
 parser.command("graph")
-    .callback(function() {
+    .option("noInstall", {
+        flag: true,
+        full: "no-install",
+        help: "Disables installation of npm packages"
+    })
+    .callback(function(opts) {
         var stdin = process.stdin,
             inputChunks = [];
 
@@ -255,6 +254,11 @@ parser.command("graph")
 
                     console.log(stdout);
                 });
+            }
+
+            if (opts.noInstall) {
+                graph();
+                return;
             }
 
             var npmCmd = null;
