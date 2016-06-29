@@ -106,18 +106,6 @@
       "End": 79
     },
     {
-      "DefPath": "issue-25-import/index.js/import/rest",
-      "File": "issue-25-import/index.js",
-      "Start": 100,
-      "End": 104
-    },
-    {
-      "DefPath": "issue-25-import/index.js/import/rest",
-      "File": "issue-25-import/index.js",
-      "Start": 63,
-      "End": 67
-    },
-    {
       "DefPath": "module/issue-25-import/index.js",
       "Def": true,
       "File": "issue-25-import/index.js",
@@ -137,8 +125,24 @@
       "DefUnit": "lodash",
       "DefPath": "rest.js/fn/rest",
       "File": "issue-25-import/index.js",
+      "Start": 100,
+      "End": 104
+    },
+    {
+      "DefRepo": "github.com/lodash/lodash",
+      "DefUnit": "lodash",
+      "DefPath": "rest.js/fn/rest",
+      "File": "issue-25-import/index.js",
       "Start": 22,
       "End": 26
+    },
+    {
+      "DefRepo": "github.com/lodash/lodash",
+      "DefUnit": "lodash",
+      "DefPath": "rest.js/fn/rest",
+      "File": "issue-25-import/index.js",
+      "Start": 63,
+      "End": 67
     }
   ],
   "Docs": [
