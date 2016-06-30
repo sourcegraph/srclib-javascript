@@ -60,12 +60,5 @@
       "Start": 4,
       "End": 5
     }
-  ],
-  "Docs": [
-    {
-      "Path": "srclib-issue-67/index.js/var/a",
-      "Format": "",
-      "Data": "The module that required this one."
-    }
   ]
 }

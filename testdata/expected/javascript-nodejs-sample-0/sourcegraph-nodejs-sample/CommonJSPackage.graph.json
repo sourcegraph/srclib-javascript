@@ -1255,44 +1255,9 @@
       "Data": "An Animal is a friendly creature that can say hello and make a noise."
     },
     {
-      "Path": "animal.js/fn/Animal/param/name",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "animal.js/fn/Animal/prop/name",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
       "Path": "animal.js/fn/Dog",
       "Format": "",
       "Data": "A Dog is an animal."
-    },
-    {
-      "Path": "animal.js/fn/Dog/param/breed",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "animal.js/fn/Dog/param/name",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "animal.js/fn/Dog/prop/breed",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "animal.js/fn/Dog/prop/name",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "animal.js/fn/Dog/prop/noise",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
       "Path": "animal.js/obj/Animal/1/prop/prototype/prop/makeNoise",
@@ -1363,11 +1328,6 @@
       "Path": "test/animal_test.js/fn/fn/var/a",
       "Format": "",
       "Data": "An Animal is a friendly creature that can say hello and make a noise."
-    },
-    {
-      "Path": "test/animal_test.js/var/should",
-      "Format": "",
-      "Data": "The assert module provides a simple set of assertion tests that can be used to test invariants. The module is intended for internal use by Node.js, but can be used in application code via require('assert'). However, assert is not a testing framework, and is not intended to be used as a general purpose assertion library."
     }
   ]
 }

@@ -144,12 +144,5 @@
       "Start": 63,
       "End": 67
     }
-  ],
-  "Docs": [
-    {
-      "Path": "issue-25-import/index.js/fn/param/fn",
-      "Format": "",
-      "Data": "The proxy's handler object is a placeholder object which contains traps for proxies."
-    }
   ]
 }
