@@ -78,7 +78,7 @@
       "DefStart": 67,
       "DefEnd": 71,
       "Data": {
-        "Type": "Buffer",
+        "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
@@ -92,7 +92,7 @@
       "DefStart": 62,
       "DefEnd": 65,
       "Data": {
-        "Type": "Error",
+        "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
@@ -1156,7 +1156,7 @@
       "DefStart": 84,
       "DefEnd": 88,
       "Data": {
-        "Type": "string",
+        "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
@@ -1170,7 +1170,7 @@
       "DefStart": 79,
       "DefEnd": 82,
       "Data": {
-        "Type": "string|Error",
+        "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
@@ -4411,16 +4411,6 @@
       "Data": "File I/O is provided by simple wrappers around standard POSIX functions. To use this module do require('fs').\nAll the methods have asynchronous and synchronous forms."
     },
     {
-      "Path": "lib/fs.js/fn/param/data",
-      "Format": "",
-      "Data": "The Buffer class is a global type for dealing with binary data directly. It can be constructed in a variety of ways."
-    },
-    {
-      "Path": "lib/fs.js/fn/param/err",
-      "Format": "",
-      "Data": "Creates an error object."
-    },
-    {
       "Path": "lib/fs.js/var/fs",
       "Format": "",
       "Data": "File I/O is provided by simple wrappers around standard POSIX functions. To use this module do require('fs').\nAll the methods have asynchronous and synchronous forms."
@@ -4517,11 +4507,6 @@
     },
     {
       "Path": "lib/pg.js/var/conString",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "lib/read-package-json.js/fn/param/data",
       "Format": "",
       "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },

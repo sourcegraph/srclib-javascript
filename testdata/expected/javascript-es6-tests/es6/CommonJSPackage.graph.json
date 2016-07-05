@@ -1,34 +1,6 @@
 {
   "Defs": [
     {
-      "Path": "/obj/obj_key/a",
-      "Name": "a",
-      "Kind": "object property",
-      "File": "destructuring-assignment.js",
-      "DefStart": 66,
-      "DefEnd": 67,
-      "Data": {
-        "Type": "number",
-        "Keyword": "object property",
-        "Kind": "object property",
-        "Separator": " "
-      }
-    },
-    {
-      "Path": "/obj/obj_key/b",
-      "Name": "b",
-      "Kind": "object property",
-      "File": "destructuring-assignment.js",
-      "DefStart": 71,
-      "DefEnd": 72,
-      "Data": {
-        "Type": "number",
-        "Keyword": "object property",
-        "Kind": "object property",
-        "Separator": " "
-      }
-    },
-    {
       "Path": "arrowfunctions.js/class/lexicalthis",
       "Name": "lexicalthis",
       "Kind": "class",
@@ -333,6 +305,34 @@
         "Type": "AGirlHasNoName",
         "Keyword": "var",
         "Kind": "var",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "destructuring-assignment.js/obj/obj_key/a",
+      "Name": "a",
+      "Kind": "object property",
+      "File": "destructuring-assignment.js",
+      "DefStart": 66,
+      "DefEnd": 67,
+      "Data": {
+        "Type": "number",
+        "Keyword": "object property",
+        "Kind": "object property",
+        "Separator": " "
+      }
+    },
+    {
+      "Path": "destructuring-assignment.js/obj/obj_key/b",
+      "Name": "b",
+      "Kind": "object property",
+      "File": "destructuring-assignment.js",
+      "DefStart": 71,
+      "DefEnd": 72,
+      "Data": {
+        "Type": "number",
+        "Keyword": "object property",
+        "Kind": "object property",
         "Separator": " "
       }
     },
@@ -955,20 +955,6 @@
   ],
   "Refs": [
     {
-      "DefPath": "/obj/obj_key/a",
-      "Def": true,
-      "File": "destructuring-assignment.js",
-      "Start": 66,
-      "End": 67
-    },
-    {
-      "DefPath": "/obj/obj_key/b",
-      "Def": true,
-      "File": "destructuring-assignment.js",
-      "Start": 71,
-      "End": 72
-    },
-    {
       "DefPath": "arrowfunctions.js/class/lexicalthis/prop/c",
       "Def": true,
       "File": "arrowfunctions.js",
@@ -1325,6 +1311,20 @@
       "File": "classes.js",
       "Start": 652,
       "End": 656
+    },
+    {
+      "DefPath": "destructuring-assignment.js/obj/obj_key/a",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 66,
+      "End": 67
+    },
+    {
+      "DefPath": "destructuring-assignment.js/obj/obj_key/b",
+      "Def": true,
+      "File": "destructuring-assignment.js",
+      "Start": 71,
+      "End": 72
     },
     {
       "DefPath": "destructuring-assignment.js/var/a",
@@ -1801,16 +1801,6 @@
   ],
   "Docs": [
     {
-      "Path": "/obj/obj_key/a",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "/obj/obj_key/b",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
       "Path": "arrowfunctions.js/class/lexicalthis/prop/c",
       "Format": "",
       "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
@@ -1859,6 +1849,16 @@
       "Path": "classes.js/var/arya",
       "Format": "",
       "Data": "class without a name"
+    },
+    {
+      "Path": "destructuring-assignment.js/obj/obj_key/a",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
+    },
+    {
+      "Path": "destructuring-assignment.js/obj/obj_key/b",
+      "Format": "",
+      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
       "Path": "destructuring-assignment.js/var/a",

@@ -1,26 +1,21 @@
 #!/usr/bin/env node
 
 var parser = require('nomnom');
-var glob = require('glob');
 var findpkgs = require('commonjs-findpkgs');
 var npm = require('npm');
 var path = require('path');
 var child_process = require('child_process');
 var fs = require('fs');
+var findfiles = require('find-files-excluding-dirs');
 
 var logger = require('../lib/logger.js');
 var util = require('../lib/util.js');
 
+
 parser.command("scan-commonjs")
-    .option("repo", {
-        help: "repository URI"
-    })
-    .option("subdir", {
-        help: "subdirectory in repository"
-    })
     .callback(function() {
         // TODO(sqs): support ScanIgnore from repo Srcfile (pass to findpkgs ignore param)
-    findpkgs(".", null, function(err, pkgs) {
+    findpkgs(".", ["node_modules", "templates", "bower_components"], function(err, pkgs) {
         if (err) {
             logger.error("An error occurred while searching for packages", err);
             process.exit(1);
@@ -32,20 +27,12 @@ parser.command("scan-commonjs")
         // AC: I've deleted test from this list, there are some projects with such structure
         //probably other components can be deleted as well - TODO: check after full repo's test
         pkgs = pkgs.filter(function(pkg) {
-            if (pkg.error) {
-                return false;
-            }
-            // TODO(sqs): we probably want to process things in node_modules for
-            // local code, so remove this filter.
-            var pathComps = pkg.dir.split("/");
-            return pathComps.indexOf("node_modules") == -1 &&
-                pathComps.indexOf("templates") == -1 &&
-                pathComps.indexOf("bower_components") == -1;
+            return !pkg.error;
         });
 
         if (!pkgs.length) {
             // no packages were found, let's scan for files
-            var files = collectFiles(".", [/(^|\/)bower_components\//]).map(function(f) {
+            var files = collectFiles(".", ["bower_components"]).map(function(f) {
                 return util.normalizePath(path.relative(".", f));
             });
 
@@ -61,7 +48,7 @@ parser.command("scan-commonjs")
         }
 
         pkgs.forEach(function(pkg) {
-            pkg.files = collectFiles(pkg.dir, [/(^|\/)node_modules\//, /(^|\/)bower_components\//]);
+            pkg.files = collectFiles(pkg.dir, ["bower_components", "node_modules"]);
         });
 
         // tracking package names to avoid duplicates
@@ -214,7 +201,12 @@ var hardcodedRepoURLs = {
 };
 
 parser.command("graph")
-    .callback(function() {
+    .option("noInstall", {
+        flag: true,
+        full: "no-install",
+        help: "Disables installation of npm packages"
+    })
+    .callback(function(opts) {
         var stdin = process.stdin,
             inputChunks = [];
 
@@ -257,6 +249,11 @@ parser.command("graph")
                 });
             }
 
+            if (opts.noInstall) {
+                graph();
+                return;
+            }
+
             var npmCmd = null;
             if (process.platform == "win32") {
                 npmCmd = "npm.cmd";
@@ -297,24 +294,18 @@ var arrayUnique = function(a) {
 /**
  *
  * @param {string} dir directory to search in
- * @param {regexp[]} excludes list of regexps to exclude
+ * @param {string[]} excludes list excludes
  * @return {string[]} list of files found
  */
 function collectFiles(dir, excludes) {
-    // include all js, jsx
-    var files = glob.sync(path.join(dir, '**/*.js?(x)')).filter(function(f) {
-        // exclude minified versions
-        return !/\.min\.jsx?$/.test(f);
+    var files = findfiles(dir, {
+        exclude: excludes,
+        matcher: function(directory, name) {
+            return /\.jsx?$/.test(name) && !/\.min\.jsx?$/.test(name);
+        }
     }).map(function(f) {
         return util.normalizePath(f);
     });
-    if (excludes && excludes.length) {
-        // optionally exclude node_modules
-        files = files.filter(function(f) {
-            return !excludes.some(function(exclude) {
-                return exclude.test(f);
-            });
-        });
-    }
+    console.error(files.length);
     return files;
 }
