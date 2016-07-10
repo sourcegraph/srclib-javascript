@@ -938,6 +938,14 @@
       "DefUnit": "should",
       "DefPath": "lib/should.js/obj_def_prop/should",
       "File": "test/animal_test.js",
+      "Start": 197,
+      "End": 203
+    },
+    {
+      "DefRepo": "github.com/visionmedia/should.js",
+      "DefUnit": "should",
+      "DefPath": "lib/should.js/obj_def_prop/should",
+      "File": "test/animal_test.js",
       "Start": 329,
       "End": 335
     },
@@ -972,14 +980,6 @@
       "File": "test/animal_test.js",
       "Start": 984,
       "End": 990
-    },
-    {
-      "DefRepo": "github.com/visionmedia/should.js",
-      "DefUnit": "should",
-      "DefPath": "lib/should.js",
-      "File": "test/animal_test.js",
-      "Start": 197,
-      "End": 203
     },
     {
       "DefPath": "module/animal.js",
