@@ -78,7 +78,7 @@
       "DefStart": 67,
       "DefEnd": 71,
       "Data": {
-        "Type": "Buffer",
+        "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
@@ -92,7 +92,7 @@
       "DefStart": 62,
       "DefEnd": 65,
       "Data": {
-        "Type": "Error",
+        "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
@@ -1156,7 +1156,7 @@
       "DefStart": 84,
       "DefEnd": 88,
       "Data": {
-        "Type": "string",
+        "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
@@ -1170,7 +1170,7 @@
       "DefStart": 79,
       "DefEnd": 82,
       "Data": {
-        "Type": "string|Error",
+        "Type": "?",
         "Keyword": "param",
         "Kind": "param",
         "Separator": " "
