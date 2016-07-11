@@ -1801,39 +1801,9 @@
   ],
   "Docs": [
     {
-      "Path": "arrowfunctions.js/class/lexicalthis/prop/c",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "arrowfunctions.js/fn/param/i",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "classes.js/class/A/fn/+name/param/name",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "classes.js/class/A/fn/constructor/param/name",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
       "Path": "classes.js/class/A/prop/_name",
       "Format": "",
       "Data": "properties"
-    },
-    {
-      "Path": "classes.js/class/B/fn/constructor/param/name",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "classes.js/class/prop/y",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
       "Path": "classes.js/var/AGirlHasNoName",
@@ -1841,49 +1811,9 @@
       "Data": "class without a name"
     },
     {
-      "Path": "classes.js/var/AGirlHasNoName/class/prop/x",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
       "Path": "classes.js/var/arya",
       "Format": "",
       "Data": "class without a name"
-    },
-    {
-      "Path": "destructuring-assignment.js/obj/obj_key/a",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "destructuring-assignment.js/obj/obj_key/b",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "destructuring-assignment.js/var/a",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "destructuring-assignment.js/var/b",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "destructuring-assignment.js/var/one",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "destructuring-assignment.js/var/three",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "destructuring-assignment.js/var/two",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
       "Path": "objectproperties.js/var/obj1",
@@ -1891,44 +1821,9 @@
       "Data": "method properties"
     },
     {
-      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar/fn/param/x",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/bar/fn/param/y",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo/fn/param/a",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/foo/fn/param/b",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux/fn/param/x",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
-      "Path": "objectproperties.js/var/obj1/obj/objType/obj1/obj_key/quux/fn/param/y",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
       "Path": "objectproperties.js/var/obj2",
       "Format": "",
       "Data": "computed property names"
-    },
-    {
-      "Path": "objectproperties.js/var/obj2/obj/objType/obj2/obj_key/foo",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
     },
     {
       "Path": "objectproperties.js/var/obj3",
@@ -1936,44 +1831,14 @@
       "Data": "property shorthand"
     },
     {
-      "Path": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propX/obj_val/propX",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "objectproperties.js/var/obj3/obj/objType/obj3/obj_key/propY/obj_val/propY",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "objectproperties.js/var/propX",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
-      "Path": "objectproperties.js/var/propY",
-      "Format": "",
-      "Data": "The String global object is a constructor for strings, or a sequence of characters."
-    },
-    {
       "Path": "parameters.js/fn/defaultparam",
       "Format": "",
       "Data": "default parameter"
     },
     {
-      "Path": "parameters.js/fn/defaultparam/param/x",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
-    },
-    {
       "Path": "parameters.js/fn/defaultparameval",
       "Format": "",
       "Data": "default parameter call-time evaluation"
-    },
-    {
-      "Path": "parameters.js/fn/defaultparameval/param/x",
-      "Format": "",
-      "Data": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor."
     },
     {
       "Path": "parameters.js/fn/paramvalue",
