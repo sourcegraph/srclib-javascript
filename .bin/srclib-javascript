@@ -32,6 +32,7 @@ parser.command("scan-commonjs")
 
         if (!pkgs.length) {
             // no packages were found, let's scan for files
+            //TODO - check probably node_modules restriction should be added
             var files = collectFiles(".", ["bower_components"]).map(function(f) {
                 return util.normalizePath(path.relative(".", f));
             });
@@ -88,22 +89,27 @@ parser.command("scan-commonjs")
                 names[name] = 1;
             }
 
-                var data = pkg.package;
-                data.Deps = allDeps;
+            //TODO - check this weird case - id srcunit has name 'app' for some reason it is not detected and saved
+            if (name === "app") {
+                name = name + "_package";
+            }
 
-                return {
-                    Name: name,
-                    Type: "CommonJSPackage",
-                    Dir: util.normalizePath(pkg.dir),
-                    Files: files,
-                    Dependencies: allDeps.map(function(dep) {
-                    	return {
-                    		Name: dep.name,
-                    		Type: "CommonJSPackage",
-                    		Version: dep.version
-                    	}
-                    }),
-                    Data: pkg.package
+            var data = pkg.package;
+            data.Deps = allDeps;
+
+            return {
+                Name: name,
+                Type: "CommonJSPackage",
+                Dir: util.normalizePath(pkg.dir),
+                Files: files,
+                Dependencies: allDeps.map(function(dep) {
+                    return {
+                        Name: dep.name,
+                        Type: "CommonJSPackage",
+                        Version: dep.version
+                    }
+                }),
+                Data: pkg.package
             }
         });
 
