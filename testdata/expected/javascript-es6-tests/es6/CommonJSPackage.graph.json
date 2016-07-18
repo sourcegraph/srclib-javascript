@@ -9,9 +9,9 @@
       "DefEnd": 133,
       "Data": {
         "Type": "()",
-        "Keyword": "function",
+        "Keyword": "class",
         "Kind": "class",
-        "Separator": ""
+        "Separator": " "
       }
     },
     {
@@ -93,9 +93,9 @@
       "DefEnd": 7,
       "Data": {
         "Type": "(name)",
-        "Keyword": "function",
+        "Keyword": "class",
         "Kind": "class",
-        "Separator": ""
+        "Separator": " "
       }
     },
     {
@@ -205,9 +205,9 @@
       "DefEnd": 333,
       "Data": {
         "Type": "(name)",
-        "Keyword": "function",
+        "Keyword": "class",
         "Kind": "class",
-        "Separator": ""
+        "Separator": " "
       }
     },
     {
